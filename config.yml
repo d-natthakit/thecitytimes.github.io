@@ -1,18 +1,26 @@
 # THE BKK GEM POST — pipeline settings
 paper_name: THE BKK GEM POST
 timezone: Asia/Bangkok
-start_date: 2026-10-27        # Issue 1
+start_date: 2026-10-28        # Issue 1
 
 # AI provider: gemini (free tier) | anthropic (paid API) | mock (offline test)
 # The PROVIDER environment variable overrides this.
 provider: gemini
 models:
-  # Tried in order. If one is busy or out of quota, the next one is used.
-  gemini: [gemini-3.8-flash, gemini-3.6-flash, gemini-3.5-flash-lite]
+  gemini:
+    # Writing: primary models are retried (with waits) before the fallback is used
+    primary: [gemini-3.8-flash, gemini-3.6-flash]
+    fallback: [gemini-3.5-flash-lite]
+    # Stories are now chosen by code, so no model is needed for that step.
   anthropic: [claude-sonnet-5-5, claude-haiku-5-5]
 
-# How many times the AI may fix its own issue after a failed check
-max_repairs: 2
+# Total minutes per run to keep retrying busy primary models (HTTP 503)
+retry_wait_minutes: 15
+
+# Free-quota protection
+max_requests_per_run: 12    # hard cap on AI requests in one run (a normal run uses 2)
+max_repairs_per_step: 1     # repair requests per step, only for critical problems
+request_timeout: 240        # seconds to wait for one AI answer
 
 news:
   max_age_hours: 36

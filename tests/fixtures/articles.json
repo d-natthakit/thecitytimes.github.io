@@ -4,8 +4,22 @@
   "Skim Thailand Today for two short local updates.",
   "Finish with the Gap fill in the Language Lab to practise today's words."
  ],
- "star_words": ["roll out", "bottleneck", "incentive", "scrutiny", "commute", "sustainable", "reluctant", "cut back on"],
- "recycled_words": ["significant", "impact", "approach", "ensure"],
+ "star_words": [
+  "roll out",
+  "bottleneck",
+  "incentive",
+  "scrutiny",
+  "commute",
+  "sustainable",
+  "reluctant",
+  "cut back on"
+ ],
+ "recycled_words": [
+  "significant",
+  "impact",
+  "approach",
+  "ensure"
+ ],
  "cover": {
   "headline": "Sample Story: A Port City Moves Its Trucks to the Night",
   "paragraphs": [
@@ -18,7 +32,9 @@
    "Why does this matter beyond one sample city? Many fast-growing cities, including Bangkok, face the same problem: roads designed for fewer vehicles now carry far more goods. Online shopping has added millions of small deliveries. Moving some of that traffic to quieter hours is one of the cheapest ways to make roads work better, because it uses space that already exists.",
    "City officials say they will review the scheme after six months. If traffic improves and complaints stay low, the night lanes could become permanent. If not, the city says it will look for a different __approach__, such as new rail links to the port. For now, residents will watch closely to see whether their morning trip becomes a little easier."
   ],
-  "source_ids": ["S1"]
+  "source_ids": [
+   "S1"
+  ]
  },
  "world": [
   {
@@ -29,7 +45,9 @@
     "The project is also part of a plan to cut traffic in the summer, when many tourists visit. Officials hope visitors will use the bikes instead of driving between beaches.",
     "The towns will check how many people use the bikes each month. If the numbers are good, they plan to add more bikes and two new stations next year."
    ],
-   "source_ids": ["S2"]
+   "source_ids": [
+    "S2"
+   ]
   },
   {
    "headline": "Sample Story: New Rules for Delivery Apps",
@@ -39,7 +57,9 @@
     "The regulators say they want to __ensure__ that riders understand their income before they accept a job. One idea is to show the full payment on the screen before each order. Another is to require basic accident insurance for every rider.",
     "The delivery companies say they support fair rules. However, they warn that higher costs could mean higher prices for customers. A first draft of the new rules is expected early next year, and the public will be able to comment on it."
    ],
-   "source_ids": ["S3"]
+   "source_ids": [
+    "S3"
+   ]
   }
  ],
  "thailand": [
@@ -51,17 +71,23 @@
     "The operator says the extra trips will make the service more **sustainable** because more people will use it every day. It will also add two new piers.",
     "The operator plans to check passenger numbers after three months. If the evening boats are popular, it may also add weekend trips."
    ],
-   "source_ids": ["S4", "S5"]
+   "source_ids": [
+    "S4",
+    "S5"
+   ]
   },
   {
    "headline": "Sample Story: Farmers Test Drought-Tolerant Rice",
    "paragraphs": [
     "This is fictional test content. Farmers in a northern province are testing a new type of rice that needs less water. The trial is part of a programme to help farmers during dry years.",
     "Many farmers in the area depend on rain. When the rainy season starts late, their young rice plants can die. The new rice can survive longer without water, so the risk is lower.",
-    "Some farmers are **reluctant** to change, because they know their old rice well and trust it. Others say they are ready to try anything that reduces their losses.",
+    "Some farmers are reluctant to change, because they know their old rice well and trust it. Others say they are ready to try anything that reduces their losses.",
     "Officials will compare the harvest from the new rice with the usual rice at the end of the season. If the results are good, more seeds will be offered to farmers next year."
    ],
-   "source_ids": ["S6", "S7"]
+   "source_ids": [
+    "S6",
+    "S7"
+   ]
   }
  ],
  "feature_a": {
@@ -99,63 +125,18 @@
    "text": "It is true that snacks cost money, but the amount is usually small compared with salaries. On the other hand, a shared snack table gives people a reason to stop and talk. Those short chats often lead to useful ideas and stronger teams. Snacks can arguably also save time, because staff do not need to leave the building when they feel hungry in the afternoon. If health is the worry, the answer is simple: offer fruit, nuts and yoghurt instead of cakes. Removing snacks completely may send the message that the company does not value small comforts."
   },
   "phrases": [
-   {"phrase": "Admittedly,", "function": "concession: accepting a point from the other side"},
-   {"phrase": "It seems fair to say that", "function": "hedging: making a claim sound less absolute"},
-   {"phrase": "On the other hand,", "function": "contrast: introducing the opposite idea"}
+   {
+    "phrase": "Admittedly,",
+    "function": "concession: accepting a point from the other side"
+   },
+   {
+    "phrase": "It seems fair to say that",
+    "function": "hedging: making a claim sound less absolute"
+   },
+   {
+    "phrase": "On the other hand,",
+    "function": "contrast: introducing the opposite idea"
+   }
   ]
- },
- "word_workshop": [
-  {"word": "roll out", "collocations": ["roll out a plan", "roll out a service", "gradually roll out"], "example": "The bank will roll out its new app to all customers next month."},
-  {"word": "bottleneck", "collocations": ["a major bottleneck", "cause a bottleneck", "remove a bottleneck"], "example": "Slow approvals are the main bottleneck in our project."},
-  {"word": "incentive", "collocations": ["offer an incentive", "a financial incentive", "an incentive to save"], "example": "The company offers an incentive to staff who cycle to work."}
- ],
- "activity": {
-  "instructions": "Complete each sentence with one word or phrase from the box: reluctant, sustainable, commute, scrutiny, cut back on, ensure.",
-  "items": [
-   "My ______ to the office takes almost an hour by bus.",
-   "Many people are ______ to change banks, even when fees are high.",
-   "The new law will face close ______ from the public.",
-   "We need a more ______ way to use water in the dry season.",
-   "I am trying to ______ coffee because I sleep badly.",
-   "Please ______ that all windows are closed before you leave."
-  ],
-  "answers": ["commute", "reluctant", "scrutiny", "sustainable", "cut back on", "ensure"]
- },
- "errors": [
-  {"sentence": "The city will open the night lanes in next month.", "corrected": "The city will open the night lanes next month.", "reason": "no preposition before next month"},
-  {"sentence": "Riders want a more clear pay system.", "corrected": "Riders want a clearer pay system.", "reason": "comparative of short adjective"},
-  {"sentence": "The farmers has tested the new rice since June.", "corrected": "The farmers have tested the new rice since June.", "reason": "subject-verb agreement"},
-  {"sentence": "The operator made a research before adding boats.", "corrected": "The operator did some research before adding boats.", "reason": "research is uncountable; do research"},
-  {"sentence": "Hey boss, gimme the report by Friday, OK?", "corrected": "Could you send me the report by Friday, please?", "reason": "register too casual for work"}
- ],
- "trap": {
-  "title": "Arrive at or arrive to?",
-  "wrong": "I arrived to the office at eight.",
-  "right": "I arrived at the office at eight.",
-  "explanation": "Thai speakers often think of ถึง as 'to', so they say 'arrive to'. In English we arrive at a building or point, arrive in a city or country, and never arrive to a place."
- },
- "other_language": {
-  "headline": "German: Punctuality Is a Form of Respect",
-  "note": "In Germany, being on time is more than good manners. Many people see it as a sign that you respect other people's time. Trains are expected to run to the minute, and a meeting that starts at nine really starts at nine. If you will be even five minutes late, it is polite to send a message. Germans also tend to separate work time and free time clearly, so after-hours emails may not get a quick reply.",
-  "phrases": [
-   {"phrase": "Guten Morgen!", "pronunciation": "GOO-ten MOR-gen", "meaning": "Good morning!"},
-   {"phrase": "Entschuldigung, ich bin spät dran.", "pronunciation": "ent-SHOOL-di-goong, ikh bin shpayt drahn", "meaning": "Sorry, I'm running late."},
-   {"phrase": "Bis morgen!", "pronunciation": "bis MOR-gen", "meaning": "See you tomorrow!"}
-  ],
-  "borrowed": {"word": "kindergarten", "note": "from German Kinder (children) + Garten (garden): a garden where children grow."}
- },
- "glossary": [
-  {"word": "roll out", "pos": "phrasal verb", "definition": "to start offering a new plan or service to many people", "thai": "เปิดตัว, เริ่มใช้อย่างเป็นทางการ", "example": "In the sample city of Port Marlow, officials have decided to **roll out** dedicated night lanes for freight trucks, hoping to clear the daytime roads that drivers have complained about for years."},
-  {"word": "bottleneck", "pos": "noun", "definition": "a place or problem that slows everything down", "thai": "คอขวด", "example": "For years, the harbour road has been the city's worst **bottleneck**."},
-  {"word": "incentive", "pos": "noun", "definition": "something that encourages people to do something", "thai": "สิ่งจูงใจ", "example": "To make the night lanes work, the city is offering an **incentive** to warehouses that open after dark."},
-  {"word": "scrutiny", "pos": "noun", "definition": "careful and critical examination", "thai": "การตรวจสอบอย่างละเอียด", "example": "The review follows months of public **scrutiny**."},
-  {"word": "commute", "pos": "noun", "definition": "the regular trip between home and work", "thai": "การเดินทางไปทำงาน", "example": "An e-bike makes the **commute** faster and cheaper, they say."},
-  {"word": "sustainable", "pos": "adjective", "definition": "able to continue for a long time without causing harm", "thai": "ยั่งยืน", "example": "The operator says the extra trips will make the service more **sustainable** because more people will use it every day."},
-  {"word": "reluctant", "pos": "adjective", "definition": "not willing to do something", "thai": "ลังเล, ไม่เต็มใจ", "example": "Some farmers are **reluctant** to change, because they know their old rice well and trust it."},
-  {"word": "cut back on", "pos": "phrasal verb", "definition": "to use or spend less of something", "thai": "ลด (การใช้/การใช้จ่าย)", "example": "Companies that want to **cut back on** costs could spend the same money on things that matter more, such as training or better chairs."},
-  {"word": "significant", "pos": "adjective", "definition": "large or important enough to notice", "thai": "สำคัญ, มาก", "example": "Local businesses say the delays have a __significant__ cost, because late deliveries mean empty shelves and unhappy customers."},
-  {"word": "impact", "pos": "noun", "definition": "a strong effect", "thai": "ผลกระทบ", "example": "Small details like these have a real __impact__ on how calm a busy place feels."},
-  {"word": "approach", "pos": "noun", "definition": "a way of dealing with something", "thai": "วิธีการ, แนวทาง", "example": "A sensible __approach__ is to review your settings every few months."},
-  {"word": "ensure", "pos": "verb", "definition": "to make certain that something happens", "thai": "ทำให้แน่ใจ", "example": "The regulators say they want to __ensure__ that riders understand their income before they accept a job."}
- ]
+ }
 }

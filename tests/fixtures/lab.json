@@ -1,0 +1,182 @@
+{
+ "word_workshop": [
+  {
+   "word": "roll out",
+   "collocations": [
+    "roll out a plan",
+    "roll out a service",
+    "gradually roll out"
+   ],
+   "example": "The bank will roll out its new app to all customers next month."
+  },
+  {
+   "word": "bottleneck",
+   "collocations": [
+    "a major bottleneck",
+    "cause a bottleneck",
+    "remove a bottleneck"
+   ],
+   "example": "Slow approvals are the main bottleneck in our project."
+  },
+  {
+   "word": "incentive",
+   "collocations": [
+    "offer an incentive",
+    "a financial incentive",
+    "an incentive to save"
+   ],
+   "example": "The company offers an incentive to staff who cycle to work."
+  }
+ ],
+ "activity": {
+  "instructions": "Complete each sentence with one word or phrase from the box: reluctant, sustainable, commute, scrutiny, cut back on, ensure.",
+  "items": [
+   "My ______ to the office takes almost an hour by bus.",
+   "Many people are ______ to change banks, even when fees are high.",
+   "The new law will face close ______ from the public.",
+   "We need a more ______ way to use water in the dry season.",
+   "I am trying to ______ coffee because I sleep badly.",
+   "Please ______ that all windows are closed before you leave."
+  ],
+  "answers": [
+   "commute",
+   "reluctant",
+   "scrutiny",
+   "sustainable",
+   "cut back on",
+   "ensure"
+  ]
+ },
+ "errors": [
+  {
+   "sentence": "The city will open the night lanes in next month.",
+   "corrected": "The city will open the night lanes next month.",
+   "reason": "no preposition before next month"
+  },
+  {
+   "sentence": "Riders want a more clear pay system.",
+   "corrected": "Riders want a clearer pay system.",
+   "reason": "comparative of short adjective"
+  },
+  {
+   "sentence": "The farmers has tested the new rice since June.",
+   "corrected": "The farmers have tested the new rice since June.",
+   "reason": "subject-verb agreement"
+  },
+  {
+   "sentence": "The operator made a research before adding boats.",
+   "corrected": "The operator did some research before adding boats.",
+   "reason": "research is uncountable; do research"
+  },
+  {
+   "sentence": "Hey boss, gimme the report by Friday, OK?",
+   "corrected": "Could you send me the report by Friday, please?",
+   "reason": "register too casual for work"
+  }
+ ],
+ "trap": {
+  "title": "Arrive at or arrive to?",
+  "wrong": "I arrived to the office at eight.",
+  "right": "I arrived at the office at eight.",
+  "explanation": "Thai speakers often think of ถึง as 'to', so they say 'arrive to'. In English we arrive at a building or point, arrive in a city or country, and never arrive to a place."
+ },
+ "other_language": {
+  "headline": "German: Punctuality Is a Form of Respect",
+  "note": "In Germany, being on time is more than good manners. Many people see it as a sign that you respect other people's time. Trains are expected to run to the minute, and a meeting that starts at nine really starts at nine. If you will be even five minutes late, it is polite to send a message. Germans also tend to separate work time and free time clearly, so after-hours emails may not get a quick reply.",
+  "phrases": [
+   {
+    "phrase": "Guten Morgen!",
+    "pronunciation": "GOO-ten MOR-gen",
+    "meaning": "Good morning!"
+   },
+   {
+    "phrase": "Entschuldigung, ich bin spät dran.",
+    "pronunciation": "ent-SHOOL-di-goong, ikh bin shpayt drahn",
+    "meaning": "Sorry, I'm running late."
+   },
+   {
+    "phrase": "Bis morgen!",
+    "pronunciation": "bis MOR-gen",
+    "meaning": "See you tomorrow!"
+   }
+  ],
+  "borrowed": {
+   "word": "kindergarten",
+   "note": "from German Kinder (children) + Garten (garden): a garden where children grow."
+  }
+ },
+ "glossary": [
+  {
+   "word": "ensure",
+   "pos": "verb",
+   "definition": "to make certain that something happens",
+   "thai": "ทำให้แน่ใจ"
+  },
+  {
+   "word": "approach",
+   "pos": "noun",
+   "definition": "a way of dealing with something",
+   "thai": "วิธีการ, แนวทาง"
+  },
+  {
+   "word": "impact",
+   "pos": "noun",
+   "definition": "a strong effect",
+   "thai": "ผลกระทบ"
+  },
+  {
+   "word": "significant",
+   "pos": "adjective",
+   "definition": "large or important enough to notice",
+   "thai": "สำคัญ, มาก"
+  },
+  {
+   "word": "cut back on",
+   "pos": "phrasal verb",
+   "definition": "to use or spend less of something",
+   "thai": "ลด (การใช้/การใช้จ่าย)"
+  },
+  {
+   "word": "reluctant",
+   "pos": "adjective",
+   "definition": "not willing to do something",
+   "thai": "ลังเล, ไม่เต็มใจ"
+  },
+  {
+   "word": "sustainable",
+   "pos": "adjective",
+   "definition": "able to continue for a long time without causing harm",
+   "thai": "ยั่งยืน"
+  },
+  {
+   "word": "commute",
+   "pos": "noun",
+   "definition": "the regular trip between home and work",
+   "thai": "การเดินทางไปทำงาน"
+  },
+  {
+   "word": "scrutiny",
+   "pos": "noun",
+   "definition": "careful and critical examination",
+   "thai": "การตรวจสอบอย่างละเอียด"
+  },
+  {
+   "word": "incentive",
+   "pos": "noun",
+   "definition": "something that encourages people to do something",
+   "thai": "สิ่งจูงใจ"
+  },
+  {
+   "word": "bottleneck",
+   "pos": "noun",
+   "definition": "a place or problem that slows everything down",
+   "thai": "คอขวด"
+  },
+  {
+   "word": "roll out",
+   "pos": "phrasal verb",
+   "definition": "to start offering a new plan or service to many people",
+   "thai": "เปิดตัว, เริ่มใช้อย่างเป็นทางการ"
+  }
+ ]
+}

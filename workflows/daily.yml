@@ -3,7 +3,8 @@ name: Daily issue
 on:
   schedule:
     - cron: "17 21 * * *"   # 04:17 Bangkok time (GitHub cron uses UTC)
-    - cron: "47 23 * * *"   # 06:47 Bangkok: backup run, does nothing if today's issue exists
+    - cron: "27 23 * * *"   # 06:27 Bangkok: backup run. Builds the issue if it is missing,
+                            # or rewrites it if 04:17 had to use the fallback model
   workflow_dispatch:
     inputs:
       date:
@@ -31,7 +32,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
 
@@ -50,8 +51,10 @@ jobs:
           PROVIDER: ${{ inputs.provider || vars.PROVIDER || 'gemini' }}
           ISSUE_DATE: ${{ inputs.date }}
           FORCE: ${{ inputs.force }}
+          SCHEDULE: ${{ github.event.schedule }}
         run: |
           args=()
+          if [ "$SCHEDULE" = "47 23 * * *" ]; then args+=(--upgrade); fi
           if [ -n "$ISSUE_DATE" ]; then args+=(--date "$ISSUE_DATE"); fi
           if [ "$FORCE" = "true" ]; then args+=(--force); fi
           python scripts/build.py "${args[@]}"
@@ -65,14 +68,15 @@ jobs:
           if-no-files-found: ignore
 
       - name: Save to the repository
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add docs data/issues
+          git add -A docs data/issues data/drafts
           if git diff --cached --quiet; then
             echo "Nothing new to save."
           else
-            git commit -m "Issue for $(TZ=Asia/Bangkok date +%F)"
+            git commit -m "Daily run $(TZ=Asia/Bangkok date +%F)"
             git push
           fi
 

@@ -25,6 +25,15 @@ def _tokens(title: str) -> set[str]:
     return {w for w in re.findall(r"[a-z0-9]+", title.lower()) if w not in STOP and len(w) > 2}
 
 
+SKIP_ALL = re.compile(r"^(live|watch|video|opinion|podcast|quiz)\b|\blive updates\b|\bas it happened\b|"
+                      r"\bin pictures\b|\bcrossword\b|\bnewsletter\b", re.I)
+SKIP_THAI = re.compile(r"\b(king|queen|royal|monarch\w*|prince|princess|palace|lese|majeste|section 112)\b", re.I)
+
+
+def blocked(pool: str, title: str) -> bool:
+    return bool(SKIP_ALL.search(title) or (pool == "thailand" and SKIP_THAI.search(title)))
+
+
 def _published(entry) -> datetime | None:
     for key in ("published_parsed", "updated_parsed"):
         t = entry.get(key)
@@ -62,7 +71,7 @@ def collect(cfg: dict, log=print) -> dict:
                 if not title or not link:
                     continue
                 key = re.sub(r"\W+", "", title.lower())
-                if key in seen:
+                if key in seen or blocked(pool, title):
                     continue
                 pub = _published(e)
                 if pub and pub < cutoff:
@@ -127,6 +136,42 @@ def article_text(url: str, fallback: str, max_words: int = 1100) -> str:
     if len(words) < 80:  # paywall, block page or empty: fall back to the feed summary
         return fallback
     return " ".join(words[:max_words])
+
+
+def _similar(a: str, b: str) -> bool:
+    ta, tb = _tokens(a), _tokens(b)
+    return bool(ta and tb) and len(ta & tb) / len(ta | tb) >= 0.3
+
+
+def pick_stories(pools: dict) -> dict:
+    """Choose stories without AI: widely reported first, then newest, no near-duplicates."""
+    chosen: list[dict] = []
+
+    def take(items, n):
+        got = []
+        for prefer_new_source in (True, False):
+            for it in items:
+                if len(got) == n:
+                    return got
+                if it in chosen or any(_similar(it["title"], c["title"]) for c in chosen):
+                    continue
+                if prefer_new_source and any(it["source"] == g["source"] for g in got):
+                    continue
+                got.append(it)
+                chosen.append(it)
+        return got
+
+    def reach(it):
+        return len({o["source"] for o in it["also"]})
+
+    w, t = pools["world"], pools["thailand"]
+    cover_pool = t if t and w and reach(t[0]) > reach(w[0]) else w
+    cover = take(cover_pool, 1)
+    world = take(w, 2)
+    thai = take(t, 2)
+    if not cover or len(world) < 2 or len(thai) < 2:
+        raise ValueError("not enough different stories to fill the issue")
+    return {"cover": cover[0]["id"], "world": [i["id"] for i in world], "thailand": [i["id"] for i in thai]}
 
 
 def gather_sources(pools: dict, picks: dict, log=print) -> list[dict]:
