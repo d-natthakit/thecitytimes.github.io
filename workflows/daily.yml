@@ -54,7 +54,7 @@ jobs:
           SCHEDULE: ${{ github.event.schedule }}
         run: |
           args=()
-          if [ "$SCHEDULE" = "47 23 * * *" ]; then args+=(--upgrade); fi
+          if [ "$SCHEDULE" = "27 23 * * *" ]; then args+=(--upgrade); fi
           if [ -n "$ISSUE_DATE" ]; then args+=(--date "$ISSUE_DATE"); fi
           if [ "$FORCE" = "true" ]; then args+=(--force); fi
           python scripts/build.py "${args[@]}"

@@ -1,7 +1,7 @@
 # THE BKK GEM POST — pipeline settings
 paper_name: THE BKK GEM POST
 timezone: Asia/Bangkok
-start_date: 2026-10-28        # Issue 1
+start_date: 2026-10-27        # Issue 1
 
 # AI provider: gemini (free tier) | anthropic (paid API) | mock (offline test)
 # The PROVIDER environment variable overrides this.
