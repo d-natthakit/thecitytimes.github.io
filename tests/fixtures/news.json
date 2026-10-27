@@ -1,0 +1,23 @@
+{
+ "_note": "OFFLINE TEST DATA. All stories are fictional and exist only to test the pipeline.",
+ "pools": {
+  "world": [
+   {"id": "W1", "pool": "world", "source": "Example World News", "title": "Sample: Port city opens night freight lanes to ease congestion", "summary": "Test item.", "link": "https://example.com/world/1", "published": null, "also": [{"source": "Example Wire", "title": "Sample: Night freight lanes open", "link": "https://example.org/w1", "summary": "Test item."}]},
+   {"id": "W2", "pool": "world", "source": "Example World News", "title": "Sample: Coastal towns test a shared e-bike network", "summary": "Test item.", "link": "https://example.com/world/2", "published": null, "also": []},
+   {"id": "W3", "pool": "world", "source": "Example Wire", "title": "Sample: Regulators review rules for food-delivery apps", "summary": "Test item.", "link": "https://example.org/world/3", "published": null, "also": []}
+  ],
+  "thailand": [
+   {"id": "T1", "pool": "thailand", "source": "Example Thai Daily", "title": "Sample: Commuter boat line adds evening trips", "summary": "Test item.", "link": "https://example.com/th/1", "published": null, "also": [{"source": "Example Bangkok Times", "title": "Sample: More evening boats", "link": "https://example.net/th/1", "summary": "Test item."}]},
+   {"id": "T2", "pool": "thailand", "source": "Example Thai Daily", "title": "Sample: Northern farmers try drought-tolerant rice", "summary": "Test item.", "link": "https://example.com/th/2", "published": null, "also": [{"source": "Example Bangkok Times", "title": "Sample: Drought-tolerant rice trial", "link": "https://example.net/th/2", "summary": "Test item."}]}
+  ]
+ },
+ "sources": [
+  {"id": "S1", "role": "cover", "source": "Example World News", "title": "Sample: Port city opens night freight lanes to ease congestion", "url": "https://example.com/world/1", "text": "Fictional test text."},
+  {"id": "S2", "role": "world_1", "source": "Example World News", "title": "Sample: Coastal towns test a shared e-bike network", "url": "https://example.com/world/2", "text": "Fictional test text."},
+  {"id": "S3", "role": "world_2", "source": "Example Wire", "title": "Sample: Regulators review rules for food-delivery apps", "url": "https://example.org/world/3", "text": "Fictional test text."},
+  {"id": "S4", "role": "thailand_1", "source": "Example Thai Daily", "title": "Sample: Commuter boat line adds evening trips", "url": "https://example.com/th/1", "text": "Fictional test text."},
+  {"id": "S5", "role": "thailand_1 (second source)", "source": "Example Bangkok Times", "title": "Sample: More evening boats", "url": "https://example.net/th/1", "text": "Fictional test text."},
+  {"id": "S6", "role": "thailand_2", "source": "Example Thai Daily", "title": "Sample: Northern farmers try drought-tolerant rice", "url": "https://example.com/th/2", "text": "Fictional test text."},
+  {"id": "S7", "role": "thailand_2 (second source)", "source": "Example Bangkok Times", "title": "Sample: Drought-tolerant rice trial", "url": "https://example.net/th/2", "text": "Fictional test text."}
+ ]
+}

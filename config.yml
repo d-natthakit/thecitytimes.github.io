@@ -1,0 +1,50 @@
+# THE BKK GEM POST — pipeline settings
+paper_name: THE BKK GEM POST
+timezone: Asia/Bangkok
+start_date: 2026-10-27        # Issue 1
+
+# AI provider: gemini (free tier) | anthropic (paid API) | mock (offline test)
+# The PROVIDER environment variable overrides this.
+provider: gemini
+models:
+  # Tried in order. If one is busy or out of quota, the next one is used.
+  gemini: [gemini-3.8-flash, gemini-3.6-flash, gemini-3.5-flash-lite]
+  anthropic: [claude-sonnet-5-5, claude-haiku-5-5]
+
+# How many times the AI may fix its own issue after a failed check
+max_repairs: 2
+
+news:
+  max_age_hours: 36
+  max_candidates: {world: 30, thailand: 25}
+  # Feeds that fail are skipped and reported in the run log.
+  feeds:
+    world:
+      - {name: BBC News, url: "https://feeds.bbci.co.uk/news/world/rss.xml"}
+      - {name: The Guardian, url: "https://www.theguardian.com/world/rss"}
+      - {name: Al Jazeera, url: "https://www.aljazeera.com/xml/rss/all.xml"}
+      - {name: NPR, url: "https://feeds.npr.org/1004/rss.xml"}
+      - {name: DW, url: "https://rss.dw.com/rdf/rss-en-all"}
+    thailand:
+      - {name: Bangkok Post, url: "https://www.bangkokpost.com/rss/data/thailand.xml"}
+      - {name: Bangkok Post Business, url: "https://www.bangkokpost.com/rss/data/business.xml"}
+      - {name: Thai PBS World, url: "https://www.thaipbsworld.com/feed/"}
+      - {name: Khaosod English, url: "https://www.khaosodenglish.com/feed/"}
+      - {name: The Nation Thailand, url: "https://www.nationthailand.com/rss"}
+
+# Weekly rotation (weekday in Bangkok time)
+rotation:
+  Mon: {feature_a: Business, feature_b: "Life: home & routines", opinion: say_it_better, setting: workplace email, activity: Collocation match, trap: "Articles (a / an / the)"}
+  Tue: {feature_a: Tech, feature_b: Culture, opinion: two_takes, setting: "", activity: Gap fill, trap: Prepositions}
+  Wed: {feature_a: Money, feature_b: Health, opinion: say_it_better, setting: meetings & calls, activity: Word forms, trap: Tenses & time expressions}
+  Thu: {feature_a: Science, feature_b: Wellbeing, opinion: two_takes, setting: "", activity: Synonym choice, trap: Countable/uncountable & plurals}
+  Fri: {feature_a: Work & Career, feature_b: "Life: food & travel", opinion: say_it_better, setting: social & small talk, activity: Mini crossword clues, trap: Direct translation from Thai}
+  Sat: {feature_a: Digital life, feature_b: Arts & entertainment, opinion: two_takes, setting: "", activity: Odd one out, trap: Word order & questions}
+  Sun: {feature_a: Environment, feature_b: Sport & fitness, opinion: say_it_better, setting: services & customers, activity: Context clue challenge, trap: "Confusing word pairs (e.g. bored/boring)"}
+
+# Other Languages cycle by issue number: Issue 1 = first item
+languages: [German, Spanish, Chinese, French]
+
+# Spaced review: ★ words taught this many days ago become ↺ review candidates
+review_days: [1, 3, 7, 21]
+avoid_repeat_days: 30
