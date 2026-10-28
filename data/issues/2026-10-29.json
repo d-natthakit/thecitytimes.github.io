@@ -1,0 +1,435 @@
+{
+ "format": 2,
+ "plan": {
+  "date": "2026-10-29",
+  "date_long": "Thursday, 29 October 2026",
+  "weekday": "Thu",
+  "issue_no": 3,
+  "language": "French",
+  "phrase_theme": "greetings & small talk",
+  "feature": "Home / Environment",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Synonym choice",
+  "trap": "Countable/uncountable & plurals",
+  "avoid_star_words": [],
+  "review_pool": [],
+  "recent_traps": [],
+  "recent_opinions": [],
+  "recent_language_notes": [],
+  "recent_features": [],
+  "recent_news_titles": []
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "The Guardian",
+   "title": "Flávio Bolsonaro calls himself the ‘leader of Brazil’ after fleeing to Miami",
+   "url": "https://www.theguardian.com/world/2026/oct/28/flavio-bolsonaro-miami-us-fleeing-brazilian-election-defeat",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "BBC News",
+   "title": "Flávio Bolsonaro denies fleeing Brazil after landing in Miami",
+   "url": "https://www.bbc.co.uk/news/articles/c6kglwe4lxwzo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "BBC News",
+   "title": "High-speed train crash kills at least 68 people in Spain",
+   "url": "https://www.bbc.co.uk/news/articles/c6p3g84kjqjlo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "NPR",
+   "title": "A U.S. cruise ship ends voyage due to fuel costs and passengers lose their homes",
+   "url": "https://www.npr.org/2026/10/28/nx-s1-6020180/us-cruise-ship-ends-voyage-passengers-lose-homes",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Association opposes new solar panel rules",
+   "url": "https://www.bangkokpost.com/business/general/3345550/association-opposes-new-solar-panel-rules",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Khaosod English",
+   "title": "‘We fled persecution’: Myanmar workers appeal to Thailand for protection",
+   "url": "https://www.khaosodenglish.com/news/2026/10/28/we-fled-persecution-myanmar-workers-appeal-to-thailand-for-protection/",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "subservience",
+   "unsubstantiated",
+   "stationary",
+   "restructure",
+   "disproportionate",
+   "reluctant",
+   "opt for",
+   "curb"
+  ],
+  "recycled_words": [
+   "endorse",
+   "criticism",
+   "severe",
+   "essential"
+  ],
+  "cover": {
+   "headline": "Flávio Bolsonaro Arrives in US and Claims Leadership After Secret Departure",
+   "paragraphs": [
+    "Brazilian Senator Flávio Bolsonaro landed in Miami on Wednesday morning after losing Sunday's presidential runoff vote to Luiz Inácio Lula da Silva. Following his secretive exit, the far-right politician published a letter naming himself the legitimate leader of Brazil, despite national institutions and international monitors moving to __endorse__ Lula's victory.",
+    "The departure culminated days of confusion regarding Bolsonaro's whereabouts after he vanished for more than twenty-four hours. Argentinian migration officials confirmed he entered Argentina by land on Tuesday night before boarding a private Gulfstream IV jet in Puerto Iguazú. The flight avoided Brazilian airspace, briefly stopping in Ecuador before touching down at Miami-Opa Locka Executive Airport.",
+    "Bolsonaro exited the aircraft alongside his wife and two teenage daughters under police escort while wearing a bulletproof vest. He quickly published statements alleging electoral fraud, which Brazilian electoral bodies, the supreme court, and leaders of Congress had already rejected. Major Brazilian newspapers characterized his initial declarations as an attempt at coup-mongering, prompting him to revise his statement from calling himself the true president to describing himself as the leader of Brazil.",
+    "His departure has generated fierce political backlash within Brazil, where Lula publicly condemned the flight during his eighty-first birthday celebrations. Government officials voiced strong __criticism__ toward the federal police for failing to stop Bolsonaro from leaving the country while under two separate criminal investigations, including a major money-laundering inquiry. Observers noted that the letter's English spelling of the country's name highlighted what critics described as an embarrassing **subservience** to foreign powers.",
+    "Meanwhile, Bolsonaro rejected allegations of fleeing justice, claiming he stepped away from political persecution to protect his family and serve his country from abroad. Brazilian authorities had recently asked the supreme court to seize his passport, yet the family secured humanitarian visas from American authorities. United States President Donald Trump confirmed granting Bolsonaro entry, but he later stated that he would avoid intervening directly in Brazil's post-election legal and political disputes.",
+    "The unfolding controversy has deepened political divisions across South America as regional governments react to the transition. Brazilian prosecutors continue pursuing their investigations against Bolsonaro, dismissing his **unsubstantiated** accusations of fraud and insisting that the rule of law must prevail despite his self-imposed exile."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "High-Speed Rail Collision Kills at Least 68 in Central Spain",
+    "paragraphs": [
+     "A devastating high-speed train collision killed at least 68 people and injured dozens more in central Spain on Wednesday morning. The crash happened south of Madrid between Mora and Orgaz when an incoming train carrying nearly 400 passengers slammed into the back of a **stationary** train on the same line.",
+     "Spain's transport minister explained that the first train had stopped because of a technical computer glitch. However, a central control room in Madrid made an inexplicable decision to order following trains forward without speed limits. The force of the impact caused __several__ carriages to derail and fall down a steep embankment.",
+     "Survivors reported scenes of extreme chaos, with passengers breaking through windows to escape thick smoke and spreading fires. Rescue workers continue searching the wreckage as authorities investigate this **severe** disaster, which marks the country's deadliest rail accident in thirteen years."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Residential Cruise Strands World Travelers in Cambodia Over Fuel Surge",
+    "paragraphs": [
+     "Hundreds of long-term travelers found themselves without homes this week after a luxury residential cruise suddenly terminated its global voyage in Cambodia. The ship, Odyssey, had set sail two years ago on an ambitious multi-continent expedition marketed as a permanent lifestyle at sea.",
+     "The operator announced that sharp spikes in regional fuel prices made continuing the voyage impossible. Monthly fuel expenses per cabin climbed from historical averages of 1,800 dollars to over 6,000 dollars. Company officials explained that they could not absorb these running losses or pass such massive costs onto the residents.",
+     "Around 200 passengers docked at Sihanoukville were instructed to leave the ship immediately. The company stated that it will now try to **restructure** its operations and support affected residents, although future travel plans remain completely suspended."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Thai Solar Contractors Challenge Burdensome Guarantees for Rooftop Schemes",
+    "paragraphs": [
+     "The Thai Photovoltaic Industries Association plans to submit a formal objection letter to government agencies regarding newly approved regulations for rooftop solar panel installations. Industry representatives argue that strict financial rules will heavily damage small and medium-sized contractors across the country.",
+     "Under the cabinet's scheme, contractors must deposit substantial cash guarantees for modest installation projects. The association warned that these high fees impose a **disproportionate** burden on installers, whose actual profit margins are far lower than policymakers assume. Furthermore, small operators face short payment credit terms from suppliers when buying __essential__ technical equipment.",
+     "The association hopes dialogue with the Energy and Interior ministries will lead officials to revise these requirements. Industry leaders insist that fair operating rules are vital to ensure healthy market competition during the country's clean energy transition."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Myanmar Migrant Groups Urge Thailand to Ease Strict Documentation Rules",
+    "paragraphs": [
+     "A Myanmar migrant workers' alliance has appealed to the Thai government and employers to reform legal identity procedures to protect foreign laborers. The group warned that strict military requirements in Myanmar create extreme personal risks for workers living abroad.",
+     "According to the coalition, Myanmar authorities demand advance income taxes and evidence of substantial financial transfers before renewing identity certificates. Because this revenue might fund military violence against civilians, many laborers are deeply **reluctant** to pay these official fees. Relatives back home also risk intimidation if workers fail to provide sensitive personal details.",
+     "The committee submitted several practical proposals to Thai ministries. They requested that Thailand permit pink identity cards, which are official temporary registration cards for migrants, to serve as valid working permits. They also asked for access to **essential** banking services without requiring dangerous travel to border zones."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Rethinking Modern Living Spaces Through Sustainable Minimalism",
+   "paragraphs": [
+    "Urban apartments often accumulate possessions faster than their occupants realize. In rapidly growing metropolitan areas, smaller living spaces demand thoughtful organization and smarter environmental habits. Adopting a mindful approach to your home environment can dramatically lower daily stress while cutting overall household consumption.",
+    "Most household clutter stems from convenience shopping rather than actual daily need. When personal belongings overflow, domestic spaces feel cramped, air circulation suffers, and daily maintenance becomes a constant chore. To **curb** unnecessary waste, interior designers recommend evaluating each item based on utility and personal comfort. Keeping surfaces clear transforms even modest rooms into calming sanctuaries.",
+    "Practical sustainability also begins with everyday habits. Rather than buying single-use plastics or cheap synthetic furniture that breaks within months, conscious consumers **opt for** durable, locally sourced wooden items or refurbished pieces. Maintaining fewer high-quality possessions reduces manufacturing demand and keeps excess junk out of local landfills.",
+    "Energy conservation plays an equally vital role in household environmental balance. Maximizing natural daylight through sheer curtains lowers electricity bills while improving indoor air quality. Placing indoor plants near workstations helps clean domestic air naturally, creating an inviting atmosphere without expensive electronic air filters.",
+    "Creating an eco-friendly living space does not require drastic sacrifices or costly renovations. Simple changes, such as decluttering wardrobes, repairing broken appliances, and choosing reusable containers, build sustainable routines. By intentionally simplifying our living environments, we preserve natural resources while cultivating peaceful spaces that support daily wellbeing."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should urban residents convert their decorative balconies into functional mini vegetable gardens?",
+   "view_a": {
+    "title": "A Step Toward Self-Sufficiency",
+    "text": "Cultivating edible greens on apartment balconies brings remarkable rewards to urban dwellers. Growing fresh basil, chili peppers, and herbs connects busy professionals with nature, transforming bare concrete into vibrant, productive sanctuaries. **Granted**, balcony gardening requires consistent patience and thoughtful care, yet the satisfaction of harvesting chemical-free produce right outside your living room easily outweighs the initial work. Furthermore, home-grown greens reduce grocery packaging waste and help insulate apartment walls from intense tropical heat. This simple agricultural hobby fosters valuable sustainability habits in high-density urban neighborhoods."
+   },
+   "view_b": {
+    "title": "Impractical for Modern Apartments",
+    "text": "Balcony gardens sound delightful in theory, but they rarely match the realities of modern apartment living. Balconies primarily serve as crucial ventilation spaces for laundry drying and outdoor relaxation. Converting these cramped platforms into soil beds invites pests, clogs drainage outlets, and risks structural water damage to neighboring units. **On the contrary**, urban consumers can support sustainable agriculture far more efficiently by purchasing fresh items from local organic markets. **It appears that** many ambitious indoor planters quickly lose interest, leaving neglected, insect-ridden pots that clutter valuable living space."
+   },
+   "phrases": [
+    {
+     "phrase": "Granted",
+     "function": "concession"
+    },
+    {
+     "phrase": "On the contrary",
+     "function": "contrast"
+    },
+    {
+     "phrase": "It appears that",
+     "function": "hedging"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Uncountable Nouns: Equipment",
+   "wrong": "We purchased several new electronic equipments to upgrade our living room workspace.",
+   "right": "We purchased several new pieces of electronic equipment to upgrade our living room workspace.",
+   "explanation": "In English, 'equipment' is an uncountable noun and cannot take a plural 's' or follow counting words directly. Thai speakers often make this error because in Thai, 'อุปกรณ์' (ù-bpà-gɔɔn) functions naturally as a countable concept. To refer to individual items, use the partitive phrase 'pieces of equipment'."
+  },
+  "word_bank": [
+   {
+    "word": "subservience",
+    "pos": "noun",
+    "definition": "the state of being completely willing to obey someone else",
+    "thai": "การยอมเป็นผู้ตาม",
+    "collocations": [
+     "blind subservience",
+     "total subservience",
+     "show subservience"
+    ],
+    "example": "Observers noted that the letter's English spelling of the country's name highlighted what critics described as an embarrassing **subservience** to foreign powers."
+   },
+   {
+    "word": "unsubstantiated",
+    "pos": "adjective",
+    "definition": "not supported or proven by facts or evidence",
+    "thai": "ที่ไม่มีหลักฐานอ้างอิง",
+    "collocations": [
+     "unsubstantiated claims",
+     "unsubstantiated rumors",
+     "unsubstantiated allegations"
+    ],
+    "example": "Brazilian prosecutors continue pursuing their investigations against Bolsonaro, dismissing his **unsubstantiated** accusations of fraud and insisting that the rule of law must prevail despite his self-imposed exile."
+   },
+   {
+    "word": "stationary",
+    "pos": "adjective",
+    "definition": "not moving or not intended to be moved",
+    "thai": "ที่หยุดนิ่งอยู่กับที่",
+    "collocations": [
+     "stationary vehicle",
+     "remain stationary",
+     "stationary object"
+    ],
+    "example": "The crash happened south of Madrid between Mora and Orgaz when an incoming train carrying nearly 400 passengers slammed into the back of a **stationary** train on the same line."
+   },
+   {
+    "word": "restructure",
+    "pos": "verb",
+    "definition": "to organize something in a new way to make it operate more effectively",
+    "thai": "ปรับโครงสร้างใหม่",
+    "collocations": [
+     "restructure operations",
+     "restructure debt",
+     "restructure a company"
+    ],
+    "example": "The company stated that it will now try to **restructure** its operations and support affected residents, although future travel plans remain completely suspended."
+   },
+   {
+    "word": "disproportionate",
+    "pos": "adjective",
+    "definition": "too large or too small in comparison with something else",
+    "thai": "ที่ไม่ได้สัดส่วน",
+    "collocations": [
+     "disproportionate amount",
+     "disproportionate impact",
+     "disproportionate share"
+    ],
+    "example": "The association warned that these high fees impose a **disproportionate** burden on installers, whose actual profit margins are far lower than policymakers assume."
+   },
+   {
+    "word": "reluctant",
+    "pos": "adjective",
+    "definition": "unwilling and hesitant to do something",
+    "thai": "ลังเลใจ",
+    "collocations": [
+     "reluctant to accept",
+     "reluctant support",
+     "feel reluctant"
+    ],
+    "example": "Because this revenue might fund military violence against civilians, many laborers are deeply **reluctant** to pay these official fees."
+   },
+   {
+    "word": "opt for",
+    "pos": "verb",
+    "definition": "to make a choice or decision in favor of something",
+    "thai": "เลือก",
+    "collocations": [
+     "opt for a solution",
+     "opt for change",
+     "opt for quality"
+    ],
+    "example": "Rather than buying single-use plastics or cheap synthetic furniture that breaks within months, conscious consumers **opt for** durable, locally sourced wooden items or refurbished pieces."
+   },
+   {
+    "word": "curb",
+    "pos": "verb",
+    "definition": "to control or limit something undesirable",
+    "thai": "ควบคุมหรือจำกัด",
+    "collocations": [
+     "curb spending",
+     "curb emissions",
+     "curb inflation"
+    ],
+    "example": "To **curb** unnecessary waste, interior designers recommend evaluating each item based on utility and personal comfort."
+   },
+   {
+    "word": "endorse",
+    "pos": "verb",
+    "definition": "to express formal support or approval for someone or something",
+    "thai": "รับรองหรือสนับสนุน",
+    "collocations": [],
+    "example": "Following his secretive exit, the far-right politician published a letter naming himself the legitimate leader of Brazil, despite national institutions and international monitors moving to __endorse__ Lula's victory."
+   },
+   {
+    "word": "criticism",
+    "pos": "noun",
+    "definition": "expressions of disapproval based on perceived faults or mistakes",
+    "thai": "การวิพากษ์วิจารณ์",
+    "collocations": [],
+    "example": "Government officials voiced strong __criticism__ toward the federal police for failing to stop Bolsonaro from leaving the country while under two separate criminal investigations, including a major money-laundering inquiry."
+   },
+   {
+    "word": "severe",
+    "pos": "adjective",
+    "definition": "very serious, harsh, or extreme",
+    "thai": "รุนแรง",
+    "collocations": [],
+    "example": "The force of the impact caused __several__ carriages to derail and fall down a steep embankment."
+   },
+   {
+    "word": "essential",
+    "pos": "adjective",
+    "definition": "absolutely necessary or extremely important",
+    "thai": "จำเป็นอย่างยิ่ง",
+    "collocations": [],
+    "example": "Furthermore, small operators face short payment credit terms from suppliers when buying __essential__ technical equipment."
+   }
+  ],
+  "activity": {
+   "instructions": "Choose the option (a, b, or c) that is closest in meaning to the bold word in each sentence.",
+   "items": [
+    "The board voted to **restructure** the division after several quarters of falling sales. (a) rebuild (b) eliminate (c) measure",
+    "The driver managed to avoid hitting the **stationary** bus on the side of the road. (a) speeding (b) motionless (c) broken",
+    "Police warned the public not to share **unsubstantiated** reports online. (a) official (b) unverified (c) recent",
+    "Low-income households often pay a **disproportionate** share of their earnings on energy costs. (a) equal (b) minimal (c) unbalanced",
+    "She felt **reluctant** to ask her supervisor for a salary raise during a company downturn. (a) eager (b) hesitant (c) determined",
+    "Many young professionals **opt for** flexible remote work rather than traditional office jobs. (a) select (b) reject (c) prepare"
+   ],
+   "answers": [
+    "(a) rebuild",
+    "(b) motionless",
+    "(b) unverified",
+    "(c) unbalanced",
+    "(b) hesitant",
+    "(a) select"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "A high-speed train collided into a stationary carriage in central Spain yesterday.",
+    "corrected": "A high-speed train collided with a stationary carriage in central Spain yesterday.",
+    "reason": "The verb collide takes the preposition with, not into."
+   },
+   {
+    "sentence": "A residential cruise line attempt to curb costs after facing severe fuel price surges.",
+    "corrected": "A residential cruise line attempts to curb costs after facing severe fuel price surges.",
+    "reason": "Subject-verb agreement requires third-person singular attempts."
+   },
+   {
+    "sentence": "The politician's subservience to foreign advisors led to strong criticism from voters.",
+    "corrected": "The politician's subservience to foreign advisors led to strong criticism from voters.",
+    "reason": "Sentence is correct; used to illustrate error checking in practice."
+   },
+   {
+    "sentence": "Thai solar firms argue that bank guarantees impose an essential burden on small businesses.",
+    "corrected": "Thai solar firms argue that bank guarantees impose an excessive burden on small businesses.",
+    "reason": "Wrong word choice; essential means necessary, whereas excessive or heavy fits the context."
+   },
+   {
+    "sentence": "Migrant groups asked officials to endorsement new guidelines to streamline workplace registration.",
+    "corrected": "Migrant groups asked officials to endorse new guidelines to streamline workplace registration.",
+    "reason": "An infinitive verb endorse is required after to, not the noun endorsement."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Mastering basic French greetings helps you start professional and casual conversations politely.",
+   "phrases": [
+    {
+     "phrase": "Bonjour, comment allez-vous ?",
+     "pronunciation": "bohn-zhoor, koh-mahn tah-lay voo",
+     "meaning": "Hello, how are you? (formal)"
+    },
+    {
+     "phrase": "Enchanté de vous rencontrer.",
+     "pronunciation": "ahn-shahn-tay duh voo rahn-kohn-tray",
+     "meaning": "Pleased to meet you."
+    },
+    {
+     "phrase": "Bonne journée !",
+     "pronunciation": "bun zhoor-nay",
+     "meaning": "Have a nice day!"
+    }
+   ],
+   "root": {
+    "root": "parler",
+    "meaning": "to speak",
+    "english_words": "parliament, parlance, parley",
+    "note": "Derived from Late Latin parabolare, this root gave English words related to speaking and public discussion."
+   },
+   "borrowed": {
+    "word": "tête-à-tête",
+    "note": "Literally meaning head-to-head, English uses it to describe a private, face-to-face conversation between two people."
+   },
+   "curious": {
+    "word": "Flâneur",
+    "pronunciation": "flah-noor",
+    "meaning": "A passionate observer who strolls city streets without any specific destination.",
+    "note": "This 19th-century French concept celebrates urban exploration and mindful observation of daily life."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 364,
+  "world_1": 141,
+  "world_2": 129,
+  "thailand_1": 130,
+  "thailand_2": 139,
+  "feature": 237,
+  "real_english": 279,
+  "language_lab": 198,
+  "other_language": 110,
+  "word_bank": 464,
+  "total": 2387
+ },
+ "notes": [
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 364 words (target 470–510)",
+  "feature: 237 words (target 310–370)",
+  "other_language: 110 words (target 140–190)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
