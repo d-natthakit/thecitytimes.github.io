@@ -1,0 +1,408 @@
+{
+ "plan": {
+  "date": "2026-10-28",
+  "date_long": "Wednesday, 28 October 2026",
+  "weekday": "Wed",
+  "issue_no": 2,
+  "language": "Spanish",
+  "feature_a": "Money",
+  "feature_b": "Health",
+  "opinion": "say_it_better",
+  "setting": "meetings & calls",
+  "activity": "Word forms",
+  "trap": "Tenses & time expressions",
+  "avoid_star_words": [],
+  "review_pool": [],
+  "recent_traps": [],
+  "recent_opinions": [],
+  "recent_language_notes": [],
+  "recent_features": []
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "DW",
+   "title": "Egypt orders closure of independent news site Mada Masr",
+   "url": "https://www.dw.com/en/egypt-orders-closure-of-independent-news-site-mada-masr/a-79781842?maca=en-rss-en-all-1573-rdf"
+  },
+  {
+   "id": "S2",
+   "role": "world_1",
+   "source": "DW",
+   "title": "Flavio Bolsonaro flees Brazil for US amid investigation — reports",
+   "url": "https://www.dw.com/en/flavio-bolsonaro-flees-brazil-for-us-amid-investigation-reports/a-79781094?maca=en-rss-en-all-1573-rdf"
+  },
+  {
+   "id": "S3",
+   "role": "world_2",
+   "source": "The Guardian",
+   "title": "Israel election live: Netanyahu and Eisenkot opposition blocs tied in latest exit polls",
+   "url": "https://www.theguardian.com/world/live/2026/oct/27/israel-elections-knesset-netanyahu-likud-eisenkot-gaza-latest-updates"
+  },
+  {
+   "id": "S4",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Car production recovers from September flooding",
+   "url": "https://www.bangkokpost.com/business/motoring/3344723/car-production-recovers-from-september-flooding"
+  },
+  {
+   "id": "S5",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Seaplane plan set to take off",
+   "url": "https://www.bangkokpost.com/thailand/general/3344828/seaplane-plan-set-to-take-off"
+  }
+ ],
+ "content": {
+  "quick_route": [
+   "Read the Cover Story for key updates on press freedom and legal challenges in Egypt.",
+   "Check Thailand News to learn how local auto makers are recovering after recent floods.",
+   "Review Feature A for practical financial advice on managing variable income and expenses."
+  ],
+  "star_words": [
+   "confiscate",
+   "precedent",
+   "unprecedented",
+   "mitigate",
+   "fluctuate",
+   "imperative",
+   "divergent",
+   "collaborate"
+  ],
+  "recycled_words": [
+   "crucial",
+   "resilience",
+   "predictable",
+   "eliminate"
+  ],
+  "cover": {
+   "headline": "Egyptian Court Orders Closure of Prominent News Site Mada Masr",
+   "paragraphs": [
+    "An Egyptian court on Tuesday ordered the immediate closure of Mada Masr, one of the country's last remaining independent news outlets. The court also convicted editor-in-chief Lina Attalah of operating an unlicensed news site, imposing the maximum fine of three million Egyptian pounds. In addition to the fine, authorities were instructed to **confiscate** the organization's technical equipment, dealing a severe blow to independent reporting.",
+    "The legal proceedings drew strong criticism from defense lawyers who reported severe procedural irregularities. Attalah's legal team stated that the judge rejected their requests to review case files and present evidence. According to observers from rights groups, the court appointed a new defense attorney without consent and dictated motions into the official record on his behalf. The defense team plans to appeal the closure order.",
+    "This case sets a dangerous **precedent** for media organizations operating in the region. Founded in 2013, Mada Masr has faced years of legal pressure and online blocking inside Egypt. The outlet submitted official licensing applications starting in 2018, but authorities left the requests unanswered for years before alleging violations. During her release procedures, Attalah learned she had also been sentenced in absentia in a separate 2024 case.",
+    "Rights organizations and international leaders reacted with swift condemnation. A coalition of 119 rights groups called the decision an **unprecedented** attack on press freedom. Representatives from Amnesty International and the Committee to Protect Journalists warned that targeting respected editors creates a chilling effect, making it impossible for independent reporters to work safely.",
+    "Egyptian officials maintain that media outlets must follow national laws to protect security and combat misinformation. However, rights advocates point out that 26 journalists currently remain imprisoned in Egypt. Observers say this ruling highlights __crucial__ challenges facing press freedom across the country."
+   ],
+   "source_ids": [
+    "S1"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Flavio Bolsonaro Leaves Brazil Following Election Defeat",
+    "paragraphs": [
+     "Brazilian Senator Flavio Bolsonaro has left the country for the United States following his defeat in Sunday's presidential election runoff. President Luiz Inacio Lula da Silva confirmed the senator's departure during an address to supporters, criticizing his rival for leaving amid ongoing legal investigations.",
+     "The Supreme Court had previously ordered Bolsonaro to hand over his passports to prevent him from traveling abroad. However, reports indicate his passports were canceled after he failed to comply. Officials are currently reviewing how he exited the country, with some reports suggesting he crossed into Argentina before flying north.",
+     "Bolsonaro faces active investigations concerning alleged money laundering involving pension funds and improper financial links to a local banker. His departure highlights the political tension in Brazil as the new administration takes office."
+    ],
+    "source_ids": [
+     "S2"
+    ]
+   },
+   {
+    "headline": "Israeli Exit Polls Show Tight Race Between Major Blocs",
+    "paragraphs": [
+     "Updated exit polls in Israel show a very close contest between Benjamin Netanyahu's political bloc and the opposition coalition led by Gadi Eisenkot. Television networks revised their projections late Tuesday, placing both major groupings in a tight race to secure a parliamentary majority.",
+     "A candidate must win at least 61 seats in the Knesset to form a functioning government. Leaders from both sides urged patience as election officials begin counting hundreds of thousands of absentee ballots cast by active duty soldiers.",
+     "Political analysts note that Palestinian political parties made significant gains in this election, winning up to 18 seats. This increase makes their potential support a vital factor in upcoming coalition negotiations."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Thai Auto Sector Recovers Quickly After Flood Disruptions",
+    "paragraphs": [
+     "Car manufacturers in eastern Thailand are accelerating production after recent floodwaters receded. Industrial leaders confirmed that factory operations have returned to normal, allowing companies to maintain their full-year production target of 1.45 million vehicles despite brief delays.",
+     "While water levels disrupted component deliveries in late September, production lines avoided direct damage. Local suppliers moved quickly to **mitigate** potential shortages, reducing reliance on temporary foreign imports. Domestic vehicle sales showed strong __resilience__, rising over 14 percent due to growing demand for battery electric cars.",
+     "However, overall exports face ongoing pressures from regional conflict in the Middle East. Automobile associations expect stable domestic demand to help manufacturers balance international market challenges in the coming months."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   },
+   {
+    "headline": "Ministry Prepares Coastal Seaplane Service for Tourism",
+    "paragraphs": [
+     "Thailand's Ministry of Transport is pushing forward a new initiative to introduce commercial seaplane services along the Andaman coast. Deputy Transport Minister Phattrapong Phattraprasit stated that the project aims to improve regional connectivity and support local business growth.",
+     "The proposed air service will connect coastal destinations while maintaining strict environmental safety standards. Transport officials are working with aviation authorities to establish flight corridors that protect delicate marine ecosystems.",
+     "If successful, the seaplane network will offer faster travel options for international visitors. Government agencies hope the project will strengthen tourism infrastructure across Southern Thailand over the next few years."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   }
+  ],
+  "feature_a": {
+   "headline": "Navigating Irregular Income: Smart Strategies for Freelancers",
+   "paragraphs": [
+    "Managing personal finances can be challenging when your monthly income is not __predictable__. Freelancers, commission-based workers, and business owners often watch their earnings **fluctuate** based on market demand. Without a fixed salary, maintaining stable cash flow requires deliberate planning and clear boundaries.",
+    "The first step in managing variable income is calculating your baseline living expenses. Identify your mandatory monthly costs, such as housing, transportation, insurance, and basic food supplies. Knowing this base number helps you set a minimum monthly target, ensuring that essential bills are always paid regardless of commercial swings.",
+    "Next, establish a dedicated business buffer account. During high-earning months, resist the temptation to spend extra cash immediately. Instead, direct surplus income into your buffer account. This cash reserve acts as a financial shock absorber, allowing you to pay yourself a regular income during slow business cycles.",
+    "It is equally **imperative** to adjust your tax planning. Unlike salaried employees who have taxes withheld automatically, independent professionals must estimate and set aside tax obligations regularly. Setting aside a set percentage of every payment received prevents painful financial surprises when annual tax filings are due.",
+    "Finally, review your budget every quarter to reflect changing economic conditions. By actively balancing income spikes with lean periods, variable earners can build long-term security and __eliminate__ unnecessary financial stress."
+   ],
+   "source_ids": []
+  },
+  "feature_b": {
+   "headline": "Building Healthy Daily Habits for Sustainable Workplace Energy",
+   "paragraphs": [
+    "Many working professionals rely heavily on afternoon caffeine or sugary snacks to stay alert throughout the workday. While these quick fixes offer temporary energy, they often lead to sudden physical crashes. Developing healthy daily routines offers a far more reliable strategy for sustaining focus and vitality.",
+    "Nutritional balance plays a central role in maintaining physical energy. Skipping meals or relying on heavily processed convenience foods causes blood sugar levels to spike and drop rapidly. Eating balanced meals containing lean proteins, whole grains, and healthy fats provides steady energy across long working hours.",
+    "Physical movement is another key component of daily wellness. Modern office work often requires extended sitting, which can reduce circulation and cause physical fatigue. Taking brief hourly walking breaks or stretching near your workspace encourages blood flow and helps reduce physical stiffness.",
+    "Modern wellness experts often hold **divergent** views on optimal fitness routines, but all agree that sleep quality remains fundamental. Establishing a consistent sleep schedule and limiting screen time before bed improves overall rest, allowing your body to recover effectively overnight.",
+    "Finally, corporate teams should **collaborate** to create supportive workplace environments. Simple changes, such as drinking enough water and stepping outside for fresh air, help professionals maintain energy levels while preventing burnout."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Requesting to Reschedule an Urgent Meeting",
+   "situation": "You have an urgent operational priority requiring immediate attention right before a scheduled project sync with an important client. You need to inform them quickly, ask to move the meeting, and suggest alternative times without appearing disorganized or disrespectful.",
+   "formal": "Due to an unforeseen scheduling conflict that requires my immediate attention, I must respectfully request that we reschedule our meeting today. I sincerely apologize for any inconvenience this short notice causes. Please let me know if moving our discussion to tomorrow would be suitable for you.",
+   "neutral": "Something urgent has come up on my end, so I was wondering if we could move our call to later this afternoon or tomorrow. I apologize for the short notice and am very flexible with whatever time works best for your schedule.",
+   "casual": "Hey! A sudden issue popped up on my end that I need to tackle right now. Would it be okay if we push our chat back to this afternoon or tomorrow? So sorry for the last-minute change!",
+   "useful_phrases": [
+    "Due to an unforeseen scheduling conflict, I would appreciate the opportunity to move our call.",
+    "I apologize for the short notice, but would it be convenient for us to postpone our meeting?",
+    "Please let me know if your schedule allows us to push our session back to a later time."
+   ],
+   "avoid": {
+    "phrase": "I am too busy right now, so we need to cancel our meeting.",
+    "reason": "This expression sounds overly blunt and dismissive. It implies that your colleague's or client's time is unimportant. When requesting last-minute calendar changes, always acknowledge the inconvenience, remain polite, and offer flexible alternative times to maintain a strong professional relationship."
+   }
+  },
+  "word_workshop": [
+   {
+    "word": "confiscate",
+    "collocations": [
+     "confiscate illegal property",
+     "confiscate contraband goods",
+     "authority to confiscate"
+    ],
+    "example": "Customs officers decided to confiscate the undeclared luxury goods at the border."
+   },
+   {
+    "word": "precedent",
+    "collocations": [
+     "set a precedent",
+     "dangerous legal precedent",
+     "without historic precedent"
+    ],
+    "example": "The landmark ruling established a strong precedent for future workplace discrimination cases."
+   },
+   {
+    "word": "unprecedented",
+    "collocations": [
+     "unprecedented economic growth",
+     "unprecedented demand",
+     "an unprecedented step"
+    ],
+    "example": "The city experienced unprecedented levels of rainfall during the severe monsoon season."
+   }
+  ],
+  "activity": {
+   "instructions": "Complete each sentence by changing the form of the base word in brackets to fill the gap appropriately.",
+   "items": [
+    "Local authorities moved quickly to ______ potential damage caused by the severe storm. (mitigate)",
+    "Freelancers often face sharp ______ in their monthly income depending on client demand. (fluctuate)",
+    "The manager stressed that it was ______ for the team to meet the project deadline. (imperative)",
+    "The two researchers expressed ______ opinions regarding the outcome of the study. (divergent)",
+    "Effective communication is essential to foster successful ______ between departments. (collaborate)",
+    "The recent economic crisis severely disrupted the market in an ______ manner. (predictable)"
+   ],
+   "answers": [
+    "mitigate",
+    "fluctuations",
+    "imperative",
+    "divergent",
+    "collaboration",
+    "unpredictable"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The court ordered to confiscate the illegal equipment from the company.",
+    "corrected": "The court ordered authorities to confiscate the illegal equipment from the company.",
+    "reason": "verb pattern error"
+   },
+   {
+    "sentence": "Freelancers often struggle because their income fluctuates since a long time.",
+    "corrected": "Freelancers often struggle because their income has fluctuated for a long time.",
+    "reason": "preposition and tense error"
+   },
+   {
+    "sentence": "It is imperative that everyone arrives on time for the annual meeting tomorrow.",
+    "corrected": "It is imperative that everyone arrive on time for the annual meeting tomorrow.",
+    "reason": "subjunctive mood error"
+   },
+   {
+    "sentence": "The team collaborated to the foreign experts to finish the project.",
+    "corrected": "The team collaborated with the foreign experts to finish the project.",
+    "reason": "incorrect preposition"
+   },
+   {
+    "sentence": "Car sales demonstrated a strong resilience despite of the economic downturn.",
+    "corrected": "Car sales demonstrated a strong resilience despite the economic downturn.",
+    "reason": "preposition redundancy"
+   }
+  ],
+  "trap": {
+   "title": "Since vs. For with Time Expressions",
+   "wrong": "I have worked as a freelancer since three years.",
+   "right": "I have worked as a freelancer for three years.",
+   "explanation": "Thai speakers often translate 'ตั้งแต่' or 'มาเป็นเวลา' loosely, using 'since' for durations. Use 'since' for a specific starting point in time (e.g., since 2021) and 'for' for a length of time (e.g., for three years)."
+  },
+  "other_language": {
+   "headline": "Spanish in Daily Life",
+   "note": "Spanish is spoken by over 500 million people worldwide and is an official language in 20 countries. Its global influence makes basic expressions useful for international business, travel, and cultural exchanges.",
+   "phrases": [
+    {
+     "phrase": "Hola, ¿cómo estás?",
+     "pronunciation": "OH-lah, KOH-moh ess-TAHS",
+     "meaning": "Hello, how are you?"
+    },
+    {
+     "phrase": "Muchas gracias",
+     "pronunciation": "MOO-chahs GRAH-see-ahs",
+     "meaning": "Thank you very much"
+    },
+    {
+     "phrase": "Hasta luego",
+     "pronunciation": "AH-stah loo-AY-goh",
+     "meaning": "See you later"
+    }
+   ],
+   "borrowed": {
+    "word": "Patio",
+    "note": "Originally a Spanish word referring to an inner courtyard, 'patio' is widely used in English to describe an outdoor paved area adjoining a house used for dining or recreation."
+   }
+  },
+  "glossary": [
+   {
+    "word": "confiscate",
+    "pos": "verb",
+    "definition": "to take property away from someone as a penalty or legal action",
+    "thai": "ยึดทรัพย์สิน",
+    "example": "In addition to the fine, authorities were instructed to **confiscate** the organization's technical equipment, dealing a severe blow to independent reporting."
+   },
+   {
+    "word": "precedent",
+    "pos": "noun",
+    "definition": "an action or decision that serves as an example for future cases",
+    "thai": "บรรทัดฐาน",
+    "example": "This case sets a dangerous **precedent** for media organizations operating in the region."
+   },
+   {
+    "word": "unprecedented",
+    "pos": "adjective",
+    "definition": "never done or known before",
+    "thai": "ซึ่งไม่เคยปรากฏมาก่อน",
+    "example": "A coalition of 119 rights groups called the decision an **unprecedented** attack on press freedom."
+   },
+   {
+    "word": "mitigate",
+    "pos": "verb",
+    "definition": "to make something less severe, harmful, or painful",
+    "thai": "บรรเทา",
+    "example": "Local suppliers moved quickly to **mitigate** potential shortages, reducing reliance on temporary foreign imports."
+   },
+   {
+    "word": "fluctuate",
+    "pos": "verb",
+    "definition": "to change continually and irregularly in amount or level",
+    "thai": "ผันผวน",
+    "example": "Freelancers, commission-based workers, and business owners often watch their earnings **fluctuate** based on market demand."
+   },
+   {
+    "word": "imperative",
+    "pos": "adjective",
+    "definition": "of vital importance; crucial",
+    "thai": "จำ เป็นอย่างยิ่ง",
+    "example": "It is equally **imperative** to adjust your tax planning."
+   },
+   {
+    "word": "divergent",
+    "pos": "adjective",
+    "definition": "tending to be different or develop in different directions",
+    "thai": "ที่แตกต่างกัน",
+    "example": "Modern wellness experts often hold **divergent** views on optimal fitness routines, but all agree that sleep quality remains fundamental."
+   },
+   {
+    "word": "collaborate",
+    "pos": "verb",
+    "definition": "to work jointly with others on an activity or project",
+    "thai": "ร่วมมือ",
+    "example": "Finally, corporate teams should **collaborate** to create supportive workplace environments."
+   },
+   {
+    "word": "crucial",
+    "pos": "adjective",
+    "definition": "decisive or extremely important for the success of something",
+    "thai": "สำคัญยิ่ง",
+    "example": ""
+   },
+   {
+    "word": "resilience",
+    "pos": "noun",
+    "definition": "the capacity to recover quickly from difficulties",
+    "thai": "ความยืดหยุ่นชดเชย",
+    "example": ""
+   },
+   {
+    "word": "predictable",
+    "pos": "adjective",
+    "definition": "able to be foreseen or expected",
+    "thai": "คาดเดาได้",
+    "example": ""
+   },
+   {
+    "word": "eliminate",
+    "pos": "verb",
+    "definition": "to completely remove or get rid of something",
+    "thai": "ขจัด",
+    "example": ""
+   }
+  ]
+ },
+ "sizes": {
+  "cover": 290,
+  "world_1": 127,
+  "world_2": 112,
+  "thailand_1": 113,
+  "thailand_2": 98,
+  "feature_a": 214,
+  "feature_b": 205,
+  "opinion": 272,
+  "language_lab": 352,
+  "other_language": 90,
+  "glossary": 252,
+  "total": 2241
+ },
+ "notes": [
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 290 words (target 430–470)",
+  "world_2: 112 words (target 140–160)",
+  "thailand_1: 113 words (target 140–160)",
+  "thailand_2: 98 words (target 140–160)",
+  "feature_a: 214 words (target 280–320)",
+  "feature_b: 205 words (target 280–320)",
+  "other_language: 90 words (target 150–180)",
+  "whole issue: 2241 words (target 2800–3000)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
