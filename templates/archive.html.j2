@@ -2,15 +2,14 @@
 {% block title %}{{ paper }} · Archive{% endblock %}
 {% block dateline %}
     <span>Archive</span>
-    <span>{{ issues | length }} issue{{ "s" if issues | length != 1 }}</span>
+    <span>{{ issues | length }} day{{ "s" if issues | length != 1 }}</span>
     <span>Bangkok Edition</span>
 {% endblock %}
 {% block content %}
 <section>
-  <h2 class="kicker">All Issues</h2>
+  <h2 class="kicker">All Editions</h2>
   <ul class="archive-list">
     {% for i in issues %}<li>
-      <span class="no">No. {{ i.issue_no }}</span>
       <span class="d">{{ i.date_long }}</span>
       <a href="issues/{{ i.date }}.html">{{ i.headline }}</a>
     </li>

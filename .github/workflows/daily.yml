@@ -2,9 +2,12 @@ name: Daily issue
 
 on:
   schedule:
-    - cron: "17 21 * * *"   # 04:17 Bangkok time (GitHub cron uses UTC)
-    - cron: "27 23 * * *"   # 06:27 Bangkok: backup run. Builds the issue if it is missing,
-                            # or rewrites it if 04:17 had to use the fallback model
+    # GitHub may start scheduled runs 1–3 hours late, so they start early.
+    # For exact times, use an outside timer (see README: "เวลารันไม่ตรง").
+    - cron: "5 20 * * *"    # 03:05 Bangkok: main run
+    - cron: "5 22 * * *"    # 05:37 Bangkok: backup run. Builds the issue if it is missing,
+                            # or rewrites it if the main run had to use the fallback model.
+                            # Keep BACKUP_CRON below exactly the same as this line.
   workflow_dispatch:
     inputs:
       date:
@@ -14,6 +17,11 @@ on:
         description: "Rebuild even if the issue already exists"
         type: boolean
         default: false
+      mode:
+        description: "normal = build if missing · upgrade = also rewrite a fallback-model issue"
+        type: choice
+        options: [normal, upgrade]
+        default: normal
       provider:
         description: "AI provider"
         type: choice
@@ -52,9 +60,11 @@ jobs:
           ISSUE_DATE: ${{ inputs.date }}
           FORCE: ${{ inputs.force }}
           SCHEDULE: ${{ github.event.schedule }}
+          MODE: ${{ inputs.mode }}
+          BACKUP_CRON: "37 21 * * *"
         run: |
           args=()
-          if [ "$SCHEDULE" = "27 23 * * *" ]; then args+=(--upgrade); fi
+          if [ "$SCHEDULE" = "$BACKUP_CRON" ] || [ "$MODE" = "upgrade" ]; then args+=(--upgrade); fi
           if [ -n "$ISSUE_DATE" ]; then args+=(--date "$ISSUE_DATE"); fi
           if [ "$FORCE" = "true" ]; then args+=(--force); fi
           python scripts/build.py "${args[@]}"
@@ -77,6 +87,8 @@ jobs:
             echo "Nothing new to save."
           else
             git commit -m "Daily run $(TZ=Asia/Bangkok date +%F)"
+            # in case the repo was edited on GitHub while this run was working
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
             git push
           fi
 

@@ -1,33 +1,4 @@
 {
- "word_workshop": [
-  {
-   "word": "roll out",
-   "collocations": [
-    "roll out a plan",
-    "roll out a service",
-    "gradually roll out"
-   ],
-   "example": "The bank will roll out its new app to all customers next month."
-  },
-  {
-   "word": "bottleneck",
-   "collocations": [
-    "a major bottleneck",
-    "cause a bottleneck",
-    "remove a bottleneck"
-   ],
-   "example": "Slow approvals are the main bottleneck in our project."
-  },
-  {
-   "word": "incentive",
-   "collocations": [
-    "offer an incentive",
-    "a financial incentive",
-    "an incentive to save"
-   ],
-   "example": "The company offers an incentive to staff who cycle to work."
-  }
- ],
  "activity": {
   "instructions": "Complete each sentence with one word or phrase from the box: reluctant, sustainable, commute, scrutiny, cut back on, ensure.",
   "items": [
@@ -74,15 +45,8 @@
    "reason": "register too casual for work"
   }
  ],
- "trap": {
-  "title": "Arrive at or arrive to?",
-  "wrong": "I arrived to the office at eight.",
-  "right": "I arrived at the office at eight.",
-  "explanation": "Thai speakers often think of ถึง as 'to', so they say 'arrive to'. In English we arrive at a building or point, arrive in a city or country, and never arrive to a place."
- },
  "other_language": {
-  "headline": "German: Punctuality Is a Form of Respect",
-  "note": "In Germany, being on time is more than good manners. Many people see it as a sign that you respect other people's time. Trains are expected to run to the minute, and a meeting that starts at nine really starts at nine. If you will be even five minutes late, it is polite to send a message. Germans also tend to separate work time and free time clearly, so after-hours emails may not get a quick reply.",
+  "theme_intro": "Today's theme is greetings and small talk. Germans are often direct and polite at the same time, and a short greeting goes a long way.",
   "phrases": [
    {
     "phrase": "Guten Morgen!",
@@ -90,93 +54,149 @@
     "meaning": "Good morning!"
    },
    {
-    "phrase": "Entschuldigung, ich bin spät dran.",
-    "pronunciation": "ent-SHOOL-di-goong, ikh bin shpayt drahn",
-    "meaning": "Sorry, I'm running late."
+    "phrase": "Wie geht's?",
+    "pronunciation": "vee GAYTS",
+    "meaning": "How are you? (informal)"
    },
    {
-    "phrase": "Bis morgen!",
-    "pronunciation": "bis MOR-gen",
-    "meaning": "See you tomorrow!"
+    "phrase": "Schönes Wochenende!",
+    "pronunciation": "SHUR-nes VOKH-en-en-de",
+    "meaning": "Have a nice weekend!"
    }
   ],
+  "root": {
+   "root": "Hand",
+   "meaning": "hand",
+   "english_words": "handy, handle, handbook",
+   "note": "German and English share many old Germanic roots, so some words look almost the same."
+  },
   "borrowed": {
    "word": "kindergarten",
-   "note": "from German Kinder (children) + Garten (garden): a garden where children grow."
+   "note": "From Kinder (children) + Garten (garden): a garden where children grow."
+  },
+  "curious": {
+   "word": "Feierabend",
+   "pronunciation": "FY-er-ah-bent",
+   "meaning": "the end of the working day",
+   "note": "Germans say 'Schönen Feierabend!' to wish you a relaxing evening after work."
   }
  },
- "glossary": [
+ "word_bank": [
   {
    "word": "ensure",
    "pos": "verb",
    "definition": "to make certain that something happens",
-   "thai": "ทำให้แน่ใจ"
+   "thai": "ทำให้แน่ใจ",
+   "collocations": []
   },
   {
    "word": "approach",
    "pos": "noun",
    "definition": "a way of dealing with something",
-   "thai": "วิธีการ, แนวทาง"
+   "thai": "วิธีการ, แนวทาง",
+   "collocations": []
   },
   {
    "word": "impact",
    "pos": "noun",
    "definition": "a strong effect",
-   "thai": "ผลกระทบ"
+   "thai": "ผลกระทบ",
+   "collocations": []
   },
   {
    "word": "significant",
    "pos": "adjective",
    "definition": "large or important enough to notice",
-   "thai": "สำคัญ, มาก"
+   "thai": "สำคัญ, มาก",
+   "collocations": []
   },
   {
    "word": "cut back on",
    "pos": "phrasal verb",
    "definition": "to use or spend less of something",
-   "thai": "ลด (การใช้/การใช้จ่าย)"
+   "thai": "ลด (การใช้/การใช้จ่าย)",
+   "collocations": [
+    "cut back on sugar",
+    "cut back on spending",
+    "cut back on staff"
+   ]
   },
   {
    "word": "reluctant",
    "pos": "adjective",
    "definition": "not willing to do something",
-   "thai": "ลังเล, ไม่เต็มใจ"
+   "thai": "ลังเล, ไม่เต็มใจ",
+   "collocations": [
+    "reluctant to admit",
+    "a reluctant hero",
+    "seem reluctant"
+   ]
   },
   {
    "word": "sustainable",
    "pos": "adjective",
    "definition": "able to continue for a long time without causing harm",
-   "thai": "ยั่งยืน"
+   "thai": "ยั่งยืน",
+   "collocations": [
+    "sustainable growth",
+    "sustainable energy",
+    "environmentally sustainable"
+   ]
   },
   {
    "word": "commute",
    "pos": "noun",
    "definition": "the regular trip between home and work",
-   "thai": "การเดินทางไปทำงาน"
+   "thai": "การเดินทางไปทำงาน",
+   "collocations": [
+    "a long commute",
+    "daily commute",
+    "commute to work"
+   ]
   },
   {
    "word": "scrutiny",
    "pos": "noun",
    "definition": "careful and critical examination",
-   "thai": "การตรวจสอบอย่างละเอียด"
+   "thai": "การตรวจสอบอย่างละเอียด",
+   "collocations": [
+    "close scrutiny",
+    "come under scrutiny",
+    "public scrutiny"
+   ]
   },
   {
    "word": "incentive",
    "pos": "noun",
    "definition": "something that encourages people to do something",
-   "thai": "สิ่งจูงใจ"
+   "thai": "สิ่งจูงใจ",
+   "collocations": [
+    "offer an incentive",
+    "a financial incentive",
+    "an incentive to save"
+   ]
   },
   {
    "word": "bottleneck",
    "pos": "noun",
    "definition": "a place or problem that slows everything down",
-   "thai": "คอขวด"
+   "thai": "คอขวด",
+   "collocations": [
+    "a major bottleneck",
+    "cause a bottleneck",
+    "remove a bottleneck"
+   ]
   },
   {
    "word": "roll out",
    "pos": "phrasal verb",
    "definition": "to start offering a new plan or service to many people",
-   "thai": "เปิดตัว, เริ่มใช้อย่างเป็นทางการ"
+   "thai": "เปิดตัว, เริ่มใช้อย่างเป็นทางการ",
+   "collocations": [
+    "roll out a plan",
+    "roll out a service",
+    "gradually roll out"
+   ]
   }
  ]
 }

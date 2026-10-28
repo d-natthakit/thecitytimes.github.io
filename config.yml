@@ -1,5 +1,5 @@
-# THE BKK GEM POST — pipeline settings
-paper_name: THE BKK GEM POST
+# THE CITY TIMES — pipeline settings
+paper_name: THE CITY TIMES
 timezone: Asia/Bangkok
 start_date: 2026-10-27        # Issue 1
 
@@ -41,17 +41,26 @@ news:
       - {name: The Nation Thailand, url: "https://www.nationthailand.com/rss"}
 
 # Weekly rotation (weekday in Bangkok time)
+#   feature  : theme of the one Feature article
+#   opinion  : Real English format (two_takes | say_it_better) + setting for Say It Better
+#   trap     : Thai Speaker's Trap category, shown inside Real English
+#   activity : Language Lab exercise
 rotation:
-  Mon: {feature_a: Business, feature_b: "Life: home & routines", opinion: say_it_better, setting: workplace email, activity: Collocation match, trap: "Articles (a / an / the)"}
-  Tue: {feature_a: Tech, feature_b: Culture, opinion: two_takes, setting: "", activity: Gap fill, trap: Prepositions}
-  Wed: {feature_a: Money, feature_b: Health, opinion: say_it_better, setting: meetings & calls, activity: Word forms, trap: Tenses & time expressions}
-  Thu: {feature_a: Science, feature_b: Wellbeing, opinion: two_takes, setting: "", activity: Synonym choice, trap: Countable/uncountable & plurals}
-  Fri: {feature_a: Work & Career, feature_b: "Life: food & travel", opinion: say_it_better, setting: social & small talk, activity: Mini crossword clues, trap: Direct translation from Thai}
-  Sat: {feature_a: Digital life, feature_b: Arts & entertainment, opinion: two_takes, setting: "", activity: Odd one out, trap: Word order & questions}
-  Sun: {feature_a: Environment, feature_b: Sport & fitness, opinion: say_it_better, setting: services & customers, activity: Context clue challenge, trap: "Confusing word pairs (e.g. bored/boring)"}
+  Sun: {feature: "Business / Money",        opinion: say_it_better, setting: services & customers, activity: Context clue challenge, trap: "Confusing word pairs (e.g. bored/boring)"}
+  Mon: {feature: "Health & Wellbeing",      opinion: say_it_better, setting: workplace email,      activity: Collocation match,      trap: "Articles (a / an / the)"}
+  Tue: {feature: "Tech & Science",          opinion: two_takes,     setting: "",                   activity: Gap fill,               trap: Prepositions}
+  Wed: {feature: "Arts & Entertainment",    opinion: say_it_better, setting: meetings & calls,     activity: Word forms,             trap: Tenses & time expressions}
+  Thu: {feature: "Home / Environment",      opinion: two_takes,     setting: "",                   activity: Synonym choice,         trap: Countable/uncountable & plurals}
+  Fri: {feature: "Food & Travel",           opinion: say_it_better, setting: social & small talk,  activity: Mini crossword clues,   trap: Direct translation from Thai}
+  Sat: {feature: "Cultures / Digital Life", opinion: two_takes,     setting: "",                   activity: Odd one out,            trap: Word order & questions}
 
-# Other Languages cycle by issue number: Issue 1 = first item
-languages: [German, Spanish, Chinese, French]
+# Other Languages: language by issue number (Issue 1 = first item)
+languages: [German, Spanish, French, Italian]
+# Everyday theme for the phrases. Each language moves to the next theme every time it comes round.
+phrase_themes: [greetings & small talk, at a café, ordering food, shopping, getting around town,
+  asking for directions, at the hotel, at work, making plans, the weather, feelings, at the doctor,
+  numbers & time, family & friends, thanks & compliments, saying sorry, on the phone, at the market,
+  celebrations, hobbies & sport]
 
 # Spaced review: ★ words taught this many days ago become ↺ review candidates
 review_days: [1, 3, 7, 21]

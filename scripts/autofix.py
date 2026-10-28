@@ -48,8 +48,7 @@ def _text_slots(a: dict):
     for key in ("world", "thailand"):
         for art in a.get(key, []):
             slots += [(art["paragraphs"], i) for i in range(len(art["paragraphs"]))]
-    for key in ("feature_a", "feature_b"):
-        slots += [(a[key]["paragraphs"], i) for i in range(len(a[key]["paragraphs"]))]
+    slots += [(a["feature"]["paragraphs"], i) for i in range(len(a["feature"]["paragraphs"]))]
     if a.get("two_takes"):
         slots += [(a["two_takes"]["view_a"], "text"), (a["two_takes"]["view_b"], "text")]
     if a.get("say_it_better"):
@@ -108,12 +107,12 @@ def _sentences(slots):
 
 
 def fix_lab(c: dict, notes: list) -> dict:
-    _clean_all({k: c[k] for k in ("word_workshop", "activity", "errors", "trap", "other_language", "glossary")
-                if k in c})
+    _clean_all({k: c[k] for k in ("word_bank", "activity", "errors", "other_language") if k in c})
+    star = {w.lower() for w in c["star_words"]}
     wanted = c["star_words"] + c["recycled_words"]
 
-    # glossary: match entries to the expected words and put them in order
-    entries = list(c.get("glossary", []))
+    # word bank: match entries to the expected words and put them in order
+    entries = list(c.get("word_bank", []))
     ordered = []
     for w in wanted:
         pat = word_pattern(w)
@@ -121,23 +120,29 @@ def fix_lab(c: dict, notes: list) -> dict:
             next((g for g in entries if pat.search(g.get("word", ""))), None)
         if hit:
             entries.remove(hit)
-            ordered.append({**hit, "word": w})
+            colls = [x for x in hit.get("collocations", []) if x.strip()][:3] if w.lower() in star else []
+            ordered.append({**hit, "word": w, "collocations": colls})
         else:
-            notes.append(f"glossary had no entry for '{w}'")
-    c["glossary"] = ordered
+            notes.append(f"word bank had no entry for '{w}'")
+    c["word_bank"] = ordered
 
-    # glossary examples: the first sentence in the articles that uses the word
+    # example: the first sentence in the articles that uses the word
     try:
         sentences = list(_sentences(_text_slots(c)))
     except (KeyError, TypeError):
         sentences = []
-    for g in c["glossary"]:
+    for g in c["word_bank"]:
         pat = word_pattern(g["word"])
         g["example"] = next((s for s in sentences if pat.search(s)), "")
-
-    # word workshop words spelled exactly like the ★ words
-    for item in c.get("word_workshop", []):
-        for w in c["star_words"]:
-            if item.get("word", "").lower() != w.lower() and word_pattern(w).search(item.get("word", "")):
-                item["word"] = w
     return c
+
+
+def words_in_context(a: dict) -> list[tuple[str, str, str]]:
+    """(word, kind, sentence) for the step-2 prompt: much shorter than the full articles."""
+    sentences = list(_sentences(_text_slots(a)))
+    out = []
+    for kind, key in (("★", "star_words"), ("↺", "recycled_words")):
+        for w in a[key]:
+            pat = word_pattern(w)
+            out.append((w, kind, next((s for s in sentences if pat.search(s)), "")))
+    return out

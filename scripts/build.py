@@ -5,7 +5,7 @@
     PROVIDER=mock python scripts/build.py --news-fixture tests/fixtures/news.json
 
 Steps: plan (code) → news (RSS + code picks stories) → AI step 1: articles →
-code auto-fix + checks (one repair if critical) → AI step 2: lab + glossary →
+code auto-fix + checks (one repair if critical) → AI step 2: word bank + lab + other languages →
 code auto-fix + checks (one repair if critical) → HTML.
 """
 import argparse
@@ -29,6 +29,7 @@ DATA = ROOT / "data" / "issues"
 DRAFTS = ROOT / "data" / "drafts"
 DOCS = ROOT / "docs"
 SUMMARY = []
+FORMAT = 2          # content layout version (1 = issues before 29 Oct 2026)
 
 
 class StepFailed(RuntimeError):
@@ -56,19 +57,20 @@ def plan_articles(plan: dict) -> str:
     lines = [
         "# TODAY'S PLAN",
         f"Date: {plan['date_long']} (Issue {plan['issue_no']})",
-        f"Feature A theme: {plan['feature_a']}",
-        f"Feature B theme: {plan['feature_b']}",
-        f"Opinion slot: {plan['opinion']} (fill only this one)",
+        f"Feature theme: {plan['feature']}",
+        f"Real English format: {plan['opinion']} (fill only this one)",
     ]
     if plan["opinion"] == "say_it_better":
         lines.append(f"Say It Better setting: {plan['setting']}")
+    lines.append(f"Thai Speaker's Trap category: {plan['trap']}")
     lines.append("Avoid these as ★ words: " + (", ".join(plan["avoid_star_words"]) or "none"))
     if plan["review_pool"]:
         pool = ", ".join(r["word"] for r in plan["review_pool"])
         lines.append(f"↺ review candidates (use 4 that fit naturally): {pool}")
     else:
         lines.append("↺ review candidates: none yet. Choose 4 high-frequency B2 words.")
-    for label, key in (("Opinion", "recent_opinions"), ("Features", "recent_features")):
+    for label, key in (("Real English", "recent_opinions"), ("Feature", "recent_features"),
+                       ("Thai Speaker's Trap", "recent_traps")):
         if plan[key]:
             lines.append(f"Recent {label} topics — do not repeat: " + " | ".join(plan[key][:14]))
     return "\n".join(lines)
@@ -78,30 +80,24 @@ def plan_lab(plan: dict, a: dict) -> str:
     lines = [
         "# TODAY'S PLAN",
         f"Language Lab activity: {plan['activity']}",
-        f"Thai Speaker's Trap category: {plan['trap']}",
-        f"Other Languages: {plan['language']}",
-        "★ words (in this order): " + " | ".join(a["star_words"]),
-        "↺ words (in this order): " + " | ".join(a["recycled_words"]),
-        f"Glossary entries needed: {len(a['star_words']) + len(a['recycled_words'])}",
+        f"Other Languages: {plan['language']} · everyday theme: {plan['phrase_theme']}",
     ]
-    if plan["recent_traps"]:
-        lines.append("Recent Thai Speaker's Traps — do not repeat: " + " | ".join(plan["recent_traps"][:14]))
     if plan["recent_language_notes"]:
-        lines.append(f"Recent {plan['language']} notes — do not repeat: " + " | ".join(plan["recent_language_notes"]))
+        lines.append(f"Already used for {plan['language']} — do not repeat: " +
+                     " | ".join(plan["recent_language_notes"][:40]))
+    lines += ["", "# TODAY'S WORDS IN CONTEXT (word bank order)"]
+    for w, kind, sentence in autofix.words_in_context(a):
+        lines.append(f"{kind} {w} — \"{checks.plain(sentence)}\"")
+    lines += ["", "# TODAY'S HEADLINES"]
+    lines += [checks.plain(x["headline"]) for x in [a["cover"], *a["world"], *a["thailand"], a["feature"]]]
     return "\n".join(lines)
 
 
 def sources_text(sources: list[dict]) -> str:
     out = ["# SOURCES"]
     for s in sources:
-        out += [f"## {s['id']} — story: {s['role']} — {s['source']} — {s['title']}", s["text"], ""]
-    return "\n".join(out)
-
-
-def articles_text(a: dict) -> str:
-    out = ["# TODAY'S ARTICLES"]
-    for name, text in checks.article_blocks(a).items():
-        out += [f"## {name}", text, ""]
+        short = " — SHORT" if s.get("thin") else ""
+        out += [f"## {s['id']} — story: {s['role']} — {s['source']} — {s['title']}{short}", s["text"], ""]
     return "\n".join(out)
 
 
@@ -146,10 +142,11 @@ def rebuild_site(cfg: dict, e) -> None:
         d["_prev"] = issues[i - 1]["plan"]["date"] if i else None
         out = DOCS / "issues" / f"{d['plan']['date']}.html"
         out.write_text(render.issue_page(e, paper, d["plan"], d["content"], d["sizes"], d["sources"],
-                                         d["_prev"], "../"), encoding="utf-8")
+                                         d["_prev"], "../", d.get("format", 1)), encoding="utf-8")
     latest = issues[-1]
     (DOCS / "index.html").write_text(render.issue_page(
-        e, paper, latest["plan"], latest["content"], latest["sizes"], latest["sources"], latest["_prev"], ""),
+        e, paper, latest["plan"], latest["content"], latest["sizes"], latest["sources"], latest["_prev"], "",
+        latest.get("format", 1)),
         encoding="utf-8")
     listing = [{"issue_no": d["plan"]["issue_no"], "date": d["plan"]["date"], "date_long": d["plan"]["date_long"],
                 "headline": checks.plain(d["content"]["cover"]["headline"])} for d in reversed(issues)]
@@ -164,6 +161,9 @@ def main() -> int:
     ap.add_argument("--provider", help="gemini | anthropic | mock")
     ap.add_argument("--news-fixture", help="offline news JSON for testing")
     ap.add_argument("--site-only", action="store_true", help="only rebuild HTML from saved issues")
+    ap.add_argument("--upgrade", action="store_true",
+                    help="backup run: if today's issue was written by the fallback model, "
+                         "try again with the primary models (keeps the issue if they are busy)")
     args = ap.parse_args()
 
     cfg = yaml.safe_load((ROOT / "config.yml").read_text(encoding="utf-8"))
@@ -176,6 +176,9 @@ def main() -> int:
         return 0
 
     day = date.fromisoformat(args.date) if args.date else today_in(cfg["timezone"])
+    for old in DRAFTS.glob("*.json"):          # drafts from earlier days are no longer useful
+        if old.stem < day.isoformat():
+            old.unlink()
     data_file = DATA / f"{day.isoformat()}.json"
     draft_file = DRAFTS / f"{day.isoformat()}.json"
     upgrade = False
@@ -184,13 +187,17 @@ def main() -> int:
         if not existing.get("fallback_used"):
             log(f"Issue for {day} already exists. Use --force to rebuild it.")
             return 0
+        if not args.upgrade:
+            log(f"Issue for {day} exists (written by the fallback model). "
+                "The backup run (--upgrade) will try the primary models.")
+            return 0
         upgrade = True
         log(f"Issue for {day} was written by the fallback model: trying again with the primary models.\n"
             "If they are still busy, the current issue stays online.")
 
     plan = make_plan(cfg, day, DATA)
     log(f"== {cfg['paper_name']} · Issue {plan['issue_no']} · {plan['date_long']}")
-    log(f"   {plan['weekday']}: {plan['feature_a']} / {plan['feature_b']} / {plan['opinion']} / "
+    log(f"   {plan['weekday']}: {plan['feature']} / {plan['opinion']} / "
         f"{plan['activity']} / {plan['trap']} / {plan['language']}")
     SUMMARY.append(f"## Issue {plan['issue_no']} · {plan['date_long']}")
 
@@ -227,7 +234,8 @@ def main() -> int:
         client.allow_fallback = False
 
     draft, draft_fallback = None, False
-    if draft_file.exists() and not args.force and not upgrade:
+    if draft_file.exists() and not args.force and not upgrade and \
+            json.loads(draft_file.read_text(encoding="utf-8")).get("format") == FORMAT:
         draft = json.loads(draft_file.read_text(encoding="utf-8"))
         log("\nFound today's finished articles from an earlier run: reusing them (step 1 skipped).")
         sources, a = draft["sources"], draft["articles"]
@@ -238,12 +246,14 @@ def main() -> int:
         log("\n[1/4] Collecting news")
         fixture = news.load_fixture(ROOT / args.news_fixture) if args.news_fixture else None
         pools = fixture["pools"] if fixture else news.collect(cfg, log)
-        try:
-            picks = news.pick_stories(pools)
-        except (ValueError, KeyError, IndexError) as err:
-            return finish_fail(f"Not enough news ({err}). Check the feed lines in the log.")
-        log(f"  picks: {picks}")
-        sources = fixture["sources"] if fixture and "sources" in fixture else news.gather_sources(pools, picks, log)
+        if fixture and "sources" in fixture:
+            sources = fixture["sources"]
+        else:
+            try:
+                picks, sources = news.select_sources(pools, plan["recent_news_titles"], log)
+            except (ValueError, KeyError, IndexError) as err:
+                return finish_fail(f"Not enough news ({err}). Check the feed lines in the log.")
+            log(f"  picks: {picks}")
 
         # 2. AI step 1: articles
         log("\n[2/4] Writing the articles")
@@ -264,15 +274,15 @@ def main() -> int:
         except LLMError as err:
             return finish_fail(str(err))
         notes += step_notes
-        draft_file.write_text(json.dumps({"sources": [{k: s[k] for k in ("id", "role", "source", "title", "url")}
+        draft_file.write_text(json.dumps({"sources": [{k: s.get(k) for k in ("id", "role", "source", "title", "url", "thin")}
                                                       for s in sources],
-                                          "articles": a, "notes": step_notes,
+                                          "format": FORMAT, "articles": a, "notes": step_notes,
                                           "fallback_used": bool(getattr(client, "used_fallback", False))},
                                          ensure_ascii=False, indent=1),
                               encoding="utf-8")
 
-    # 3. AI step 2: lab + glossary
-    log("\n[3/4] Writing the Language Lab and Glossary")
+    # 3. AI step 2: word bank + lab + other languages
+    log("\n[3/4] Writing the Word Bank, Language Lab and Other Languages")
     schema_b = lab_schema(len(a["star_words"]) + len(a["recycled_words"]))
 
     def finish_b(out):
@@ -283,7 +293,7 @@ def main() -> int:
 
     try:
         content, step_notes = run_step("lab", client, prompt("common", "lab"),
-                                       plan_lab(plan, a) + "\n\n" + articles_text(a), schema_b, finish_b, repairs)
+                                       plan_lab(plan, a), schema_b, finish_b, repairs)
     except StepFailed as err:
         return finish_fail(str(err) + "\n\nThe articles are saved; the next run will only redo this step.",
                            {"step": "lab"})
@@ -298,14 +308,14 @@ def main() -> int:
     for n in notes:
         log(f"    · {n}")
     saved = {
-        "plan": plan, "sources": [{k: s[k] for k in ("id", "role", "source", "title", "url")} for s in sources],
+        "format": FORMAT, "plan": plan, "sources": [{k: s.get(k) for k in ("id", "role", "source", "title", "url", "thin")} for s in sources],
         "content": content, "sizes": sizes, "notes": notes, "provider": provider, "requests": budget.log,
         "fallback_used": bool(getattr(client, "used_fallback", False)) or draft_fallback,
     }
     data_file.write_text(json.dumps(saved, ensure_ascii=False, indent=1), encoding="utf-8")
     draft_file.unlink(missing_ok=True)
     rebuild_site(cfg, e)
-    fb = " · ⚠️ written with the fallback model; the 06:27 run will try the primary models again" \
+    fb = " · ⚠️ written with the fallback model; the backup run will try the primary models again" \
         if saved["fallback_used"] else ""
     SUMMARY.append(f"✅ Published{' (rewritten with the primary model)' if upgrade else ''} · "
                    f"{sizes.get('total')} words · {budget.used} AI request(s){fb}\n\n"

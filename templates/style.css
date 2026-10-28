@@ -82,3 +82,26 @@ footer{margin-top:36px;border-top:3px double var(--rule);padding-top:8px;text-al
 .archive-list a{color:var(--ink);text-decoration:none;font-weight:700}
 .archive-list a:hover{text-decoration:underline}
 @media(max-width:640px){.archive-list li{flex-wrap:wrap;gap:2px 12px}.archive-list .d{min-width:0}}
+@media(min-width:800px){.feature .cols{column-count:2}}
+.feature h3{font-size:clamp(24px,3.6vw,32px)}
+.grid3{display:grid;gap:12px}
+@media(min-width:760px){.grid3{grid-template-columns:repeat(3,1fr)}}
+.wb-grid{display:grid;gap:12px}
+@media(min-width:760px){.wb-grid{grid-template-columns:1fr 1fr}}
+.wb-card{border:1px solid var(--rule);background:var(--box);padding:12px 14px}
+.wb-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.wb-word{font-family:"Playfair Display",serif;font-weight:700;font-size:19px}
+.wb-pos{font-style:italic;color:var(--muted);font-size:14px}
+.wb-thai{font-weight:600}
+.wb-def{margin:4px 0}
+.wb-coll{font-size:14px;margin:0 0 4px}
+.wb-card .ex{font-size:14px;margin:0}
+.wb-review{margin-top:14px}
+.wb-review li{margin-bottom:6px}
+.small-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+details.th{display:inline-block;border:0;padding:0;margin:0;vertical-align:baseline}
+details.th summary{list-style:none;display:inline-block;font-family:"Noto Serif Thai",serif;font-size:12px;font-weight:600;letter-spacing:0;text-transform:none;border:1px solid var(--rule);padding:0 6px;line-height:1.5;cursor:pointer}
+details.th summary::-webkit-details-marker{display:none}
+details.th[open] summary{display:none}
+details.th[open] summary + *{display:inline}
+details[open].th summary{margin:0}

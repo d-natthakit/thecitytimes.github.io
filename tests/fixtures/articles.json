@@ -1,9 +1,4 @@
 {
- "quick_route": [
-  "Read the Cover Story for the big picture on city freight and traffic.",
-  "Skim Thailand Today for two short local updates.",
-  "Finish with the Gap fill in the Language Lab to practise today's words."
- ],
  "star_words": [
   "roll out",
   "bottleneck",
@@ -30,6 +25,7 @@
    "Not everyone is convinced. Residents who live near the harbour worry about noise from engines and brakes in the middle of the night. Some drivers' groups also point out that night shifts are tiring and can be unsafe if workers do not get enough rest. The city has promised to measure noise levels and to limit the speed of trucks in residential areas.",
    "Experts say the idea is not new. Several cities have tried to spread deliveries across the day, with mixed results. The key, they argue, is cooperation. If ports, warehouses and shops all change their hours together, the night lanes can ease traffic. If only one group changes, trucks may simply wait somewhere else.",
    "Why does this matter beyond one sample city? Many fast-growing cities, including Bangkok, face the same problem: roads designed for fewer vehicles now carry far more goods. Online shopping has added millions of small deliveries. Moving some of that traffic to quieter hours is one of the cheapest ways to make roads work better, because it uses space that already exists.",
+   "There is also a human side to the plan. Night work changes family life, sleep and even the way neighbourhoods feel after dark. City officials say they will talk to drivers, warehouse staff and residents every month, so that problems can be fixed early rather than after complaints pile up.",
    "City officials say they will review the scheme after six months. If traffic improves and complaints stay low, the night lanes could become permanent. If not, the city says it will look for a different __approach__, such as new rail links to the port. For now, residents will watch closely to see whether their morning trip becomes a little easier."
   ],
   "source_ids": [
@@ -90,30 +86,6 @@
    ]
   }
  ],
- "feature_a": {
-  "headline": "Your Phone Knows When You Commute. Should It?",
-  "paragraphs": [
-   "Most smartphones quietly learn our daily habits. They notice when we leave home, which route we take and when we usually arrive at work. With this information, the phone can show the traffic before we ask, or remind us to leave early when the roads are busy.",
-   "For many people, this feels helpful. A phone that predicts your **commute** can save time and stress, especially in a city with heavy traffic. Map apps can suggest a faster route, and calendar apps can warn you that you will be late for a meeting.",
-   "However, the same data can reveal a lot about you. A record of where you go every day shows where you live, where you work and even where you spend your free time. If that data is shared with other companies, it could be used for advertising or sold to third parties.",
-   "The good news is that you can control much of it. Both major phone systems let you see which apps use your location. You can choose to share your location only while an app is open, or not at all. You can also delete your location history and turn off features that you do not use.",
-   "A sensible __approach__ is to review your settings every few months. Ask yourself a simple question for each app: does it really need to know where I am? A taxi app needs your location to pick you up. A torch app does not.",
-   "Technology can make daily life easier, but it works best when we understand the deal we are making. A few minutes in your settings can give you the benefits without giving away more than you want."
-  ],
-  "source_ids": []
- },
- "feature_b": {
-  "headline": "Why We Queue: Small Habits That Shape a Culture",
-  "paragraphs": [
-   "Visitors to Bangkok often notice how people line up neatly at train platforms, following arrows painted on the floor. The habit seems small, but it says a lot about how a city shares limited space.",
-   "Queuing is a kind of silent agreement. Everyone accepts a small delay so that the whole group moves smoothly. When the agreement works, nobody needs to give orders. When it breaks down, even a short wait can feel stressful and unfair.",
-   "Different cultures have different queuing styles. In some places, a queue is a straight line and cutting in is a serious offence. In others, a queue is more like a crowd, and people move forward when they see a gap. Neither style is wrong, but visitors can feel confused when the local rules are not written down.",
-   "Design plays a big role. Floor markings, barriers and clear signs make the right behaviour obvious. Train stations that mark where the doors will open help passengers wait at the side, so people getting off can leave quickly. Small details like these have a real __impact__ on how calm a busy place feels.",
-   "Technology is changing the queue too. Many restaurants and clinics now give customers a number by text message, so they can wait somewhere comfortable instead of standing in line. Some people love this, while others miss the clear feeling of a real line.",
-   "Next time you join a queue, notice its rules. Who stands where? How close do people stand? What happens if someone cuts in? These small moments are a quiet lesson in the culture around you."
-  ],
-  "source_ids": []
- },
  "two_takes": {
   "question": "Should offices stop serving free snacks?",
   "view_a": {
@@ -138,5 +110,24 @@
     "function": "contrast: introducing the opposite idea"
    }
   ]
+ },
+ "feature": {
+  "headline": "Your Phone Knows When You Commute. Should It?",
+  "paragraphs": [
+   "Most smartphones quietly learn our daily habits. They notice when we leave home, which route we take and when we usually arrive at work. With this information, the phone can show the traffic before we ask, or remind us to leave early when the roads are busy.",
+   "For many people, this feels helpful. A phone that predicts your **commute** can save time and stress, especially in a city with heavy traffic. Map apps can suggest a faster route, and calendar apps can warn you that you will be late for a meeting.",
+   "However, the same data can reveal a lot about you. A record of where you go every day shows where you live, where you work and even where you spend your free time. If that data is shared with other companies, it could be used for advertising or sold to third parties.",
+   "The good news is that you can control much of it. Both major phone systems let you see which apps use your location. You can choose to share your location only while an app is open, or not at all. You can also delete your location history and turn off features that you do not use.",
+   "A sensible __approach__ is to review your settings every few months. Ask yourself a simple question for each app: does it really need to know where I am? A taxi app needs your location to pick you up. A torch app does not.",
+   "Settings matter more than most people think. Small choices, repeated every day, can have a real __impact__ on how much of your life ends up stored on a server somewhere. Turning off one unnecessary permission takes seconds, but it protects you for years.",
+   "Technology can make daily life easier, but it works best when we understand the deal we are making. A few minutes in your settings can give you the benefits without giving away more than you want."
+  ],
+  "source_ids": []
+ },
+ "trap": {
+  "title": "Arrive at or arrive to?",
+  "wrong": "I arrived to the office at eight.",
+  "right": "I arrived at the office at eight.",
+  "explanation": "Thai speakers often think of ถึง as 'to', so they say 'arrive to'. In English we arrive at a building, arrive in a city, and never arrive to a place."
  }
 }

@@ -57,14 +57,14 @@ class Handler(BaseHTTPRequestHandler):
         pass
 
 
-def run_case(name, plan, expect_exit, expect_hits=None, keep=None):
+def run_case(name, plan, expect_exit, expect_hits=None, keep=None, extra=()):
     global PLAN
     PLAN = {k: list(v) for k, v in plan.items()}
     HITS.clear()
     work = keep or Path(tempfile.mkdtemp())
     if not keep:
         shutil.copytree(REPO, work, dirs_exist_ok=True, ignore=shutil.ignore_patterns("docs", "data"))
-    sys.argv = ["build.py", "--date", "2026-10-28", "--news-fixture", "tests/fixtures/news.json"]
+    sys.argv = ["build.py", "--date", "2026-10-27", "--news-fixture", "tests/fixtures/news.json", *extra]
     import build
     build.ROOT, build.DATA = work, work / "data" / "issues"
     build.DRAFTS, build.DOCS = work / "data" / "drafts", work / "docs"
@@ -105,20 +105,22 @@ def main():
                         {A: ["busy"] * 9, B: ["busy"] * 9}, 0,
                         [f"{A}:busy", f"{B}:busy", f"{A}:busy", f"{B}:busy", f"{A}:busy", f"{C}:ok",
                          f"{A}:busy", f"{C}:ok"])
-    saved = json.loads((work / "data" / "issues" / "2026-10-28.json").read_text())
+    saved = json.loads((work / "data" / "issues" / "2026-10-27.json").read_text())
     results.append(ok and saved["fallback_used"])
-    ok, _ = run_case("06:27 run, primary still busy → keeps the fallback issue (no fallback call)",
-                     {A: ["busy"] * 9, B: ["busy"] * 9}, 0, keep=work)
+    ok, _ = run_case("main run again (no --upgrade) → does nothing", {}, 0, [], keep=work)
+    results.append(ok)
+    ok, _ = run_case("backup run, primary still busy → keeps the fallback issue (no fallback call)",
+                     {A: ["busy"] * 9, B: ["busy"] * 9}, 0, keep=work, extra=["--upgrade"])
     results.append(ok and not HITS.count(f"{C}:ok"))
-    ok, _ = run_case("06:27 run, primary free → rewrites the issue with the primary model",
-                     {}, 0, [f"{A}:ok", f"{A}:ok"], keep=work)
-    saved = json.loads((work / "data" / "issues" / "2026-10-28.json").read_text())
+    ok, _ = run_case("backup run, primary free → rewrites the issue with the primary model",
+                     {}, 0, [f"{A}:ok", f"{A}:ok"], keep=work, extra=["--upgrade"])
+    saved = json.loads((work / "data" / "issues" / "2026-10-27.json").read_text())
     results.append(ok and not saved["fallback_used"])
     results.append(run_case("everything down → fails within the request budget",
                             {m: ["busy"] * 9 for m in (A, B, C)}, 1)[0])
     ok, work = run_case("lab step fails, articles kept as a draft",
                         {A: ["ok", "daily"], B: ["daily"], C: ["daily"]}, 1)
-    results.append(ok and (work / "data" / "drafts" / "2026-10-28.json").exists())
+    results.append(ok and (work / "data" / "drafts" / "2026-10-27.json").exists())
     ok, _ = run_case("next run reuses the draft → only 1 request", {}, 0, [f"{A}:ok"], keep=work)
     results.append(ok)
     print(f"\n{sum(results)}/{len(results)} cases passed")

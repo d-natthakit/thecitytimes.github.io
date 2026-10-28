@@ -55,10 +55,11 @@ def make_plan(cfg: dict, day: date, data_dir: Path) -> dict:
             continue
         for w in old["content"].get("star_words", []):
             if w.lower() not in {r["word"].lower() for r in review_pool}:
-                review_pool.append({"word": w, "taught_issue": old["plan"]["issue_no"], "days_ago": n})
+                review_pool.append({"word": w, "taught_issue": old["plan"]["issue_no"],
+                                    "taught_date": old["plan"]["date"], "days_ago": n})
 
     last4w = [h for h in history if date.fromisoformat(h["plan"]["date"]) >= day - timedelta(days=28)]
-    recent_traps = [h["content"].get("trap", {}).get("title", "") for h in last4w]
+    recent_traps = [(h["content"].get("trap") or {}).get("title", "") for h in last4w]
     recent_opinions = []
     for h in last4w:
         c = h["content"]
@@ -66,10 +67,25 @@ def make_plan(cfg: dict, day: date, data_dir: Path) -> dict:
             recent_opinions.append(c["two_takes"].get("question", ""))
         if c.get("say_it_better"):
             recent_opinions.append(c["say_it_better"].get("situation_title", ""))
-    recent_lang = [h["content"].get("other_language", {}).get("headline", "")
-                   for h in last4w if h["plan"].get("language") == language]
-    recent_features = [h["content"].get(k, {}).get("headline", "")
-                       for h in last4w for k in ("feature_a", "feature_b")]
+    recent_features = [(h["content"].get(k) or {}).get("headline", "")
+                       for h in last4w for k in ("feature", "feature_a", "feature_b")]
+
+    # Other Languages: words already shown for this language (last 120 days)
+    recent_lang = []
+    for h in history:
+        if h["plan"].get("language") != language or \
+                date.fromisoformat(h["plan"]["date"]) < day - timedelta(days=120):
+            continue
+        ol = h["content"].get("other_language") or {}
+        for key in ("root", "borrowed", "curious"):
+            item = ol.get(key) or {}
+            recent_lang.append(item.get("root") or item.get("word") or "")
+    # news covered in the last 3 issues: today's stories must be different
+    recent_news = [src.get("title", "") for h in history
+                   if date.fromisoformat(h["plan"]["date"]) >= day - timedelta(days=3)
+                   for src in h.get("sources", [])]
+    themes = cfg.get("phrase_themes") or ["everyday life"]
+    phrase_theme = themes[((issue_no - 1) // len(languages)) % len(themes)]
 
     return {
         "date": day.isoformat(),
@@ -77,6 +93,7 @@ def make_plan(cfg: dict, day: date, data_dir: Path) -> dict:
         "weekday": weekday,
         "issue_no": issue_no,
         "language": language,
+        "phrase_theme": phrase_theme,
         **rot,
         "avoid_star_words": avoid_star,
         "review_pool": review_pool,
@@ -84,4 +101,5 @@ def make_plan(cfg: dict, day: date, data_dir: Path) -> dict:
         "recent_opinions": [t for t in recent_opinions if t],
         "recent_language_notes": [t for t in recent_lang if t],
         "recent_features": [t for t in recent_features if t],
+        "recent_news_titles": [t for t in recent_news if t],
     }

@@ -1,9 +1,8 @@
 {% extends "base.html.j2" %}
-{% block title %}{{ paper }} · Issue {{ plan.issue_no }} · {{ plan.date_long }}{% endblock %}
-{% block description %}Issue {{ plan.issue_no }}: {{ c.cover.headline | plain }}{% endblock %}
-{% block nav %}{% if prev %}<a href="{{ root }}issues/{{ prev }}.html">&larr; Previous issue</a>{% endif %}{% endblock %}
+{% block title %}{{ paper }} · {{ plan.date_long }}{% endblock %}
+{% block description %}{{ plan.date_long }}: {{ c.cover.headline | plain }}{% endblock %}
+{% block nav %}{% if prev %}<a href="{{ root }}issues/{{ prev }}.html">&larr; Previous day</a>{% endif %}{% endblock %}
 {% block dateline %}
-    <span>Issue No. {{ plan.issue_no }}</span>
     <span>{{ plan.date_long }}</span>
     <span>Bangkok Edition</span>
 {% endblock %}
@@ -22,22 +21,6 @@
 {%- endmacro %}
 
 {% block content %}
-<section class="pair">
-  <div class="box">
-    <h4>Quick Route</h4>
-    <ul>
-      {% for b in c.quick_route %}<li>{{ b | md }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-  <div class="box">
-    <h4>Today's Words</h4>
-    <ul class="wordlist">
-      {% for w in c.star_words %}<li>{{ w }}</li>{% endfor %}
-    </ul>
-  </div>
-</section>
-
 <section class="cover">
   <h2 class="kicker">Cover Story</h2>
   <article>
@@ -63,22 +46,23 @@
   </div>
 </section>
 
-<section class="grid2">
-  <div>
-    <h2 class="kicker">Feature · {{ plan.feature_a }}</h2>
-    {{ article(c.feature_a, "B2", sizes.feature_a) }}
-  </div>
-  <div>
-    <h2 class="kicker">Feature · {{ plan.feature_b }}</h2>
-    {{ article(c.feature_b, "B2", sizes.feature_b) }}
-  </div>
+<section class="feature">
+  <h2 class="kicker">Feature · {{ plan.feature }}</h2>
+  <article>
+    <h3>{{ c.feature.headline | md }}</h3>
+    {{ meta("B2", sizes.feature) }}
+    <div class="cols">
+      {% for p in c.feature.paragraphs %}<p>{{ p | md }}</p>
+      {% endfor %}
+    </div>
+  </article>
 </section>
 
-{% if c.two_takes %}{% set t = c.two_takes %}
 <section>
-  <h2 class="kicker">Two Takes</h2>
+{% if c.two_takes %}{% set t = c.two_takes %}
+  <h2 class="kicker">Real English · Two Takes</h2>
   <h3 class="center">{{ t.question | md }}</h3>
-  <p class="meta center"><span class="level">C1 · {{ sizes.opinion | minutes }} min</span></p>
+  <p class="meta center"><span class="level">C1 · {{ sizes.real_english | minutes }} min</span></p>
   <div class="grid2">
     <article>
       <h4>{{ t.view_a.title }}</h4>
@@ -89,19 +73,10 @@
       {% for p in t.view_b.text | paras %}<p>{{ p | md }}</p>{% endfor %}
     </article>
   </div>
-  <div class="box" style="margin-top:16px">
-    <h4>Argument Phrases</h4>
-    <ul>
-      {% for ph in t.phrases %}<li><strong>{{ ph.phrase | plain }}</strong> — {{ ph.function }}</li>
-      {% endfor %}
-    </ul>
-  </div>
-</section>
 {% else %}{% set s = c.say_it_better %}
-<section>
-  <h2 class="kicker">Say It Better · {{ plan.setting | title }}</h2>
+  <h2 class="kicker">Real English · Say It Better · {{ plan.setting | title }}</h2>
   <h3>{{ s.situation_title | md }}</h3>
-  {{ meta("B2", sizes.opinion) }}
+  {{ meta("B2", sizes.real_english) }}
   <p>{{ s.situation | md }}</p>
   <div class="table-wrap"><table>
     <thead><tr><th>Register</th><th>How to say it</th></tr></thead>
@@ -111,31 +86,31 @@
       <tr><td>Casual</td><td>{{ s.casual | md }}</td></tr>
     </tbody>
   </table></div>
+{% endif %}
   <div class="pair" style="margin-top:16px">
     <div class="box">
+      {% if c.two_takes %}
+      <h4>Argument Phrases</h4>
+      <ul>{% for ph in c.two_takes.phrases %}<li><strong>{{ ph.phrase | plain }}</strong> — {{ ph.function }}</li>{% endfor %}</ul>
+      {% else %}
       <h4>Useful Phrases</h4>
-      <ul>{% for ph in s.useful_phrases %}<li>{{ ph | md }}</li>{% endfor %}</ul>
+      <ul>{% for ph in c.say_it_better.useful_phrases %}<li>{{ ph | md }}</li>{% endfor %}</ul>
+      {% endif %}
     </div>
     <div class="box">
-      <h4>Avoid This</h4>
-      <p class="wrong">{{ s.avoid.phrase | plain }}</p>
-      <p>{{ s.avoid.reason | md }}</p>
+      <h4>Thai Speaker's Trap</h4>
+      <p class="small-label">{{ plan.trap }}</p>
+      <p><strong>{{ c.trap.title | plain }}</strong></p>
+      <p class="wrong">{{ c.trap.wrong | plain }}</p>
+      <p class="right">{{ c.trap.right | plain }}</p>
+      <p>{{ c.trap.explanation | thai }}</p>
     </div>
   </div>
 </section>
-{% endif %}
 
 <section>
   <h2 class="kicker">Language Lab</h2>
   <div class="lab">
-    <div>
-      <h4>Word Workshop</h4>
-      <dl class="ww">
-        {% for w in c.word_workshop %}<dt>{{ w.word }}</dt>
-        <dd>{{ w.collocations | join(" · ") }}<br><span class="ex">{{ w.example | md }}</span></dd>
-        {% endfor %}
-      </dl>
-    </div>
     <div>
       <h4>{{ plan.activity }}</h4>
       <p class="inst">{{ c.activity.instructions | md }}</p>
@@ -146,46 +121,67 @@
       <p class="inst">Each sentence has one mistake. Find it and correct it.</p>
       <ol>{% for e in c.errors %}<li>{{ e.sentence | plain }}</li>{% endfor %}</ol>
     </div>
-    <div>
-      <h4>Thai Speaker's Trap · {{ plan.trap }}</h4>
-      <p><strong>{{ c.trap.title | plain }}</strong></p>
-      <p class="wrong">{{ c.trap.wrong | plain }}</p>
-      <p class="right">{{ c.trap.right | plain }}</p>
-      <p>{{ c.trap.explanation | thai }}</p>
-    </div>
   </div>
 </section>
 
+{% set n_star = c.star_words | length %}
 <section>
-  <h2 class="kicker">Other Languages · {{ plan.language }}</h2>
-  <article>
-    <h3>{{ c.other_language.headline | plain }}</h3>
-    {% for p in c.other_language.note | paras %}<p>{{ p | plain }}</p>{% endfor %}
-    <div class="table-wrap"><table>
-      <thead><tr><th>Phrase</th><th>Say it like</th><th>Meaning</th></tr></thead>
-      <tbody>
-        {% for ph in c.other_language.phrases %}<tr><td lang="{{ lang_code }}">{{ ph.phrase }}</td><td>{{ ph.pronunciation }}</td><td>{{ ph.meaning }}</td></tr>
-        {% endfor %}
-      </tbody>
-    </table></div>
-    <p style="margin-top:12px"><strong>Borrowed into English:</strong> {{ c.other_language.borrowed.word }} — {{ c.other_language.borrowed.note | plain }}</p>
-  </article>
+  <h2 class="kicker">Word Bank</h2>
+  <p class="inst">&#9733; today's new words, in <strong>bold</strong> in the articles · &#8634; review words from earlier days · tap <em>ไทย</em> for the Thai meaning</p>
+  <div class="wb-grid">
+    {% for g in c.word_bank[:n_star] %}<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; {{ g.word }}</span> <span class="wb-pos">{{ g.pos }}</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">{{ g.thai }}</span></details>
+      </div>
+      <p class="wb-def">{{ g.definition | plain }}</p>
+      {% if g.collocations %}<p class="wb-coll"><span class="small-label">Collocations</span> {{ g.collocations | join(" · ") }}</p>{% endif %}
+      {% if g.example %}<p class="ex">“{{ g.example | md }}”</p>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% if c.word_bank[n_star:] %}
+  <div class="box wb-review">
+    <h4>Review Words</h4>
+    <ul>
+      {% for g in c.word_bank[n_star:] %}<li><span class="rw"><strong>{{ g.word }}</strong></span> <span class="wb-pos">{{ g.pos }}</span> · {{ g.definition | plain }} <details class="th"><summary>ไทย</summary><span lang="th">{{ g.thai }}</span></details>{% if review_from.get(g.word | lower) %} <small>(from {{ review_from[g.word | lower] }})</small>{% endif %}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
 </section>
 
+{% set ol = c.other_language %}
 <section>
-  <h2 class="kicker">Glossary</h2>
-  <div class="table-wrap"><table class="glossary">
-    <thead><tr><th>Word</th><th>Meaning</th><th>Thai</th><th>In today's issue</th></tr></thead>
+  <h2 class="kicker">Other Languages · {{ plan.language }}</h2>
+  <h3>{{ plan.phrase_theme | capitalize }}</h3>
+  <p>{{ ol.theme_intro | plain }}</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>{{ plan.language }}</th><th>Say it like</th><th>Meaning</th></tr></thead>
     <tbody>
-      {% for g in c.glossary %}<tr>
-        <td>{% if loop.index <= 8 %}<strong>&#9733; {{ g.word }}</strong>{% else %}<span class="rw">{{ g.word }}</span>{% endif %} <em>({{ g.pos }})</em>{% if loop.index > 8 and review_from.get(g.word | lower) %}<br><small>from Issue {{ review_from[g.word | lower] }}</small>{% endif %}</td>
-        <td>{{ g.definition | plain }}</td>
-        <td lang="th">{{ g.thai }}</td>
-        <td class="ex">{{ g.example | md }}</td>
-      </tr>
+      {% for ph in ol.phrases %}<tr><td lang="{{ lang_code }}"><strong>{{ ph.phrase }}</strong></td><td>{{ ph.pronunciation }}</td><td>{{ ph.meaning }}</td></tr>
       {% endfor %}
     </tbody>
   </table></div>
+  <div class="grid3" style="margin-top:16px">
+    <div class="box">
+      <h4>Word Root</h4>
+      <p><strong lang="{{ lang_code }}">{{ ol.root.root }}</strong> = {{ ol.root.meaning }}</p>
+      <p><span class="small-label">In English</span> {{ ol.root.english_words }}</p>
+      <p class="ex">{{ ol.root.note | plain }}</p>
+    </div>
+    <div class="box">
+      <h4>Borrowed into English</h4>
+      <p><strong>{{ ol.borrowed.word }}</strong></p>
+      <p>{{ ol.borrowed.note | plain }}</p>
+    </div>
+    <div class="box">
+      <h4>Curious Word</h4>
+      <p><strong lang="{{ lang_code }}">{{ ol.curious.word }}</strong> <span class="wb-pos">{{ ol.curious.pronunciation }}</span></p>
+      <p>{{ ol.curious.meaning }}</p>
+      <p class="ex">{{ ol.curious.note | plain }}</p>
+    </div>
+  </div>
 </section>
 
 <section>
@@ -207,4 +203,4 @@
 </section>
 {% endblock %}
 
-{% block footer %}{{ paper }} · Issue {{ plan.issue_no }} · Written with AI from the sources listed above{% endblock %}
+{% block footer %}{{ paper }} · {{ plan.date_long }} · Written with AI from the sources listed above{% endblock %}

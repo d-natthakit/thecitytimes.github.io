@@ -283,14 +283,12 @@ def _obj(props: dict, title=None):
 def articles_schema(opinion: str) -> dict:
     article = _obj({"headline": _s(), "paragraphs": _arr(_s()), "source_ids": _arr(_s("e.g. S1"))})
     props = {
-        "quick_route": _arr(_s(), 3),
         "star_words": _arr(_s(), 8),
         "recycled_words": _arr(_s(), 4),
         "cover": article,
         "world": _arr(article, 2),
         "thailand": _arr(article, 2),
-        "feature_a": article,
-        "feature_b": article,
+        "feature": article,
     }
     if opinion == "two_takes":
         props["two_takes"] = _obj({
@@ -304,22 +302,22 @@ def articles_schema(opinion: str) -> dict:
             "situation_title": _s(), "situation": _s(),
             "formal": _s(), "neutral": _s(), "casual": _s(),
             "useful_phrases": _arr(_s(), 3),
-            "avoid": _obj({"phrase": _s(), "reason": _s()}),
         })
+    props["trap"] = _obj({"title": _s(), "wrong": _s(), "right": _s(), "explanation": _s()})
     return _obj(props, "articles")
 
 
-def lab_schema(glossary_size: int = 12) -> dict:
+def lab_schema(n_words: int = 12) -> dict:
     return _obj({
-        "word_workshop": _arr(_obj({"word": _s(), "collocations": _arr(_s(), 3), "example": _s()}), 3),
+        "word_bank": _arr(_obj({"word": _s(), "pos": _s("part of speech"), "definition": _s(),
+                                "thai": _s("Thai translation"), "collocations": _arr(_s())}), n_words),
         "activity": _obj({"instructions": _s(), "items": _arr(_s(), 6), "answers": _arr(_s(), 6)}),
         "errors": _arr(_obj({"sentence": _s(), "corrected": _s(), "reason": _s()}), 5),
-        "trap": _obj({"title": _s(), "wrong": _s(), "right": _s(), "explanation": _s()}),
         "other_language": _obj({
-            "headline": _s(), "note": _s(),
+            "theme_intro": _s(),
             "phrases": _arr(_obj({"phrase": _s(), "pronunciation": _s(), "meaning": _s()}), 3),
+            "root": _obj({"root": _s(), "meaning": _s(), "english_words": _s(), "note": _s()}),
             "borrowed": _obj({"word": _s(), "note": _s()}),
+            "curious": _obj({"word": _s(), "pronunciation": _s(), "meaning": _s(), "note": _s()}),
         }),
-        "glossary": _arr(_obj({"word": _s(), "pos": _s("part of speech"), "definition": _s(),
-                               "thai": _s("Thai translation")}), glossary_size),
     }, "lab")

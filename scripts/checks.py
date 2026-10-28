@@ -10,11 +10,11 @@ STAR = re.compile(r"\*\*(.+?)\*\*")
 MARKUP = re.compile(r"\*\*|__(?=[^_\s])|(?<=[^_\s])__")
 
 RANGES = {  # body words, from the editorial plan
-    "cover": (430, 470), "world": (140, 160), "thailand": (140, 160),
-    "feature_a": (280, 320), "feature_b": (280, 320), "opinion": (260, 300),
-    "language_lab": (380, 420), "other_language": (150, 180),
+    "cover": (470, 510), "world": (140, 160), "thailand": (140, 160),
+    "feature": (310, 370), "real_english": (260, 320),
+    "language_lab": (150, 260), "other_language": (140, 190),
 }
-TOTAL = (2800, 3000)
+TOTAL = (2300, 2700)
 CRITICAL_LOW, CRITICAL_HIGH = 0.6, 1.5      # only far-off lengths are worth a repair
 
 
@@ -32,7 +32,8 @@ def word_pattern(word: str) -> re.Pattern:
         if len(tok) >= 4 and tok[-1] in "ey":
             tok = tok[:-1]
         parts.append(re.escape(tok) + (r"\w*" if len(tok) >= 3 else ""))
-    return re.compile(r"\b" + r"[\s-]+".join(parts) if parts else r"$^", re.I)
+    # (?<![A-Za-z]) instead of \b so that __word__ and **word** markup still match
+    return re.compile(r"(?<![A-Za-z])" + r"[\s-]+".join(parts) if parts else r"$^", re.I)
 
 
 def strings(obj, path=""):
@@ -51,24 +52,22 @@ def strings(obj, path=""):
 def article_blocks(c: dict) -> dict[str, str]:
     def art(a):
         return a["headline"] + "\n" + "\n".join(a["paragraphs"])
-    blocks = {"cover": art(c["cover"]), "feature_a": art(c["feature_a"]), "feature_b": art(c["feature_b"])}
+    blocks = {"cover": art(c["cover"]), "feature": art(c["feature"])}
     for i, a in enumerate(c["world"], 1):
         blocks[f"world_{i}"] = art(a)
     for i, a in enumerate(c["thailand"], 1):
         blocks[f"thailand_{i}"] = art(a)
     if c.get("two_takes"):
         t = c["two_takes"]
-        blocks["opinion"] = "\n".join([t["question"], t["view_a"]["text"], t["view_b"]["text"]])
+        blocks["real_english"] = "\n".join([t["question"], t["view_a"]["text"], t["view_b"]["text"]])
     elif c.get("say_it_better"):
         s = c["say_it_better"]
-        blocks["opinion"] = "\n".join([s["situation"], s["formal"], s["neutral"], s["casual"]])
+        blocks["real_english"] = "\n".join([s["situation"], s["formal"], s["neutral"], s["casual"]])
     return blocks
 
 
 def lab_text(c: dict) -> str:
     parts = []
-    for w in c.get("word_workshop", []):
-        parts += [w["word"], *w["collocations"], w["example"]]
     act = c.get("activity", {})
     parts += [act.get("instructions", ""), *act.get("items", []), *act.get("answers", [])]
     for e in c.get("errors", []):
@@ -81,16 +80,15 @@ def section_words(c: dict) -> dict[str, int]:
     for key in ("world", "thailand"):
         for i, a in enumerate(c[key], 1):
             out[f"{key}_{i}"] = sum(nwords(p) for p in a["paragraphs"])
-    for key in ("feature_a", "feature_b"):
-        out[key] = sum(nwords(p) for p in c[key]["paragraphs"])
-    op = c.get("two_takes") or c.get("say_it_better") or {}
-    out["opinion"] = sum(nwords(t) for _, t in strings(op))
-    if "word_workshop" in c:
-        lab = {k: c[k] for k in ("word_workshop", "errors", "trap")}
-        lab["activity"] = {k: c["activity"][k] for k in ("instructions", "items")}
+    out["feature"] = sum(nwords(p) for p in c["feature"]["paragraphs"])
+    op = {"slot": c.get("two_takes") or c.get("say_it_better") or {}, "trap": c.get("trap") or {}}
+    out["real_english"] = sum(nwords(t) for _, t in strings(op))
+    if "activity" in c:
+        lab = {"errors": [e["sentence"] for e in c["errors"]],
+               "activity": [c["activity"]["instructions"], *c["activity"]["items"]]}
         out["language_lab"] = sum(nwords(t) for _, t in strings(lab))
         out["other_language"] = sum(nwords(t) for _, t in strings(c["other_language"]))
-        out["glossary"] = sum(nwords(t) for _, t in strings(c["glossary"]))
+        out["word_bank"] = sum(nwords(t) for _, t in strings(c.get("word_bank", [])))
     out["total"] = sum(nwords(t) for _, t in strings(c))
     return out
 
@@ -110,10 +108,9 @@ def _length(sizes: dict, names: list[str], critical: list, notes: list):
 
 def _scripts(c: dict, keys: tuple, critical: list, notes: list):
     for path, text in strings({k: c[k] for k in keys if k in c}):
-        if THAI.search(text) and not (path.startswith("glossary") and path.endswith(".thai")) \
-                and path != "trap.explanation":
+        if THAI.search(text) and path != "trap.explanation":
             critical.append(f"Thai text is not allowed in {path}; write it in English")
-        if CJK.search(text) and not path.startswith("other_language"):
+        if CJK.search(text):
             critical.append(f"Chinese/Japanese characters are not allowed in {path}")
 
 
@@ -125,7 +122,7 @@ def check_articles(c: dict, plan: dict, sources: list[dict]) -> tuple[list[str],
         if len(c["thailand"]) != 2:
             critical.append("thailand must have exactly 2 articles")
         if not c.get(plan["opinion"]):
-            critical.append(f"the opinion slot today must be {plan['opinion']}")
+            critical.append(f"the Real English format today must be {plan['opinion']}")
         sizes = section_words(c)
     except (KeyError, TypeError, IndexError) as e:
         return [f"JSON structure is wrong or incomplete (missing {e})"], notes
@@ -159,10 +156,16 @@ def check_articles(c: dict, plan: dict, sources: list[dict]) -> tuple[list[str],
         if sum(s["role"].startswith(f"thailand_{i}") for s in sources) == 1:
             notes.append(f"thailand_{i} has only one outlet as a source")
 
-    _scripts(c, ("quick_route", "cover", "world", "thailand", "feature_a", "feature_b",
-                 "two_takes", "say_it_better", "star_words", "recycled_words"), critical, notes)
-    _length(sizes, ["cover", "world_1", "world_2", "thailand_1", "thailand_2",
-                    "feature_a", "feature_b", "opinion"], critical, notes)
+    if not c.get("trap", {}).get("wrong") or not c.get("trap", {}).get("right"):
+        critical.append("trap needs a wrong sentence and a right sentence")
+    _scripts(c, ("cover", "world", "thailand", "feature", "two_takes", "say_it_better", "trap",
+                 "star_words", "recycled_words"), critical, notes)
+    # stories with little source text may be shorter: never push the AI to pad them
+    thin = {s["role"].split(" ")[0] for s in sources if s.get("thin")}
+    _length(sizes, [n for n in ("cover", "world_1", "world_2", "thailand_1", "thailand_2") if n not in thin] +
+            ["feature", "real_english"], critical, notes)
+    for n in sorted(thin):
+        notes.append(f"{n}: little source text available ({sizes.get(n)} words written)")
     return critical, notes
 
 
@@ -173,30 +176,36 @@ def check_lab(c: dict, plan: dict) -> tuple[list[str], list[str]]:
             critical.append("activity must have 6 items and 6 answers")
         if len(c["errors"]) != 5:
             critical.append("errors must have exactly 5 sentences")
-        if len(c["word_workshop"]) != 3:
-            critical.append("word_workshop must have 3 words")
-        if len(c["other_language"]["phrases"]) != 3:
+        ol = c["other_language"]
+        if len(ol["phrases"]) != 3:
             critical.append("other_language must have 3 phrases")
+        if not (ol["root"]["root"] and ol["borrowed"]["word"] and ol["curious"]["word"]):
+            critical.append("other_language needs root, borrowed and curious words")
         sizes = section_words(c)
     except (KeyError, TypeError, IndexError) as e:
         return [f"JSON structure is wrong or incomplete (missing {e})"], notes
 
     expected = len(c["star_words"]) + len(c["recycled_words"])
-    if len(c["glossary"]) != expected:
-        critical.append(f"glossary must have one entry for each of the {expected} words given")
-    for g in c["glossary"]:
+    if len(c["word_bank"]) != expected:
+        critical.append(f"word_bank must have one entry for each of the {expected} words given")
+    for g in c["word_bank"]:
         if not THAI.search(g.get("thai", "")):
-            critical.append(f"glossary entry '{g.get('word')}' needs a Thai translation in Thai script")
+            critical.append(f"word_bank entry '{g.get('word')}' needs a Thai translation in Thai script")
+        if g["word"].lower() in {w.lower() for w in c["star_words"]} and len(g.get("collocations", [])) < 2:
+            notes.append(f"word_bank: few collocations for '{g['word']}'")
+        if not g.get("example"):
+            notes.append(f"word_bank: no example sentence found for '{g['word']}'")
 
     lab = lab_text(c)
-    missing = [w for w in c["star_words"] if not word_pattern(w).search(lab)]
-    if missing:
-        notes.append(f"★ words not practised in the Language Lab: {', '.join(missing)}")
-    ws = {w["word"].lower() for w in c["word_workshop"]}
-    if not ws <= {w.lower() for w in c["star_words"]}:
-        notes.append("word_workshop uses a word that is not a ★ word")
+    practised = [w for w in c["star_words"] if word_pattern(w).search(lab)]
+    if len(practised) < 5:
+        notes.append(f"only {len(practised)} ★ words are practised in the Language Lab")
 
-    _scripts(c, ("word_workshop", "activity", "errors", "trap", "other_language", "glossary"), critical, notes)
+    for path, text in strings({k: c[k] for k in ("word_bank", "activity", "errors", "other_language")}):
+        if THAI.search(text) and not path.endswith(".thai"):
+            critical.append(f"Thai text is not allowed in {path}; write it in English")
+        if CJK.search(text):
+            critical.append(f"Chinese/Japanese characters are not allowed in {path}")
     _length(sizes, ["language_lab", "other_language"], critical, notes)
     return critical, notes
 

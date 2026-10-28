@@ -143,59 +143,75 @@ def _similar(a: str, b: str) -> bool:
     return bool(ta and tb) and len(ta & tb) / len(ta | tb) >= 0.3
 
 
-def pick_stories(pools: dict) -> dict:
-    """Choose stories without AI: widely reported first, then newest, no near-duplicates."""
+MIN_WORDS = {"cover": 350, "world": 120, "thailand": 120}   # source text needed to write the article
+LIMIT = {"cover": 900, "world": 450, "thailand": 450}       # max words sent to the AI (saves tokens)
+
+
+def select_sources(pools: dict, recent_titles=(), log=print, max_tries: int = 4) -> tuple[dict, list[dict]]:
+    """Choose today's stories without AI and download their text.
+
+    - widely reported first, then newest; no near-duplicates
+    - skips stories already covered in the last few issues
+    - if a page is paywalled or blocked (too little text), tries the next story
+    - cover and Thai stories also get a second outlet when one exists
+    """
     chosen: list[dict] = []
+    sources: list[dict] = []
 
-    def take(items, n):
-        got = []
-        for prefer_new_source in (True, False):
-            for it in items:
-                if len(got) == n:
-                    return got
-                if it in chosen or any(_similar(it["title"], c["title"]) for c in chosen):
-                    continue
-                if prefer_new_source and any(it["source"] == g["source"] for g in got):
-                    continue
-                got.append(it)
-                chosen.append(it)
-        return got
+    def fresh(it):
+        return it not in chosen and \
+            not any(_similar(it["title"], t) for t in recent_titles) and \
+            not any(_similar(it["title"], c["title"]) for c in chosen)
 
-    def reach(it):
-        return len({o["source"] for o in it["also"]})
+    cache: dict[str, str] = {}
+
+    def fetch(item, limit):
+        if item["link"] not in cache:
+            cache[item["link"]] = article_text(item["link"], f"{item['title']}. {item['summary']}", limit)
+        return cache[item["link"]]
+
+    def fill(role: str, items: list, kind: str) -> str:
+        best, tries = None, 0
+        # stable sort: keeps the ranking, but prefers outlets not used yet
+        for it in sorted(items, key=lambda x: any(x["source"] == c["source"] for c in chosen)):
+            if not fresh(it):
+                continue
+            tries += 1
+            parts = [(it, fetch(it, LIMIT[kind]))]
+            words = len(parts[0][1].split())
+            if it["also"] and (kind != "world" or words < MIN_WORDS[kind]):
+                second = it["also"][0]
+                parts.append((second, fetch(second, 300)))
+                words += len(parts[1][1].split())
+            if best is None or words > best[0]:
+                best = (words, it, parts)
+            if words >= MIN_WORDS[kind]:
+                break
+            log(f"  · {role}: only {words} words of source text for “{it['title'][:50]}”, trying another story")
+            if tries >= max_tries:
+                break
+        if not best:
+            raise ValueError(f"no usable story for {role}")
+        words, it, parts = best
+        chosen.append(it)
+        for n, (item, text) in enumerate(parts):
+            sid = f"S{len(sources) + 1}"
+            r = role if n == 0 else role + " (second source)"
+            sources.append({"id": sid, "role": r, "source": item["source"], "title": item["title"],
+                            "url": item["link"], "text": text, "thin": words < MIN_WORDS[kind]})
+            log(f"  {sid} {r}: {item['source']} — {item['title'][:70]} ({len(text.split())} words)")
+        return it["id"]
+
+    def reach(items):
+        first = next((it for it in items if fresh(it)), None)
+        return len({o["source"] for o in first["also"]}) if first else -1
 
     w, t = pools["world"], pools["thailand"]
-    cover_pool = t if t and w and reach(t[0]) > reach(w[0]) else w
-    cover = take(cover_pool, 1)
-    world = take(w, 2)
-    thai = take(t, 2)
-    if not cover or len(world) < 2 or len(thai) < 2:
-        raise ValueError("not enough different stories to fill the issue")
-    return {"cover": cover[0]["id"], "world": [i["id"] for i in world], "thailand": [i["id"] for i in thai]}
-
-
-def gather_sources(pools: dict, picks: dict, log=print) -> list[dict]:
-    """Download text for picked stories. Thai stories get one extra outlet when available."""
-    index = {it["id"]: it for items in pools.values() for it in items}
-    sources = []
-
-    def add(item, role):
-        sid = f"S{len(sources) + 1}"
-        text = article_text(item["link"], f"{item['title']}. {item['summary']}")
-        sources.append({"id": sid, "role": role, "source": item["source"], "title": item["title"],
-                        "url": item["link"], "text": text})
-        log(f"  {sid} {role}: {item['source']} — {item['title'][:70]} ({len(text.split())} words)")
-        return sid
-
-    roles = [("cover", picks["cover"])] + \
-        [(f"world_{n}", i) for n, i in enumerate(picks["world"], 1)] + \
-        [(f"thailand_{n}", i) for n, i in enumerate(picks["thailand"], 1)]
-    for role, pid in roles:
-        item = index[pid]
-        add(item, role)
-        if item["pool"] == "thailand" and item["also"]:
-            add(item["also"][0], role + " (second source)")
-    return sources
+    cover_from_thai = reach(t) > reach(w)
+    picks = {"cover": fill("cover", t if cover_from_thai else w, "cover")}
+    picks["world"] = [fill(f"world_{n}", w, "world") for n in (1, 2)]
+    picks["thailand"] = [fill(f"thailand_{n}", t, "thailand") for n in (1, 2)]
+    return picks, sources
 
 
 def load_fixture(path: Path) -> dict:
