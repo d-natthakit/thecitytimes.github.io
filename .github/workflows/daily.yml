@@ -4,8 +4,8 @@ on:
   schedule:
     # GitHub may start scheduled runs 1–3 hours late, so they start early.
     # For exact times, use an outside timer (see README: "เวลารันไม่ตรง").
-    - cron: "5 20 * * *"    # 03:05 Bangkok: main run
-    - cron: "5 22 * * *"    # 05:37 Bangkok: backup run. Builds the issue if it is missing,
+    - cron: "10 20 * * *"   # 03:1o Bangkok: main run
+    - cron: "15 22 * * *"   # 05:15 Bangkok: backup run. Builds the issue if it is missing,
                             # or rewrites it if the main run had to use the fallback model.
                             # Keep BACKUP_CRON below exactly the same as this line.
   workflow_dispatch:
