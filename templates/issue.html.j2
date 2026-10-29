@@ -1,4 +1,8 @@
 {% extends "base.html.j2" %}
+{#- One day of THE CITY TIMES.
+    Order: Cover · World | Thailand · Feature · Real English (+ Trap) · Language Lab ·
+    Word Bank · Other Languages · Answer Key · Sources.
+    Text filters: md (★ **word**, ↺ __word__), plain (no markup), thai (tags Thai script). -#}
 {% block title %}{{ paper }} · {{ plan.date_long }}{% endblock %}
 {% block description %}{{ plan.date_long }}: {{ c.cover.headline | plain }}{% endblock %}
 {% block nav %}{% if prev %}<a href="{{ root }}issues/{{ prev }}.html">&larr; Previous day</a>{% endif %}{% endblock %}

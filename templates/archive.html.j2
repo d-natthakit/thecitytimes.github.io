@@ -1,8 +1,9 @@
 {% extends "base.html.j2" %}
+{#- List of every edition, newest first. -#}
 {% block title %}{{ paper }} · Archive{% endblock %}
 {% block dateline %}
     <span>Archive</span>
-    <span>{{ issues | length }} day{{ "s" if issues | length != 1 }}</span>
+    <span>{{ issues | length }} edition{{ "s" if issues | length != 1 }}</span>
     <span>Bangkok Edition</span>
 {% endblock %}
 {% block content %}

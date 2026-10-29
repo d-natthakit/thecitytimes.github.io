@@ -1,9 +1,25 @@
+/* ── Colours: sepia (default) and black & white ─────────────── */
 :root{--paper:#f3ead7;--ink:#2a2118;--muted:#6b5a45;--rule:#2a2118;--box:#ebdfc6}
 html[data-theme="bw"]{--paper:#ffffff;--ink:#111111;--muted:#555555;--rule:#111111;--box:#f1f1f1}
+
+/* ── Base ───────────────────────────────────────────────────── */
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Serif 4",Georgia,"Noto Serif Thai",serif;font-size:17px;line-height:1.62}
 .page{max-width:1080px;margin:0 auto;padding:16px 16px 48px}
+section{margin-top:30px}
+h3{font-family:"Playfair Display",serif;font-weight:700;font-size:24px;line-height:1.2;margin:0 0 6px}
+h4{font-family:"Playfair Display",serif;font-size:16px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px}
+p{margin:0 0 .8em}
+ol{margin:0;padding-left:1.5em}
+li{margin-bottom:4px}
+[lang="th"]{font-family:"Noto Serif Thai",serif}
+.center{text-align:center}
+.inst{font-style:italic;color:var(--muted)}
+.ex{font-style:italic;color:var(--muted)}
+.small-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+/* ── Toolbar and masthead ───────────────────────────────────── */
 .toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;font-size:13px}
 .toolbar nav{display:flex;gap:14px;flex-wrap:wrap}
 .toolbar a{color:var(--ink)}
@@ -14,80 +30,42 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Serif
 .ears span:last-child{text-align:right}
 .title{font-family:"UnifrakturMaguntia",serif;font-weight:400;font-size:clamp(42px,10vw,104px);line-height:1;margin:6px 0 12px}
 .dateline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 16px;border-top:1px solid var(--rule);border-bottom:3px double var(--rule);padding:6px 0;font-size:12px;text-transform:uppercase;letter-spacing:.1em}
-section{margin-top:30px}
+
+/* ── Articles ───────────────────────────────────────────────── */
 .kicker{font-family:"Playfair Display",serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;border-top:2px solid var(--rule);border-bottom:1px solid var(--rule);padding:4px 0;margin:0 0 14px}
-h3{font-family:"Playfair Display",serif;font-weight:700;font-size:24px;line-height:1.2;margin:0 0 6px}
-h4{font-family:"Playfair Display",serif;font-size:16px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px}
-p{margin:0 0 .8em}
-.center{text-align:center}
 .meta{margin:0 0 10px;font-size:14px}
 .level{display:inline-block;border:1px solid var(--ink);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:1px 6px}
 .cover h3{font-size:clamp(30px,5vw,46px);font-weight:900;text-align:center}
 .cover .meta{text-align:center}
+.feature h3{font-size:clamp(24px,3.6vw,32px)}
 .cols{column-gap:32px;column-rule:1px solid var(--rule)}
-@media(min-width:800px){.cover .cols{column-count:2}}
+@media(min-width:800px){.cover .cols,.feature .cols{column-count:2}}
 .dropcap::first-letter{float:left;font-family:"Playfair Display",serif;font-weight:900;font-size:4.2em;line-height:.8;padding:6px 8px 0 0}
+.stack>article+article{margin-top:20px;padding-top:16px;border-top:1px dashed var(--muted)}
+.rw::after{content:"\21BA";font-size:.75em;vertical-align:super;margin-left:1px;color:var(--muted)}   /* ↺ after review words */
+
+/* ── Layout grids (one column on phones) ────────────────────── */
 .grid2,.pair{display:grid;gap:24px}
+.grid3,.wb-grid{display:grid;gap:12px}
 @media(min-width:760px){
  .grid2{grid-template-columns:1fr 1fr;gap:0}
  .grid2>*:first-child{padding-right:24px}
  .grid2>*:last-child{padding-left:24px;border-left:1px solid var(--rule)}
  .pair{grid-template-columns:1fr 1fr;gap:16px}
+ .grid3{grid-template-columns:repeat(3,1fr)}
+ .wb-grid{grid-template-columns:1fr 1fr}
 }
-.stack>article+article{margin-top:20px;padding-top:16px;border-top:1px dashed var(--muted)}
+
+/* ── Boxes, Real English, Language Lab ──────────────────────── */
 .box{border:1px solid var(--rule);background:var(--box);padding:14px 16px}
 .box ul{margin:0;padding-left:1.2em}
-.wordlist{list-style:none;padding:0!important;margin:0;display:flex;flex-wrap:wrap;gap:6px 16px;font-weight:700}
-.wordlist li::before{content:"\2605\00a0"}
-.rw::after{content:"\21BA";font-size:.75em;vertical-align:super;margin-left:1px;color:var(--muted)}
 .lab{border:3px double var(--rule);background:var(--box);padding:18px 16px}
 .lab>div+div{margin-top:18px;padding-top:14px;border-top:1px solid var(--rule)}
-.inst{font-style:italic;color:var(--muted)}
-ol{margin:0;padding-left:1.5em}
-li{margin-bottom:4px}
-.ww{margin:0}
-.ww dt{font-weight:700}
-.ww dd{margin:0 0 10px}
-.ex{font-style:italic;color:var(--muted)}
-.wrong::before{content:"\2717\00a0";font-weight:700}
-.right::before{content:"\2713\00a0";font-weight:700}
 .wrong{text-decoration:line-through;text-decoration-thickness:1px}
-.table-wrap{overflow-x:auto}
-table{width:100%;border-collapse:collapse;font-size:15px}
-th,td{border-bottom:1px solid var(--rule);padding:6px 8px;text-align:left;vertical-align:top}
-th{font-family:"Playfair Display",serif;text-transform:uppercase;font-size:12px;letter-spacing:.08em;border-bottom:2px solid var(--rule)}
-[lang="th"]{font-family:"Noto Serif Thai",serif}
-@media(max-width:640px){
- .glossary thead{display:none}
- .glossary tr{display:block;border-bottom:1px solid var(--rule);padding:8px 0}
- .glossary td{display:block;border:0;padding:2px 0}
-}
-details{border:1px solid var(--rule);padding:10px 14px}
-summary{cursor:pointer;font-family:"Playfair Display",serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
-details[open] summary{margin-bottom:12px}
-.sources{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
-.sources a{color:inherit}
-footer{margin-top:36px;border-top:3px double var(--rule);padding-top:8px;text-align:center;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
-@page{size:A4;margin:14mm}
-@media print{
- html[data-theme]{--paper:#ffffff;--box:#ffffff}
- .toolbar{display:none}
- body{font-size:11pt}
- article,.box,tr{break-inside:avoid}
-}
-.archive-list{list-style:none;padding:0;margin:0}
-.archive-list li{display:flex;gap:16px;align-items:baseline;border-bottom:1px solid var(--rule);padding:10px 0;margin:0}
-.archive-list .no{font-family:"Playfair Display",serif;font-weight:700;min-width:4.5em}
-.archive-list .d{color:var(--muted);font-size:13px;min-width:11em}
-.archive-list a{color:var(--ink);text-decoration:none;font-weight:700}
-.archive-list a:hover{text-decoration:underline}
-@media(max-width:640px){.archive-list li{flex-wrap:wrap;gap:2px 12px}.archive-list .d{min-width:0}}
-@media(min-width:800px){.feature .cols{column-count:2}}
-.feature h3{font-size:clamp(24px,3.6vw,32px)}
-.grid3{display:grid;gap:12px}
-@media(min-width:760px){.grid3{grid-template-columns:repeat(3,1fr)}}
-.wb-grid{display:grid;gap:12px}
-@media(min-width:760px){.wb-grid{grid-template-columns:1fr 1fr}}
+.wrong::before{content:"\2717\00a0";font-weight:700}   /* ✗ */
+.right::before{content:"\2713\00a0";font-weight:700}   /* ✓ */
+
+/* ── Word Bank ──────────────────────────────────────────────── */
 .wb-card{border:1px solid var(--rule);background:var(--box);padding:12px 14px}
 .wb-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
 .wb-word{font-family:"Playfair Display",serif;font-weight:700;font-size:19px}
@@ -98,10 +76,36 @@ footer{margin-top:36px;border-top:3px double var(--rule);padding-top:8px;text-al
 .wb-card .ex{font-size:14px;margin:0}
 .wb-review{margin-top:14px}
 .wb-review li{margin-bottom:6px}
-.small-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+/* Thai meaning hidden behind a small "ไทย" button */
 details.th{display:inline-block;border:0;padding:0;margin:0;vertical-align:baseline}
-details.th summary{list-style:none;display:inline-block;font-family:"Noto Serif Thai",serif;font-size:12px;font-weight:600;letter-spacing:0;text-transform:none;border:1px solid var(--rule);padding:0 6px;line-height:1.5;cursor:pointer}
+details.th summary{list-style:none;display:inline-block;margin:0;font-family:"Noto Serif Thai",serif;font-size:12px;font-weight:600;letter-spacing:0;text-transform:none;border:1px solid var(--rule);padding:0 6px;line-height:1.5;cursor:pointer}
 details.th summary::-webkit-details-marker{display:none}
 details.th[open] summary{display:none}
-details.th[open] summary + *{display:inline}
-details[open].th summary{margin:0}
+details.th[open] summary+*{display:inline}
+
+/* ── Tables, answer key, sources, archive, footer ───────────── */
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{border-bottom:1px solid var(--rule);padding:6px 8px;text-align:left;vertical-align:top}
+th{font-family:"Playfair Display",serif;text-transform:uppercase;font-size:12px;letter-spacing:.08em;border-bottom:2px solid var(--rule)}
+details{border:1px solid var(--rule);padding:10px 14px}
+summary{cursor:pointer;font-family:"Playfair Display",serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+details[open] summary{margin-bottom:12px}
+.sources{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.sources a{color:inherit}
+.archive-list{list-style:none;padding:0;margin:0}
+.archive-list li{display:flex;gap:16px;align-items:baseline;border-bottom:1px solid var(--rule);padding:10px 0;margin:0}
+.archive-list .d{color:var(--muted);font-size:13px;min-width:13em}
+.archive-list a{color:var(--ink);text-decoration:none;font-weight:700}
+.archive-list a:hover{text-decoration:underline}
+@media(max-width:640px){.archive-list li{flex-wrap:wrap;gap:2px 12px}.archive-list .d{min-width:0}}
+footer{margin-top:36px;border-top:3px double var(--rule);padding-top:8px;text-align:center;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Print on A4 (all hidden answers and Thai meanings are shown) ── */
+@page{size:A4;margin:14mm}
+@media print{
+ html[data-theme]{--paper:#ffffff;--box:#ffffff}
+ .toolbar{display:none}
+ body{font-size:11pt}
+ article,.box,.wb-card,tr{break-inside:avoid}
+}

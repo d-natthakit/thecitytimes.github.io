@@ -1,14 +1,15 @@
+# THE CITY TIMES — builds the day's issue and publishes it on GitHub Pages.
 name: Daily issue
 
 on:
   schedule:
-    # GitHub may start scheduled runs 1–3 hours late, so they start early.
-    # For exact times, use an outside timer (see README: "เวลารันไม่ตรง").
-    - cron: "10 20 * * *"   # 03:1o Bangkok: main run
-    - cron: "15 22 * * *"   # 05:15 Bangkok: backup run. Builds the issue if it is missing,
+    # GitHub cron uses UTC (Bangkok = UTC+7) and may start runs late when busy.
+    # For exact times, use an outside timer (README: "เวลารันไม่ตรง").
+    - cron: "10 20 * * *"   # 03:10 Bangkok — main run
+    - cron: "15 22 * * *"   # 05:15 Bangkok — backup run: builds the issue if it is missing,
                             # or rewrites it if the main run had to use the fallback model.
                             # Keep BACKUP_CRON below exactly the same as this line.
-  workflow_dispatch:
+  workflow_dispatch:        # "Run workflow" button (and outside timers)
     inputs:
       date:
         description: "Issue date YYYY-MM-DD (leave empty for today)"
@@ -29,18 +30,18 @@ on:
         default: gemini
 
 permissions:
-  contents: write
-  pages: write
+  contents: write           # save the issue to the repository
+  pages: write              # publish the website
   id-token: write
 
-concurrency:
+concurrency:                # never two runs at the same time
   group: daily-issue
   cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 45     # includes up to 15 min of waiting for a busy Gemini
     steps:
       - uses: actions/checkout@v4
 
@@ -59,9 +60,9 @@ jobs:
           PROVIDER: ${{ inputs.provider || vars.PROVIDER || 'gemini' }}
           ISSUE_DATE: ${{ inputs.date }}
           FORCE: ${{ inputs.force }}
-          SCHEDULE: ${{ github.event.schedule }}
           MODE: ${{ inputs.mode }}
-          BACKUP_CRON: "37 21 * * *"
+          SCHEDULE: ${{ github.event.schedule }}
+          BACKUP_CRON: "15 22 * * *"
         run: |
           args=()
           if [ "$SCHEDULE" = "$BACKUP_CRON" ] || [ "$MODE" = "upgrade" ]; then args+=(--upgrade); fi
@@ -77,6 +78,7 @@ jobs:
           path: data/failed/
           if-no-files-found: ignore
 
+      # Runs even after a failure, so finished articles (data/drafts) are kept for the next run.
       - name: Save to the repository
         if: always()
         run: |
@@ -87,8 +89,7 @@ jobs:
             echo "Nothing new to save."
           else
             git commit -m "Daily run $(TZ=Asia/Bangkok date +%F)"
-            # in case the repo was edited on GitHub while this run was working
-            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
+            git pull --rebase --autostash origin "${GITHUB_REF_NAME}"   # in case the repo was edited meanwhile
             git push
           fi
 

@@ -12,7 +12,7 @@
 | Word Bank: คำ ★ 8 คำ (ความหมาย, collocations, ประโยคจากข่าว, คำแปลไทยกดดู) + คำทบทวน ↺ 4 คำ | | |
 | Other Languages: วลีในชีวิตประจำวัน, รากศัพท์, คำที่อังกฤษยืมมา, คำน่าสนใจ (เยอรมัน → สเปน → ฝรั่งเศส → อิตาลี) | | 140–190 คำ |
 
-หน้าเว็บแสดงฉบับตามวันที่ (ไม่แสดงเลขฉบับ) เลขฉบับยังใช้ภายในระบบสำหรับหมุนภาษาและธีมวลี
+ฉบับที่ 1 คือวันศุกร์ 30 ต.ค. 2026 (`start_date` ใน `config.yml`) หน้าเว็บแสดงฉบับตามวันที่ ไม่แสดงเลขฉบับ เลขฉบับยังใช้ภายในระบบสำหรับหมุนภาษาและธีมวลี ข้อมูลฉบับก่อนวันเริ่มจะถูกลบออกจากเว็บและ Archive ให้เองในการรันครั้งแรก
 
 ธีม Feature: อา. Business / Money · จ. Health & Wellbeing · อ. Tech & Science · พ. Arts & Entertainment · พฤ. Home / Environment · ศ. Food & Travel · ส. Cultures / Digital Life (แก้ได้ที่ `rotation` ใน `config.yml`)
 
@@ -21,7 +21,7 @@
 ## ระบบทำงานอย่างไร
 
 ```
-02:05 น. (เวลาไทย) GitHub Actions เริ่มทำงาน (GitHub มักเริ่มช้า 1-3 ชม.)
+03:10 น. (เวลาไทย) GitHub Actions เริ่มทำงาน (GitHub อาจเริ่มช้าในช่วงคนใช้เยอะ)
  │
  ├─ 1. คำนวณแผนของวัน (โค้ด ไม่ใช้ AI)
  │     วันที่ · เลขฉบับ · ธีมตามวัน · ภาษาประจำฉบับ
@@ -55,13 +55,45 @@
 
 ---
 
+## ติดตั้ง (ประมาณ 15 นาที)
+
+### 1. ขอ Gemini API key (ฟรี)
+1. เข้า <https://aistudio.google.com> แล้วล็อกอินด้วยบัญชี Google
+2. กด **Get API key** → **Create API key**
+3. คัดลอก key เก็บไว้ (ไม่ต้องผูกบัตรเครดิต)
+
+### 2. สร้าง repository บน GitHub
+1. สร้าง repo ใหม่ เช่น `bkk-gem-post` ตั้งเป็น **Public** (GitHub Pages ใช้ฟรีกับ repo สาธารณะ)
+2. อัปโหลดไฟล์ทั้งหมดในโฟลเดอร์นี้ขึ้น repo
+   - วิธีง่ายสุด: หน้า repo → **Add file → Upload files** → ลากไฟล์และโฟลเดอร์ทั้งหมดเข้าไป → Commit
+   - ⚠️ **macOS ซ่อนโฟลเดอร์ `.github`** ถ้าหลังอัปโหลดไม่เห็นโฟลเดอร์นี้ใน repo ให้กด **Add file → Create new file** ตั้งชื่อ `.github/workflows/daily.yml` แล้ววางเนื้อหาของไฟล์นั้นลงไป
+
+### 3. ใส่ API key เป็น Secret
+**Settings → Secrets and variables → Actions → New repository secret**
+- Name: `GEMINI_API_KEY`
+- Secret: วาง key จากข้อ 1
+
+### 4. เปิด GitHub Pages
+**Settings → Pages → Build and deployment → Source:** เลือก **GitHub Actions**
+
+### 5. ทดสอบรันครั้งแรก
+1. แท็บ **Actions** → ถ้ามีปุ่มให้เปิดใช้ workflows ให้กดเปิด
+2. เลือก **Daily issue** → **Run workflow** → **Run workflow**
+3. รอ 3-8 นาที เมื่อขึ้นเครื่องหมายถูกสีเขียว เว็บจะอยู่ที่
+   `https://<ชื่อผู้ใช้ GitHub>.github.io/bkk-gem-post/`
+4. กดเข้าไปในรอบที่รันเสร็จเพื่อดู **Summary** จะแสดงจำนวนคำและข้อสังเกตของฉบับนั้น
+
+หลังจากนี้ระบบจะรันเองทุกวัน รอบหลัก **03:10 น.** และรอบสำรอง **05:15 น.** GitHub อาจเริ่มรันช้ากว่าเวลาที่ตั้งในช่วงที่คนใช้เยอะ ถ้าต้องการเวลาตรง ดูหัวข้อ "เวลารันไม่ตรง" (รอบสำรองไม่ทำอะไรถ้าฉบับวันนั้นออกแล้วด้วยโมเดลหลัก)
+
+---
+
 ## การใช้งานประจำวัน
 
 | ต้องการ | ทำอย่างไร |
 |---|---|
 | สร้างฉบับวันนี้ใหม่ | Actions → Daily issue → Run workflow → ติ๊ก **force** |
 | ลองเขียนฉบับที่ใช้ Flash-Lite ใหม่ด้วยโมเดลหลัก | Run workflow → mode = **upgrade** |
-| สร้างฉบับของวันที่ระบุ | Run workflow → ใส่ **date** เช่น `2026-10-28` |
+| สร้างฉบับของวันที่ระบุ | Run workflow → ใส่ **date** เช่น `2026-11-02` |
 | เปลี่ยนแหล่งข่าว | แก้ `news.feeds` ใน `config.yml` |
 | เปลี่ยนธีมหรือภาษา | แก้ `rotation` / `languages` ใน `config.yml` |
 | ปรับวิธีเขียน ระดับภาษา | แก้ `prompts/articles.md` (บทความ) หรือ `prompts/lab.md` (แบบฝึกหัด) |
@@ -84,12 +116,50 @@
 - **บทความข่าวสั้นกว่าเป้า** ถ้าเว็บข่าวบล็อกหรือติด paywall ระบบจะลองข่าวอื่นก่อน ถ้าไม่มีจริงๆ จะให้ AI เขียนสั้นลงแทนการเติมเนื้อหาเอง (ดูได้ใน Notes ว่า "little source text")
 - **`unrecognized arguments`** ไฟล์ `scripts/build.py` กับ `.github/workflows/daily.yml` มาจากคนละรุ่น ให้อัปโหลดทั้งสองไฟล์จาก zip ล่าสุดพร้อมกัน
 
+## เวลารันไม่ตรง
+
+ตารางเวลาของ GitHub Actions **ไม่รับประกันเวลา** ช่วงที่คนใช้เยอะอาจเริ่มช้าไป 1-3 ชั่วโมง และบางครั้งข้ามรอบไปเลย จึงมีทางเลือก 2 แบบ
+
+**แบบ ก. (ตั้งไว้แล้ว ไม่ต้องทำอะไร)** ตั้งเวลาให้เช้ากว่าเวลาอ่านจริง รอบหลัก 03:10 น. ถ้าช้า 2-3 ชั่วโมงก็ยังเสร็จราว 06:00 น. และถ้าต้องการให้เผื่อมากขึ้น แก้เลขในบรรทัด `cron:` ของ `.github/workflows/daily.yml` (เวลา UTC = เวลาไทย − 7)
+
+**แบบ ข. (เวลาตรงภายใน 1 นาที)** ใช้บริการตั้งเวลาฟรีภายนอก เช่น [cron-job.org](https://cron-job.org) ให้สั่ง GitHub รันตามเวลาที่ต้องการ
+1. สร้าง token: GitHub → Settings (ของบัญชี) → Developer settings → **Fine-grained tokens** → Generate new token
+   - Repository access: **Only select repositories** → เลือก repo นี้
+   - Permissions → Repository permissions → **Actions: Read and write**
+   - ตั้งวันหมดอายุ และจดไว้ว่าต้องสร้างใหม่ก่อนหมด
+2. ที่ cron-job.org สมัครแล้วกด **Create cronjob** สร้าง 2 งาน
+   - URL: `https://api.github.com/repos/<ชื่อผู้ใช้>/<ชื่อ repo>/actions/workflows/daily.yml/dispatches`
+   - Schedule: งานแรก 03:10 งานที่สอง 05:15 (หรือเวลาที่ต้องการ), Time zone: **Asia/Bangkok**
+   - Advanced → Request method: **POST**
+   - Headers:
+     - `Authorization: Bearer <token จากข้อ 1>`
+     - `Accept: application/vnd.github+json`
+     - `X-GitHub-Api-Version: 2022-11-28`
+   - Request body งานแรก: `{"ref":"main","inputs":{"mode":"normal"}}`
+   - Request body งานที่สอง: `{"ref":"main","inputs":{"mode":"upgrade"}}`
+3. กด **Test run** ถ้าได้ผลเป็น `204` แปลว่าใช้ได้ และจะเห็นรอบใหม่ในแท็บ Actions
+
+เก็บตารางเวลาของ GitHub ไว้เป็นตัวสำรองได้ เพราะถ้าฉบับวันนั้นออกแล้ว รอบที่มาทีหลังจะไม่ทำอะไร ถ้าอยากให้รันตามเวลาภายนอกอย่างเดียว ให้ลบบรรทัด `cron:` ทั้งสองบรรทัดใน workflow
+
+## ใช้ Claude แทน Gemini (มีค่าใช้จ่าย)
+
+Claude API ไม่มี free tier มีแค่เครดิตทดลองตอนสมัคร หลังจากนั้นจ่ายตามการใช้งาน
+1. สร้าง key ที่ <https://console.anthropic.com> แล้วเพิ่ม Secret ชื่อ `ANTHROPIC_API_KEY`
+2. รันครั้งเดียว: Run workflow → provider = `anthropic`
+3. ใช้ประจำ: **Settings → Secrets and variables → Actions → Variables** → สร้าง `PROVIDER` = `anthropic`
+
+## ข้อควรทราบ
+
+- Free tier ของ Gemini: Google อาจนำข้อมูลที่ส่งไปใช้ปรับปรุงผลิตภัณฑ์ ซึ่งในระบบนี้เป็นแค่ข่าวสาธารณะ
+- Free tier ไม่มี Google Search grounding ระบบจึงดึงข่าวจาก RSS เอง ข้อเท็จจริงทุกข้อมาจากข่าวที่ดาวน์โหลดมา และมีลิงก์ใน Sources ท้ายฉบับ
+- เว็บเป็นสาธารณะ ใครมีลิงก์ก็เปิดอ่านได้
+
 ## ทดสอบในเครื่อง (ไม่ต้องมี API key)
 
 ```bash
 pip install -r requirements.txt
-PROVIDER=mock python scripts/build.py --date 2026-10-27 --news-fixture tests/fixtures/news.json
-python tests/fake_gemini_test.py    # จำลอง Gemini ล่ม/โควตาหมด 12 กรณี (ไม่ใช้โควตาจริง)
+PROVIDER=mock python scripts/build.py --date 2026-10-31 --news-fixture tests/fixtures/news.json
+python tests/fake_gemini_test.py    # จำลอง Gemini ล่ม/โควตาหมด 13 กรณี (ไม่ใช้โควตาจริง)
 # เปิด docs/index.html ดูผล แล้วลบ docs/index.html docs/archive.html docs/issues/* data/issues/*.json ก่อน push
 ```
 
@@ -107,9 +177,10 @@ scripts/llm.py             เชื่อม Gemini / Claude และ JSON sch
 scripts/checks.py          ตรวจคุณภาพ (แยกปัญหาร้ายแรง / ข้อสังเกต)
 scripts/autofix.py         แก้ปัญหาเล็กๆ ด้วยโค้ด
 scripts/render.py          สร้าง HTML
-templates/                 หน้าตาเว็บ (issue_v1 = รูปแบบของฉบับที่ 1–2)
+templates/                 หน้าตาเว็บ (base = กรอบหน้า, issue = หนึ่งวัน, archive = รายการทุกฉบับ, style.css)
 data/issues/               เนื้อหาทุกฉบับ (ความจำของระบบ)
 data/drafts/               บทความที่เขียนเสร็จแล้วแต่ฉบับยังไม่ออก
 docs/                      เว็บที่เผยแพร่
+tests/                     ข้อมูลทดสอบ + จำลอง Gemini ล่ม (fake_gemini_test.py)
 .github/workflows/daily.yml ตารางเวลาและขั้นตอนบน GitHub
 ```

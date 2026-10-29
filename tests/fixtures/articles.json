@@ -129,5 +129,18 @@
   "wrong": "I arrived to the office at eight.",
   "right": "I arrived at the office at eight.",
   "explanation": "Thai speakers often think of ถึง as 'to', so they say 'arrive to'. In English we arrive at a building, arrive in a city, and never arrive to a place."
- }
+ },
+ "say_it_better": {
+  "situation_title": "Asking a colleague to move a meeting",
+  "situation": "A client call has come up at the same time as tomorrow's team meeting. You want to move the meeting politely but clearly.",
+  "formal": "Dear Ms Lee, I am afraid an urgent client call has been scheduled at the same time as tomorrow's team meeting. Would it be possible to move our meeting to Thursday morning? I would like to cut back on delays for both teams, so I can send a short update before then if that helps.",
+  "neutral": "Hi Anna, a client call has just come up at the same time as tomorrow's meeting. Could we move it to Thursday morning instead? I can share a quick update by email before then so nobody is waiting on me.",
+  "casual": "Hey Tom, something came up with a client tomorrow, so I can't make the meeting. Can we push it to Thursday? I'll drop you a quick update before then.",
+  "useful_phrases": [
+   "Would it be possible to...?",
+   "Something has come up.",
+   "Does Thursday work for you?"
+  ]
+ },
+ "_note": "OFFLINE TEST DATA (fictional). Has both two_takes and say_it_better; the test AI returns only the one the schema asks for."
 }

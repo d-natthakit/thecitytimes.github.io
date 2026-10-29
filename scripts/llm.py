@@ -1,21 +1,26 @@
-"""AI clients for Gemini (free tier) and Claude (paid API), plus an offline mock.
+"""AI clients: Gemini (free tier), Claude (paid API) and an offline Mock.
 
-Every HTTP request counts against a per-run budget, so one bad morning can
-never burn through the free daily quota."""
+Every client has one method, `json(system, user, schema)`, that returns a dict.
+Every HTTP request counts against a per-run Budget, so one bad morning can
+never use up the free daily quota.
+"""
 import json
 import os
 import re
 import time
 from pathlib import Path
+from typing import NamedTuple
 
 import requests
 
 
 class LLMError(RuntimeError):
-    pass
+    """The AI could not give a usable answer."""
 
 
 class Budget:
+    """Counts AI requests in this run and keeps a short log for the run summary."""
+
     def __init__(self, limit: int):
         self.limit, self.used, self.log = limit, 0, []
 
@@ -29,6 +34,7 @@ class Budget:
 
 
 def parse_json(text: str) -> dict:
+    """Read a JSON object from an AI answer, tolerating ``` fences or extra text."""
     text = re.sub(r"^```(?:json)?\s*|\s*```$", "", (text or "").strip())
     try:
         return json.loads(text)
@@ -39,17 +45,26 @@ def parse_json(text: str) -> dict:
         return json.loads(text[start:end + 1])
 
 
-def _wait_seconds(resp: requests.Response, default: int) -> int:
-    m = re.search(r'"retryDelay":\s*"(\d+)', resp.text)
-    return min(int(m.group(1)) + 2, 90) if m else default
+# ---------- Gemini ----------
+
+class Result(NamedTuple):
+    kind: str                 # ok | busy (wait and retry) | skip (try another model) | dead (skip all run)
+    info: str = ""
+    wait: int | None = None   # seconds suggested by Google, for "busy"
+    data: dict | None = None
 
 
 class Gemini:
-    """Primary models are retried with growing waits while Google is busy (HTTP 503),
-    up to retry_wait_minutes per run. Only then is the fallback model used."""
+    """Free-tier Gemini.
+
+    Primary models take turns. While Google answers 503/429 ("busy"), the client
+    waits longer each time (1, 2, 4, 8 min) up to `retry_wait_minutes` per run.
+    Only then is the fallback model used. A model whose daily quota is gone or
+    whose name does not exist is skipped for the rest of the run.
+    """
     BASE = os.environ.get("GEMINI_BASE_URL", "https://generativelanguage.googleapis.com")
 
-    def __init__(self, models, budget: Budget, log=print, timeout=240, wait_minutes=15):
+    def __init__(self, models: dict | list, budget: Budget, log=print, timeout=240, wait_minutes=15):
         self.key = os.environ.get("GEMINI_API_KEY")
         if not self.key:
             raise LLMError("GEMINI_API_KEY is not set.")
@@ -59,34 +74,37 @@ class Gemini:
             self.primary, self.fallback = list(models), []
         self.budget, self.log, self.timeout = budget, log, timeout
         self.wait_left = wait_minutes * 60
-        self.allow_fallback = True
-        self.dead = set()                 # out of daily quota or not found: skip for this run
-        self.used = []                    # (model, "primary"|"fallback") for each answered step
+        self.allow_fallback = True        # False in the backup "upgrade" run
+        self.dead: set[str] = set()
+        self.used: list[tuple[str, str]] = []   # (model, "primary" | "fallback") per answer
         self.no_schema = self.no_thinking = False
 
-    # ---- one HTTP request ----
-    def _body(self, system, user, schema, temperature):
+    @property
+    def used_fallback(self) -> bool:
+        return any(tier == "fallback" for _, tier in self.used)
+
+    def _body(self, system, user, schema, temperature) -> dict:
         gen = {"temperature": temperature, "maxOutputTokens": 65536, "responseMimeType": "application/json"}
         if schema and not self.no_schema:
             gen["responseJsonSchema"] = schema
         if not self.no_thinking:
-            gen["thinkingConfig"] = {"thinkingLevel": "low"}
+            gen["thinkingConfig"] = {"thinkingLevel": "low"}   # less thinking = faster, fewer cut-off answers
         return {"systemInstruction": {"parts": [{"text": system}]},
                 "contents": [{"role": "user", "parts": [{"text": user}]}],
                 "generationConfig": gen}
 
-    def _call(self, model, system, user, schema, temperature):
-        """Returns (kind, value): ok/data, busy/seconds, skip/reason (try another model), dead/reason."""
-        for _ in range(3):                # loop only to drop an option Google rejects
+    def _call(self, model, system, user, schema, temperature) -> Result:
+        """One request to one model, translated into a Result."""
+        for _ in range(3):   # repeats only if Google rejects an optional setting
             self.budget.take()
             try:
                 r = requests.post(f"{self.BASE}/v1beta/models/{model}:generateContent",
                                   json=self._body(system, user, schema, temperature),
                                   headers={"x-goog-api-key": self.key}, timeout=self.timeout)
             except requests.Timeout:
-                return "skip", f"no answer within {self.timeout}s"
+                return Result("skip", f"no answer within {self.timeout}s")
             except requests.RequestException as e:
-                return "busy", f"network error {e.__class__.__name__}", 30
+                return Result("busy", f"network error {e.__class__.__name__}", 30)
             body = r.text
             if r.status_code == 400 and "responsejsonschema" in body.lower().replace("_", "") and not self.no_schema:
                 self.no_schema = True
@@ -97,99 +115,97 @@ class Gemini:
                 self.log("  ! thinking option not accepted; continuing without it")
                 continue
             break
+
         if r.status_code == 429:
             if re.search(r"PerDay|per day|per_day", body, re.I):
-                return "dead", "daily quota used up"
-            return "busy", "rate limit (per minute)", _wait_seconds(r, 60)
+                return Result("dead", "daily quota used up")
+            m = re.search(r'"retryDelay":\s*"(\d+)', body)
+            return Result("busy", "rate limit (per minute)", min(int(m.group(1)) + 2, 90) if m else 60)
         if r.status_code in (500, 502, 503, 504):
-            return "busy", f"HTTP {r.status_code} high demand", None
+            return Result("busy", f"HTTP {r.status_code} high demand")
         if r.status_code == 404:
-            return "dead", "model not found — update models.gemini in config.yml"
+            return Result("dead", "model not found — update models.gemini in config.yml")
         if r.status_code != 200:
-            return "skip", f"HTTP {r.status_code} {body[:200]}"
+            return Result("skip", f"HTTP {r.status_code} {body[:200]}")
+
         data = r.json()
         cand = (data.get("candidates") or [{}])[0]
-        reason = cand.get("finishReason")
-        text = "".join(p.get("text", "") for p in (cand.get("content") or {}).get("parts") or []
-                       if not p.get("thought"))
-        usage = data.get("usageMetadata", {})
-        if reason not in (None, "STOP"):
-            return "skip", f"answer stopped early ({reason})"
+        if cand.get("finishReason") not in (None, "STOP"):
+            return Result("skip", f"answer stopped early ({cand.get('finishReason')})")
+        parts = (cand.get("content") or {}).get("parts") or []
+        text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
         try:
             out = parse_json(text)
         except (LLMError, json.JSONDecodeError) as e:
-            return "skip", f"answer was not valid JSON ({e})"
-        self.log(f"  ok: {model} · in {usage.get('promptTokenCount')} / out {usage.get('candidatesTokenCount')}"
-                 f" / thinking {usage.get('thoughtsTokenCount', 0)} tokens")
-        return "ok", out
+            return Result("skip", f"answer was not valid JSON ({e})")
+        u = data.get("usageMetadata", {})
+        self.log(f"  ok: {model} · in {u.get('promptTokenCount')} / out {u.get('candidatesTokenCount')}"
+                 f" / thinking {u.get('thoughtsTokenCount', 0)} tokens")
+        return Result("ok", data=out)
 
-    def _sleep(self, seconds):
+    def _attempt(self, model, tier, *args) -> Result:
+        res = self._call(model, *args)
+        if res.kind == "ok":
+            self.used.append((model, tier))
+            self.budget.note(model, "ok")
+        else:
+            self.budget.note(model, res.info)
+            self.log(f"  ! {model}: {res.info}")
+            if res.kind == "dead":
+                self.dead.add(model)
+        return res
+
+    def _sleep(self, seconds: int):
         seconds = max(1, min(seconds, self.wait_left))
         self.log(f"  … waiting {seconds}s (wait time left this run: {self.wait_left - seconds}s)")
         time.sleep(seconds)
         self.wait_left -= seconds
 
-    # ---- one AI answer ----
     def json(self, system: str, user: str, schema: dict | None = None, temperature: float = 0.7) -> dict:
+        args = (system, user, schema, temperature)
         last = "no model available"
 
-        def attempt(model, tier):
-            nonlocal last
-            res = self._call(model, system, user, schema, temperature)
-            kind = res[0]
-            if kind == "ok":
-                self.budget.note(model, "ok")
-                self.used.append((model, tier))
-                return res
-            last = f"{model}: {res[1]}"
-            self.budget.note(model, res[1])
-            self.log(f"  ! {last}")
-            if kind == "dead":
-                self.dead.add(model)
-            return res
-
-        # primary models: rotate, waiting longer each time Google is busy
-        skipped, k, backoff = set(), 0, 60
+        # 1) primary models take turns; wait longer each time Google is busy
+        skipped, turn, backoff = set(), 0, 60
         while True:
             pool = [m for m in self.primary if m not in self.dead and m not in skipped]
             if not pool:
                 break
-            model = pool[k % len(pool)]
-            k += 1
-            res = attempt(model, "primary")
-            if res[0] == "ok":
-                return res[1]
-            if res[0] == "skip":
+            model = pool[turn % len(pool)]
+            turn += 1
+            res = self._attempt(model, "primary", *args)
+            if res.kind == "ok":
+                return res.data
+            last = f"{model}: {res.info}"
+            if res.kind == "skip":
                 skipped.add(model)
-            elif res[0] == "busy":
+            elif res.kind == "busy":
                 if self.wait_left <= 0:
                     break
-                self._sleep(res[2] or backoff)
+                self._sleep(res.wait or backoff)
                 backoff = min(backoff * 2, 480)
 
+        # 2) fallback model(s): one retry after 30 s if busy
         if not self.allow_fallback:
             raise LLMError(f"primary models unavailable. Last problem: {last}")
-        for model in self.fallback:
-            if model in self.dead:
-                continue
+        for model in (m for m in self.fallback if m not in self.dead):
             for retry in range(2):
-                res = attempt(model, "fallback")
-                if res[0] == "ok":
-                    return res[1]
-                if res[0] != "busy" or retry:
+                res = self._attempt(model, "fallback", *args)
+                if res.kind == "ok":
+                    return res.data
+                last = f"{model}: {res.info}"
+                if res.kind != "busy" or retry:
                     break
                 time.sleep(30)
         raise LLMError(f"Gemini could not answer. Last problem: {last}")
 
-    @property
-    def used_fallback(self) -> bool:
-        return any(tier == "fallback" for _, tier in self.used)
 
+# ---------- Claude (paid) ----------
 
 class Anthropic:
     URL = "https://api.anthropic.com/v1/messages"
 
-    def __init__(self, models, budget: Budget, log=print):
+    def __init__(self, models: list, budget: Budget, log=print):
         self.key = os.environ.get("ANTHROPIC_API_KEY")
         if not self.key:
             raise LLMError("ANTHROPIC_API_KEY is not set.")
@@ -236,8 +252,10 @@ class Anthropic:
         raise LLMError(f"Claude could not answer. Last problem: {last}")
 
 
+# ---------- offline tests ----------
+
 class Mock:
-    """Offline provider for tests: answers from tests/fixtures/<task>.json."""
+    """Answers from tests/fixtures/<schema title>.json (articles.json, lab.json)."""
 
     def __init__(self, fixture_dir: Path, budget: Budget, log=print):
         self.dir, self.budget, self.log = fixture_dir, budget, log
@@ -246,7 +264,9 @@ class Mock:
         self.budget.take()
         task = (schema or {}).get("title", "articles")
         self.budget.note("mock", task)
-        return json.loads((self.dir / f"{task}.json").read_text(encoding="utf-8"))
+        answer = json.loads((self.dir / f"{task}.json").read_text(encoding="utf-8"))
+        wanted = (schema or {}).get("properties", answer)
+        return {k: v for k, v in answer.items() if k in wanted}   # e.g. only today's Real English format
 
 
 def make_client(provider: str, cfg: dict, root: Path, budget: Budget, log=print):
@@ -260,7 +280,7 @@ def make_client(provider: str, cfg: dict, root: Path, budget: Budget, log=print)
     raise LLMError(f"Unknown provider: {provider}")
 
 
-# ---------- JSON schemas ----------
+# ---------- JSON schemas for the two AI steps ----------
 
 def _s(desc=None):
     return {"type": "string", **({"description": desc} if desc else {})}
@@ -281,6 +301,7 @@ def _obj(props: dict, title=None):
 
 
 def articles_schema(opinion: str) -> dict:
+    """Step 1: news, feature, Real English (one format) + trap, and the day's words."""
     article = _obj({"headline": _s(), "paragraphs": _arr(_s()), "source_ids": _arr(_s("e.g. S1"))})
     props = {
         "star_words": _arr(_s(), 8),
@@ -308,6 +329,7 @@ def articles_schema(opinion: str) -> dict:
 
 
 def lab_schema(n_words: int = 12) -> dict:
+    """Step 2: word bank (one entry per ★/↺ word), Language Lab, Other Languages."""
     return _obj({
         "word_bank": _arr(_obj({"word": _s(), "pos": _s("part of speech"), "definition": _s(),
                                 "thai": _s("Thai translation"), "collocations": _arr(_s())}), n_words),
