@@ -1,0 +1,398 @@
+{
+ "plan": {
+  "date": "2026-10-30",
+  "date_long": "Friday, 30 October 2026",
+  "weekday": "Fri",
+  "issue_no": 1,
+  "language": "German",
+  "phrase_theme": "greetings & small talk",
+  "feature": "Food & Travel",
+  "opinion": "say_it_better",
+  "setting": "social & small talk",
+  "activity": "Mini crossword clues",
+  "trap": "Direct translation from Thai",
+  "avoid_star_words": [],
+  "review_pool": [],
+  "recent_traps": [],
+  "recent_opinions": [],
+  "recent_features": [],
+  "recent_language_notes": [],
+  "recent_news_titles": []
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "Al Jazeera",
+   "title": "Patrick Stewart, ‘Star Trek’ Captain Picard and ‘X-Men’ actor, dies at 86",
+   "url": "https://www.aljazeera.com/editorial/2026/10/29/patrick-stewart-star-trek-captain-picard-and-x-men-actor-dies-at-86?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "Patrick Stewart, Star Trek actor and acclaimed thespian, dies aged 86",
+   "url": "https://www.theguardian.com/culture/2026/oct/29/patrick-stewart-dead",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "BBC News",
+   "title": "Young athlete and former minister among victims of Spain train crash",
+   "url": "https://www.bbc.co.uk/news/articles/cr78plp1p9yvo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "The Guardian",
+   "title": "Spain begins mourning period as search continues for train crash victims",
+   "url": "https://www.theguardian.com/world/2026/oct/29/spain-mourning-period-deadly-train-crash",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Khaosod English",
+   "title": "​The Coffee, Time, a Judge, and the Pledge of Thailand’s Most Prominent Political Prisoner Arnon Nampa",
+   "url": "https://www.khaosodenglish.com/opinion/2026/10/29/the-coffee-time-a-judge-and-the-pledge-of-thailands-most-prominent-political-prisoner-arnon-nampa/",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post Business",
+   "title": "ECB chief Christine Lagarde to step down in February",
+   "url": "https://www.bangkokpost.com/business/investment/3345905/ecb-chief-christine-lagarde-to-step-down-in-february",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "versatile",
+   "stint",
+   "derail",
+   "sparked",
+   "steer clear of",
+   "delicacies",
+   "adventurous",
+   "etiquette"
+  ],
+  "recycled_words": [],
+  "cover": {
+   "headline": "Patrick Stewart, Celebrated Shakespearean Actor and 'Star Trek' Captain, Dies at 86",
+   "paragraphs": [
+    "Patrick Stewart, the **acclaimed** British actor whose career bridged classical Shakespearean theatre and celebrated Hollywood science fiction, has died at the age of 86. A longtime **spokesperson**, Kelly Bush Novak, confirmed that he passed away on Wednesday at his home in Los Angeles following a battle with Alzheimer’s disease and Lewy body dementia. Family and close friends surrounded him during his final moments, remembering his invincible grace and emotional warmth.",
+    "Stewart grew up in Mirfield, a working-class town in northern England, in a modest home without an indoor bathroom. Despite early hardship and domestic violence from his father, he discovered a passion for acting at age 12. A scholarship to the Bristol Old Vic Theatre School helped launch his formal training. By age 19, he had lost his hair to alopecia, which later helped define his striking physical presence onstage.",
+    "Stewart soon established himself as an extraordinarily **versatile** performer. He completed a 14-year **stint** with the prestigious Royal Shakespeare Company, taking on demanding roles including Shylock, Oberon, and Claudius. Decades later, his 2007 performance in 'Macbeth' earned him a Tony Award nomination. Decades of classical stage work gave him a commanding baritone voice and deep emotional discipline, making him an anchor of British theatre before international audiences knew his name.",
+    "Global stardom arrived in 1987 when Hollywood cast him as Captain Jean-Luc Picard in 'Star Trek: The Next Generation'. Although Stewart initially suspected the syndicated show would fail, it ran for seven seasons and 178 episodes. His measured gravitas, alongside famous commands like 'make it so' and 'engage!', defined the series and inspired four feature films. Decades later, he returned to the iconic role in 'Star Trek: Picard' and reached comic-book fans as Professor Charles Xavier in the popular 'X-Men' film series.",
+    "Beyond the stage and screen, Stewart devoted considerable energy to humanitarian causes. Having witnessed his mother suffer physical abuse at home, he became an outspoken patron of Refuge, a charity supporting survivors of domestic violence. He also served as an ambassador for the International Rescue Committee. Queen Elizabeth II knighted him in June 2010 for his exceptional artistic contributions.",
+    "Stewart's death marks the loss of an artist who brought classical Shakespearean weight into modern popular cinema. Tributes poured in from around the globe, with colleagues praising his remarkable intellect, humanity, and quiet strength. Both science-fiction admirers and theatre enthusiasts mourn a performer whose artistic standards elevated every role he played."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "High-Speed Rail Crash in Central Spain Leaves 69 Dead",
+    "paragraphs": [
+     "A tragic rail collision in central Spain killed at least 69 people and injured more than 100 on Wednesday morning. The crash occurred near Urda when a high-speed Renfe train struck a stationary Iryo train on the same track, causing multiple carriages to **derail**.",
+     "Authorities confirmed that the victims include 24-year-old long jumper Julieta Gallego and former employment minister Fátima Báñez, who introduced controversial labour reforms in 2012. An officer from the Civil Guard and a finance lawyer were also among those who lost their lives.",
+     "Forensic teams in Toledo are collecting DNA samples to identify bodies from the wreckage. Meanwhile, train drivers launched strikes to demand higher safety investments, and officials are investigating the catastrophic collision."
+    ],
+    "source_ids": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "headline": "Spain Enters Three Days of Mourning Following Rail Disaster",
+    "paragraphs": [
+     "Spain began three official days of national mourning on Thursday after Wednesday's catastrophic train collision near Urda. The terrible **impact** left 50 hospitalized passengers still receiving medical care, while emergency crews used cranes and drones to inspect mangled train carriages.",
+     "Transport Minister Óscar Puente called the collision highly unlikely and suggested human error under inexplicable circumstances caused the crash. Notably, this tragedy occurred just 10 months after another deadly collision involving the same two rail operators in Andalucía killed 46 people.",
+     "Prime Minister Pedro Sánchez pledged that state institutions are working day and night to establish the precise cause. Authorities aim to uncover every detail and upgrade safety protocols across the entire high-speed network."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Human Rights Lawyer Arnon Nampa Appears in Court as Sentence Reaches 32 Years",
+    "paragraphs": [
+     "Prominent human rights lawyer Arnon Nampa appeared at the Criminal Court in Bangkok this week. He is currently serving a combined 32-year prison term, having been held in detention for three years following past political trials.",
+     "Arnon previously represented the Thai Lawyers for Human Rights (TLHR), a legal advocacy group formed after the 2014 military coup. Years ago, he routinely waited outside military bases to assist citizens facing arbitrary detention and political questioning.",
+     "In a reflective letter posted online from prison on 19 October 2026, Arnon described making a simple cup of coffee in his cell, watching morning rain, and remembering past years. His legal cases continue to draw significant attention."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "ECB President Christine Lagarde Announces Early Departure in February 2027",
+    "paragraphs": [
+     "European Central Bank President Christine Lagarde will step down on 7 February 2027, several months before her eight-year term officially concludes. The Frankfurt-based central bank confirmed her early decision on Thursday.",
+     "Lagarde took the helm in 2019, guiding the euro zone through the Covid-19 pandemic and inflationary shocks **sparked** by the war in Ukraine. European Council President Antonio Costa praised her steady leadership in safeguarding monetary stability during consecutive global crises.",
+     "Her planned departure allows European leaders to choose a successor before the French presidential election in April 2027. Official procedures to find the next central bank head will begin immediately."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Street Food Smarts: How to Eat Safely and Authentically While Traveling",
+   "paragraphs": [
+    "Exploring a foreign country through its roadside food stalls is one of the greatest pleasures of travel. Street markets offer intimate cultural insights that luxury dining establishments rarely replicate. However, navigating open-air stalls in an unfamiliar city requires a balanced approach to stay healthy.",
+    "The most **essential** rule for travelers is following local crowds. High foot traffic means ingredients turn over rapidly, minimizing the risk of food spoilage under warm weather. Look for vendors who cook each order over fresh heat rather than displaying pre-made dishes at room temperature.",
+    "Smart diners also **steer clear of** tap water and unpeeled raw vegetables in regions where local sanitation varies. Choosing thoroughly boiled soups, piping hot noodles, and freshly grilled meats allows you to enjoy famous regional **delicacies** safely without worrying about stomach distress later.",
+    "Being an **adventurous** eater does not require throwing caution away. Watch how the vendor handles currency versus raw ingredients. If the person taking payment does not touch the food directly, that is a reliable sign of basic hygiene awareness.",
+    "Finally, observe dining **etiquette** around communal tables. Sharing a bench with neighborhood residents provides meaningful small talk and priceless culinary recommendations. With minor precautions, roadside dining becomes a safe, memorable highlight of your journey."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Declining a Food Offer Politely at a Gathering",
+   "situation": "You are attending a social gathering where someone offers you a dish containing ingredients you cannot eat.",
+   "formal": "Thank you for the kind offer, but I must respectfully decline as I have dietary restrictions.",
+   "neutral": "Thanks for offering, but I will pass this time because I have some food sensitivities.",
+   "casual": "Thanks anyway, but I can't eat that due to my diet.",
+   "useful_phrases": [
+    "I must respectfully decline",
+    "I will pass this time",
+    "Thanks anyway, but I can't eat that"
+   ]
+  },
+  "trap": {
+   "title": "Using 'Take Care' Instead of 'Pay Attention'",
+   "wrong": "Please take care of the cooking instructions on the food label.",
+   "right": "Please pay attention to the cooking instructions on the food label.",
+   "explanation": "Thai speakers often say 'take care' because the Thai word 'ดูแล' (duu-laae) or 'ระวัง' (ra-wang) is used broadly for both looking after someone and being attentive. In English, you 'take care of' people, pets, or tasks, but you 'pay attention to' instructions, signs, or warnings."
+  },
+  "word_bank": [
+   {
+    "word": "versatile",
+    "pos": "adjective",
+    "definition": "able to adapt or be adapted to many different functions or activities",
+    "thai": "สารพัดประโยชน์, หลากหลายทักษะ",
+    "collocations": [
+     "highly versatile",
+     "versatile actor",
+     "versatile tool"
+    ],
+    "example": "Stewart soon established himself as an extraordinarily **versatile** performer."
+   },
+   {
+    "word": "stint",
+    "pos": "noun",
+    "definition": "a fixed period of time spent doing a particular job or activity",
+    "thai": "ช่วงเวลาที่ทำงานหนึ่งๆ",
+    "collocations": [
+     "a brief stint",
+     "complete a stint",
+     "a stint in office"
+    ],
+    "example": "He completed a 14-year **stint** with the prestigious Royal Shakespeare Company, taking on demanding roles including Shylock, Oberon, and Claudius."
+   },
+   {
+    "word": "derail",
+    "pos": "verb",
+    "definition": "to cause a train to run off its rails, or to spoil a plan or process",
+    "thai": "ตกราง, ทำลายแผนงาน",
+    "collocations": [
+     "derail a train",
+     "derail peace talks",
+     "threaten to derail"
+    ],
+    "example": "The crash occurred near Urda when a high-speed Renfe train struck a stationary Iryo train on the same track, causing multiple carriages to **derail**."
+   },
+   {
+    "word": "sparked",
+    "pos": "verb",
+    "definition": "caused a sudden start or development of something",
+    "thai": "ก่อให้เกิด, จุดชนวน",
+    "collocations": [
+     "sparked outrage",
+     "sparked debate",
+     "sparked interest"
+    ],
+    "example": "Lagarde took the helm in 2019, guiding the euro zone through the Covid-19 pandemic and inflationary shocks **sparked** by the war in Ukraine."
+   },
+   {
+    "word": "steer clear of",
+    "pos": "verb phrase",
+    "definition": "to deliberately avoid a person, place, or situation",
+    "thai": "หลีกเลี่ยง",
+    "collocations": [
+     "steer clear of danger",
+     "steer clear of trouble",
+     "steer clear of controversial topics"
+    ],
+    "example": "Smart diners also **steer clear of** tap water and unpeeled raw vegetables in regions where local sanitation varies."
+   },
+   {
+    "word": "delicacies",
+    "pos": "noun",
+    "definition": "types of food that are considered rare or especially delicious",
+    "thai": "อาหารอร่อยหายาก",
+    "collocations": [
+     "local delicacies",
+     "culinary delicacies",
+     "exotic delicacies"
+    ],
+    "example": "Choosing thoroughly boiled soups, piping hot noodles, and freshly grilled meats allows you to enjoy famous regional **delicacies** safely without worrying about stomach distress later."
+   },
+   {
+    "word": "adventurous",
+    "pos": "noun/adjective",
+    "definition": "willing to try new or difficult things, or exciting and unusual",
+    "thai": "ชอบผจญภัย, กล้าเสี่ยง",
+    "collocations": [
+     "adventurous eater",
+     "adventurous spirit",
+     "adventurous traveler"
+    ],
+    "example": "Being an **adventurous** eater does not require throwing caution away."
+   },
+   {
+    "word": "etiquette",
+    "pos": "noun",
+    "definition": "the set of rules or customs governing polite behavior in social or professional life",
+    "thai": "มารยาท",
+    "collocations": [
+     "dining etiquette",
+     "business etiquette",
+     "social etiquette"
+    ],
+    "example": "Finally, observe dining **etiquette** around communal tables."
+   }
+  ],
+  "activity": {
+   "instructions": "Solve these mini crossword clues using today's target words. Letter counts are given in brackets.",
+   "items": [
+    "1. Able to do many different things well (9)",
+    "2. A fixed period of time working in a role (5)",
+    "3. To cause a train or a plan to go off track (6)",
+    "4. Caused or triggered a sudden reaction (7)",
+    "5. Rare, special, or high-quality foods (10)",
+    "6. Formal rules of polite behavior (9)"
+   ],
+   "answers": [
+    "1. versatile",
+    "2. stint",
+    "3. derail",
+    "4. sparked",
+    "5. delicacies",
+    "6. etiquette"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Travelers are advised to steer away of unpasteurized milk.",
+    "corrected": "Travelers are advised to steer clear of unpasteurized milk.",
+    "reason": "Incorrect prepositional phrase idiom; use steer clear of."
+   },
+   {
+    "sentence": "The news sparked a lot of outrage among citizens yesterday.",
+    "corrected": "The news sparked a lot of outrage among citizens yesterday.",
+    "reason": "Correct as written, but to show error correction: The original error was using 'sparked to' instead of 'sparked'."
+   },
+   {
+    "sentence": "He spent a three-years stint as a foreign correspondent.",
+    "corrected": "He spent a three-year stint as a foreign correspondent.",
+    "reason": "Hyphenated compound adjectives before nouns take singular forms."
+   },
+   {
+    "sentence": "She likes to try adventurous local delicacies when traveling.",
+    "corrected": "She likes to try adventurous local delicacies when traveling.",
+    "reason": "Sentence structure is correct."
+   },
+   {
+    "sentence": "Learning dining etiquette help you avoid social mistakes.",
+    "corrected": "Learning dining etiquette helps you avoid social mistakes.",
+    "reason": "Gerund subject 'Learning' requires singular verb 'helps'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "German greetings and small talk are straightforward, polite, and essential for daily social interactions in Europe.",
+   "phrases": [
+    {
+     "phrase": "Guten Tag",
+     "pronunciation": "GOO-ten TAHK",
+     "meaning": "Good day / Hello"
+    },
+    {
+     "phrase": "Wie geht es Ihnen?",
+     "pronunciation": "VEE gayt es EE-nen",
+     "meaning": "How are you? (Formal)"
+    },
+    {
+     "phrase": "Danke schön",
+     "pronunciation": "DAHN-kuh shurn",
+     "meaning": "Thank you very much"
+    }
+   ],
+   "root": {
+    "root": "sprechen",
+    "meaning": "to speak",
+    "english_words": "speech, speak, speaker",
+    "note": "English 'speak' shares Germanic ancestry with the German verb 'sprechen'."
+   },
+   "borrowed": {
+    "word": "Kindergarten",
+    "note": "Borrowed directly from German, meaning 'children's garden'."
+   },
+   "curious": {
+    "word": "Feierabend",
+    "pronunciation": "FYE-er-ah-bent",
+    "meaning": "The state of finishing work for the day and starting evening relaxation",
+    "note": "A unique concept combining 'celebration' and 'evening' to celebrate the end of a workday."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 402,
+  "world_1": 117,
+  "world_2": 114,
+  "thailand_1": 111,
+  "thailand_2": 101,
+  "feature": 205,
+  "real_english": 157,
+  "language_lab": 115,
+  "other_language": 96,
+  "word_bank": 320,
+  "total": 1914
+ },
+ "notes": [
+  "dropped 'acclaimed' from recycled_words: it does not appear in the articles",
+  "dropped 'impact' from recycled_words: it does not appear in the articles",
+  "dropped 'spokesperson' from recycled_words: it does not appear in the articles",
+  "dropped 'essential' from recycled_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 402 words (target 470–510)",
+  "world_1: 117 words (target 140–160)",
+  "world_2: 114 words (target 140–160)",
+  "thailand_1: 111 words (target 140–160)",
+  "thailand_2: 101 words (target 140–160)",
+  "feature: 205 words (target 310–370)",
+  "real_english: 157 words (target 260–320)",
+  "language_lab: 115 words (target 150–260)",
+  "other_language: 96 words (target 140–190)",
+  "whole issue: 1914 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
