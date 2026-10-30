@@ -1,0 +1,487 @@
+{
+ "plan": {
+  "date": "2026-10-31",
+  "date_long": "Saturday, 31 October 2026",
+  "weekday": "Sat",
+  "issue_no": 2,
+  "language": "Spanish",
+  "phrase_theme": "greetings & small talk",
+  "feature": "Cultures / Digital Life",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Odd one out",
+  "trap": "Word order & questions",
+  "avoid_star_words": [
+   "adventurous",
+   "delicacies",
+   "derail",
+   "etiquette",
+   "sparked",
+   "steer clear of",
+   "stint",
+   "versatile"
+  ],
+  "review_pool": [
+   {
+    "word": "versatile",
+    "taught_date": "2026-10-30",
+    "days_ago": 1
+   },
+   {
+    "word": "stint",
+    "taught_date": "2026-10-30",
+    "days_ago": 1
+   },
+   {
+    "word": "derail",
+    "taught_date": "2026-10-30",
+    "days_ago": 1
+   },
+   {
+    "word": "sparked",
+    "taught_date": "2026-10-30",
+    "days_ago": 1
+   },
+   {
+    "word": "steer clear of",
+    "taught_date": "2026-10-30",
+    "days_ago": 1
+   },
+   {
+    "word": "delicacies",
+    "taught_date": "2026-10-30",
+    "days_ago": 1
+   },
+   {
+    "word": "adventurous",
+    "taught_date": "2026-10-30",
+    "days_ago": 1
+   },
+   {
+    "word": "etiquette",
+    "taught_date": "2026-10-30",
+    "days_ago": 1
+   }
+  ],
+  "recent_traps": [
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [],
+  "recent_news_titles": [
+   "Patrick Stewart, ‘Star Trek’ Captain Picard and ‘X-Men’ actor, dies at 86",
+   "Patrick Stewart, Star Trek actor and acclaimed thespian, dies aged 86",
+   "Young athlete and former minister among victims of Spain train crash",
+   "Spain begins mourning period as search continues for train crash victims",
+   "​The Coffee, Time, a Judge, and the Pledge of Thailand’s Most Prominent Political Prisoner Arnon Nampa",
+   "ECB chief Christine Lagarde to step down in February"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "DW",
+   "title": "Binance crypto exchange suspends trades over North Korea-linked hack",
+   "url": "https://www.dw.com/en/binance-crypto-exchange-suspends-trades-over-north-korea-linked-hack/a-79803280?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "BBC News",
+   "title": "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "url": "https://www.bbc.co.uk/news/articles/cwe8lp7zy07zo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "Al Jazeera",
+   "title": "Polish police deployed to top court after head judge suspended",
+   "url": "https://www.aljazeera.com/news/2026/10/30/polish-police-deployed-to-top-court-after-head-judge-suspended?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "BBC News",
+   "title": "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+   "url": "https://www.bbc.co.uk/news/articles/ck62ydn7dj9eo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Net-zero drive causes reliability concerns",
+   "url": "https://www.bangkokpost.com/business/general/3345926/netzero-drive-causes-reliability-concerns",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Govt plans 'nightlife sandbox' for Khao San, Rambuttri",
+   "url": "https://www.bangkokpost.com/thailand/general/3345626/govt-plans-nightlife-sandbox-for-khao-san-rambuttri",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "attributed",
+   "unprecedented",
+   "intermittent",
+   "designated",
+   "compelling",
+   "mindset",
+   "opt for",
+   "curate"
+  ],
+  "recycled_words": [
+   "stint",
+   "derail"
+  ],
+  "cover": {
+   "headline": "Binance Faces Unprecedented $6.3 Billion Theft Linked to North Korea",
+   "paragraphs": [
+    "Binance, the world's largest cryptocurrency exchange, has been hit by a historic digital theft involving roughly $6.36 billion. Cybersecurity analysts and blockchain intelligence firms quickly identified the incident as the largest cryptocurrency heist ever recorded, surpassing previous major breaches. The attack prompted the trading platform to freeze significant assets while working with federal investigators.",
+    "The massive cyberattack occurred across ten distinct blockchain networks, with the perpetrators moving billions within just twenty minutes. Analytics firm TRM firmly **attributed** the operation to TraderTraitor, an elite North Korean cyber unit. Jonathan Levin, chief executive of Chainalysis, concurred that TraderTraitor was the probable culprit. Security experts maintain that North Korea conducts sophisticated cyber heists to obtain foreign currency and finance its weapons initiatives under international sanctions.",
+    "The breach eclipsed the $1.5 billion hack on the Bybit exchange in February 2025, which the FBI also blamed on TraderTraitor. Initial findings suggested the hackers gained unauthorized access by compromising an infrastructure engineer's laptop, though company executives noted the breach was ultimately wider. Tether promptly froze $1.6 billion in its USDT stablecoin, while Circle halted about $800 million of USDC. Binance and asset issuers successfully secured approximately $3 billion, leaving about $3.3 billion unrecovered.",
+    "Binance did not officially confirm North Korean involvement, stating it is collaborating with the FBI and the US Secret Service. Both agencies are actively tracing the stolen funds and seeking to bring the perpetrators to justice. Binance leaders promised to cover every loss, assuring account holders that customer balances remain secure. Deposits continued to operate, while certain withdrawal services experienced temporary precautionary suspensions.",
+    "The startling news **sparked** deep market unease, driving Bitcoin's value down by 3.2% below $79,000 on Thursday evening. Binance founder Changpeng Zhao, who stepped down in 2023 following a brief __stint__ under federal scrutiny and received a presidential pardon in 2025, insisted user funds must be made whole. Market observers warn that state-sponsored cyber operations represent an escalating threat capable of undermining international financial technology networks."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Polish Police Secure Top Court Following Suspension of Chief Judge",
+    "paragraphs": [
+     "Polish police surrounded the Constitutional Tribunal in Warsaw on Friday after protests erupted over the suspension of its head judge, Bogdan Swieczkowski. Swieczkowski had blocked several parliamentary-backed judges from serving their legal duties for half a year.",
+     "Demonstrators allied with the previous Law and Justice party clashed with officers, throwing projectiles outside the court building. The legal dispute could __derail__ ongoing European governance reforms intended to restore judicial independence across Poland.",
+     "President Karol Nawrocki interrupted a scheduled diplomatic flight to return home immediately. Anna Korwin-Piotrowska now oversees the tribunal as the political coalition continues legal procedures against Swieczkowski."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Inmate Christa Pike Details Severe Pain Following Failed Lethal Injection",
+    "paragraphs": [
+     "American death row inmate Christa Pike released her first public message following an unprecedented failed lethal injection in September. Pike spent three decades in prison for a 1995 murder conviction before surviving two doses of pentobarbital.",
+     "The botched execution left Pike hospitalized with pneumonia and severe physical injuries. Legal advocates stated that she still suffers from painful swelling, throat damage, and deep psychological distress after returning to her cell.",
+     "Tennessee Governor Bill Lee announced an independent investigation and halted executions through the rest of the year. State authorities are reviewing official procedures before deciding whether to schedule another execution attempt."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Renewable Power Ambitions Create Grid Security Challenges",
+    "paragraphs": [
+     "Thailand's state power authority has warned that clean energy targets could compromise domestic electricity stability without rapid upgrades. The Electricity Generating Authority of Thailand noted that green power relies on **intermittent** weather conditions rather than predictable fossil fuel output.",
+     "Under the 2026 power development plan, tech sector expansion will generate **unprecedented** demand for electricity. Meanwhile, bidirectional household solar power and growing corporate green purchase agreements introduce complex engineering strains that traditional networks were never built to handle.",
+     "Officials are promoting advanced storage batteries and automated grid systems to stabilize transmission lines. Energy authorities stressed that immediate digital coordination between private suppliers and utilities is essential to prevent widespread electrical outages."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Government Proposes Khao San Entertainment Sandbox to Update Regulations",
+    "paragraphs": [
+     "The Thai government plans to launch a nightlife sandbox along Khao San and Rambuttri roads to modernize entertainment laws. Current zoning rules established in 2002 allow night venues exclusively in RCA, Patpong, and Ratchada.",
+     "PM's Office Minister Paradorn Prissananantakul explained that the outdated system fails to reflect modern tourist activities. Over thirty establishments in the **designated** district currently face difficult legal hurdles under the old framework.",
+     "State anti-corruption agencies will evaluate revised opening hours and coordinate with alcohol control committees. Officials intend to review recommendations within two weeks to provide legal clarity and protect tourist safety."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "paragraphs": [
+    "Modern working adults are constantly invited to record every single moment of their lives online. From morning coffees to gym sessions, modern mobile applications encourage endless sharing. However, constant broadcasting often transforms authentic private moments into public performances, creating invisible cognitive exhaustion for career professionals seeking mental balance.",
+    "Adopting a mindful **mindset** regarding technology does not require completely abandoning online communities. A **versatile** digital lifestyle simply means taking deliberate ownership of what enters the public sphere. By choosing when to participate actively and when to step back, individuals preserve personal authenticity while remaining digitally literate.",
+    "Many busy professionals now **opt for** intentional digital curation. Instead of sharing every spontaneous lunch, they **curate** specific creative projects or milestones that genuinely reflect their professional or personal growth. Establishing deliberate digital boundaries also protects private relationships from casual external commentary.",
+    "Furthermore, digital privacy contributes directly to emotional resilience. Stepping away from social validation breaks compulsive habits of social comparison. Quiet personal hobbies thrive when pursued without an audience, allowing people to focus on genuine self-development.",
+    "Ultimately, technology should serve your personal wellbeing rather than dictate your daily choices. Thoughtful social engagement allows you to enjoy digital connectivity without sacrificing the clarity and calm of offline life."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should working adults share their personal hobbies on professional social networks?",
+   "view_a": {
+    "title": "Build a Relatable Brand",
+    "text": "Sharing creative interests on professional networks helps humanize your expertise. While maintaining professional boundaries is certainly essential, authentic personality often sets job candidates apart. Presenting a weekend woodworking hobby or culinary journey provides a **compelling** reason for colleagues to remember you. It demonstrates curiosity and soft skills that plain CVs miss entirely. To a certain extent, selective personal posts create genuine networking opportunities that dry updates never generate."
+   },
+   "view_b": {
+    "title": "Keep Clear Boundaries",
+    "text": "Professional platforms exist to exchange industry knowledge and career insights, not weekend snapshots. In contrast to purely personal spaces, corporate channels demand focused professional discretion. Even though subtle self-expression has its place, oversharing outside activities risks muddying your professional reputation. Hiring managers and clients usually seek demonstrated expertise rather than hobby updates. Maintaining separate boundaries ensures your professional contributions remain the primary focus of professional discussion."
+   },
+   "phrases": [
+    {
+     "phrase": "While maintaining professional boundaries is certainly essential",
+     "function": "concession"
+    },
+    {
+     "phrase": "To a certain extent",
+     "function": "hedging"
+    },
+    {
+     "phrase": "In contrast to",
+     "function": "contrast"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Indirect Questions and Inverted Word Order",
+   "wrong": "Could you tell me where is the meeting room?",
+   "right": "Could you tell me where the meeting room is?",
+   "explanation": "Thai speakers often retain question word order (verb before subject) inside embedded clauses because Thai structures like 'ห้องประชุมอยู่ที่ไหน' place the question element smoothly at the end. In English, once an indirect question begins with an opening polite phrase like 'Could you tell me', the embedded clause must use standard statement word order: subject followed by the verb."
+  },
+  "word_bank": [
+   {
+    "word": "attributed",
+    "pos": "verb",
+    "definition": "believed that something was caused or created by a specific person or group",
+    "thai": "สันนิษฐานว่าเกิดจาก",
+    "collocations": [
+     "directly attributed to",
+     "wrongly attributed to",
+     "attributed the cause"
+    ],
+    "example": "Analytics firm TRM firmly **attributed** the operation to TraderTraitor, an elite North Korean cyber unit."
+   },
+   {
+    "word": "unprecedented",
+    "pos": "adjective",
+    "definition": "never done or known before",
+    "thai": "ไม่เคยปรากฏมาก่อน",
+    "collocations": [
+     "unprecedented growth",
+     "unprecedented challenge",
+     "unprecedented scale"
+    ],
+    "example": "American death row inmate Christa Pike released her first public message following an unprecedented failed lethal injection in September."
+   },
+   {
+    "word": "intermittent",
+    "pos": "adjective",
+    "definition": "stopping and starting repeatedly rather than continuous",
+    "thai": "เป็นช่วงๆ",
+    "collocations": [
+     "intermittent rain",
+     "intermittent signal",
+     "intermittent fast"
+    ],
+    "example": "The Electricity Generating Authority of Thailand noted that green power relies on **intermittent** weather conditions rather than predictable fossil fuel output."
+   },
+   {
+    "word": "designated",
+    "pos": "adjective",
+    "definition": "officially chosen for a specific purpose or status",
+    "thai": "ที่ได้รับมอบหมาย",
+    "collocations": [
+     "designated area",
+     "designated driver",
+     "designated zone"
+    ],
+    "example": "Over thirty establishments in the **designated** district currently face difficult legal hurdles under the old framework."
+   },
+   {
+    "word": "compelling",
+    "pos": "adjective",
+    "definition": "evoking interest or attention in a powerful way",
+    "thai": "ที่น่าสนใจอย่างยิ่ง",
+    "collocations": [
+     "compelling evidence",
+     "compelling story",
+     "compelling reason"
+    ],
+    "example": "Presenting a weekend woodworking hobby or culinary journey provides a **compelling** reason for colleagues to remember you."
+   },
+   {
+    "word": "mindset",
+    "pos": "noun",
+    "definition": "an established set of attitudes held by someone",
+    "thai": "กรอบความคิด",
+    "collocations": [
+     "growth mindset",
+     "positive mindset",
+     "change one's mindset"
+    ],
+    "example": "Adopting a mindful **mindset** regarding technology does not require completely abandoning online communities."
+   },
+   {
+    "word": "opt for",
+    "pos": "verb phrase",
+    "definition": "to make a choice or decision in favor of something",
+    "thai": "เลือก",
+    "collocations": [
+     "opt for a career",
+     "opt for early retirement",
+     "opt for a simple plan"
+    ],
+    "example": "Many busy professionals now **opt for** intentional digital curation."
+   },
+   {
+    "word": "curate",
+    "pos": "verb",
+    "definition": "to select, organize, and look after items in a collection or feed",
+    "thai": "คัดสรรและจัดเรียง",
+    "collocations": [
+     "curate a list",
+     "curate content",
+     "curate an exhibition"
+    ],
+    "example": "Many busy professionals now **opt for** intentional digital curation."
+   },
+   {
+    "word": "stint",
+    "pos": "noun",
+    "definition": "a fixed or limited period of work or activity",
+    "thai": "ช่วงเวลาที่ทำงาน",
+    "collocations": [],
+    "example": "Binance founder Changpeng Zhao, who stepped down in 2023 following a brief __stint__ under federal scrutiny and received a presidential pardon in 2025, insisted user funds must be made whole."
+   },
+   {
+    "word": "derail",
+    "pos": "verb",
+    "definition": "to obstruct or prevent a process or plan from progressing",
+    "thai": "ทำให้ล้มเหลว",
+    "collocations": [],
+    "example": "The legal dispute could __derail__ ongoing European governance reforms intended to restore judicial independence across Poland."
+   }
+  ],
+  "activity": {
+   "instructions": "In each item, choose the word (a, b, c, or d) that DOES NOT collocate or fit naturally with the target word.",
+   "items": [
+    "1. UNPRECEDENTED: (a) scale (b) growth (c) yesterday (d) demand",
+    "2. INTERMITTENT: (a) rain (b) noise (c) power (d) stone",
+    "3. DESIGNATED: (a) area (b) seat (c) driver (d) air",
+    "4. COMPELLING: (a) reason (b) argument (c) evidence (d) desk",
+    "5. MINDSET: (a) growth (b) positive (c) digital (d) cloud",
+    "6. CURATE: (a) content (b) exhibition (c) noise (d) collection"
+   ],
+   "answers": [
+    "1. (c) yesterday — 'unprecedented' describes nouns that have no prior equivalent, not time adverbs like 'yesterday'.",
+    "2. (d) stone — 'intermittent' describes actions or phenomena that stop and start, not physical objects like 'stone'.",
+    "3. (d) air — 'designated' is used for specific spaces, roles, or places, not open elements like 'air'.",
+    "4. (d) desk — 'compelling' describes ideas, reasons, or stories that persuade, not inanimate office objects.",
+    "5. (d) cloud — 'mindset' refers to psychological attitudes or frames of mind, not cloud computing infrastructure.",
+    "6. (c) noise — 'curate' means to carefully select and organize items or content, which cannot be applied to random noise."
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Experts attributed the massive cyber incident to an elite unit.",
+    "corrected": "Experts attributed the massive cyber incident to an elite unit.",
+    "reason": "This original sentence is correct, but let's check: 'attributing' error: Experts attributed of the massive cyber attack."
+   },
+   {
+    "sentence": "The company decided to opt to a new digital system.",
+    "corrected": "The company decided to opt for a new digital system.",
+    "reason": "The correct verb phrase is 'opt for', not 'opt to'."
+   },
+   {
+    "sentence": "A short stint in management can significantly derail to your career.",
+    "corrected": "A short stint in management can significantly derail your career.",
+    "reason": "'Derail' is a transitive verb here and does not require the preposition 'to'."
+   },
+   {
+    "sentence": "Security forces move quickly to secure the court today morning.",
+    "corrected": "Security forces move quickly to secure the court this morning.",
+    "reason": "Use 'this morning' instead of 'today morning'."
+   },
+   {
+    "sentence": "Inmates detailed severe pain following a failed lethal injection on last week.",
+    "corrected": "Inmates detailed severe pain following a failed lethal injection last week.",
+    "reason": "Do not use 'on' before time expressions starting with 'last'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Mastering basic greetings and small talk in Spanish helps you connect warmly in both professional and casual settings across Latin America and Spain.",
+   "phrases": [
+    {
+     "phrase": "¡Hola! ¿Cómo estás?",
+     "pronunciation": "OH-lah, KOH-moh ess-TAHS?",
+     "meaning": "Hello! How are you?"
+    },
+    {
+     "phrase": "Mucho gusto",
+     "pronunciation": "MOO-choh GOO-stoh",
+     "meaning": "Nice to meet you"
+    },
+    {
+     "phrase": "Hasta luego",
+     "pronunciation": "AH-stah loo-EH-goh",
+     "meaning": "See you later"
+    }
+   ],
+   "root": {
+    "root": "hablar",
+    "meaning": "to speak",
+    "english_words": "ineffable, fable, fabulous",
+    "note": "Traced back to Latin 'fabulari' (to talk), which gave Spanish 'hablar' and English words related to storytelling."
+   },
+   "borrowed": {
+    "word": "fiesta",
+    "note": "Adopted into English to mean a party or festive celebration, originally referring to a religious feast day in Spanish."
+   },
+   "curious": {
+    "word": "Sobremesa",
+    "pronunciation": "soh-breh-MEH-sah",
+    "meaning": "The time spent lingering around the table after a meal engaged in conversation.",
+    "note": "This reflects the cultural value placed on unhurried social connection over food."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 326,
+  "world_1": 98,
+  "world_2": 100,
+  "thailand_1": 110,
+  "thailand_2": 96,
+  "feature": 203,
+  "real_english": 250,
+  "language_lab": 135,
+  "other_language": 118,
+  "word_bank": 348,
+  "total": 2066
+ },
+ "notes": [
+  "dropped 'versatile' from recycled_words: it does not appear in the articles",
+  "dropped 'sparked' from recycled_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 326 words (target 470–510)",
+  "world_1: 98 words (target 140–160)",
+  "world_2: 100 words (target 140–160)",
+  "thailand_1: 110 words (target 140–160)",
+  "thailand_2: 96 words (target 140–160)",
+  "feature: 203 words (target 310–370)",
+  "other_language: 118 words (target 140–190)",
+  "whole issue: 2066 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
