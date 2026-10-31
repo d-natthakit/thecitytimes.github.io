@@ -1,0 +1,505 @@
+{
+ "plan": {
+  "date": "2026-11-01",
+  "date_long": "Sunday, 1 November 2026",
+  "weekday": "Sun",
+  "issue_no": 3,
+  "language": "French",
+  "phrase_theme": "greetings & small talk",
+  "feature": "Business / Money",
+  "opinion": "say_it_better",
+  "setting": "services & customers",
+  "activity": "Context clue challenge",
+  "trap": "Confusing word pairs (e.g. bored/boring)",
+  "avoid_star_words": [
+   "adventurous",
+   "attributed",
+   "compelling",
+   "curate",
+   "delicacies",
+   "derail",
+   "designated",
+   "etiquette",
+   "intermittent",
+   "mindset",
+   "opt for",
+   "sparked",
+   "steer clear of",
+   "stint",
+   "unprecedented",
+   "versatile"
+  ],
+  "review_pool": [
+   {
+    "word": "attributed",
+    "taught_date": "2026-10-31",
+    "days_ago": 1
+   },
+   {
+    "word": "unprecedented",
+    "taught_date": "2026-10-31",
+    "days_ago": 1
+   },
+   {
+    "word": "intermittent",
+    "taught_date": "2026-10-31",
+    "days_ago": 1
+   },
+   {
+    "word": "designated",
+    "taught_date": "2026-10-31",
+    "days_ago": 1
+   },
+   {
+    "word": "compelling",
+    "taught_date": "2026-10-31",
+    "days_ago": 1
+   },
+   {
+    "word": "mindset",
+    "taught_date": "2026-10-31",
+    "days_ago": 1
+   },
+   {
+    "word": "opt for",
+    "taught_date": "2026-10-31",
+    "days_ago": 1
+   },
+   {
+    "word": "curate",
+    "taught_date": "2026-10-31",
+    "days_ago": 1
+   }
+  ],
+  "recent_traps": [
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [],
+  "recent_news_titles": [
+   "Binance crypto exchange suspends trades over North Korea-linked hack",
+   "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "Polish police deployed to top court after head judge suspended",
+   "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+   "Net-zero drive causes reliability concerns",
+   "Govt plans 'nightlife sandbox' for Khao San, Rambuttri",
+   "Patrick Stewart, ‘Star Trek’ Captain Picard and ‘X-Men’ actor, dies at 86",
+   "Patrick Stewart, Star Trek actor and acclaimed thespian, dies aged 86",
+   "Young athlete and former minister among victims of Spain train crash",
+   "Spain begins mourning period as search continues for train crash victims",
+   "​The Coffee, Time, a Judge, and the Pledge of Thailand’s Most Prominent Political Prisoner Arnon Nampa",
+   "ECB chief Christine Lagarde to step down in February"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "Al Jazeera",
+   "title": "London police arrest 139 as hundreds protest Palestine Action ban",
+   "url": "https://www.aljazeera.com/news/2026/10/31/london-police-arrest-48-as-hundreds-protest-palestine-action-ban?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+   "url": "https://www.theguardian.com/uk-news/2026/oct/31/protest-against-palestine-action-ban-outside-us-embassy-in-london",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "DW",
+   "title": "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+   "url": "https://www.dw.com/en/ukraine-news-evacuees-from-russian-occupied-oleshky-reach-kyiv-controlled-territory/live-79815409?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "BBC News",
+   "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
+   "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post",
+   "title": "Thailand, Bhutan sign three deals",
+   "url": "https://www.bangkokpost.com/thailand/general/3346184/thailand-bhutan-sign-three-deals",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Khaosod English",
+   "title": "Chiang Mai health worker found dead in irrigation canal after overnight disappearance",
+   "url": "https://www.khaosodenglish.com/news/2026/10/31/chiang-mai-health-worker-found-dead-in-irrigation-canal-after-overnight-disappearance/",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "proscription",
+   "crackdown",
+   "adversary",
+   "bilateral",
+   "feasibility",
+   "turnover",
+   "streamline",
+   "look into"
+  ],
+  "recycled_words": [
+   "designated",
+   "compelling",
+   "opt for",
+   "mindset"
+  ],
+  "cover": {
+   "headline": "Mass Arrests in London as Demonstrators Defy Ban on Palestine Action",
+   "paragraphs": [
+    "Metropolitan Police officers arrested 139 people outside the United States embassy in London on Saturday during a rally against the ban on Palestine Action. Demonstrators gathered to protest the government's decision to treat the activist group as a terrorist organisation under United Kingdom law. The demonstration occurred just days before a scheduled UK Supreme Court appeal that will challenge the ban on Wednesday.",
+    "The gathering in Battersea marked the largest mass protest against the group's **proscription** since Prime Minister Andy Burnham assumed office in July. Palestine Action was officially __designated__ as a banned terrorist organisation in July last year under former prime minister Keir Starmer. That classification placed the protest campaign on the same legal list as violent networks such as al-Qaeda and ISIL.",
+    "British authorities had issued strict warnings before the gathering, stating that expressing support for the prohibited group was unlawful and would meet a robust response. Commander Adam Slonecki, who led the police operation, warned that attendees were essentially gathering to commit a crime. Scotland Yard confirmed that officers made arrests throughout the day, mostly for showing support for the proscribed campaign.",
+    "Organisers from Defend Our Juries estimated that around 400 people attended the rally outside the embassy, while demonstrators in Edinburgh held a simultaneous vigil outside the US consulate. Placards held by protesters carried messages opposing genocide and declaring support for the activist organisation. The group stated that total detentions under anti-terror statutes connected to the campaign have now surpassed 4,000 individuals.",
+    "The ongoing police **crackdown** has sparked intense domestic criticism from political figures and human rights groups. Labour Party MP John McDonnell argued on social media that protesting an official ban should not automatically mean someone supports the banned group or has broken the law. Furthermore, Amnesty International UK condemned the arrests, urging ministers to drop the ban and preserve fundamental freedoms.",
+    "Protest organisers alleged that the legal measures were intended to appease the United States administration and foreign arms manufacturers whose facilities had faced disruptions. Several participants expressed hope that Prime Minister Burnham might eventually reconsider the ban. Nevertheless, police confirmed that inquiries and detentions continued, highlighting the intense friction surrounding freedom of speech and national security laws."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "G20 Diplomats Skip Group Photo Amid Tensions Over Russia",
+    "paragraphs": [
+     "Foreign ministers attending the G20 meeting in Atlanta chose to skip their traditional group photograph on Friday. The decision followed strong objections from European nations, Canada, and Australia regarding the presence of Russian Foreign Minister Sergey Lavrov.",
+     "German Foreign Minister Johann Wadephul defended holding direct discussions with Moscow despite the diplomatic dispute. He explained that engaging with an **adversary** remains necessary to protect European security, noting that talking does not constitute an official concession.",
+     "Meanwhile, Ukrainian President Volodymyr Zelenskyy traveled to Istanbul for talks with Turkish leader Recep Tayyip Erdogan. The leaders focused on Black Sea shipping and working to strengthen their ongoing diplomatic and security partnerships."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Pope Leo XIV Makes History by Voting in US Midterms",
+    "paragraphs": [
+     "Pope Leo XIV has become the first pontiff to cast a ballot in an American election after submitting a mail-in vote for Illinois. The Holy See stated that the Chicago-born pontiff was exercising his constitutional duty as an American citizen.",
+     "The vote comes shortly before high-stakes midterm elections on November 3 that will determine legislative control of the US Congress. The 71-year-old Pope recently underwent lung surgery and has previously exchanged public criticisms with Donald Trump over foreign policy and immigration.",
+     "Vatican officials confirmed that the pontiff plans to proceed with upcoming diplomatic visits across South America, emphasizing his pastoral commitment to international peace."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Thailand and Bhutan Deepen Ties with Three New Pacts",
+    "paragraphs": [
+     "Thailand and Bhutan have signed three major cooperation agreements in Thimphu to expand economic relations, medical collaboration, and renewable energy. Thai Prime Minister Anutin Charnvirakul witnessed the signing during an official state visit on Saturday.",
+     "The **bilateral** agreements include expanding universal healthcare support and facilitating financial assistance for rural farmers through agricultural banks. Another agreement supports a technical **feasibility** study for a 100-megawatt solar farm in Tareythang to promote sustainable infrastructure.",
+     "Government spokesman Ekkapob Pianpises stated that both nations aim to finalize a free trade agreement by January 2027 to boost shared economic growth."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Missing Health Worker Found Dead in Chiang Mai Canal",
+    "paragraphs": [
+     "A 25-year-old health worker who disappeared overnight was discovered dead on Saturday inside an irrigation canal in Fang district, Chiang Mai. Rescuers and police located her body alongside her motorcycle after an extensive search operation.",
+     "The woman, named Niraphon, worked at a local health centre and had vanished on Friday after buying food near her house. Surveillance cameras captured her departing the shop, but she never appeared on camera along the main highway.",
+     "Authorities suspect she may have accidentally crashed into the canal, although investigators are waiting for official autopsy results before reaching any final conclusions."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "paragraphs": [
+    "Customer satisfaction is no longer just about friendly greetings or speedy checkout counters. In an era where online reviews dictate brand reputation, businesses face intense commercial pressure to **streamline** every customer touchpoint. When transactions become complicated or slow, modern consumers rarely complain directly; they simply leave and take their spending elsewhere.",
+    "Recent market shifts show that excessive procedure often leads to costly customer **turnover**. For service-oriented enterprises, retaining an existing patron is far cheaper than acquiring a new one. A complicated refund policy or an unresponsive service channel can destroy trust within minutes. As a result, commercial executives increasingly __opt for__ simplified communication channels that empower front-line employees to solve problems immediately.",
+    "One __compelling__ insight from modern commerce is the financial value of post-purchase clarity. Many enterprises invest heavily in marketing campaigns yet neglect the operational machinery that handles customer disputes. When clients encounter confusing policies or unhelpful staff, they develop a defensive __mindset__. Providing transparent instructions and prompt resolutions preserves customer loyalty and safeguards ongoing revenue.",
+    "Ultimately, building lasting client relationships requires consistent operational empathy. Forward-thinking companies train their teams to listen actively and resolve issues without unnecessary bureaucracy. Organizations that treat customer feedback as strategic data rather than an administrative burden will continue to outperform their competitors in difficult economic environments."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Acknowledging a Customer Service Delay",
+   "situation": "A customer is unhappy because their service request took much longer than promised, and you need to reassure them that you are taking immediate action.",
+   "formal": "We sincerely apologize for the delay you experienced, and our team will **look into** the matter immediately to ensure a swift resolution.",
+   "neutral": "I am very sorry for the wait on this request. Let me check the details right now so we can get it sorted out.",
+   "casual": "Sorry for the hold-up! Give me just a second to pull up your file and fix this for you.",
+   "useful_phrases": [
+    "apologize for the delay",
+    "ensure a swift resolution",
+    "get it sorted out"
+   ]
+  },
+  "trap": {
+   "title": "Confusing 'Borrow' and 'Lend'",
+   "wrong": "Could you please borrow me some money for lunch?",
+   "right": "Could you please lend me some money for lunch?",
+   "explanation": "Thai speakers often confuse these words because the single Thai verb 'ยืม' covers both actions depending on context. In English, to 'borrow' means to take something temporarily, whereas to 'lend' means to give something temporarily to someone else."
+  },
+  "word_bank": [
+   {
+    "word": "proscription",
+    "pos": "noun",
+    "definition": "the official banning or prohibition of an activity or group",
+    "thai": "การสั่งห้ามตามกฎหมาย",
+    "collocations": [
+     "legal proscription",
+     "face proscription",
+     "proscription of a group"
+    ],
+    "example": "The gathering in Battersea marked the largest mass protest against the group's **proscription** since Prime Minister Andy Burnham assumed office in July."
+   },
+   {
+    "word": "crackdown",
+    "pos": "noun",
+    "definition": "severe and strict action taken by authorities against unlawful behaviour",
+    "thai": "การปราบปรามขั้นเด็ดขาด",
+    "collocations": [
+     "police crackdown",
+     "launch a crackdown",
+     "crackdown on crime"
+    ],
+    "example": "The ongoing police **crackdown** has sparked intense domestic criticism from political figures and human rights groups."
+   },
+   {
+    "word": "adversary",
+    "pos": "noun",
+    "definition": "an opponent, rival, or enemy in a conflict or competition",
+    "thai": "ศัตรู หรือ คู่ต่อสู้",
+    "collocations": [
+     "political adversary",
+     "defeat an adversary",
+     "formidable adversary"
+    ],
+    "example": "He explained that engaging with an **adversary** remains necessary to protect European security, noting that talking does not constitute an official concession."
+   },
+   {
+    "word": "bilateral",
+    "pos": "adjective",
+    "definition": "involving two groups or countries",
+    "thai": "ทวิภาคี (สองฝ่าย)",
+    "collocations": [
+     "bilateral agreement",
+     "bilateral relations",
+     "bilateral trade"
+    ],
+    "example": "The **bilateral** agreements include expanding universal healthcare support and facilitating financial assistance for rural farmers through agricultural banks."
+   },
+   {
+    "word": "feasibility",
+    "pos": "noun",
+    "definition": "the possibility and practical likelihood of being done successfully",
+    "thai": "ความเป็นไปได้ในการปฏิบัติ",
+    "collocations": [
+     "feasibility study",
+     "assess the feasibility",
+     "commercial feasibility"
+    ],
+    "example": "Another agreement supports a technical **feasibility** study for a 100-megawatt solar farm in Tareythang to promote sustainable infrastructure."
+   },
+   {
+    "word": "turnover",
+    "pos": "noun",
+    "definition": "the rate at which people leave a company or customers stop buying",
+    "thai": "อัตราการหมุนเวียน (ลูกค้าหรือพนักงาน)",
+    "collocations": [
+     "customer turnover",
+     "high staff turnover",
+     "reduce turnover"
+    ],
+    "example": "Recent market shifts show that excessive procedure often leads to costly customer **turnover**."
+   },
+   {
+    "word": "streamline",
+    "pos": "verb",
+    "definition": "to make a process simpler, more efficient, and faster",
+    "thai": "ปรับกระบวนการให้คล่องตัว",
+    "collocations": [
+     "streamline operations",
+     "streamline the process",
+     "streamline procedures"
+    ],
+    "example": "In an era where online reviews dictate brand reputation, businesses face intense commercial pressure to **streamline** every customer touchpoint."
+   },
+   {
+    "word": "look into",
+    "pos": "phrasal verb",
+    "definition": "to examine or investigate a problem, situation, or issue",
+    "thai": "ตรวจสอบหรือสืบสวน",
+    "collocations": [
+     "look into a complaint",
+     "look into the matter",
+     "promise to look into"
+    ],
+    "example": "We sincerely apologize for the delay you experienced, and our team will **look into** the matter immediately to ensure a swift resolution."
+   },
+   {
+    "word": "designated",
+    "pos": "adjective",
+    "definition": "officially chosen or appointed for a particular purpose",
+    "thai": "ที่ถูกกำหนดไว้",
+    "collocations": [],
+    "example": "Palestine Action was officially __designated__ as a banned terrorist organisation in July last year under former prime minister Keir Starmer."
+   },
+   {
+    "word": "compelling",
+    "pos": "adjective",
+    "definition": "very convincing, interesting, and demanding attention",
+    "thai": "น่าสนใจหรือน่าเชื่อถือมาก",
+    "collocations": [],
+    "example": "One __compelling__ insight from modern commerce is the financial value of post-purchase clarity."
+   },
+   {
+    "word": "opt for",
+    "pos": "phrasal verb",
+    "definition": "to choose a particular option from among several possibilities",
+    "thai": "เลือก",
+    "collocations": [],
+    "example": "As a result, commercial executives increasingly __opt for__ simplified communication channels that empower front-line employees to solve problems immediately."
+   },
+   {
+    "word": "mindset",
+    "pos": "noun",
+    "definition": "an established set of attitudes and beliefs held by someone",
+    "thai": "กรอบความคิดหรือทัศนคติ",
+    "collocations": [],
+    "example": "When clients encounter confusing policies or unhelpful staff, they develop a defensive __mindset__."
+   }
+  ],
+  "activity": {
+   "instructions": "Read each sentence carefully and use the surrounding context clues to choose the correct meaning of the bold word.",
+   "items": [
+    "The board questioned the project's financial **feasibility** because building costs were rising too quickly. (a) historical importance (b) practical viability (c) public popularity",
+    "To cut delivery delays, the shipping firm decided to **streamline** its warehouse sorting routine. (a) complicate further (b) simplify for efficiency (c) shut down entirely",
+    "After severe protests broke out, ministers threatened the **proscription** of the radical organisation. (a) official banning (b) financial funding (c) public endorsement",
+    "The security team decided to **look into** unusual account logins before resetting user passwords. (a) ignore completely (b) investigate thoroughly (c) share openly",
+    "Diplomats met quietly across the neutral border to discuss a peaceful deal with their longtime **adversary**. (a) opponent or rival (b) junior partner (c) chief supporter",
+    "Frustrated by confusing subscription charges, many app subscribers cancelled accounts, causing heavy client **turnover**. (a) loss and replacement (b) rapid profit (c) technical failure"
+   ],
+   "answers": [
+    "(b) practical viability",
+    "(b) simplify for efficiency",
+    "(a) official banning",
+    "(b) investigate thoroughly",
+    "(a) opponent or rival",
+    "(a) loss and replacement"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Authorities ordered a tough crackdown against illegal street vendors yesterday.",
+    "corrected": "Authorities ordered a tough crackdown on illegal street vendors yesterday.",
+    "reason": "collocation: 'crackdown' takes 'on', not 'against'"
+   },
+   {
+    "sentence": "Thailand signed a bilateral pact for boost economic growth across rural regions.",
+    "corrected": "Thailand signed a bilateral pact to boost economic growth across rural regions.",
+    "reason": "infinitive of purpose requires 'to boost'"
+   },
+   {
+    "sentence": "Police officers are searching the canal to find designating evidence about the case.",
+    "corrected": "Police officers are searching the canal to find designated evidence about the case.",
+    "reason": "incorrect participle form; use 'designated'"
+   },
+   {
+    "sentence": "The analyst gave several compelling reasons for explain the diplomatic boycott.",
+    "corrected": "The analyst gave several compelling reasons to explain the diplomatic boycott.",
+    "reason": "the noun 'reasons' takes a to-infinitive complement"
+   },
+   {
+    "sentence": "Corporate leaders must adopt a modern mindset if they want to opt of better digital systems.",
+    "corrected": "Corporate leaders must adopt a modern mindset if they want to opt for better digital systems.",
+    "reason": "preposition error: the phrasal verb is 'opt for'"
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Mastering simple greetings and casual small talk helps build warm professional relationships in French-speaking environments. These quick conversational tools allow you to start discussions smoothly.",
+   "phrases": [
+    {
+     "phrase": "Comment allez-vous ?",
+     "pronunciation": "koh-mahn tah-lay voo",
+     "meaning": "How are you? (formal/polite)"
+    },
+    {
+     "phrase": "Enchanté de vous rencontrer",
+     "pronunciation": "ahn-shahn-tay duh voo rahn-kohn-tray",
+     "meaning": "Pleased to meet you"
+    },
+    {
+     "phrase": "Bonne journée !",
+     "pronunciation": "buhn zhoor-nay",
+     "meaning": "Have a nice day!"
+    }
+   ],
+   "root": {
+    "root": "parler",
+    "meaning": "to speak",
+    "english_words": "parliament, parlour, parley",
+    "note": "This everyday French verb gave English several words related to formal debate, speech, and dedicated talking rooms."
+   },
+   "borrowed": {
+    "word": "tête-à-tête",
+    "note": "Meaning 'head-to-head' in French, English uses it to describe an intimate or private conversation between two people."
+   },
+   "curious": {
+    "word": "retrouvailles",
+    "pronunciation": "ruh-troo-vye",
+    "meaning": "the joy of meeting someone again after a long separation",
+    "note": "French captures the warm, specific happiness of reuniting with old friends in this single, expressive noun."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 364,
+  "world_1": 107,
+  "world_2": 104,
+  "thailand_1": 94,
+  "thailand_2": 96,
+  "feature": 213,
+  "real_english": 167,
+  "language_lab": 224,
+  "other_language": 125,
+  "word_bank": 428,
+  "total": 2107
+ },
+ "notes": [
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 364 words (target 470–510)",
+  "world_1: 107 words (target 140–160)",
+  "world_2: 104 words (target 140–160)",
+  "thailand_1: 94 words (target 140–160)",
+  "thailand_2: 96 words (target 140–160)",
+  "feature: 213 words (target 310–370)",
+  "real_english: 167 words (target 260–320)",
+  "other_language: 125 words (target 140–190)",
+  "whole issue: 2107 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: ok"
+ ],
+ "fallback_used": false
+}
