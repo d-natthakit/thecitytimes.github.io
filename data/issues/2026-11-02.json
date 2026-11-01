@@ -1,0 +1,513 @@
+{
+ "plan": {
+  "date": "2026-11-02",
+  "date_long": "Monday, 2 November 2026",
+  "weekday": "Mon",
+  "issue_no": 4,
+  "language": "Italian",
+  "phrase_theme": "greetings & small talk",
+  "feature": "Health & Wellbeing",
+  "opinion": "say_it_better",
+  "setting": "workplace email",
+  "activity": "Collocation match",
+  "trap": "Articles (a / an / the)",
+  "avoid_star_words": [
+   "adventurous",
+   "adversary",
+   "attributed",
+   "bilateral",
+   "compelling",
+   "crackdown",
+   "curate",
+   "delicacies",
+   "derail",
+   "designated",
+   "etiquette",
+   "feasibility",
+   "intermittent",
+   "look into",
+   "mindset",
+   "opt for",
+   "proscription",
+   "sparked",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "turnover",
+   "unprecedented",
+   "versatile"
+  ],
+  "review_pool": [
+   {
+    "word": "proscription",
+    "taught_date": "2026-11-01",
+    "days_ago": 1
+   },
+   {
+    "word": "crackdown",
+    "taught_date": "2026-11-01",
+    "days_ago": 1
+   },
+   {
+    "word": "adversary",
+    "taught_date": "2026-11-01",
+    "days_ago": 1
+   },
+   {
+    "word": "bilateral",
+    "taught_date": "2026-11-01",
+    "days_ago": 1
+   },
+   {
+    "word": "feasibility",
+    "taught_date": "2026-11-01",
+    "days_ago": 1
+   },
+   {
+    "word": "turnover",
+    "taught_date": "2026-11-01",
+    "days_ago": 1
+   },
+   {
+    "word": "streamline",
+    "taught_date": "2026-11-01",
+    "days_ago": 1
+   },
+   {
+    "word": "look into",
+    "taught_date": "2026-11-01",
+    "days_ago": 1
+   },
+   {
+    "word": "versatile",
+    "taught_date": "2026-10-30",
+    "days_ago": 3
+   },
+   {
+    "word": "stint",
+    "taught_date": "2026-10-30",
+    "days_ago": 3
+   },
+   {
+    "word": "derail",
+    "taught_date": "2026-10-30",
+    "days_ago": 3
+   },
+   {
+    "word": "sparked",
+    "taught_date": "2026-10-30",
+    "days_ago": 3
+   },
+   {
+    "word": "steer clear of",
+    "taught_date": "2026-10-30",
+    "days_ago": 3
+   },
+   {
+    "word": "delicacies",
+    "taught_date": "2026-10-30",
+    "days_ago": 3
+   },
+   {
+    "word": "adventurous",
+    "taught_date": "2026-10-30",
+    "days_ago": 3
+   },
+   {
+    "word": "etiquette",
+    "taught_date": "2026-10-30",
+    "days_ago": 3
+   }
+  ],
+  "recent_traps": [
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [],
+  "recent_news_titles": [
+   "London police arrest 139 as hundreds protest Palestine Action ban",
+   "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+   "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+   "Pope Leo XIV becomes first pontiff to vote in a US election",
+   "Thailand, Bhutan sign three deals",
+   "Chiang Mai health worker found dead in irrigation canal after overnight disappearance",
+   "Binance crypto exchange suspends trades over North Korea-linked hack",
+   "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "Polish police deployed to top court after head judge suspended",
+   "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+   "Net-zero drive causes reliability concerns",
+   "Govt plans 'nightlife sandbox' for Khao San, Rambuttri",
+   "Patrick Stewart, ‘Star Trek’ Captain Picard and ‘X-Men’ actor, dies at 86",
+   "Patrick Stewart, Star Trek actor and acclaimed thespian, dies aged 86",
+   "Young athlete and former minister among victims of Spain train crash",
+   "Spain begins mourning period as search continues for train crash victims",
+   "​The Coffee, Time, a Judge, and the Pledge of Thailand’s Most Prominent Political Prisoner Arnon Nampa",
+   "ECB chief Christine Lagarde to step down in February"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "Al Jazeera",
+   "title": "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
+   "url": "https://www.aljazeera.com/news/2026/11/1/france-opens-attempted-murder-probe-into-molotov-attacks-on-police?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "Attempted murder probe after petrol bomb thrown at French riot police",
+   "url": "https://www.theguardian.com/world/2026/nov/01/petrol-bomb-thrown-at-french-riot-police",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "BBC News",
+   "title": "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+   "url": "https://www.bbc.co.uk/news/articles/c64g1y90p71eo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "The Guardian",
+   "title": "Democrat Haley Stevens endorses Abdul El-Sayed’s Republican rival Mike Rogers",
+   "url": "https://www.theguardian.com/us-news/2026/nov/01/abdul-el-sayed-haley-stevens-michigan-senate",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Thailand eyes status as AI medical hub",
+   "url": "https://www.bangkokpost.com/business/general/3346775/thailand-eyes-status-as-ai-medical-hub",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Foundation faces B1m query",
+   "url": "https://www.bangkokpost.com/thailand/general/3346581/foundation-faces-b1m-query",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "engulfed",
+   "unrest",
+   "escalating",
+   "tailored",
+   "scrutiny",
+   "optimum"
+  ],
+  "recycled_words": [
+   "streamline"
+  ],
+  "cover": {
+   "headline": "Violence Erupts in Paris as French Authorities Launch Attempted Murder Probe",
+   "paragraphs": [
+    "French prosecutors have formally opened an attempted murder investigation after rioters targeted security forces with Molotov cocktails during violent weekend protests in Paris. The probe, announced on Sunday, focuses on an attack that left a gendarme **engulfed** in flames, sparking outrage across the nation. Official reports indicate that several hundred rioters attacked law enforcement officers with paving stones, glass bottles, and improvised incendiary devices during a third consecutive weekend of mass demonstrations.",
+    "The **unrest** unfolded across several French cities, including Marseille, Grenoble, and Lyon, as an estimated 320,000 people took to the streets to protest soaring living costs and deteriorating public services. Although the overall level of destruction was lower than the widespread chaos seen two weeks prior, French Interior Minister Laurent Nunez characterized the physical violence against security personnel as extraordinary. Across the country, law enforcement officers sustained injuries, including severe second-degree burns, while more than 770 individuals were arrested.",
+    "The primary incident under investigation targeted a unit of roughly 15 military police officers. Video footage circulating online shows a homemade incendiary device exploding at the feet of an officer wearing protective riot gear. The officer, who suffered minor injuries and burns when his uniform melted, described being struck by multiple firebombs filled with a sticky, flammable substance. Gendarmerie officials confirmed that 13 members of that specific unit sustained injuries, though no suspects have been arrested yet in connection with the firebombing.",
+    "This recent wave of violence arrives amidst a highly charged political atmosphere in France, with presidential elections scheduled in six months. Far-right leader Marine Le Pen publicly denounced the attack on social media, demanding that those responsible face maximum legal penalties. Meanwhile, similar youth-led protests over economic hardships and declining public services turned violent in neighboring European nations over the weekend, including Germany, Portugal, and Switzerland.",
+    "German officials reported widespread damage in Frankfurt, where looters rampaged through the commercial district, injuring more than 100 police officers. Interior Minister Alexander Dobrindt vowed to hold the troublemakers accountable and called for harsh judicial penalties. As European governments grapple with public discontent over economic pressure, French investigators continue working to identify the individuals who weaponized explosives against law enforcement."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Energy Grid Attacks Follow End of Localized Ukrainian Ceasefire",
+    "paragraphs": [
+     "A limited humanitarian ceasefire in Ukraine's Kherson region has officially ended after allowing civilians to evacuate the occupied city of Oleshky. The localized truce was brokered with help from international figures to aid trapped residents. However, broader military conflict continued across the nation throughout the weekend.",
+     "Overnight strikes targeted critical energy infrastructure across four Ukrainian regions, leaving hundreds of thousands of homes without power. Ukrainian President Volodymyr Zelensky reported that emergency outages were implemented nationwide to manage the grid damage. Ukrainian forces responded by striking a major missile fuel production facility in Russia's Rostov region, damaging four facilities.",
+     "Repair crews worked rapidly to restore electricity in affected areas like Dnipropetrovsk by Sunday evening. President Zelensky renewed calls to international partners for urgent deliveries of air defense systems to counter incoming ballistic missiles."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Democratic Representative Endorses Republican Opponent in Key Senate Race",
+    "paragraphs": [
+     "In a surprising political move ahead of the midterm elections, Michigan Congresswoman Haley Stevens endorsed Republican candidate Mike Rogers for the US Senate. Stevens previously lost the Democratic primary to nominee Abdul El-Sayed. The endorsement followed a joint appearance at a church in Detroit on Sunday.",
+     "The endorsement marks the climax of an **escalating** feud between Stevens and El-Sayed over key foreign policy issues. Democratic party leaders quickly condemned the move as a betrayal of party principles. Several high-level staff members on Stevens's team reportedly resigned from her office in protest following the announcement.",
+     "Responding to the news during a campaign rally, El-Sayed minimized the impact of the endorsement, stating that he remains focused on policy rather than party drama. Political analysts expect the rift to increase attention on the closely contested Senate race."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Thailand Unveils Plan to Become Regional Hub for Medical AI",
+    "paragraphs": [
+     "Thailand has announced an ambitious initiative to establish itself as a Southeast Asian hub for medical artificial intelligence. Speaking at a national summit, government officials outlined plans to build AI models **tailored** specifically to the region's diverse populations, using decades of local patient data.",
+     "The strategy aims to bridge academic research and commercial applications in areas like precision medicine, drug discovery, and cancer treatment. Officials highlighted that existing global AI systems often lack datasets representing Southeast Asian demographics, making local development necessary.",
+     "University hospitals, which generate most national medical innovations, will play a central role through a new nationwide consortium. The project will also explore using agricultural resources alongside AI to develop new preventive treatments."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Charity Foundation Under Financial Investigation Over Alleged Personal Transfers",
+    "paragraphs": [
+     "The Be One Foundation is facing public **scrutiny** following allegations that approximately one million baht was improperly transferred to personal bank accounts. Activists presented financial records on Sunday showing roughly 100 transfers to the founder, Chalida Phalamat, and members of her immediate family.",
+     "Critics questioned whether the organization maintained proper separation between public donations and private funds. Representatives also noted that the founder was previously convicted of forging signatures on foundation registration documents in a separate legal case filed last year.",
+     "In a related development, police officers from the Economic Crime Suppression Division confirmed an active investigation into another non-profit organization, the Goodness Foundation. Authorities are currently reviewing records regarding potential fraud and financial irregularities."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "paragraphs": [
+    "For modern office workers, maintaining energy throughout a demanding corporate day can feel like a constant battle. Long working hours, back-to-back meetings, and tight deadlines often force professionals to rely on convenience foods high in refined sugars and unhealthy fats. While these quick meals offer brief comfort, they inevitably lead to afternoon fatigue, reduced focus, and long-term health risks. Establishing intentional eating habits is an essential strategy for long-term career success and personal vitality.",
+    "The cornerstone of workplace nutrition involves stabilizing blood glucose levels to prevent mental brain fog. When professionals consume heavy, high-carbohydrate lunches, their blood sugar spikes rapidly before crashing a few hours later. To maintain **optimum** cognitive function, meals should balance complex carbohydrates, lean proteins, and healthy fats. Incorporating whole grains, fresh vegetables, and plant-based proteins ensures a steady release of energy throughout the day, preventing the sudden crashes that ruin afternoon efficiency.",
+    "Hydration is another critical factor that busy employees frequently overlook during intense workdays. Mild dehydration can manifest as unexplained headaches, physical lethargy, and difficulty concentrating. Keeping a reusable water bottle at your workstation serves as a constant visual reminder to drink fluids regularly. Replacing sugary soft drinks or excessive cups of coffee with herbal tea or plain water supports physical metabolism and helps maintain mental clarity during complex tasks.",
+    "Strategic snacking can also prevent overeating during evening meals. Instead of reaching for processed snacks from the office vending machine, professionals should prepare nutrient-dense options in advance. Portions of raw nuts, seeds, yogurt, or fresh fruit provide essential micronutrients that combat mental fatigue. Moreover, taking a deliberate 15-minute break away from screens to consume meals encourages mindful eating, which improves digestion and helps lower workplace stress.",
+    "Ultimately, managing your health requires assessing the long-term **feasibility** of your daily habits. Small, consistent changes in nutritional choices yield substantial benefits for personal resilience and professional performance over time. By treating daily meal planning as a vital component of personal productivity rather than an afterthought, working adults can build sustainable energy levels that support both career achievements and overall well-being."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Updating a Manager on Project Delays",
+   "situation": "You realize a key project deliverable will be delayed due to vendor response times, and you need to inform your supervisor while reassuring them that you are taking action.",
+   "formal": "Please be advised that the project completion date must be adjusted due to external vendor response times. I am taking steps to __streamline__ our internal workflow to minimize further impact.",
+   "neutral": "I want to update you that our launch date will be delayed because the vendor needs more time. However, I am trying to resolve the bottleneck so we can __look into__ alternative solutions quickly.",
+   "casual": "Just letting you know the project is taking longer because our vendor is slow. I'm working to make sure this doesn't __derail__ our overall timeline.",
+   "useful_phrases": [
+    "Please be advised that...",
+    "I want to update you that...",
+    "Just letting you know..."
+   ]
+  },
+  "trap": {
+   "title": "Missing 'The' with Superlative Adjectives",
+   "wrong": "This is best option for our team.",
+   "right": "This is the best option for our team.",
+   "explanation": "Thai speakers often omit 'the' before superlative adjectives because the Thai language (เช่น 'ดีที่สุด') does not use articles. In English, superlative adjectives require the definite article 'the' to specify a unique item."
+  },
+  "word_bank": [
+   {
+    "word": "engulfed",
+    "pos": "verb (past participle)",
+    "definition": "completely surrounded, covered, or swallowed up by something intense like fire or water",
+    "thai": "ถูกกลืนกินหรือถูกโอบล้อม (โดยเฉพาะเปลวไฟ)",
+    "collocations": [
+     "engulfed in flames",
+     "engulfed by darkness",
+     "engulfed in controversy"
+    ],
+    "example": "The probe, announced on Sunday, focuses on an attack that left a gendarme **engulfed** in flames, sparking outrage across the nation."
+   },
+   {
+    "word": "unrest",
+    "pos": "noun (uncountable)",
+    "definition": "a state of dissatisfaction, disturbance, and public agitation, often involving riots or protests",
+    "thai": "ความไม่สงบหรือความวุ่นวายทางการเมืองหรือสังคม",
+    "collocations": [
+     "civil unrest",
+     "growing unrest",
+     "spark unrest"
+    ],
+    "example": "The **unrest** unfolded across several French cities, including Marseille, Grenoble, and Lyon, as an estimated 320,000 people took to the streets to protest soaring living costs and deteriorating public services."
+   },
+   {
+    "word": "escalating",
+    "pos": "adjective",
+    "definition": "becoming rapidly greater, more serious, or more intense",
+    "thai": "ที่ทวีความรุนแรงหรือเพิ่มระดับขึ้นเรื่อยๆ",
+    "collocations": [
+     "escalating tensions",
+     "escalating costs",
+     "escalating conflict"
+    ],
+    "example": "The endorsement marks the climax of an **escalating** feud between Stevens and El-Sayed over key foreign policy issues."
+   },
+   {
+    "word": "tailored",
+    "pos": "adjective",
+    "definition": "adapted or designed specially for a particular person, purpose, or situation",
+    "thai": "ที่ถูกปรับแต่งหรือออกแบบมาโดยเฉพาะ",
+    "collocations": [
+     "tailored approach",
+     "tailored solutions",
+     "tailored specifically to"
+    ],
+    "example": "Speaking at a national summit, government officials outlined plans to build AI models **tailored** specifically to the region's diverse populations, using decades of local patient data."
+   },
+   {
+    "word": "scrutiny",
+    "pos": "noun (uncountable)",
+    "definition": "critical, detailed, and close observation or examination",
+    "thai": "การตรวจสอบอย่างละเอียดถี่ถ้วน",
+    "collocations": [
+     "public scrutiny",
+     "face close scrutiny",
+     "under intense scrutiny"
+    ],
+    "example": "The Be One Foundation is facing public **scrutiny** following allegations that approximately one million baht was improperly transferred to personal bank accounts."
+   },
+   {
+    "word": "optimum",
+    "pos": "adjective",
+    "definition": "best, most favorable, or yielding the greatest possible success under given conditions",
+    "thai": "เหมาะสมที่สุดหรือดีที่สุด",
+    "collocations": [
+     "optimum conditions",
+     "optimum performance",
+     "optimum health"
+    ],
+    "example": "To maintain **optimum** cognitive function, meals should balance complex carbohydrates, lean proteins, and healthy fats."
+   },
+   {
+    "word": "streamline",
+    "pos": "verb",
+    "definition": "to make a system, process, or organization simpler and more efficient",
+    "thai": "ปรับปรุงกระบวนการให้คล่องตัวและมีประสิทธิภาพมากขึ้น",
+    "collocations": [],
+    "example": "I am taking steps to __streamline__ our internal workflow to minimize further impact."
+   }
+  ],
+  "activity": {
+   "instructions": "Match each target word on the left with its most natural partner word on the right. Partner words: [approach, flames, performance, scrutiny, tensions, unrest]",
+   "items": [
+    "engulfed — ?",
+    "civil — ?",
+    "escalating — ?",
+    "tailored — ?",
+    "public — ?",
+    "optimum — ?"
+   ],
+   "answers": [
+    "engulfed — flames",
+    "civil — unrest",
+    "escalating — tensions",
+    "tailored — approach",
+    "public — scrutiny",
+    "optimum — performance"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Authorities in Paris launched an attempted murder probe after protesters were involved on violent clashes.",
+    "corrected": "Authorities in Paris launched an attempted murder probe after protesters were involved in violent clashes.",
+    "reason": "Wrong preposition after involved (use 'in', not 'on')."
+   },
+   {
+    "sentence": "Civil unrest broke out across several French cities because living costs were soaring dramatical.",
+    "corrected": "Civil unrest broke out across several French cities because living costs were soaring dramatically.",
+    "reason": "Adverb needed to modify the verb 'were soaring'."
+   },
+   {
+    "sentence": "The candidate decided to endorse his opponent despite the escalating tension between their teams.",
+    "corrected": "The candidate decided to endorse his opponent despite the escalating tensions between their teams.",
+    "reason": "Collocation: use plural 'tensions' for political rivalry."
+   },
+   {
+    "sentence": "The medical foundation is currently under close scrutiny because of unexplained transfers to private account.",
+    "corrected": "The medical foundation is currently under close scrutiny because of unexplained transfers to private accounts.",
+    "reason": "Countable noun 'account' requires plural form here."
+   },
+   {
+    "sentence": "Nutritionists suggest that balancing daily meals helps people achieve optimum healthy in demanding jobs.",
+    "corrected": "Nutritionists suggest that balancing daily meals helps people achieve optimum health in demanding jobs.",
+    "reason": "Noun 'health' needed after the adjective 'optimum'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Italian small talk is warm and expressive. Everyday interactions in cafes and shops typically begin with friendly greetings and easy pleasantries.",
+   "phrases": [
+    {
+     "phrase": "Piacere di conoscerti!",
+     "pronunciation": "pyah-CHEH-reh dee koh-NOH-shehr-tee",
+     "meaning": "Nice to meet you!"
+    },
+    {
+     "phrase": "Come va la giornata?",
+     "pronunciation": "KOH-meh vah lah jor-NAH-tah",
+     "meaning": "How is your day going?"
+    },
+    {
+     "phrase": "Ci vediamo presto!",
+     "pronunciation": "chee veh-DYAH-moh PREH-stoh",
+     "meaning": "See you soon!"
+    }
+   ],
+   "root": {
+    "root": "parlare",
+    "meaning": "to speak or talk",
+    "english_words": "parliament, parlance, parlor",
+    "note": "Derived from medieval Latin, this root gave English words relating to speaking, discussion, and designated meeting rooms."
+   },
+   "borrowed": {
+    "word": "cappuccino",
+    "note": "This beloved coffee order was named after the brown color of robes worn by Capuchin friars in Italy."
+   },
+   "curious": {
+    "word": "magari",
+    "pronunciation": "mah-GAH-ree",
+    "meaning": "if only / I wish / maybe",
+    "note": "This versatile Italian filler word expresses hopeful longing or enthusiastic agreement when responding to great ideas."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 359,
+  "world_1": 132,
+  "world_2": 134,
+  "thailand_1": 115,
+  "thailand_2": 115,
+  "feature": 342,
+  "real_english": 190,
+  "language_lab": 114,
+  "other_language": 122,
+  "word_bank": 288,
+  "total": 2102
+ },
+ "notes": [
+  "dropped 'unravel' from star_words: it does not appear in the articles",
+  "dropped 'stagnant' from star_words: it does not appear in the articles",
+  "dropped 'adversary' from recycled_words: it does not appear in the articles",
+  "dropped 'feasibility' from recycled_words: it does not appear in the articles",
+  "dropped 'turnover' from recycled_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 359 words (target 470–510)",
+  "thailand_1: 115 words (target 140–160)",
+  "thailand_2: 115 words (target 140–160)",
+  "real_english: 190 words (target 260–320)",
+  "language_lab: 114 words (target 150–260)",
+  "other_language: 122 words (target 140–190)",
+  "whole issue: 2102 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: ok"
+ ],
+ "fallback_used": false
+}
