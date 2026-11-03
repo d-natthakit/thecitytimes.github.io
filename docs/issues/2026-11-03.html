@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="sepia">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE CITY TIMES · Tuesday, 3 November 2026</title>
+<meta name="description" content="Tuesday, 3 November 2026: US Supreme Court Rejects Request to Block California Mail Ballots">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&family=Noto+Serif+Thai:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* ── Colours: sepia (default) and black & white ─────────────── */
+:root{--paper:#f3ead7;--ink:#2a2118;--muted:#6b5a45;--rule:#2a2118;--box:#ebdfc6}
+html[data-theme="bw"]{--paper:#ffffff;--ink:#111111;--muted:#555555;--rule:#111111;--box:#f1f1f1}
+
+/* ── Base ───────────────────────────────────────────────────── */
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Serif 4",Georgia,"Noto Serif Thai",serif;font-size:17px;line-height:1.62}
+.page{max-width:1080px;margin:0 auto;padding:16px 16px 48px}
+section{margin-top:30px}
+h3{font-family:"Playfair Display",serif;font-weight:700;font-size:24px;line-height:1.2;margin:0 0 6px}
+h4{font-family:"Playfair Display",serif;font-size:16px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px}
+p{margin:0 0 .8em}
+ol{margin:0;padding-left:1.5em}
+li{margin-bottom:4px}
+[lang="th"]{font-family:"Noto Serif Thai",serif}
+.center{text-align:center}
+.inst{font-style:italic;color:var(--muted)}
+.ex{font-style:italic;color:var(--muted)}
+.small-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+/* ── Toolbar and masthead ───────────────────────────────────── */
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;font-size:13px}
+.toolbar nav{display:flex;gap:14px;flex-wrap:wrap}
+.toolbar a{color:var(--ink)}
+.toolbar button{font:inherit;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule);padding:4px 10px;cursor:pointer}
+.masthead{text-align:center}
+.ears{display:flex;justify-content:space-between;gap:12px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);line-height:1.4}
+.ears span:first-child{text-align:left}
+.ears span:last-child{text-align:right}
+.title{font-family:"UnifrakturMaguntia",serif;font-weight:400;font-size:clamp(42px,10vw,104px);line-height:1;margin:6px 0 12px}
+.dateline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 16px;border-top:1px solid var(--rule);border-bottom:3px double var(--rule);padding:6px 0;font-size:12px;text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Articles ───────────────────────────────────────────────── */
+.kicker{font-family:"Playfair Display",serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;border-top:2px solid var(--rule);border-bottom:1px solid var(--rule);padding:4px 0;margin:0 0 14px}
+.meta{margin:0 0 10px;font-size:14px}
+.level{display:inline-block;border:1px solid var(--ink);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:1px 6px}
+.cover h3{font-size:clamp(30px,5vw,46px);font-weight:900;text-align:center}
+.cover .meta{text-align:center}
+.feature h3{font-size:clamp(24px,3.6vw,32px)}
+.cols{column-gap:32px;column-rule:1px solid var(--rule)}
+@media(min-width:800px){.cover .cols,.feature .cols{column-count:2}}
+.dropcap::first-letter{float:left;font-family:"Playfair Display",serif;font-weight:900;font-size:4.2em;line-height:.8;padding:6px 8px 0 0}
+.stack>article+article{margin-top:20px;padding-top:16px;border-top:1px dashed var(--muted)}
+.rw::after{content:"\21BA";font-size:.75em;vertical-align:super;margin-left:1px;color:var(--muted)}   /* ↺ after review words */
+
+/* ── Layout grids (one column on phones) ────────────────────── */
+.grid2,.pair{display:grid;gap:24px}
+.grid3,.wb-grid{display:grid;gap:12px}
+@media(min-width:760px){
+ .grid2{grid-template-columns:1fr 1fr;gap:0}
+ .grid2>*:first-child{padding-right:24px}
+ .grid2>*:last-child{padding-left:24px;border-left:1px solid var(--rule)}
+ .pair{grid-template-columns:1fr 1fr;gap:16px}
+ .grid3{grid-template-columns:repeat(3,1fr)}
+ .wb-grid{grid-template-columns:1fr 1fr}
+}
+
+/* ── Boxes, Real English, Language Lab ──────────────────────── */
+.box{border:1px solid var(--rule);background:var(--box);padding:14px 16px}
+.box ul{margin:0;padding-left:1.2em}
+.lab{border:3px double var(--rule);background:var(--box);padding:18px 16px}
+.lab>div+div{margin-top:18px;padding-top:14px;border-top:1px solid var(--rule)}
+.wrong{text-decoration:line-through;text-decoration-thickness:1px}
+.wrong::before{content:"\2717\00a0";font-weight:700}   /* ✗ */
+.right::before{content:"\2713\00a0";font-weight:700}   /* ✓ */
+
+/* ── Word Bank ──────────────────────────────────────────────── */
+.wb-card{border:1px solid var(--rule);background:var(--box);padding:12px 14px}
+.wb-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.wb-word{font-family:"Playfair Display",serif;font-weight:700;font-size:19px}
+.wb-pos{font-style:italic;color:var(--muted);font-size:14px}
+.wb-thai{font-weight:600}
+.wb-def{margin:4px 0}
+.wb-coll{font-size:14px;margin:0 0 4px}
+.wb-card .ex{font-size:14px;margin:0}
+.wb-review{margin-top:14px}
+.wb-review li{margin-bottom:6px}
+/* Thai meaning hidden behind a small "ไทย" button */
+details.th{display:inline-block;border:0;padding:0;margin:0;vertical-align:baseline}
+details.th summary{list-style:none;display:inline-block;margin:0;font-family:"Noto Serif Thai",serif;font-size:12px;font-weight:600;letter-spacing:0;text-transform:none;border:1px solid var(--rule);padding:0 6px;line-height:1.5;cursor:pointer}
+details.th summary::-webkit-details-marker{display:none}
+details.th[open] summary{display:none}
+details.th[open] summary+*{display:inline}
+
+/* ── Tables, answer key, sources, archive, footer ───────────── */
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{border-bottom:1px solid var(--rule);padding:6px 8px;text-align:left;vertical-align:top}
+th{font-family:"Playfair Display",serif;text-transform:uppercase;font-size:12px;letter-spacing:.08em;border-bottom:2px solid var(--rule)}
+details{border:1px solid var(--rule);padding:10px 14px}
+summary{cursor:pointer;font-family:"Playfair Display",serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+details[open] summary{margin-bottom:12px}
+.sources{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.sources a{color:inherit}
+.archive-list{list-style:none;padding:0;margin:0}
+.archive-list li{display:flex;gap:16px;align-items:baseline;border-bottom:1px solid var(--rule);padding:10px 0;margin:0}
+.archive-list .d{color:var(--muted);font-size:13px;min-width:13em}
+.archive-list a{color:var(--ink);text-decoration:none;font-weight:700}
+.archive-list a:hover{text-decoration:underline}
+@media(max-width:640px){.archive-list li{flex-wrap:wrap;gap:2px 12px}.archive-list .d{min-width:0}}
+footer{margin-top:36px;border-top:3px double var(--rule);padding-top:8px;text-align:center;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Print on A4 (all hidden answers and Thai meanings are shown) ── */
+@page{size:A4;margin:14mm}
+@media print{
+ html[data-theme]{--paper:#ffffff;--box:#ffffff}
+ .toolbar{display:none}
+ body{font-size:11pt}
+ article,.box,.wb-card,tr{break-inside:avoid}
+}</style>
+</head>
+<body>
+<div class="page">
+
+<div class="toolbar">
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../archive.html">Archive</a>
+<a href="../issues/2026-11-02.html">&larr; Previous day</a>  </nav>
+  <button id="themeBtn" type="button">Black &amp; White</button>
+</div>
+
+<header class="masthead">
+  <div class="ears">
+    <span>Daily English for<br>Thai Professionals</span>
+    <span>Levels B1+ to C1<br>About 20 minutes</span>
+  </div>
+  <h1 class="title">The City Times</h1>
+  <div class="dateline">
+    <span>Tuesday, 3 November 2026</span>
+    <span>Bangkok Edition</span>
+  </div>
+</header>
+
+<section class="cover">
+  <h2 class="kicker">Cover Story</h2>
+  <article>
+    <h3>US Supreme Court Rejects Request to Block California Mail Ballots</h3>
+    <p class="meta"><span class="level">C1 · 4 min</span></p>
+    <div class="cols">
+<p class="dropcap">The United States Supreme Court on Monday rejected an emergency request from the presidential administration to force California election officials to set aside thousands of mail-in ballots. Federal lawyers had urged the high court to order state authorities to separate approximately 20,000 votes cast by individuals flagged as potential noncitizens on state voter rolls, just hours before the nationwide midterm elections. The ruling represents the latest judicial rebuke regarding federal efforts to intervene in state voting processes.</p>
+<p>The emergency appeal was the latest development in a legal battle between federal authorities and California, a Democratic stronghold and the nation&#39;s most populous state. Voting in California has been underway since early October, with mail-in ballots distributed to all of the state&#39;s roughly 23 million registered voters and hundreds of thousands already processed. The Department of Justice filed its emergency petition with the high court on Monday, one day before midterm elections expected to determine the balance of power in Congress.</p>
+<p>Federal prosecutors argued that setting aside challenged ballots was necessary until voters&#39; citizenship status could be verified. The Department of Justice claimed that once disputed ballots were integrated into the main count, identifying and removing noncitizen votes would be impossible. However, California election officials vigorously opposed the request, warning that the federal list compiled by the Department of Homeland Security was unreliable and filled with errors. State leaders cautioned that acceding to the federal request would effectively <strong>disenfranchise</strong> thousands of eligible legal voters across California.</p>
+<p>California authorities emphasized that attempting to locate and isolate specific ballots after weeks of voting would create an unmanageable <strong>bureaucratic</strong> nightmare for local offices. Because state laws ensure broad voting access through mailed ballots, processing operations were already far advanced when the Justice Department filed its challenge. State election officials maintained that disrupting established procedures on the eve of the election would threaten the overall vote counting process.</p>
+<p>In denying the petition, the Supreme Court did not detail its reasoning, which is common for emergency docket decisions. The high court&#39;s order follows a decision by Federal District Judge David Carter, who rejected the administration&#39;s claims due to concerns regarding database reliability. Judge Carter wrote that if the executive branch could discount votes based on unproven allegations, democracy would be in danger. The justices previously rejected similar attempts to restrict mail ballots in September.</p>
+<p>The ruling marks another judicial setback for the administration, which has engaged in <span class="rw">unprecedented</span> attempts to influence election management across multiple states. California leaders celebrated the high court&#39;s refusal to step in, though election officials remain braced for new attempts to meddle during ballot counting. State officials reiterated warnings that interfering with voters or tampering with ballots violates state law, emphasizing that state government holds primary constitutional responsibility for conducting elections safely and fairly.</p>
+    </div>
+  </article>
+</section>
+
+<section class="grid2">
+  <div class="stack">
+    <h2 class="kicker">World in Brief</h2>
+<article>
+  <h3>Russian Air Strikes Kill 26 at Ukrainian Aid Centre</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>A series of Russian air strikes has hit a humanitarian aid distribution centre in southern Ukraine, killing at least 26 people. The attack targeted a local school in the village of Komyshuvakha, located in the Zaporizhzhia region, which local residents used as a weekly distribution site for essential supplies.</p>
+<p>According to Ukrainian officials, nine heavy aerial bombs hit the location, damaging the building and causing collapse while emergency workers and civilians were inside. Rescue crews had to <strong>scavenge</strong> through piles of heavy rubble to retrieve survivors, with initial death tolls rising as more bodies were recovered. Two rescue workers and four police officers were among the casualties reported.</p>
+<p>Ukrainian leaders condemned the bombing, stating that military forces were fully aware of the civilian function of the facility. The strike comes amid <span class="rw">escalating</span> tension across the region, casting doubt over potential short-term peace talks.</p>
+</article>
+<article>
+  <h3>US Plans to Remove South Africa and Rwanda from Trade Programme</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>The United States has announced plans to end duty-free trade access for South Africa and Rwanda under the African Growth and Opportunity Act, known as AGOA. US trade officials stated that both nations engaged in practices inconsistent with the program&#39;s eligibility standards, citing trade barriers and security concerns.</p>
+<p>AGOA has provided qualifying sub-Saharan African nations with tax-free access to the US market for over two decades. South Africa is the largest participant in the program, exporting substantial volumes of vehicle parts, citrus fruits, and wine under its terms.</p>
+<p>South African trade representatives indicated they were prepared for the decision, noting that AGOA exports represent a small percentage of total global trade. However, agricultural sectors warned that losing duty-free access could harm local supply chains and threaten regional employment.</p>
+</article>
+  </div>
+  <div class="stack">
+    <h2 class="kicker">Thailand Today</h2>
+<article>
+  <h3>Draft Game Industry Law Facing Major Revisions</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>Proposed legislation intended to promote Thailand&#39;s gaming sector has returned to the drafting phase following extensive changes by the Digital Economy and Society Ministry. The revisions expand the scope of the original draft beyond digital software to include traditional board games, card games, and competitive electronic sports.</p>
+<p>Industry representatives expressed concern over the delays and questioned the proposed governance structure. Under the current revision, public officials would hold a two-thirds majority on the main oversight board, leaving private business leaders with limited influence over policy decisions.</p>
+<p>The software association has urged officials to <strong>streamline</strong> the regulatory framework by removing extra sub-committees and balancing committee seats equally between public and private sectors. Additionally, <strong>incorporate</strong> a dedicated industry fund into the law adds regulatory steps that require review by financial ministries.</p>
+</article>
+<article>
+  <h3>Government Offers Subsidies for Household Solar Systems</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>Thailand has launched its Solar for the People scheme, offering grants up to 50,000 baht to help homeowners install residential solar panels. The initiative aims to reduce electricity expenses for up to one million households across the country.</p>
+<p>Under the rules, eligible citizens whose names match their property&#39;s electricity meter can apply for <span class="rw">tailored</span> system packages through state utility providers. While the government will <strong>subsidize</strong> a portion of the initial equipment, homeowners must cover the remaining installation costs through personal funds or financial loans.</p>
+<p>State electricity authorities estimate that a standard installation can lower monthly utility bills significantly. Participating households are also permitted to sell excess power back to the national electrical grid under established rate agreements.</p>
+</article>
+  </div>
+</section>
+
+<section class="feature">
+  <h2 class="kicker">Feature · Tech &amp; Science</h2>
+  <article>
+    <h3>Bridging the Digital Divide with Open-Source Tech</h3>
+    <p class="meta"><span class="level">B2 · 2 min</span></p>
+    <div class="cols">
+<p>Access to modern technology shapes career growth and educational progress around the globe. Yet a broad economic <strong>disparity</strong> remains between communities with cheap high-speed internet and those lacking basic digital tools. Open-source software and open-hardware designs are emerging as practical solutions to bridge this global divide.</p>
+<p>Open-source technology allows engineers and educators everywhere to inspect, modify, and distribute software without paying high license fees. Community-led projects are transforming old computers into functional workstations for schools in developing regions. By using lightweight operating systems, organizations can <strong>reinstate</strong> aging devices into productive service instead of throwing them away as electronic waste.</p>
+<p>Hardware innovation is following a similar path. Low-cost single-board microcontrollers enable local innovators to build customized tools, from low-cost weather stations to automated farming systems. These modular designs undergo open <span class="rw">scrutiny</span> from global developer communities, ensuring rapid improvements and lowering production expenses.</p>
+<p>Adopting open-source frameworks also encourages self-reliance within local tech sectors. Rather than relying entirely on proprietary systems from foreign tech giants, local developers acquire deep practical skills by modifying code for their immediate environment. This approach builds local technical expertise while keeping operational costs manageable.</p>
+<p>To maximize these benefits, non-profit groups and educational institutions must focus on training programs alongside hardware distribution. Teaching basic programming and system administration ensures that communities can maintain their infrastructure independently, turning temporary technical aid into sustainable local development.</p>
+    </div>
+  </article>
+</section>
+
+<section>
+  <h2 class="kicker">Real English · Two Takes</h2>
+  <h3 class="center">Should tech companies replace human software testers entirely with automated AI testing tools?</h3>
+  <p class="meta center"><span class="level">C1 · 2 min</span></p>
+  <div class="grid2">
+    <article>
+      <h4>Efficiency and Scale</h4>
+<p>Automated tools can execute thousands of code tests in minutes, finding system bugs far faster than human teams. <strong>Granted that</strong> initial setup requires effort, automation eliminates human error in repetitive checks. Software teams can release updates continuously without waiting for manual approval cycles.</p>    </article>
+    <article>
+      <h4>Human Intuition Matters</h4>
+<p>Software is designed for humans, not scripts. Automated tools miss creative edge cases and user experience issues that a real person notices immediately. <strong>It appears that</strong> complete automation saves money, but <strong>in stark contrast to</strong> algorithm checks, human testers understand emotional context and real usability.</p>    </article>
+  </div>
+  <div class="pair" style="margin-top:16px">
+    <div class="box">
+      <h4>Argument Phrases</h4>
+      <ul><li><strong>Granted that</strong> — concession</li><li><strong>It appears that</strong> — hedging</li><li><strong>in stark contrast to</strong> — contrast</li></ul>
+    </div>
+    <div class="box">
+      <h4>Thai Speaker's Trap</h4>
+      <p class="small-label">Prepositions</p>
+      <p><strong>Incorrect Preposition After &#39;Discuss&#39;</strong></p>
+      <p class="wrong">We will discuss about the project plan tomorrow.</p>
+      <p class="right">We will discuss the project plan tomorrow.</p>
+      <p>In English, the verb &#39;discuss&#39; takes a direct object without a preposition. Thai speakers often add &#39;about&#39; because of the direct translation from &#39;<span lang="th">พูดเกี่ยวกับ</span>&#39; (phut kiakoap).</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Language Lab</h2>
+  <div class="lab">
+    <div>
+      <h4>Gap fill</h4>
+      <p class="inst">Fill in each gap using the correct word from the word box: [bureaucratic, disparity, disenfranchise, incorporate, reinstate, scavenge].</p>
+      <ol><li>Strict new identification rules could ________ low-income citizens who lack passports.</li><li>Navigating through layers of ________ paperwork delayed our project approval for months.</li><li>Rescue teams had to ________ through the debris to find missing tools after the storm.</li><li>The firm plans to ________ user feedback directly into the next software update.</li><li>There is a growing income ________ between urban hubs and remote rural areas.</li><li>The board voted to ________ the original guidelines after the new rules proved unpopular.</li></ol>
+    </div>
+    <div>
+      <h4>Error Identification</h4>
+      <p class="inst">Each sentence has one mistake. Find it and correct it.</p>
+      <ol><li>The court rejected a request to block mail ballots to prevent to disenfranchise voters.</li><li>Officials aim to streamline bureaucratic rules so companies can operate efficient.</li><li>The government will subsidize solar panels for reduce electricity bills.</li><li>Developers will incorporate security features to protect systems from escalating threats.</li><li>Public scrutiny helped uncover a wide disparity of funding between schools.</li></ol>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Word Bank</h2>
+  <p class="inst">&#9733; today's new words, in <strong>bold</strong> in the articles · &#8634; review words from earlier days · tap <em>ไทย</em> for the Thai meaning</p>
+  <div class="wb-grid">
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; disenfranchise</span> <span class="wb-pos">verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ตัดสิทธิ์ในการออกเสียงเลือกตั้ง</span></details>
+      </div>
+      <p class="wb-def">to deprive someone of the right to vote or participate fully in society</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> disenfranchise voters · effectively disenfranchise · risk disenfranchising</p><p class="ex">“State leaders cautioned that acceding to the federal request would effectively <strong>disenfranchise</strong> thousands of eligible legal voters across California.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; bureaucratic</span> <span class="wb-pos">adjective</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">เกี่ยวกับระบบราชการหรือขั้นตอนที่ยุ่งยาก</span></details>
+      </div>
+      <p class="wb-def">relating to complicated rules and official procedures that cause delays</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> bureaucratic nightmare · bureaucratic hurdles · bureaucratic delay</p><p class="ex">“California authorities emphasized that attempting to locate and isolate specific ballots after weeks of voting would create an unmanageable <strong>bureaucratic</strong> nightmare for local offices.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; scavenge</span> <span class="wb-pos">verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ค้นหาของหรือผู้รอดชีวิตจากกองขยะหรือซากหักพัง</span></details>
+      </div>
+      <p class="wb-def">to search for useful items, food, or survivors among discarded materials or wreckage</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> scavenge through rubble · scavenge for food · scavenge supplies</p><p class="ex">“Rescue crews had to <strong>scavenge</strong> through piles of heavy rubble to retrieve survivors, with initial death tolls rising as more bodies were recovered.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; streamline</span> <span class="wb-pos">verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ปรับปรุงขั้นตอนให้มีประสิทธิภาพและรวดเร็วขึ้น</span></details>
+      </div>
+      <p class="wb-def">to make a system or organization simpler and more efficient</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> streamline the process · streamline operations · streamline the regulatory framework</p><p class="ex">“The software association has urged officials to <strong>streamline</strong> the regulatory framework by removing extra sub-committees and balancing committee seats equally between public and private sectors.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; subsidize</span> <span class="wb-pos">verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ให้เงินอุดหนุน</span></details>
+      </div>
+      <p class="wb-def">to support financially by paying part of the cost</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> subsidize the cost · heavily subsidize · government subsidizes</p><p class="ex">“While the government will <strong>subsidize</strong> a portion of the initial equipment, homeowners must cover the remaining installation costs through personal funds or financial loans.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; disparity</span> <span class="wb-pos">noun</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ความแตกต่างอย่างเห็นได้ชัด</span></details>
+      </div>
+      <p class="wb-def">a noticeable difference or imbalance between people or things</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> economic disparity · growing disparity · disparity between groups</p><p class="ex">“Yet a broad economic <strong>disparity</strong> remains between communities with cheap high-speed internet and those lacking basic digital tools.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; reinstate</span> <span class="wb-pos">verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">นำกลับมาใช้ใหม่ หรือคืนตำแหน่งเดิม</span></details>
+      </div>
+      <p class="wb-def">to restore someone or something to a previous position, condition, or service</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> reinstate an employee · reinstate a policy · reinstate old equipment</p><p class="ex">“By using lightweight operating systems, organizations can <strong>reinstate</strong> aging devices into productive service instead of throwing them away as electronic waste.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; incorporate</span> <span class="wb-pos">verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">รวมเข้าด้วยกัน</span></details>
+      </div>
+      <p class="wb-def">to include or combine something as part of a larger whole</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> incorporate features · incorporate feedback · fully incorporate</p><p class="ex">“Additionally, <strong>incorporate</strong> a dedicated industry fund into the law adds regulatory steps that require review by financial ministries.”</p>    </div>
+  </div>
+  <div class="box wb-review">
+    <h4>Review Words</h4>
+    <ul>
+<li><span class="rw"><strong>unprecedented</strong></span> <span class="wb-pos">adjective</span> · never done or known before <details class="th"><summary>ไทย</summary><span lang="th">ที่ไม่เคยเกิดขึ้นมาก่อน</span></details> <small>(from 31 Oct)</small></li>
+<li><span class="rw"><strong>escalating</strong></span> <span class="wb-pos">adjective</span> · increasing rapidly in magnitude, intensity, or seriousness <details class="th"><summary>ไทย</summary><span lang="th">ที่ทวีความรุนแรงขึ้น</span></details> <small>(from 2 Nov)</small></li>
+<li><span class="rw"><strong>tailored</strong></span> <span class="wb-pos">adjective</span> · specially made or customized for a particular purpose or person <details class="th"><summary>ไทย</summary><span lang="th">ที่ถูกปรับให้เหมาะกับบุคคลหรือวัตถุประสงค์เฉพาะ</span></details> <small>(from 2 Nov)</small></li>
+<li><span class="rw"><strong>scrutiny</strong></span> <span class="wb-pos">noun</span> · critical observation or detailed examination <details class="th"><summary>ไทย</summary><span lang="th">การตรวจสอบอย่างละเอียด</span></details> <small>(from 2 Nov)</small></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Other Languages · German</h2>
+  <h3>At a café</h3>
+  <p>Visiting a café in Germany is a relaxing daily ritual. Here are a few essential phrases and word roots to help you order coffee like a local.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>German</th><th>Say it like</th><th>Meaning</th></tr></thead>
+    <tbody>
+<tr><td lang="de"><strong>Ich hätte gerne einen Kaffee.</strong></td><td>ikh HE-tuh GAIR-nuh EYE-nen KAH-fay</td><td>I would like a coffee, please.</td></tr>
+<tr><td lang="de"><strong>Zahlen, bitte!</strong></td><td>TSAH-len BI-tuh</td><td>The bill, please!</td></tr>
+<tr><td lang="de"><strong>Mit Milch und Zucker?</strong></td><td>mit MILK uynt TSOO-ker</td><td>With milk and sugar?</td></tr>
+    </tbody>
+  </table></div>
+  <div class="grid3" style="margin-top:16px">
+    <div class="box">
+      <h4>Word Root</h4>
+      <p><strong lang="de">trinken</strong> = to drink</p>
+      <p><span class="small-label">In English</span> drink, drench, drown</p>
+      <p class="ex">This Germanic root evolved into modern English terms related to liquids and absorbing water.</p>
+    </div>
+    <div class="box">
+      <h4>Borrowed into English</h4>
+      <p><strong>Pretzel</strong></p>
+      <p>Derived from the German Brezel, this baked snack gained international popularity through German immigrants.</p>
+    </div>
+    <div class="box">
+      <h4>Curious Word</h4>
+      <p><strong lang="de">Kaffeeklatsch</strong> <span class="wb-pos">KAH-fay-klatsh</span></p>
+      <p>an informal gathering for coffee and conversation</p>
+      <p class="ex">It combines coffee with chatting or gossiping among friends over afternoon cake.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <details>
+    <summary>Answer Key · tap to reveal</summary>
+    <h4>Gap fill</h4>
+    <ol><li>disenfranchise</li><li>bureaucratic</li><li>scavenge</li><li>incorporate</li><li>disparity</li><li>reinstate</li></ol>
+    <h4 style="margin-top:12px">Error Identification</h4>
+    <ol><li>The court rejected a request to block mail ballots to prevent disenfranchising voters. — <em>The verb prevent takes a gerund (-ing form), not an infinitive.</em></li><li>Officials aim to streamline bureaucratic rules so companies can operate efficiently. — <em>Use an adverb (efficiently) to modify the verb operate.</em></li><li>The government will subsidize solar panels to reduce electricity bills. — <em>Use to + infinitive (to reduce) to express purpose, not for + infinitive.</em></li><li>Developers will incorporate security features to protect systems against escalating threats. — <em>The verb protect normally collocates with from or against, but against is preferred for active threats.</em></li><li>Public scrutiny helped uncover a wide disparity in funding between schools. — <em>The noun disparity usually takes the preposition in when referring to a domain or area.</em></li></ol>
+  </details>
+</section>
+
+<section class="sources">
+  <h2 class="kicker">Sources</h2>
+  <ol>
+<li><a href="https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates" rel="noopener">The Guardian — Trump loses supreme court bid to set aside 20,000 California ballots as justices refuse to take up emergency request – live</a></li>
+<li><a href="https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss" rel="noopener">Al Jazeera — Supreme Court rejects Trump request to set aside California ballots</a></li>
+<li><a href="https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss" rel="noopener">Al Jazeera — Multiple Russian strikes kill at least 26 at Ukraine aid centre</a></li>
+<li><a href="https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&amp;at_campaign=rss" rel="noopener">BBC News — Russian bombing kills 26 people at Ukraine aid centre, Kyiv says</a></li>
+<li><a href="https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-all-1573-rdf" rel="noopener">DW — US to drop South Africa, Rwanda from duty-free trade initiative</a></li>
+<li><a href="https://www.bangkokpost.com/business/general/3347630/game-industry-act-faces-major-revisions" rel="noopener">Bangkok Post Business — Game industry act faces major revisions</a></li>
+<li><a href="https://www.bangkokpost.com/thailand/general/3347625/solar-scheme-promises-savings-but-at-what-cost" rel="noopener">Bangkok Post — Solar scheme promises savings, but at what cost?</a></li>
+  </ol>
+</section>
+
+<footer>THE CITY TIMES · Tuesday, 3 November 2026 · Written with AI from the sources listed above</footer>
+
+</div>
+<script>
+// Sepia ⇄ black & white switch (remembered in this browser), and open every
+// hidden answer / Thai meaning when the page is printed.
+(function(){
+  var root = document.documentElement, btn = document.getElementById('themeBtn');
+  function setTheme(t){
+    root.setAttribute('data-theme', t);
+    btn.textContent = t === 'bw' ? 'Sepia' : 'Black & White';
+    try { localStorage.setItem('city-theme', t); } catch (e) {}
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('city-theme'); } catch (e) {}
+  setTheme(saved === 'bw' ? 'bw' : 'sepia');
+  btn.addEventListener('click', function(){
+    setTheme(root.getAttribute('data-theme') === 'bw' ? 'sepia' : 'bw');
+  });
+  window.addEventListener('beforeprint', function(){
+    var d = document.querySelectorAll('details');
+    for (var i = 0; i < d.length; i++) { d[i].open = true; }
+  });
+})();</script>
+</body>
+</html>

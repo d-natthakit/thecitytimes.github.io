@@ -1,0 +1,589 @@
+{
+ "plan": {
+  "date": "2026-11-03",
+  "date_long": "Tuesday, 3 November 2026",
+  "weekday": "Tue",
+  "issue_no": 5,
+  "language": "German",
+  "phrase_theme": "at a café",
+  "feature": "Tech & Science",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Gap fill",
+  "trap": "Prepositions",
+  "avoid_star_words": [
+   "adventurous",
+   "adversary",
+   "attributed",
+   "bilateral",
+   "compelling",
+   "crackdown",
+   "curate",
+   "delicacies",
+   "derail",
+   "designated",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "feasibility",
+   "intermittent",
+   "look into",
+   "mindset",
+   "opt for",
+   "optimum",
+   "proscription",
+   "scrutiny",
+   "sparked",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "tailored",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "versatile"
+  ],
+  "review_pool": [
+   {
+    "word": "engulfed",
+    "taught_date": "2026-11-02",
+    "days_ago": 1
+   },
+   {
+    "word": "unrest",
+    "taught_date": "2026-11-02",
+    "days_ago": 1
+   },
+   {
+    "word": "escalating",
+    "taught_date": "2026-11-02",
+    "days_ago": 1
+   },
+   {
+    "word": "tailored",
+    "taught_date": "2026-11-02",
+    "days_ago": 1
+   },
+   {
+    "word": "scrutiny",
+    "taught_date": "2026-11-02",
+    "days_ago": 1
+   },
+   {
+    "word": "optimum",
+    "taught_date": "2026-11-02",
+    "days_ago": 1
+   },
+   {
+    "word": "attributed",
+    "taught_date": "2026-10-31",
+    "days_ago": 3
+   },
+   {
+    "word": "unprecedented",
+    "taught_date": "2026-10-31",
+    "days_ago": 3
+   },
+   {
+    "word": "intermittent",
+    "taught_date": "2026-10-31",
+    "days_ago": 3
+   },
+   {
+    "word": "designated",
+    "taught_date": "2026-10-31",
+    "days_ago": 3
+   },
+   {
+    "word": "compelling",
+    "taught_date": "2026-10-31",
+    "days_ago": 3
+   },
+   {
+    "word": "mindset",
+    "taught_date": "2026-10-31",
+    "days_ago": 3
+   },
+   {
+    "word": "opt for",
+    "taught_date": "2026-10-31",
+    "days_ago": 3
+   },
+   {
+    "word": "curate",
+    "taught_date": "2026-10-31",
+    "days_ago": 3
+   }
+  ],
+  "recent_traps": [
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "sprechen",
+   "Kindergarten",
+   "Feierabend"
+  ],
+  "recent_news_titles": [
+   "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
+   "Attempted murder probe after petrol bomb thrown at French riot police",
+   "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+   "Democrat Haley Stevens endorses Abdul El-Sayed’s Republican rival Mike Rogers",
+   "Thailand eyes status as AI medical hub",
+   "Foundation faces B1m query",
+   "London police arrest 139 as hundreds protest Palestine Action ban",
+   "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+   "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+   "Pope Leo XIV becomes first pontiff to vote in a US election",
+   "Thailand, Bhutan sign three deals",
+   "Chiang Mai health worker found dead in irrigation canal after overnight disappearance",
+   "Binance crypto exchange suspends trades over North Korea-linked hack",
+   "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
+   "Polish police deployed to top court after head judge suspended",
+   "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+   "Net-zero drive causes reliability concerns",
+   "Govt plans 'nightlife sandbox' for Khao San, Rambuttri"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "The Guardian",
+   "title": "Trump loses supreme court bid to set aside 20,000 California ballots as justices refuse to take up emergency request – live",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/02/democrats-haley-stevens-mike-rogers-abdul-el-sayed-michigan-midterms-trump-rallies-latest-news-updates",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "Al Jazeera",
+   "title": "Supreme Court rejects Trump request to set aside California ballots",
+   "url": "https://www.aljazeera.com/news/2026/11/2/trump-asks-supreme-court-to-block-20000-california-ballots-before-midterms?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "Al Jazeera",
+   "title": "Multiple Russian strikes kill at least 26 at Ukraine aid centre",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/multiple-russian-strikes-kill-at-least-26-at-ukraine-aid-centre?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_1 (second source)",
+   "source": "BBC News",
+   "title": "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+   "url": "https://www.bbc.co.uk/news/articles/cjy56dndlyz0o?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "world_2",
+   "source": "DW",
+   "title": "US to drop South Africa, Rwanda from duty-free trade initiative",
+   "url": "https://www.dw.com/en/us-to-drop-south-africa-rwanda-from-duty-free-trade-initiative/a-79834508?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Game industry act faces major revisions",
+   "url": "https://www.bangkokpost.com/business/general/3347630/game-industry-act-faces-major-revisions",
+   "thin": false
+  },
+  {
+   "id": "S7",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Solar scheme promises savings, but at what cost?",
+   "url": "https://www.bangkokpost.com/thailand/general/3347625/solar-scheme-promises-savings-but-at-what-cost",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "disenfranchise",
+   "bureaucratic",
+   "scavenge",
+   "streamline",
+   "subsidize",
+   "disparity",
+   "reinstate",
+   "incorporate"
+  ],
+  "recycled_words": [
+   "unprecedented",
+   "escalating",
+   "tailored",
+   "scrutiny"
+  ],
+  "cover": {
+   "headline": "US Supreme Court Rejects Request to Block California Mail Ballots",
+   "paragraphs": [
+    "The United States Supreme Court on Monday rejected an emergency request from the presidential administration to force California election officials to set aside thousands of mail-in ballots. Federal lawyers had urged the high court to order state authorities to separate approximately 20,000 votes cast by individuals flagged as potential noncitizens on state voter rolls, just hours before the nationwide midterm elections. The ruling represents the latest judicial rebuke regarding federal efforts to intervene in state voting processes.",
+    "The emergency appeal was the latest development in a legal battle between federal authorities and California, a Democratic stronghold and the nation's most populous state. Voting in California has been underway since early October, with mail-in ballots distributed to all of the state's roughly 23 million registered voters and hundreds of thousands already processed. The Department of Justice filed its emergency petition with the high court on Monday, one day before midterm elections expected to determine the balance of power in Congress.",
+    "Federal prosecutors argued that setting aside challenged ballots was necessary until voters' citizenship status could be verified. The Department of Justice claimed that once disputed ballots were integrated into the main count, identifying and removing noncitizen votes would be impossible. However, California election officials vigorously opposed the request, warning that the federal list compiled by the Department of Homeland Security was unreliable and filled with errors. State leaders cautioned that acceding to the federal request would effectively **disenfranchise** thousands of eligible legal voters across California.",
+    "California authorities emphasized that attempting to locate and isolate specific ballots after weeks of voting would create an unmanageable **bureaucratic** nightmare for local offices. Because state laws ensure broad voting access through mailed ballots, processing operations were already far advanced when the Justice Department filed its challenge. State election officials maintained that disrupting established procedures on the eve of the election would threaten the overall vote counting process.",
+    "In denying the petition, the Supreme Court did not detail its reasoning, which is common for emergency docket decisions. The high court's order follows a decision by Federal District Judge David Carter, who rejected the administration's claims due to concerns regarding database reliability. Judge Carter wrote that if the executive branch could discount votes based on unproven allegations, democracy would be in danger. The justices previously rejected similar attempts to restrict mail ballots in September.",
+    "The ruling marks another judicial setback for the administration, which has engaged in __unprecedented__ attempts to influence election management across multiple states. California leaders celebrated the high court's refusal to step in, though election officials remain braced for new attempts to meddle during ballot counting. State officials reiterated warnings that interfering with voters or tampering with ballots violates state law, emphasizing that state government holds primary constitutional responsibility for conducting elections safely and fairly."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Russian Air Strikes Kill 26 at Ukrainian Aid Centre",
+    "paragraphs": [
+     "A series of Russian air strikes has hit a humanitarian aid distribution centre in southern Ukraine, killing at least 26 people. The attack targeted a local school in the village of Komyshuvakha, located in the Zaporizhzhia region, which local residents used as a weekly distribution site for essential supplies.",
+     "According to Ukrainian officials, nine heavy aerial bombs hit the location, damaging the building and causing collapse while emergency workers and civilians were inside. Rescue crews had to **scavenge** through piles of heavy rubble to retrieve survivors, with initial death tolls rising as more bodies were recovered. Two rescue workers and four police officers were among the casualties reported.",
+     "Ukrainian leaders condemned the bombing, stating that military forces were fully aware of the civilian function of the facility. The strike comes amid __escalating__ tension across the region, casting doubt over potential short-term peace talks."
+    ],
+    "source_ids": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "headline": "US Plans to Remove South Africa and Rwanda from Trade Programme",
+    "paragraphs": [
+     "The United States has announced plans to end duty-free trade access for South Africa and Rwanda under the African Growth and Opportunity Act, known as AGOA. US trade officials stated that both nations engaged in practices inconsistent with the program's eligibility standards, citing trade barriers and security concerns.",
+     "AGOA has provided qualifying sub-Saharan African nations with tax-free access to the US market for over two decades. South Africa is the largest participant in the program, exporting substantial volumes of vehicle parts, citrus fruits, and wine under its terms.",
+     "South African trade representatives indicated they were prepared for the decision, noting that AGOA exports represent a small percentage of total global trade. However, agricultural sectors warned that losing duty-free access could harm local supply chains and threaten regional employment."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Draft Game Industry Law Facing Major Revisions",
+    "paragraphs": [
+     "Proposed legislation intended to promote Thailand's gaming sector has returned to the drafting phase following extensive changes by the Digital Economy and Society Ministry. The revisions expand the scope of the original draft beyond digital software to include traditional board games, card games, and competitive electronic sports.",
+     "Industry representatives expressed concern over the delays and questioned the proposed governance structure. Under the current revision, public officials would hold a two-thirds majority on the main oversight board, leaving private business leaders with limited influence over policy decisions.",
+     "The software association has urged officials to **streamline** the regulatory framework by removing extra sub-committees and balancing committee seats equally between public and private sectors. Additionally, **incorporate** a dedicated industry fund into the law adds regulatory steps that require review by financial ministries."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   },
+   {
+    "headline": "Government Offers Subsidies for Household Solar Systems",
+    "paragraphs": [
+     "Thailand has launched its Solar for the People scheme, offering grants up to 50,000 baht to help homeowners install residential solar panels. The initiative aims to reduce electricity expenses for up to one million households across the country.",
+     "Under the rules, eligible citizens whose names match their property's electricity meter can apply for __tailored__ system packages through state utility providers. While the government will **subsidize** a portion of the initial equipment, homeowners must cover the remaining installation costs through personal funds or financial loans.",
+     "State electricity authorities estimate that a standard installation can lower monthly utility bills significantly. Participating households are also permitted to sell excess power back to the national electrical grid under established rate agreements."
+    ],
+    "source_ids": [
+     "S7"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Bridging the Digital Divide with Open-Source Tech",
+   "paragraphs": [
+    "Access to modern technology shapes career growth and educational progress around the globe. Yet a broad economic **disparity** remains between communities with cheap high-speed internet and those lacking basic digital tools. Open-source software and open-hardware designs are emerging as practical solutions to bridge this global divide.",
+    "Open-source technology allows engineers and educators everywhere to inspect, modify, and distribute software without paying high license fees. Community-led projects are transforming old computers into functional workstations for schools in developing regions. By using lightweight operating systems, organizations can **reinstate** aging devices into productive service instead of throwing them away as electronic waste.",
+    "Hardware innovation is following a similar path. Low-cost single-board microcontrollers enable local innovators to build customized tools, from low-cost weather stations to automated farming systems. These modular designs undergo open __scrutiny__ from global developer communities, ensuring rapid improvements and lowering production expenses.",
+    "Adopting open-source frameworks also encourages self-reliance within local tech sectors. Rather than relying entirely on proprietary systems from foreign tech giants, local developers acquire deep practical skills by modifying code for their immediate environment. This approach builds local technical expertise while keeping operational costs manageable.",
+    "To maximize these benefits, non-profit groups and educational institutions must focus on training programs alongside hardware distribution. Teaching basic programming and system administration ensures that communities can maintain their infrastructure independently, turning temporary technical aid into sustainable local development."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "view_a": {
+    "title": "Efficiency and Scale",
+    "text": "Automated tools can execute thousands of code tests in minutes, finding system bugs far faster than human teams. **Granted that** initial setup requires effort, automation eliminates human error in repetitive checks. Software teams can release updates continuously without waiting for manual approval cycles."
+   },
+   "view_b": {
+    "title": "Human Intuition Matters",
+    "text": "Software is designed for humans, not scripts. Automated tools miss creative edge cases and user experience issues that a real person notices immediately. **It appears that** complete automation saves money, but **in stark contrast to** algorithm checks, human testers understand emotional context and real usability."
+   },
+   "phrases": [
+    {
+     "phrase": "Granted that",
+     "function": "concession"
+    },
+    {
+     "phrase": "It appears that",
+     "function": "hedging"
+    },
+    {
+     "phrase": "in stark contrast to",
+     "function": "contrast"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Incorrect Preposition After 'Discuss'",
+   "wrong": "We will discuss about the project plan tomorrow.",
+   "right": "We will discuss the project plan tomorrow.",
+   "explanation": "In English, the verb 'discuss' takes a direct object without a preposition. Thai speakers often add 'about' because of the direct translation from 'พูดเกี่ยวกับ' (phut kiakoap)."
+  },
+  "word_bank": [
+   {
+    "word": "disenfranchise",
+    "pos": "verb",
+    "definition": "to deprive someone of the right to vote or participate fully in society",
+    "thai": "ตัดสิทธิ์ในการออกเสียงเลือกตั้ง",
+    "collocations": [
+     "disenfranchise voters",
+     "effectively disenfranchise",
+     "risk disenfranchising"
+    ],
+    "example": "State leaders cautioned that acceding to the federal request would effectively **disenfranchise** thousands of eligible legal voters across California."
+   },
+   {
+    "word": "bureaucratic",
+    "pos": "adjective",
+    "definition": "relating to complicated rules and official procedures that cause delays",
+    "thai": "เกี่ยวกับระบบราชการหรือขั้นตอนที่ยุ่งยาก",
+    "collocations": [
+     "bureaucratic nightmare",
+     "bureaucratic hurdles",
+     "bureaucratic delay"
+    ],
+    "example": "California authorities emphasized that attempting to locate and isolate specific ballots after weeks of voting would create an unmanageable **bureaucratic** nightmare for local offices."
+   },
+   {
+    "word": "scavenge",
+    "pos": "verb",
+    "definition": "to search for useful items, food, or survivors among discarded materials or wreckage",
+    "thai": "ค้นหาของหรือผู้รอดชีวิตจากกองขยะหรือซากหักพัง",
+    "collocations": [
+     "scavenge through rubble",
+     "scavenge for food",
+     "scavenge supplies"
+    ],
+    "example": "Rescue crews had to **scavenge** through piles of heavy rubble to retrieve survivors, with initial death tolls rising as more bodies were recovered."
+   },
+   {
+    "word": "streamline",
+    "pos": "verb",
+    "definition": "to make a system or organization simpler and more efficient",
+    "thai": "ปรับปรุงขั้นตอนให้มีประสิทธิภาพและรวดเร็วขึ้น",
+    "collocations": [
+     "streamline the process",
+     "streamline operations",
+     "streamline the regulatory framework"
+    ],
+    "example": "The software association has urged officials to **streamline** the regulatory framework by removing extra sub-committees and balancing committee seats equally between public and private sectors."
+   },
+   {
+    "word": "subsidize",
+    "pos": "verb",
+    "definition": "to support financially by paying part of the cost",
+    "thai": "ให้เงินอุดหนุน",
+    "collocations": [
+     "subsidize the cost",
+     "heavily subsidize",
+     "government subsidizes"
+    ],
+    "example": "While the government will **subsidize** a portion of the initial equipment, homeowners must cover the remaining installation costs through personal funds or financial loans."
+   },
+   {
+    "word": "disparity",
+    "pos": "noun",
+    "definition": "a noticeable difference or imbalance between people or things",
+    "thai": "ความแตกต่างอย่างเห็นได้ชัด",
+    "collocations": [
+     "economic disparity",
+     "growing disparity",
+     "disparity between groups"
+    ],
+    "example": "Yet a broad economic **disparity** remains between communities with cheap high-speed internet and those lacking basic digital tools."
+   },
+   {
+    "word": "reinstate",
+    "pos": "verb",
+    "definition": "to restore someone or something to a previous position, condition, or service",
+    "thai": "นำกลับมาใช้ใหม่ หรือคืนตำแหน่งเดิม",
+    "collocations": [
+     "reinstate an employee",
+     "reinstate a policy",
+     "reinstate old equipment"
+    ],
+    "example": "By using lightweight operating systems, organizations can **reinstate** aging devices into productive service instead of throwing them away as electronic waste."
+   },
+   {
+    "word": "incorporate",
+    "pos": "verb",
+    "definition": "to include or combine something as part of a larger whole",
+    "thai": "รวมเข้าด้วยกัน",
+    "collocations": [
+     "incorporate features",
+     "incorporate feedback",
+     "fully incorporate"
+    ],
+    "example": "Additionally, **incorporate** a dedicated industry fund into the law adds regulatory steps that require review by financial ministries."
+   },
+   {
+    "word": "unprecedented",
+    "pos": "adjective",
+    "definition": "never done or known before",
+    "thai": "ที่ไม่เคยเกิดขึ้นมาก่อน",
+    "collocations": [],
+    "example": "The ruling marks another judicial setback for the administration, which has engaged in __unprecedented__ attempts to influence election management across multiple states."
+   },
+   {
+    "word": "escalating",
+    "pos": "adjective",
+    "definition": "increasing rapidly in magnitude, intensity, or seriousness",
+    "thai": "ที่ทวีความรุนแรงขึ้น",
+    "collocations": [],
+    "example": "The strike comes amid __escalating__ tension across the region, casting doubt over potential short-term peace talks."
+   },
+   {
+    "word": "tailored",
+    "pos": "adjective",
+    "definition": "specially made or customized for a particular purpose or person",
+    "thai": "ที่ถูกปรับให้เหมาะกับบุคคลหรือวัตถุประสงค์เฉพาะ",
+    "collocations": [],
+    "example": "Under the rules, eligible citizens whose names match their property's electricity meter can apply for __tailored__ system packages through state utility providers."
+   },
+   {
+    "word": "scrutiny",
+    "pos": "noun",
+    "definition": "critical observation or detailed examination",
+    "thai": "การตรวจสอบอย่างละเอียด",
+    "collocations": [],
+    "example": "These modular designs undergo open __scrutiny__ from global developer communities, ensuring rapid improvements and lowering production expenses."
+   }
+  ],
+  "activity": {
+   "instructions": "Fill in each gap using the correct word from the word box: [bureaucratic, disparity, disenfranchise, incorporate, reinstate, scavenge].",
+   "items": [
+    "Strict new identification rules could ________ low-income citizens who lack passports.",
+    "Navigating through layers of ________ paperwork delayed our project approval for months.",
+    "Rescue teams had to ________ through the debris to find missing tools after the storm.",
+    "The firm plans to ________ user feedback directly into the next software update.",
+    "There is a growing income ________ between urban hubs and remote rural areas.",
+    "The board voted to ________ the original guidelines after the new rules proved unpopular."
+   ],
+   "answers": [
+    "disenfranchise",
+    "bureaucratic",
+    "scavenge",
+    "incorporate",
+    "disparity",
+    "reinstate"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The court rejected a request to block mail ballots to prevent to disenfranchise voters.",
+    "corrected": "The court rejected a request to block mail ballots to prevent disenfranchising voters.",
+    "reason": "The verb prevent takes a gerund (-ing form), not an infinitive."
+   },
+   {
+    "sentence": "Officials aim to streamline bureaucratic rules so companies can operate efficient.",
+    "corrected": "Officials aim to streamline bureaucratic rules so companies can operate efficiently.",
+    "reason": "Use an adverb (efficiently) to modify the verb operate."
+   },
+   {
+    "sentence": "The government will subsidize solar panels for reduce electricity bills.",
+    "corrected": "The government will subsidize solar panels to reduce electricity bills.",
+    "reason": "Use to + infinitive (to reduce) to express purpose, not for + infinitive."
+   },
+   {
+    "sentence": "Developers will incorporate security features to protect systems from escalating threats.",
+    "corrected": "Developers will incorporate security features to protect systems against escalating threats.",
+    "reason": "The verb protect normally collocates with from or against, but against is preferred for active threats."
+   },
+   {
+    "sentence": "Public scrutiny helped uncover a wide disparity of funding between schools.",
+    "corrected": "Public scrutiny helped uncover a wide disparity in funding between schools.",
+    "reason": "The noun disparity usually takes the preposition in when referring to a domain or area."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Visiting a café in Germany is a relaxing daily ritual. Here are a few essential phrases and word roots to help you order coffee like a local.",
+   "phrases": [
+    {
+     "phrase": "Ich hätte gerne einen Kaffee.",
+     "pronunciation": "ikh HE-tuh GAIR-nuh EYE-nen KAH-fay",
+     "meaning": "I would like a coffee, please."
+    },
+    {
+     "phrase": "Zahlen, bitte!",
+     "pronunciation": "TSAH-len BI-tuh",
+     "meaning": "The bill, please!"
+    },
+    {
+     "phrase": "Mit Milch und Zucker?",
+     "pronunciation": "mit MILK uynt TSOO-ker",
+     "meaning": "With milk and sugar?"
+    }
+   ],
+   "root": {
+    "root": "trinken",
+    "meaning": "to drink",
+    "english_words": "drink, drench, drown",
+    "note": "This Germanic root evolved into modern English terms related to liquids and absorbing water."
+   },
+   "borrowed": {
+    "word": "Pretzel",
+    "note": "Derived from the German Brezel, this baked snack gained international popularity through German immigrants."
+   },
+   "curious": {
+    "word": "Kaffeeklatsch",
+    "pronunciation": "KAH-fay-klatsh",
+    "meaning": "an informal gathering for coffee and conversation",
+    "note": "It combines coffee with chatting or gossiping among friends over afternoon cake."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 461,
+  "world_1": 143,
+  "world_2": 128,
+  "thailand_1": 129,
+  "thailand_2": 117,
+  "feature": 225,
+  "real_english": 164,
+  "language_lab": 153,
+  "other_language": 118,
+  "word_bank": 458,
+  "total": 2285
+ },
+ "notes": [
+  "★ words repeated within 30 days: streamline",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "thailand_2: 117 words (target 140–160)",
+  "feature: 225 words (target 310–370)",
+  "real_english: 164 words (target 260–320)",
+  "other_language: 118 words (target 140–190)",
+  "whole issue: 2285 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
