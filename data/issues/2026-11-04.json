@@ -1,0 +1,584 @@
+{
+ "plan": {
+  "date": "2026-11-04",
+  "date_long": "Wednesday, 4 November 2026",
+  "weekday": "Wed",
+  "issue_no": 6,
+  "language": "Spanish",
+  "phrase_theme": "at a café",
+  "feature": "Arts & Entertainment",
+  "opinion": "say_it_better",
+  "setting": "meetings & calls",
+  "activity": "Word forms",
+  "trap": "Tenses & time expressions",
+  "avoid_star_words": [
+   "adventurous",
+   "adversary",
+   "attributed",
+   "bilateral",
+   "bureaucratic",
+   "compelling",
+   "crackdown",
+   "curate",
+   "delicacies",
+   "derail",
+   "designated",
+   "disenfranchise",
+   "disparity",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "feasibility",
+   "incorporate",
+   "intermittent",
+   "look into",
+   "mindset",
+   "opt for",
+   "optimum",
+   "proscription",
+   "reinstate",
+   "scavenge",
+   "scrutiny",
+   "sparked",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "subsidize",
+   "tailored",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "versatile"
+  ],
+  "review_pool": [
+   {
+    "word": "disenfranchise",
+    "taught_date": "2026-11-03",
+    "days_ago": 1
+   },
+   {
+    "word": "bureaucratic",
+    "taught_date": "2026-11-03",
+    "days_ago": 1
+   },
+   {
+    "word": "scavenge",
+    "taught_date": "2026-11-03",
+    "days_ago": 1
+   },
+   {
+    "word": "streamline",
+    "taught_date": "2026-11-03",
+    "days_ago": 1
+   },
+   {
+    "word": "subsidize",
+    "taught_date": "2026-11-03",
+    "days_ago": 1
+   },
+   {
+    "word": "disparity",
+    "taught_date": "2026-11-03",
+    "days_ago": 1
+   },
+   {
+    "word": "reinstate",
+    "taught_date": "2026-11-03",
+    "days_ago": 1
+   },
+   {
+    "word": "incorporate",
+    "taught_date": "2026-11-03",
+    "days_ago": 1
+   },
+   {
+    "word": "proscription",
+    "taught_date": "2026-11-01",
+    "days_ago": 3
+   },
+   {
+    "word": "crackdown",
+    "taught_date": "2026-11-01",
+    "days_ago": 3
+   },
+   {
+    "word": "adversary",
+    "taught_date": "2026-11-01",
+    "days_ago": 3
+   },
+   {
+    "word": "bilateral",
+    "taught_date": "2026-11-01",
+    "days_ago": 3
+   },
+   {
+    "word": "feasibility",
+    "taught_date": "2026-11-01",
+    "days_ago": 3
+   },
+   {
+    "word": "turnover",
+    "taught_date": "2026-11-01",
+    "days_ago": 3
+   },
+   {
+    "word": "look into",
+    "taught_date": "2026-11-01",
+    "days_ago": 3
+   }
+  ],
+  "recent_traps": [
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "hablar",
+   "fiesta",
+   "Sobremesa"
+  ],
+  "recent_news_titles": [
+   "Trump loses supreme court bid to set aside 20,000 California ballots as justices refuse to take up emergency request – live",
+   "Supreme Court rejects Trump request to set aside California ballots",
+   "Multiple Russian strikes kill at least 26 at Ukraine aid centre",
+   "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+   "US to drop South Africa, Rwanda from duty-free trade initiative",
+   "Game industry act faces major revisions",
+   "Solar scheme promises savings, but at what cost?",
+   "France opens ‘attempted murder’ probe into petrol bomb attacks on police",
+   "Attempted murder probe after petrol bomb thrown at French riot police",
+   "Russian strikes cut power to thousands in Ukraine as Kherson ceasefire ends",
+   "Democrat Haley Stevens endorses Abdul El-Sayed’s Republican rival Mike Rogers",
+   "Thailand eyes status as AI medical hub",
+   "Foundation faces B1m query",
+   "London police arrest 139 as hundreds protest Palestine Action ban",
+   "Almost 140 arrested at protest against Palestine Action ban outside US embassy in London",
+   "Ukraine news: Evacuees from Russian-occupied Oleshky reach Kyiv-controlled territory",
+   "Pope Leo XIV becomes first pontiff to vote in a US election",
+   "Thailand, Bhutan sign three deals",
+   "Chiang Mai health worker found dead in irrigation canal after overnight disappearance"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "BBC News",
+   "title": "Seven flights across Europe targeted by suspected bomb threats",
+   "url": "https://www.bbc.co.uk/news/articles/c6x2wd4v04eeo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+   "url": "https://www.theguardian.com/world/2026/nov/03/four-planes-flying-across-europe-targeted-by-bomb-threats",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "DW",
+   "title": "US to cut nearly $4 billion in Israel military aid, Trump says",
+   "url": "https://www.dw.com/en/us-to-cut-nearly-4-billion-in-israel-military-aid-trump-says/a-79848860?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "The Guardian",
+   "title": "Spanish transport minister resigns after deadly train crash",
+   "url": "https://www.theguardian.com/world/2026/nov/03/spain-transport-minister-oscar-puente-resigns-deadly-train-crash",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Airports gear up for the intelligent aviation era",
+   "url": "https://www.bangkokpost.com/business/general/3348339/airports-gear-up-for-the-intelligent-aviation-era",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "House panel rules spark backlash",
+   "url": "https://www.bangkokpost.com/thailand/politics/3348219/house-panel-rules-spark-backlash",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "coordinated",
+   "credible",
+   "evacuate",
+   "slashing",
+   "monopoly",
+   "autonomous",
+   "oversight",
+   "improvise"
+  ],
+  "recycled_words": [
+   "scavenge",
+   "scrutiny",
+   "streamline",
+   "bilateral"
+  ],
+  "cover": {
+   "headline": "Multiple Flight Alerts Across Europe Spark Major Security Investigation",
+   "paragraphs": [
+    "A series of suspected bomb threats targeting passenger aircraft across Europe has prompted widespread security checks and safety investigations. Seven commercial flights, including two that departed from the United Kingdom, were subjected to emergency searches or diversions. The incidents affected several major airlines, including Ryanair, Wizz Air, LOT, and Scandinavian Airlines, causing temporary operational chaos at multiple European transit hubs.",
+    "In Italy, two Ryanair flights heading to Rome from Dublin and Lisbon were thoroughly searched following anonymous tips. The aircraft coming from Dublin was escorted by Italian Air Force fighter jets until it landed safely at Fiumicino airport. Police bomb disposal experts immediately conducted standard security protocols on the aircraft, passengers, and luggage, but found no explosives on board.",
+    "In Poland, one flight from London Heathrow was diverted to Modlin airport instead of landing at its original destination of Chopin airport. The emergency arrival briefly forced Modlin airport to close its runway while security personnel managed the situation. Meanwhile, authorities in Bulgaria received an email warning of improvised explosive devices on flights arriving in Sofia from Bergamo and Dublin. Officials immediately activated emergency operational headquarters to inspect the incoming planes.",
+    "Aviation authorities across the continent reported that all the targeted aircraft landed safely without any injuries or evidence of explosive devices. Downing Street characterized the threats as malicious hoaxes, emphasizing that the country maintains robust security systems to manage such disruptions. Officials noted that while individual low-level threats lacked credibility, the sheer volume of alerts raised questions about whether a **coordinated** campaign was underway.",
+    "Security experts noted that simultaneous threats across multiple airlines are highly unusual. Rather than a series of coincidental calls, the pattern suggests a deliberate act carried out by a single actor. When receiving a **credible** threat, flight crews are trained to quietly search areas like galleys and storage spaces without alarming passengers, while ground operators determine if a diversion is necessary.",
+    "Passengers on affected flights described sudden runway stops and emergency procedures. After a flight from Manchester landed in southern Spain, emergency crews quickly surrounded the plane on the tarmac. Security teams then ordered everyone to **evacuate** the aircraft without their hand luggage, informing them of the specific threat only after they reached safety.",
+    "International law enforcement agencies are continuing to share information across borders to identify the origins of the messages. Although initial checks showed no immediate evidence of hostile state involvement, European transport authorities remain on high alert to prevent further disruption to commercial airspace."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "US to End Annual Military Aid to Israel by Year-End",
+    "paragraphs": [
+     "United States President Donald Trump announced that the US will end its long-standing agreement to provide Israel with nearly 4 billion dollars in annual military aid by the end of this year. The current security framework, signed under former President Barack Obama, was originally scheduled to remain active through September 2028. Speaking in a television interview, President Trump stated that Israeli Prime Minister Benjamin Netanyahu is comfortable with the decision, adding that Israel can continue buying American military equipment independently.",
+     "The decision by Washington by **slashing** funding ahead of schedule ends a massive __bilateral__ funding framework that has supplied Israel with substantial defense support for decades. Prime Minister Netanyahu previously indicated a desire for Israel to build an independent armaments network and break free from strategic aid reliance. However, Israeli opposition leaders strongly criticized the announcement, claiming that defense officials were caught off guard by learning about the change through media reports rather than direct government communication.",
+     "The sudden shift alters a major historical partnership, as Israel has received over 300 billion dollars in American military and economic aid since 1948. While the US administration emphasized that it will still assist Israel if needed, lawmakers from both nations are waiting for further details on how the remaining years of the military aid package will be legally unwound."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Spanish Transport Minister Resigns Following Tragic Train Crash",
+    "paragraphs": [
+     "Spain's transport minister, Óscar Puente, has submitted his resignation following a tragic high-speed rail collision that resulted in 69 deaths near the village of Urda last week. In addition to stepping down from his cabinet position, Puente announced that he will withdraw his name from the upcoming early general elections scheduled for late November. The disaster occurred when a state-operated passenger train struck a stationary private train after an automatic safety system failed.",
+     "The minister had previously faced strong criticism from political opponents and labor union representatives for blaming a control center operator for the disaster. Railway workers argued that underinvestment in safety infrastructure had degraded working conditions as passenger numbers rose. For decades, the national rail market operated under a state **monopoly**, but recent commercial opening created rapid growth that strained existing safety systems, leading staff to __scavenge__ for basic operational resources under daily pressure.",
+     "Before stepping down, Puente proposed a series of emergency safety updates, including new software that uses artificial intelligence to flag traffic anomalies automatically. The government also promised to reform control center working conditions and require secondary operator confirmation during safety system failures. Opposition leaders continue to raise questions, ensuring that transport safety remains a central issue for voters in the upcoming election."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Thai Airports Prepare for Next Generation of Smart Technology",
+    "paragraphs": [
+     "Thailand's aviation industry is preparing for major technological upgrades as airport operators move toward digital automation and artificial intelligence systems. According to aviation technology provider Sky ICT, airports across the nation are planning to integrate operational data to help manage increasing passenger traffic efficiently. The industry plans to __streamline__ passenger movements through three major stages of technological development over the coming years.",
+     "The first phase involves creating centralized data hubs to predict operational bottlenecks and improve daily decision-making. Later stages will introduce personalized digital services, predictive maintenance for aircraft, and fully **autonomous** airport systems using biometric verification and helpful service robots. Technology providers also highlighted new opportunities in electric vertical take-off aircraft, which could soon support local logistics and passenger transit to remote regions.",
+     "These digital advancements aim to strengthen Thailand's position as a primary aviation gateway for Southeast Asia. By expanding digital infrastructure and operational capacity, airport authorities hope to accommodate up to 200 million travelers each year while maintaining high international safety standards."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "New Parliamentary Committee Rules Spark Political Debate",
+    "paragraphs": [
+     "Opposition parties in Thailand have raised concerns over new administrative rules governing parliamentary committee operations, claiming the changes will reduce official **oversight**. Under the updated regulations, house committees must pass formal resolutions before inviting outside agencies or experts to submit information. Additionally, committee chairs are prohibited from changing approved meeting agendas independently or scheduling overlapping discussions on similar topics.",
+     "Opposition representatives warned that requiring a formal majority vote for every minor action allows government lawmakers to block investigations into official misconduct. Critics argue that rigid restrictions could harm democratic checks and balances by preventing committees from carrying out their constitutional duties flexibly. Former judicial experts also questioned whether the regulations unduly restrict lawmakers from maintaining public oversight.",
+     "In response to the criticism, government party representatives rejected allegations that the rules were created to protect specific political interests. Proponents of the changes stated that the framework simply organizes committee work logically and prevents committee chairs from acting unilaterally without consulting their members. Opposition whips plan to submit a formal letter to the House Speaker to review the guidelines before they take effect."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "paragraphs": [
+    "When audience members leave a movie theater talking about a blockbuster film, they usually praise the visual effects, the convincing acting, or the dramatic story turns. Yet, one of the most powerful elements shaping their emotional experience remains largely invisible. Sound design is the quiet art of creating auditory environments that convince our brains to accept imaginary worlds as real.",
+    "In modern filmmaking, natural location audio is rarely enough to build dramatic tension. Background noises like passing traffic, wind, or low microphone hums often force audio engineers to rebuild soundscapes from scratch in specialized post-production studios. Foley artists use everyday objects to **improvise** organic sounds, crumpling paper to simulate roaring flames or twisting leather boots to mimic squeaky floorboards.",
+    "Sound designers also use subtle auditory cues to guide audience attention without relying on loud dialogue. A sudden drop in ambient sound can signal impending danger, while layered musical textures evoke feelings of joy or sadness. By carefully adjusting frequency ranges and spatial positioning, sound teams ensure that spoken words remain crystal clear while background atmospheres stay rich and immersive.",
+    "As digital entertainment platforms move into high-definition surround sound and virtual reality formats, the demand for sophisticated audio craft continues to grow. Streaming platforms now deliver complex multichannel sound directly into home living rooms and personal headphones. This shift requires technicians to undergo intense public __scrutiny__ as listeners demand audio clarity that matches high-definition video standards.",
+    "Understanding the work behind movie sound reminds us that great entertainment relies on technical balance. The next time you watch a movie, try paying close attention to the delicate rustle of clothing, the echoing footsteps in a quiet hallway, or the distant rumble of thunder. You will discover a carefully crafted world designed to make the story unforgettable."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Proposing a Schedule Change in a Virtual Meeting",
+   "situation": "You need to ask your project team to move a weekly status call to a later time because of a client emergency.",
+   "formal": "Due to an urgent matter, I would like to request that we reschedule our weekly meeting to later this afternoon if your calendars permit.",
+   "neutral": "Something urgent came up with a client, so could we move our status call to this afternoon instead?",
+   "casual": "Hey team, a sudden client issue popped up. Can we push our call back to later today?",
+   "useful_phrases": [
+    "Due to an urgent matter...",
+    "Could we move our call to...",
+    "Can we push our call back to..."
+   ]
+  },
+  "trap": {
+   "title": "Using 'Since' Instead of 'For' to Express Duration",
+   "wrong": "We have discussed this project since two hours.",
+   "right": "We have been discussing this project for two hours.",
+   "explanation": "Thai speakers often use 'since' to describe a total duration of time because of direct translation from the Thai word 'ตั้งแต่' (tang-tae). In English, 'since' marks the specific starting point of an action (e.g., since 9:00 AM), whereas 'for' must be used when measuring a continuous duration of time (e.g., for two hours)."
+  },
+  "word_bank": [
+   {
+    "word": "coordinated",
+    "pos": "adjective",
+    "definition": "organized so that different elements work together efficiently",
+    "thai": "ที่ได้รับการประสานงาน",
+    "collocations": [
+     "coordinated effort",
+     "coordinated attack",
+     "coordinated response"
+    ],
+    "example": "Officials noted that while individual low-level threats lacked credibility, the sheer volume of alerts raised questions about whether a **coordinated** campaign was underway."
+   },
+   {
+    "word": "credible",
+    "pos": "adjective",
+    "definition": "able to be believed or trusted",
+    "thai": "น่าเชื่อถือ",
+    "collocations": [
+     "credible threat",
+     "credible witness",
+     "credible evidence"
+    ],
+    "example": "When receiving a **credible** threat, flight crews are trained to quietly search areas like galleys and storage spaces without alarming passengers, while ground operators determine if a diversion is necessary."
+   },
+   {
+    "word": "evacuate",
+    "pos": "verb",
+    "definition": "to remove people from a place of danger to a safer place",
+    "thai": "อพยพ",
+    "collocations": [
+     "evacuate a building",
+     "evacuate residents",
+     "safely evacuate"
+    ],
+    "example": "Security teams then ordered everyone to **evacuate** the aircraft without their hand luggage, informing them of the specific threat only after they reached safety."
+   },
+   {
+    "word": "slashing",
+    "pos": "verb",
+    "definition": "drastically reducing or cutting an amount",
+    "thai": "การปรับลดอย่างรุนแรง",
+    "collocations": [
+     "slashing prices",
+     "slashing budgets",
+     "slashing costs"
+    ],
+    "example": "The decision by Washington by **slashing** funding ahead of schedule ends a massive __bilateral__ funding framework that has supplied Israel with substantial defense support for decades."
+   },
+   {
+    "word": "monopoly",
+    "pos": "noun",
+    "definition": "complete control of the supply or trade in a service or commodity",
+    "thai": "การผูกขาด",
+    "collocations": [
+     "state monopoly",
+     "break a monopoly",
+     "hold a monopoly"
+    ],
+    "example": "For decades, the national rail market operated under a state **monopoly**, but recent commercial opening created rapid growth that strained existing safety systems, leading staff to __scavenge__ for basic operational resources under daily pressure."
+   },
+   {
+    "word": "autonomous",
+    "pos": "adjective",
+    "definition": "operating independently without human control",
+    "thai": "ซึ่งปกครองตนเองหรือทำงานอัตโนมัติ",
+    "collocations": [
+     "autonomous vehicle",
+     "autonomous region",
+     "autonomous system"
+    ],
+    "example": "Later stages will introduce personalized digital services, predictive maintenance for aircraft, and fully **autonomous** airport systems using biometric verification and helpful service robots."
+   },
+   {
+    "word": "oversight",
+    "pos": "noun",
+    "definition": "the action of overseeing or supervising something",
+    "thai": "การกำกับดูแล",
+    "collocations": [
+     "parliamentary oversight",
+     "lack of oversight",
+     "regulatory oversight"
+    ],
+    "example": "Opposition parties in Thailand have raised concerns over new administrative rules governing parliamentary committee operations, claiming the changes will reduce official **oversight**."
+   },
+   {
+    "word": "improvise",
+    "pos": "verb",
+    "definition": "to create or make something spontaneously from whatever is available",
+    "thai": "แก้ปัญหาเฉพาะหน้า",
+    "collocations": [
+     "improvise a solution",
+     "improvise on stage",
+     "forced to improvise"
+    ],
+    "example": "Meanwhile, authorities in Bulgaria received an email warning of improvised explosive devices on flights arriving in Sofia from Bergamo and Dublin."
+   },
+   {
+    "word": "scavenge",
+    "pos": "verb",
+    "definition": "to search for and collect usable things from discarded material",
+    "thai": "ค้นหาของที่ยังใช้ได้",
+    "collocations": [],
+    "example": "For decades, the national rail market operated under a state **monopoly**, but recent commercial opening created rapid growth that strained existing safety systems, leading staff to __scavenge__ for basic operational resources under daily pressure."
+   },
+   {
+    "word": "scrutiny",
+    "pos": "noun",
+    "definition": "critical observation or examination",
+    "thai": "การตรวจสอบอย่างละเอียด",
+    "collocations": [],
+    "example": "This shift requires technicians to undergo intense public __scrutiny__ as listeners demand audio clarity that matches high-definition video standards."
+   },
+   {
+    "word": "streamline",
+    "pos": "verb",
+    "definition": "to make a system or process more efficient and effective",
+    "thai": "ปรับปรุงให้มีประสิทธิภาพและรวดเร็วขึ้น",
+    "collocations": [],
+    "example": "The industry plans to __streamline__ passenger movements through three major stages of technological development over the coming years."
+   },
+   {
+    "word": "bilateral",
+    "pos": "adjective",
+    "definition": "involving two parties or countries",
+    "thai": "ทวิภาคี",
+    "collocations": [],
+    "example": "The decision by Washington by **slashing** funding ahead of schedule ends a massive __bilateral__ funding framework that has supplied Israel with substantial defense support for decades."
+   }
+  ],
+  "activity": {
+   "instructions": "Complete each sentence by using the correct form of the word in brackets.",
+   "items": [
+    "The police launched a ______ effort to search the area after the alarm sounded. (coordinated)",
+    "Investigators are questioning whether the anonymous call was truly ______. (credible)",
+    "The emergency services ordered an immediate ______ of the train station. (evacuate)",
+    "The tech startup developed fully ______ drones for deliveries. (autonomous)",
+    "Strict legal rules ensure proper parliamentary ______ over public funds. (oversight)",
+    "The jazz band had to ______ when their sheet music went missing. (improvise)"
+   ],
+   "answers": [
+    "coordinated",
+    "credible",
+    "evacuation",
+    "autonomous",
+    "oversight",
+    "improvise"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Security teams ordered everyone to evacuate from the aircraft immediately.",
+    "corrected": "Security teams ordered everyone to evacuate the aircraft immediately.",
+    "reason": "Evacuate takes a direct object when referring to leaving a place."
+   },
+   {
+    "sentence": "The government announced it was slashing on defense funding next year.",
+    "corrected": "The government announced it was slashing defense funding next year.",
+    "reason": "Slash is a transitive verb here and does not require on."
+   },
+   {
+    "sentence": "The railway operated under state monopoly for nearly fifty years.",
+    "corrected": "The railway operated under a state monopoly for nearly fifty years.",
+    "reason": "Monopoly is a countable noun requiring an article."
+   },
+   {
+    "sentence": "Engineers face intense public scrutiny during safety investigations.",
+    "corrected": "Engineers face intense public scrutiny during safety investigations.",
+    "reason": "No error; sentence is correct. (Wait, correction: Engineers undergo intense public scrutiny during safety investigations.)"
+   },
+   {
+    "sentence": "Officials aim to streamline of passenger movements at the airport.",
+    "corrected": "Officials aim to streamline passenger movements at the airport.",
+    "reason": "Streamline is a verb here and takes a direct object without of."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Ordering a warm drink or snack at a Spanish café is a relaxed, daily social routine.",
+   "phrases": [
+    {
+     "phrase": "Un café con leche, por favor.",
+     "pronunciation": "Oon kah-FAY kon LAY-chay, por fah-VOR",
+     "meaning": "A coffee with milk, please."
+    },
+    {
+     "phrase": "¿Cuánto es?",
+     "pronunciation": "KWAN-toh ess",
+     "meaning": "How much is it?"
+    },
+    {
+     "phrase": "La cuenta, por favor.",
+     "pronunciation": "Lah KWEN-tah, por fah-VOR",
+     "meaning": "The bill, please."
+    }
+   ],
+   "root": {
+    "root": "Aqua / Agua",
+    "meaning": "water",
+    "english_words": "aquarium, aquatic, aqueduct",
+    "note": "Latin aqua became agua in modern Spanish, forming the basis for many English water-related words."
+   },
+   "borrowed": {
+    "word": "Cafeteria",
+    "note": "Originally from Spanish cafetería meaning a coffee store, English borrowed it to describe self-service dining spaces."
+   },
+   "curious": {
+    "word": "Merienda",
+    "pronunciation": "Meh-ree-EN-dah",
+    "meaning": "light afternoon snack",
+    "note": "It refers to a traditional light late-afternoon meal enjoyed between lunch and dinner in Spain."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 411,
+  "world_1": 217,
+  "world_2": 208,
+  "thailand_1": 165,
+  "thailand_2": 181,
+  "feature": 293,
+  "real_english": 185,
+  "language_lab": 134,
+  "other_language": 111,
+  "word_bank": 486,
+  "total": 2565
+ },
+ "notes": [
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 411 words (target 470–510)",
+  "world_1: 217 words (target 140–160)",
+  "world_2: 208 words (target 140–160)",
+  "thailand_2: 181 words (target 140–160)",
+  "real_english: 185 words (target 260–320)",
+  "language_lab: 134 words (target 150–260)",
+  "other_language: 111 words (target 140–190)",
+  "sentences over 35 words: world[0].paragraphs[2] (36 words)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
