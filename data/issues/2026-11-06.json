@@ -1,0 +1,624 @@
+{
+ "plan": {
+  "date": "2026-11-06",
+  "date_long": "Friday, 6 November 2026",
+  "weekday": "Fri",
+  "issue_no": 8,
+  "language": "Italian",
+  "phrase_theme": "at a café",
+  "feature": "Food & Travel",
+  "opinion": "say_it_better",
+  "setting": "social & small talk",
+  "activity": "Mini crossword clues",
+  "trap": "Direct translation from Thai",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bureaucratic",
+   "coercion",
+   "compelling",
+   "coordinated",
+   "crackdown",
+   "credible",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "disenfranchise",
+   "disparity",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "extinction",
+   "feasibility",
+   "fluctuations",
+   "improvise",
+   "incorporate",
+   "intermittent",
+   "look into",
+   "mindset",
+   "monopoly",
+   "opt for",
+   "optimum",
+   "oversight",
+   "proscription",
+   "reinstate",
+   "scavenge",
+   "scrutiny",
+   "slashing",
+   "sparked",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "subsidize",
+   "tailored",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "versatile"
+  ],
+  "review_pool": [
+   {
+    "word": "defied",
+    "taught_date": "2026-11-05",
+    "days_ago": 1
+   },
+   {
+    "word": "coercion",
+    "taught_date": "2026-11-05",
+    "days_ago": 1
+   },
+   {
+    "word": "extinction",
+    "taught_date": "2026-11-05",
+    "days_ago": 1
+   },
+   {
+    "word": "adulterant",
+    "taught_date": "2026-11-05",
+    "days_ago": 1
+   },
+   {
+    "word": "unprecedented",
+    "taught_date": "2026-11-05",
+    "days_ago": 1
+   },
+   {
+    "word": "fluctuations",
+    "taught_date": "2026-11-05",
+    "days_ago": 1
+   },
+   {
+    "word": "disenfranchise",
+    "taught_date": "2026-11-03",
+    "days_ago": 3
+   },
+   {
+    "word": "bureaucratic",
+    "taught_date": "2026-11-03",
+    "days_ago": 3
+   },
+   {
+    "word": "scavenge",
+    "taught_date": "2026-11-03",
+    "days_ago": 3
+   },
+   {
+    "word": "streamline",
+    "taught_date": "2026-11-03",
+    "days_ago": 3
+   },
+   {
+    "word": "subsidize",
+    "taught_date": "2026-11-03",
+    "days_ago": 3
+   },
+   {
+    "word": "disparity",
+    "taught_date": "2026-11-03",
+    "days_ago": 3
+   },
+   {
+    "word": "reinstate",
+    "taught_date": "2026-11-03",
+    "days_ago": 3
+   },
+   {
+    "word": "incorporate",
+    "taught_date": "2026-11-03",
+    "days_ago": 3
+   },
+   {
+    "word": "versatile",
+    "taught_date": "2026-10-30",
+    "days_ago": 7
+   },
+   {
+    "word": "stint",
+    "taught_date": "2026-10-30",
+    "days_ago": 7
+   },
+   {
+    "word": "derail",
+    "taught_date": "2026-10-30",
+    "days_ago": 7
+   },
+   {
+    "word": "sparked",
+    "taught_date": "2026-10-30",
+    "days_ago": 7
+   },
+   {
+    "word": "steer clear of",
+    "taught_date": "2026-10-30",
+    "days_ago": 7
+   },
+   {
+    "word": "delicacies",
+    "taught_date": "2026-10-30",
+    "days_ago": 7
+   },
+   {
+    "word": "adventurous",
+    "taught_date": "2026-10-30",
+    "days_ago": 7
+   },
+   {
+    "word": "etiquette",
+    "taught_date": "2026-10-30",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "parlare",
+   "cappuccino",
+   "magari"
+  ],
+  "recent_news_titles": [
+   "Winners, losers, the EU: Five takeaways from the US midterms",
+   "The biggest winners and losers of the 2026 US midterms",
+   "Secret police files released in Hungary, 37 years after fall of communism",
+   "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
+   "State ups efforts to protect rubber prices",
+   "Sensors to monitor temperatures near two coral reefs",
+   "Seven flights across Europe targeted by suspected bomb threats",
+   "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+   "US to cut nearly $4 billion in Israel military aid, Trump says",
+   "Spanish transport minister resigns after deadly train crash",
+   "Airports gear up for the intelligent aviation era",
+   "House panel rules spark backlash",
+   "Trump loses supreme court bid to set aside 20,000 California ballots as justices refuse to take up emergency request – live",
+   "Supreme Court rejects Trump request to set aside California ballots",
+   "Multiple Russian strikes kill at least 26 at Ukraine aid centre",
+   "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+   "US to drop South Africa, Rwanda from duty-free trade initiative",
+   "Game industry act faces major revisions",
+   "Solar scheme promises savings, but at what cost?"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "BBC News",
+   "title": "Paraguay President Santiago Peña resigns after bank collapse",
+   "url": "https://www.bbc.co.uk/news/articles/c6p9g39vln3yo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "Al Jazeera",
+   "title": "Paraguay President Pena resigns in wake of bank collapse",
+   "url": "https://www.aljazeera.com/economy/2026/11/5/paraguay-president-pena-resigns-in-wake-of-bank-collapse?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "DW",
+   "title": "Gavin Newsom commutes sentences of all death row inmates in California",
+   "url": "https://www.dw.com/en/gavin-newsom-commutes-sentences-of-all-death-row-inmates-in-california/a-79870988?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "Al Jazeera",
+   "title": "Melania Trump calls for peace at meeting with Russia, Ukraine officials",
+   "url": "https://www.aljazeera.com/news/2026/11/5/melania-trump-calls-for-peace-at-meeting-with-russia-ukraine-officials?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Changan Automobile unveils 3-year expansion plan",
+   "url": "https://www.bangkokpost.com/business/motoring/3349735/changan-automobile-unveils-3year-expansion-plan",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Amnesty warns Uyghur deportations risk lives",
+   "url": "https://www.bangkokpost.com/thailand/general/3349675/amnesty-warns-uyghur-deportations-risk-lives",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "foster",
+   "sanctuary",
+   "mitigate",
+   "navigate",
+   "consensus",
+   "culinary",
+   "hospitality"
+  ],
+  "recycled_words": [
+   "derail",
+   "versatile",
+   "etiquette",
+   "delicacies"
+  ],
+  "cover": {
+   "headline": "Paraguayan President Santiago Peña Resigns Amid Financial Turmoil",
+   "paragraphs": [
+    "Paraguayan President Santiago Peña has resigned from office following a swift political crisis caused by the collapse of a prominent digital lender, Ueno Bank. The sudden downfall of the financial institution, which held government accounts and served approximately three million customers—representing roughly 60 percent of the nation's adult population—left millions of citizens unable to access their funds and __derailed__ public confidence in the administration.",
+    "The crisis escalated rapidly when the Central Bank of Paraguay intervened in Ueno Bank after determining that the lender had breached minimum solvency requirements. The central bank seized control of the institution and initiated an insolvency process, freezing all operations. In response to the frozen accounts, widespread public protests erupted in the streets, with citizens demanding President Peña's immediate resignation.",
+    "Lawmakers in Congress quickly moved against the president, accusing him of misconduct, severe negligence, and potential conflicts of interest. Peña had been a shareholder until last year in the parent company that owned the digital bank. Opposition lawmakers called an extraordinary legislative session to launch an impeachment trial, charging Peña with complicity in covering up the institution's insolvency and mismanaging public pension funds that were deposited there.",
+    "As Peña lost critical political backing from members of his own conservative Colorado Party, he released a pre-recorded video statement on social media announcing his decision to step down. In his address, Peña denied all allegations of impropriety, stating that he was stepping aside to protect social peace, national stability, and democratic institutions. He apologized to the public for any perceived failures during his tenure.",
+    "Following the resignation, Vice President Pedro Alliana is set to assume the presidency. Meanwhile, Congress has approved a measure to process payments for affected depositors, and a new central bank chief has been appointed to manage the emergency. However, demonstrators outside the legislative building continued to protest, urging lawmakers not to formally accept the resignation so that Peña could face a full trial."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "California Governor Commutes All Death Sentences to Life Terms",
+    "paragraphs": [
+     "California Governor Gavin Newsom has announced that he will commute the death sentences of all 548 inmates currently on the state's death row to life imprisonment without the possibility of parole. In a public letter, Newsom stated that state-sanctioned execution is incompatible with democratic values and undermines the justice system.",
+     "Under California's state constitution, the governor requires the approval of the state supreme court to grant clemency to individuals convicted of multiple felonies. Consequently, the court must review and approve 382 of the planned commutations before they can take full effect.",
+     "The decision has drawn praise from human rights advocates who argue that capital punishment is flawed and racially biased. However, Newsom acknowledged the emotional difficulty of the move for victims' families, noting that voters had previously rejected a ballot measure to abolish the death penalty in 2016."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Melania Trump Hosts First-Ever Peace Meeting with Russian and Ukrainian Envoy",
+    "paragraphs": [
+     "United States First Lady Melania Trump hosted high-level officials from Russia and Ukraine at the White House on Thursday, encouraging both nations to negotiate a lasting peace. The diplomatic gathering follows a recent six-day localized humanitarian ceasefire in the Oleshky area, which permitted aid distribution and safe evacuations.",
+     "During the meeting, Ukrainian representatives presented the First Lady with the Order of Princess Olga, an official honor awarded by President Volodymyr Zelenskyy. Mrs. Trump also delivered personal letters addressed to the leaders of both nations, emphasizing her role as a diplomatic intermediary established in written agreements.",
+     "The temporary truce in Oleshky expired without an extension, and subsequent attacks in other regions caused significant civilian casualties. Nevertheless, international mediators remain hopeful as new diplomatic discussions mediated by the United States are scheduled to take place in Abu Dhabi later this month."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Changan Automobile Unveils Strategic Three-Year Plan in Thailand",
+    "paragraphs": [
+     "Chinese electric vehicle maker Changan Automobile has announced a comprehensive three-year strategy to expand its manufacturing presence in Thailand from 2027 to 2029. The company aims to introduce 12 new vehicle models and sell 30,000 units in 2026, supporting the government policy targeting zero-emission cars.",
+     "As part of its operations, Changan plans to **foster** local supply chains by raising the percentage of Thai-made components in its vehicles from 50 percent to over 60 percent. The automaker will also expand its supplier network to over 400 local partners, providing components for domestic production and global exports.",
+     "The company's expansion includes extending its service network to more than 150 locations across the country and hiring over 3,000 workers by 2030. Additionally, Changan plans to export battery electric vehicles produced at its Rayong facility to 18 nations as part of its global growth initiative."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Amnesty Urges Thailand Not to Deport Uyghur Detainees to China",
+    "paragraphs": [
+     "Human rights organization Amnesty International has called on Thai authorities to halt the planned deportation of two Uyghur men to China. The group urged the government to allow the men access to legal counsel and help them seek **sanctuary** in a safe third country to protect their fundamental rights.",
+     "The two individuals were released from prison under a royal pardon—an official act of clemency granted by the monarch—and subsequently transferred to an immigration detention center in Bangkok. They are among five remaining Uyghurs in Thailand from a larger group detained in 2014 after fleeing persecution in Xinjiang.",
+     "Amnesty warned that returning the men would violate international non-refoulement obligations, which prohibit transferring individuals to places where they face a grave risk of torture or detention. The organization stressed that assurances from foreign governments cannot override international legal protections."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Navigating Group Dining Across Cultures with Confidence",
+   "paragraphs": [
+    "Traveling overseas or joining international colleagues for a shared meal is one of life's great pleasures. Food brings people together, but dining traditions vary significantly around the world. Understanding common dining rules can help you **navigate** social gatherings smoothly, avoid awkward moments, and show genuine respect for your host's culture.",
+    "Different cultures maintain unique expectations around table manners and sharing food. In many Western countries, diners usually order individual meals rather than sharing dishes, and sticking to proper Western dining __etiquette__ is appreciated. Conversely, family-style sharing is standard across much of Asia. When participating in shared meals, using designated serving utensils rather than personal cutlery helps maintain cleanliness and shows consideration for others.",
+    "Accepting food graciously is another key aspect of social dining. While hosts love seeing guests enjoy regional __delicacies__, dietary restrictions or personal preferences might compel you to decline certain items. When turning down a dish, polite refusal combined with warm appreciation for the meal prevents any misunderstanding. A simple compliment about the overall spread can **mitigate** any potential discomfort.",
+    "Paying the bill can also create awkwardness if expectations are unclear. In some cultures, one person hosting the gathering insists on paying for everyone, while in others, splitting the check equally is standard practice. Observing your companions or quietly asking the organizer beforehand helps establish a clear **consensus** without creating unnecessary tension at the table.",
+    "Ultimately, thoughtful guests focus on enjoying the conversation and welcoming **hospitality**. A __versatile__ traveler approaches new **culinary** customs with flexibility and polite curiosity. By observing basic cultural norms and communicating clearly, you can make every shared meal an enjoyable experience for everyone involved."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Politely Declining an Order at a Group Dinner",
+   "situation": "You are at a social dinner with international colleagues, and someone offers to order a dish containing seafood that you cannot eat.",
+   "formal": "Thank you for the kind offer, but I must respectfully decline as I have dietary restrictions regarding seafood.",
+   "neutral": "Thanks so much, but I actually do not eat seafood, so please go ahead and order whatever you like.",
+   "casual": "Oh, thanks, but I will pass on the seafood! You guys go ahead and grab it though.",
+   "useful_phrases": [
+    "I will pass on the...",
+    "I have dietary restrictions regarding...",
+    "Please go ahead and order..."
+   ]
+  },
+  "trap": {
+   "title": "Direct Translation: 'Eat Alcohol'",
+   "wrong": "We are going to eat alcohol at the party tonight.",
+   "right": "We are going to drink alcohol at the party tonight.",
+   "explanation": "In Thai, people often use the word กิน (kin) for both eating food and drinking beverages, leading to phrases like 'กินเหล้า'. In English, however, you must use 'drink' for liquids and alcoholic beverages. Using 'eat' with liquids sounds unnatural to native speakers."
+  },
+  "word_bank": [
+   {
+    "word": "foster",
+    "pos": "verb",
+    "definition": "to encourage the development or growth of something",
+    "thai": "ส่งเสริม",
+    "collocations": [
+     "foster growth",
+     "foster innovation",
+     "foster relationships"
+    ],
+    "example": "As part of its operations, Changan plans to **foster** local supply chains by raising the percentage of Thai-made components in its vehicles from 50 percent to over 60 percent."
+   },
+   {
+    "word": "sanctuary",
+    "pos": "noun",
+    "definition": "a safe place that offers protection or shelter from danger",
+    "thai": "สถานที่ลี้ภัย",
+    "collocations": [
+     "seek sanctuary",
+     "offer sanctuary",
+     "wildlife sanctuary"
+    ],
+    "example": "The group urged the government to allow the men access to legal counsel and help them seek **sanctuary** in a safe third country to protect their fundamental rights."
+   },
+   {
+    "word": "mitigate",
+    "pos": "verb",
+    "definition": "to make something less harmful, severe, or painful",
+    "thai": "บรรเทา",
+    "collocations": [
+     "mitigate risks",
+     "mitigate impact",
+     "mitigate damage"
+    ],
+    "example": "A simple compliment about the overall spread can **mitigate** any potential discomfort."
+   },
+   {
+    "word": "navigate",
+    "pos": "verb",
+    "definition": "to handle or find one's way through a complicated situation",
+    "thai": "รับมือกับสถานการณ์",
+    "collocations": [
+     "navigate challenges",
+     "navigate changes",
+     "navigate a system"
+    ],
+    "example": "Understanding common dining rules can help you **navigate** social gatherings smoothly, avoid awkward moments, and show genuine respect for your host's culture."
+   },
+   {
+    "word": "consensus",
+    "pos": "noun",
+    "definition": "a general agreement among a group of people",
+    "thai": "ความเห็นพ้องต้องกัน",
+    "collocations": [
+     "reach consensus",
+     "build consensus",
+     "broad consensus"
+    ],
+    "example": "Observing your companions or quietly asking the organizer beforehand helps establish a clear **consensus** without creating unnecessary tension at the table."
+   },
+   {
+    "word": "culinary",
+    "pos": "adjective",
+    "definition": "connected with cooking or food preparation",
+    "thai": "เกี่ยวกับอาหาร",
+    "collocations": [
+     "culinary skills",
+     "culinary arts",
+     "culinary traditions"
+    ],
+    "example": "A __versatile__ traveler approaches new **culinary** customs with flexibility and polite curiosity."
+   },
+   {
+    "word": "hospitality",
+    "pos": "noun",
+    "definition": "friendly and generous treatment of guests and visitors",
+    "thai": "การต้อนรับขับสู้",
+    "collocations": [
+     "warm hospitality",
+     "hospitality industry",
+     "offer hospitality"
+    ],
+    "example": "Ultimately, thoughtful guests focus on enjoying the conversation and welcoming **hospitality**."
+   },
+   {
+    "word": "derail",
+    "pos": "verb",
+    "definition": "to stop a plan, process, or system from succeeding",
+    "thai": "ทำให้ออกนอกทาง",
+    "collocations": [],
+    "example": "The sudden downfall of the financial institution, which held government accounts and served approximately three million customers—representing roughly 60 percent of the nation's adult population—left millions of citizens unable to access their funds and __derailed__ public confidence in the administration."
+   },
+   {
+    "word": "versatile",
+    "pos": "adjective",
+    "definition": "able to adapt to many different functions or activities",
+    "thai": "มีประโยชน์หลากหลาย",
+    "collocations": [],
+    "example": "A __versatile__ traveler approaches new **culinary** customs with flexibility and polite curiosity."
+   },
+   {
+    "word": "etiquette",
+    "pos": "noun",
+    "definition": "the set of rules for polite behavior in a society or group",
+    "thai": "มารยาท",
+    "collocations": [],
+    "example": "In many Western countries, diners usually order individual meals rather than sharing dishes, and sticking to proper Western dining __etiquette__ is appreciated."
+   },
+   {
+    "word": "delicacies",
+    "pos": "noun",
+    "definition": "rare or expensive foods that are considered special treats",
+    "thai": "อาหารอันชิ้นพิเศษ",
+    "collocations": [],
+    "example": "While hosts love seeing guests enjoy regional __delicacies__, dietary restrictions or personal preferences might compel you to decline certain items."
+   }
+  ],
+  "activity": {
+   "instructions": "Solve the mini crossword clues using today's target words. Letter counts are given in parentheses.",
+   "items": [
+    "1. To encourage the growth of something positive, like innovation or teamwork. (6)",
+    "2. A place of safety or protection from harm or danger. (9)",
+    "3. To make a bad situation, risk, or pain less severe. (8)",
+    "4. To steer or find your way through a tricky problem or new environment. (8)",
+    "5. General agreement shared by all members of a group. (9)",
+    "6. Related to the art of cooking, food preparation, or kitchen traditions. (8)"
+   ],
+   "answers": [
+    "1. foster",
+    "2. sanctuary",
+    "3. mitigate",
+    "4. navigate",
+    "5. consensus",
+    "6. culinary"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Paraguayan President Santiago Peña resigned after a bank collapse derailed public trust into his government.",
+    "corrected": "Paraguayan President Santiago Peña resigned after a bank collapse derailed public trust in his government.",
+    "reason": "The noun 'trust' takes the preposition 'in', not 'into'."
+   },
+   {
+    "sentence": "The governor decided to commute all death sentences to life terms to foster human rights.",
+    "corrected": "The governor decided to commute all death sentences to life terms to foster human rights.",
+    "reason": "Sentence is correct; change 'for foster' to 'to foster' if incorrect form was used."
+   },
+   {
+    "sentence": "Melania Trump hosted a peace meeting aimed at reaching a broad consensus between foreign envoys.",
+    "corrected": "Melania Trump hosted a peace meeting aimed at reaching a broad consensus among foreign envoys.",
+    "reason": "Use 'among' when referring to three or more parties or a general group."
+   },
+   {
+    "sentence": "Changan Automobile aims to mitigate supply risks by expanding its manufacturing base in Thailand.",
+    "corrected": "Changan Automobile aims to mitigate supply risks by expanding its manufacturing base in Thailand.",
+    "reason": "The verb 'mitigate' is used correctly here; ensure correct spelling without extra prepositions like 'mitigate against'."
+   },
+   {
+    "sentence": "Human rights groups urged the government to offer sanctuary for international refugees.",
+    "corrected": "Human rights groups urged the government to offer sanctuary to international refugees.",
+    "reason": "The phrase 'offer sanctuary' is followed by the preposition 'to', not 'for'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Visiting an Italian café is a daily ritual built around quick conversation and quality coffee. Knowing a few basic terms helps you order smoothly like a local.",
+   "phrases": [
+    {
+     "phrase": "Un caffè, per favore.",
+     "pronunciation": "oon kah-FAY pair fah-VOH-ray",
+     "meaning": "An espresso, please."
+    },
+    {
+     "phrase": "Quanto costa?",
+     "pronunciation": "KWAN-toh KOSS-tah",
+     "meaning": "How much does it cost?"
+    },
+    {
+     "phrase": "Il conto, per favore.",
+     "pronunciation": "eel KOHN-toh pair fah-VOH-ray",
+     "meaning": "The bill, please."
+    }
+   ],
+   "root": {
+    "root": "espresso",
+    "meaning": "pressed out or expressed",
+    "english_words": "express, explicit, expression",
+    "note": "Derived from the Latin 'exprimere', referring to coffee made quickly under high water pressure."
+   },
+   "borrowed": {
+    "word": "barista",
+    "note": "In Italian, 'barista' simply means a bartender who serves all drinks, but English borrowed it specifically for a trained coffee maker."
+   },
+   "curious": {
+    "word": "pausa",
+    "pronunciation": "POW-zah",
+    "meaning": "a short break or pause",
+    "note": "Italians often treat coffee not as a drink to walk around with, but as a brief, mindful pause in the middle of a busy workday."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 319,
+  "world_1": 138,
+  "world_2": 139,
+  "thailand_1": 141,
+  "thailand_2": 137,
+  "feature": 270,
+  "real_english": 165,
+  "language_lab": 162,
+  "other_language": 134,
+  "word_bank": 402,
+  "total": 2218
+ },
+ "notes": [
+  "dropped 'financial turmoil' from star_words: it does not appear in the articles",
+  "★ words appear in only 2 parts of the issue (target 4+)",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 319 words (target 470–510)",
+  "feature: 270 words (target 310–370)",
+  "real_english: 165 words (target 260–320)",
+  "whole issue: 2218 words (target 2300–2700)",
+  "sentences over 35 words: cover.paragraphs[0] (40 words); word_bank[7].example (40 words)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
