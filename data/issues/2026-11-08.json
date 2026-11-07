@@ -1,0 +1,605 @@
+{
+ "plan": {
+  "date": "2026-11-08",
+  "date_long": "Sunday, 8 November 2026",
+  "weekday": "Sun",
+  "issue_no": 10,
+  "language": "Spanish",
+  "phrase_theme": "ordering food",
+  "feature": "Business / Money",
+  "opinion": "say_it_better",
+  "setting": "services & customers",
+  "activity": "Context clue challenge",
+  "trap": "Confusing word pairs (e.g. bored/boring)",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bureaucratic",
+   "capitalizing",
+   "coercion",
+   "compelling",
+   "consensus",
+   "coordinated",
+   "crackdown",
+   "credible",
+   "culinary",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "disenfranchise",
+   "disparity",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "extinction",
+   "feasibility",
+   "fluctuations",
+   "foster",
+   "hospitality",
+   "improvise",
+   "incorporate",
+   "intermittent",
+   "look into",
+   "mindset",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "opt for",
+   "optimum",
+   "oversight",
+   "proscription",
+   "reinstate",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "slashing",
+   "sparked",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "subsidize",
+   "sustainable",
+   "tailored",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "versatile",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "secular",
+    "taught_date": "2026-11-07",
+    "days_ago": 1
+   },
+   {
+    "word": "stamina",
+    "taught_date": "2026-11-07",
+    "days_ago": 1
+   },
+   {
+    "word": "warrant",
+    "taught_date": "2026-11-07",
+    "days_ago": 1
+   },
+   {
+    "word": "monetize",
+    "taught_date": "2026-11-07",
+    "days_ago": 1
+   },
+   {
+    "word": "capitalizing",
+    "taught_date": "2026-11-07",
+    "days_ago": 1
+   },
+   {
+    "word": "sustainable",
+    "taught_date": "2026-11-07",
+    "days_ago": 1
+   },
+   {
+    "word": "scenarios",
+    "taught_date": "2026-11-07",
+    "days_ago": 1
+   },
+   {
+    "word": "defied",
+    "taught_date": "2026-11-05",
+    "days_ago": 3
+   },
+   {
+    "word": "coercion",
+    "taught_date": "2026-11-05",
+    "days_ago": 3
+   },
+   {
+    "word": "extinction",
+    "taught_date": "2026-11-05",
+    "days_ago": 3
+   },
+   {
+    "word": "adulterant",
+    "taught_date": "2026-11-05",
+    "days_ago": 3
+   },
+   {
+    "word": "unprecedented",
+    "taught_date": "2026-11-05",
+    "days_ago": 3
+   },
+   {
+    "word": "fluctuations",
+    "taught_date": "2026-11-05",
+    "days_ago": 3
+   },
+   {
+    "word": "proscription",
+    "taught_date": "2026-11-01",
+    "days_ago": 7
+   },
+   {
+    "word": "crackdown",
+    "taught_date": "2026-11-01",
+    "days_ago": 7
+   },
+   {
+    "word": "adversary",
+    "taught_date": "2026-11-01",
+    "days_ago": 7
+   },
+   {
+    "word": "bilateral",
+    "taught_date": "2026-11-01",
+    "days_ago": 7
+   },
+   {
+    "word": "feasibility",
+    "taught_date": "2026-11-01",
+    "days_ago": 7
+   },
+   {
+    "word": "turnover",
+    "taught_date": "2026-11-01",
+    "days_ago": 7
+   },
+   {
+    "word": "streamline",
+    "taught_date": "2026-11-01",
+    "days_ago": 7
+   },
+   {
+    "word": "look into",
+    "taught_date": "2026-11-01",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "Aqua / Agua",
+   "Cafeteria",
+   "Merienda",
+   "hablar",
+   "fiesta",
+   "Sobremesa"
+  ],
+  "recent_news_titles": [
+   "Pope Leo begins a 12-day, 3-country South America tour after his cancer surgery",
+   "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+   "Thomas Markle, Meghan’s father, charged in Florida in connection to child sexual abuse material",
+   "Who is Stephen Miller, Trump’s new White House chief of staff?",
+   "Grab seeks to monetise Thai cultural appeal",
+   "SX festival spotlights climate",
+   "Paraguay President Santiago Peña resigns after bank collapse",
+   "Paraguay President Pena resigns in wake of bank collapse",
+   "Gavin Newsom commutes sentences of all death row inmates in California",
+   "Melania Trump calls for peace at meeting with Russia, Ukraine officials",
+   "Changan Automobile unveils 3-year expansion plan",
+   "Amnesty warns Uyghur deportations risk lives",
+   "Winners, losers, the EU: Five takeaways from the US midterms",
+   "The biggest winners and losers of the 2026 US midterms",
+   "Secret police files released in Hungary, 37 years after fall of communism",
+   "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
+   "State ups efforts to protect rubber prices",
+   "Sensors to monitor temperatures near two coral reefs"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "BBC News",
+   "title": "Israel's president tasks opposition leader Eisenkot with forming government",
+   "url": "https://www.bbc.co.uk/news/articles/cmy8367lj5xlo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+   "url": "https://www.theguardian.com/world/2026/nov/07/israel-president-gadi-eisenkot-form-government",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "DW",
+   "title": "Yemen: 22 killed in strike near Sanaa, Houthis say",
+   "url": "https://www.dw.com/en/yemen-22-killed-in-strike-near-sanaa-houthis-say/a-79885177?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "Al Jazeera",
+   "title": "More than 140,000 rally as new protests against rising costs sweep France",
+   "url": "https://www.aljazeera.com/news/2026/11/7/more-than-140000-rally-as-new-protests-against-rising-costs-sweep-france?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post",
+   "title": "German nabbed over drugs",
+   "url": "https://www.bangkokpost.com/thailand/general/3350991/german-nabbed-over-drugs",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post Business",
+   "title": "The New Language of Scent: Beyond Perfume to a New Era of Identity, Experience and Innovation",
+   "url": "https://www.bangkokpost.com/business/general/3349286/the-new-language-of-scent-beyond-perfume-to-a-new-era-of-identity-experience-and-innovation",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "mandate",
+   "impasse",
+   "allegations",
+   "disperse",
+   "nuanced",
+   "discrepancy",
+   "rectify"
+  ],
+  "recycled_words": [],
+  "cover": {
+   "headline": "Eisenkot Handed Mandate to Form Israeli Government",
+   "paragraphs": [
+    "Israeli President Isaac Herzog has officially announced his plan to task opposition leader Gadi Eisenkot with establishing a new coalition administration. The move follows an inconclusive general election held on October 27, which left neither Eisenkot nor current Prime Minister Benjamin Netanyahu with an outright legislative majority. Eisenkot, leader of the centrist Yashar party and former military chief of staff from 2015 to 2019, will now receive a 28-day statutory window, along with a possible 14-day extension, to assemble a working government.",
+    "The political arithmetic in the 120-seat Knesset remains fiercely competitive. Netanyahu's right-wing Likud and its allied religious-nationalist partners captured 53 seats, maintaining the single largest bloc. Meanwhile, Eisenkot's centrist formation alongside three allied **secular** and centrist opposition factions secured 48 seats. Despite trailing in total seats, Eisenkot secured 67 recommendations for the premiership from incoming lawmakers during consultations with the presidency, compared to 46 for Netanyahu, granting him the initial **mandate** to break the national political **impasse**.",
+    "A pivotal factor in this process is the historic electoral showing of Arab-majority parties. The United Arab List and the Joint List together attained an unprecedented 19 seats amid elevated voter turnout, positioning their leaders as potential kingmakers. In his talks with Herzog, Eisenkot received formal endorsements from both Arab-led lists. However, forming a durable coalition with their direct participation presents significant hurdles, given that almost all Jewish parliamentary factions previously committed not to enter a formal governing alliance with them.",
+    "President Herzog emphasized the urgent need for pragmatism to prevent repeated elections, noting that factions must recognize that not every past promise can be maintained under present conditions. Historical parallels underline this challenge, as Israel endured five national votes between 2019 and 2022 amid intense rivalry. Observers note possible **feasibility** pathways, including an emergency unity government pairing Eisenkot and Netanyahu, defectors joining a conservative bloc, or agreements involving ultra-Orthodox or Arab representatives.",
+    "In his initial reaction on social media, Eisenkot stated that the moment requires an emergency administration, pledging to prove worthy of public trust. Nevertheless, negotiations will test whether Israeli party leaders can resolve deep policy divides and overcome institutional friction before the legal deadline expires."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Airstrikes Near Yemeni Capital Claim Over Twenty Lives",
+    "paragraphs": [
+     "Airstrikes hit the village of al-Shariya near Yemen's capital, Sanaa, on Saturday, killing at least 22 people and wounding 30 others, according to Houthi health officials. Rebel spokespersons stated that the bombardments hit multiple residential homes, blaming Saudi Arabia for conducting the assault. Footage broadcast on local channels showed emergency teams clearing rubble while treating victims in regional hospitals.",
+     "The attack follows a fragile security environment in Yemen after a yearslong truce collapsed earlier this summer. Fighting between Iranian-backed Houthi forces and the internationally recognized government, supported by Saudi Arabia, has escalated sharply. Intense combat continues along strategic Red Sea coastal hubs, alongside missile exchanges directed across borders.",
+     "While Saudi officials did not immediately comment on the strike, coalition forces reported intercepting a separate missile fired toward Riyadh province. With United Nations data recording rising casualties and displacements, international observers warn that escalating military **allegations** and direct strikes threaten to intensify broader regional confrontation."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Tens of Thousands Join French Rallies Over High Living Costs",
+    "paragraphs": [
+     "More than 140,000 demonstrators gathered throughout France on Saturday for a fourth consecutive weekend of nationwide protests concerning inflation and rising living costs. While the Interior Ministry counted 146,000 participants, labor unions calculated nationwide attendance at 250,000, including 75,000 marchers in Paris alone.",
+     "The demonstrations, which originally began over poor resources in high schools, have expanded to include workers demanding higher wages and better public services. French authorities deployed roughly 70,000 security officers nationwide. In Paris and Lyon, law enforcement used tear gas to **disperse** groups that blocked thoroughfares or damaged public property.",
+     "Tensions remain high as upcoming national elections approach. Trade unions reported gaining organizational momentum, while government ministers warned that security forces will maintain active vigilance against unauthorized street violence and disruptions in the coming weeks."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Longtime Overstayer Arrested in Bangkok Drug Raid",
+    "paragraphs": [
+     "Immigration authorities have detained a 63-year-old German national in northern Bangkok after discovering he had overstayed his visa by more than 15 years. Police arrested the individual on Friday at a residential property in Bang Khen district, discovering a packet of crystal methamphetamine in his possession.",
+     "The police operation began following persistent community complaints regarding neighborhood disturbances. Residents reported loud late-night gatherings and frequent visitors arriving on motorbikes in the Phahonyothin area. Authorities investigated these reports, discovering the resident had exceeded his legal stay by 5,732 days.",
+     "The suspect was transferred to Bang Khen police station for legal processing. He faces formal charges for unlawful overstaying as well as possession of Category 1 narcotics for personal use, which will trigger deportation proceedings after judicial resolution."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Asian Consumers Embrace Individual Scents and Wellness Rituals",
+    "paragraphs": [
+     "Asian consumers are moving away from having a single signature perfume, opting instead to build flexible scent wardrobes that match individual feelings, occasions, and environments. This behavioral transformation incorporates diverse lifestyle items, including home aromatherapy, wellness oils, and hair mists.",
+     "Younger shoppers in Japan, South Korea, and China are driving this market shift. Many individuals purchase personal fragrances on a monthly or weekly basis. Rather than relying on prestigious international labels, buyers seek **nuanced** storytelling, sustainable local botanicals, and neutral scent profiles that prioritize personal wellbeing over overt brand status.",
+     "Regional projections indicate the commercial market for premium fragrances will expand significantly by 2026. Retailers are adapting their product lines to **streamline** personal discovery formats and experiential shopping, satisfying customer demand for emotional connection and authentic identity."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "paragraphs": [
+    "In contemporary consumer environments, retail transactions happen at unprecedented speed. Point-of-sale terminals, digital payment apps, and automated stock systems handle thousands of transactions every minute. However, operational speed does not always guarantee accuracy. When shelf tags fail to match the price scanned at the cash register, businesses face significant reputational and financial risks.",
+    "Most billing errors originate from subtle administrative delays rather than intentional deception. In fast-paced retail shops with high product **turnover**, promotional campaigns frequently shift. Store staff may update digital inventories before replacing physical shelf tags, or promotional discounts might expire without prompt physical adjustments. Even a small price **discrepancy** can quickly erode hard-earned customer trust.",
+    "From an operational standpoint, billing inaccuracies disrupt cashier workflows. When a patron challenges a charge, staff must halt lines to confirm details, frustrating everyone waiting. Modern business studies reveal that shopper friction at checkout often leads to lost loyalty. Many consumers will simply patronize competitors rather than return to a vendor perceived as careless with basic pricing.",
+    "Retailers must adopt proactive auditing methods to prevent these hidden losses. Forward-thinking companies conduct daily shelf-to-register audits and deploy mobile scanners that verify price tags instantly. Regular staff training regarding refund protocols ensures that any billing disputes receive immediate and fair solutions.",
+    "Clear communication serves as the final safeguard for retail integrity. Displaying store price-matching policies and honoring displayed shelf labels without hesitation builds enduring consumer confidence. By treating checkout accuracy as an essential customer service priority rather than a minor technical detail, modern enterprises protect both immediate revenue and lifetime customer loyalty."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Resolving a Pricing Error at Checkout",
+   "situation": "A customer notices an unexpected charge on their bill while checking out and asks the cashier to correct it.",
+   "formal": "Excuse me, I noticed a slight price discrepancy on this item; could you please verify the current promotional price for me?",
+   "neutral": "Hello, I think this item rang up incorrectly; would you mind checking the shelf price to **rectify** this?",
+   "casual": "Hey, I think this showed up wrong on the screen, could you check the price tag for me?",
+   "useful_phrases": [
+    "a slight price discrepancy",
+    "remain polite and **cordial**",
+    "rectify the billing error"
+   ]
+  },
+  "trap": {
+   "title": "Confusing 'Price' and 'Prize'",
+   "wrong": "The cashier told me that the prize of this jacket was reduced today.",
+   "right": "The cashier told me that the price of this jacket was reduced today.",
+   "explanation": "Thai speakers sometimes confuse 'price' (the monetary cost of buying something) with 'prize' (an award won in a competition or contest), as Thai often uses terms like 'ราคา' (rakha) for cost and 'รางวัล' (rangwan) for awards interchangeably with similar English loanwords. Remember that goods in a store carry a 'price,' whereas a contest winner receives a 'prize.'"
+  },
+  "word_bank": [
+   {
+    "word": "mandate",
+    "pos": "noun",
+    "definition": "official authority given to a person or group to perform a specific task",
+    "thai": "มอบอำนาจ / อาณัติ",
+    "collocations": [
+     "give a mandate",
+     "clear mandate",
+     "electoral mandate"
+    ],
+    "example": "Despite trailing in total seats, Eisenkot secured 67 recommendations for the premiership from incoming lawmakers during consultations with the presidency, compared to 46 for Netanyahu, granting him the initial **mandate** to break the national political **impasse**."
+   },
+   {
+    "word": "impasse",
+    "pos": "noun",
+    "definition": "a situation in which no progress can be made due to disagreement",
+    "thai": "ทางตัน / ข้อขัดแย้งที่ไม่มีทางออก",
+    "collocations": [
+     "reach an impasse",
+     "break the impasse",
+     "political impasse"
+    ],
+    "example": "Despite trailing in total seats, Eisenkot secured 67 recommendations for the premiership from incoming lawmakers during consultations with the presidency, compared to 46 for Netanyahu, granting him the initial **mandate** to break the national political **impasse**."
+   },
+   {
+    "word": "allegations",
+    "pos": "noun",
+    "definition": "statements claiming someone has done something wrong, usually without proof yet",
+    "thai": "ข้อกล่าวหา",
+    "collocations": [
+     "deny allegations",
+     "serious allegations",
+     "facing allegations"
+    ],
+    "example": "With United Nations data recording rising casualties and displacements, international observers warn that escalating military **allegations** and direct strikes threaten to intensify broader regional confrontation."
+   },
+   {
+    "word": "disperse",
+    "pos": "verb",
+    "definition": "to spread out or force a crowd to move away in different directions",
+    "thai": "สลาย / กระจายตัว",
+    "collocations": [
+     "disperse a crowd",
+     "disperse quickly",
+     "police dispersed"
+    ],
+    "example": "In Paris and Lyon, law enforcement used tear gas to **disperse** groups that blocked thoroughfares or damaged public property."
+   },
+   {
+    "word": "nuanced",
+    "pos": "adjective",
+    "definition": "made up of subtle differences, details, or meanings",
+    "thai": "ที่มีความละเมียดละไม / มีรายละเอียดซับซ้อน",
+    "collocations": [
+     "nuanced approach",
+     "nuanced understanding",
+     "nuanced view"
+    ],
+    "example": "Rather than relying on prestigious international labels, buyers seek **nuanced** storytelling, sustainable local botanicals, and neutral scent profiles that prioritize personal wellbeing over overt brand status."
+   },
+   {
+    "word": "discrepancy",
+    "pos": "noun",
+    "definition": "a difference or lack of agreement between two facts or figures",
+    "thai": "ความไม่ตรงกัน / ข้อแตกต่าง",
+    "collocations": [
+     "discrepancy between",
+     "significant discrepancy",
+     "resolve a discrepancy"
+    ],
+    "example": "Even a small price **discrepancy** can quickly erode hard-earned customer trust."
+   },
+   {
+    "word": "rectify",
+    "pos": "verb",
+    "definition": "to put something right or correct a mistake",
+    "thai": "แก้ไขให้ถูกต้อง",
+    "collocations": [
+     "rectify the situation",
+     "rectify an error",
+     "promptly rectify"
+    ],
+    "example": "Hello, I think this item rang up incorrectly; would you mind checking the shelf price to **rectify** this?"
+   }
+  ],
+  "activity": {
+   "instructions": "Read each sentence carefully and choose the correct meaning of the **bold** word based on the context clues.",
+   "items": [
+    "After hours of fruitless negotiations, both leaders reached an **impasse** and decided to adjourn the meeting. (a) quick agreement (b) deadlock with no progress (c) dramatic conclusion",
+    "The board gave the new director a clear **mandate** to restructure the company's financial operations. (a) official authority (b) polite suggestion (c) temporary delay",
+    "The police stepped in to **disperse** the large gathering before traffic was completely blocked. (a) assemble (b) scatter (c) protect",
+    "Her **nuanced** explanation of the contract helped everyone understand the subtle risks involved. (a) detailed and subtle (b) loud and aggressive (c) simple and brief",
+    "Audit reports revealed a major **discrepancy** between reported revenues and actual bank balances. (a) similarity (b) connection (c) difference",
+    "The management team worked late into the night to **rectify** the billing error reported by clients. (a) ignore (b) correct (c) repeat"
+   ],
+   "answers": [
+    "(b) deadlock with no progress",
+    "(a) official authority",
+    "(b) scatter",
+    "(a) detailed and subtle",
+    "(c) difference",
+    "(b) correct"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Eisenkot was handed a mandate to form the Israeli government after receiving most recommendations.",
+    "corrected": "Eisenkot was handed a mandate to form the Israeli government after receiving the most recommendations.",
+    "reason": "Missing article 'the' before superlative 'most'."
+   },
+   {
+    "sentence": "Airstrikes near Yemeni capital claim over twenty lives following recent clashes.",
+    "corrected": "Airstrikes near the Yemeni capital claim over twenty lives following recent clashes.",
+    "reason": "Missing definite article 'the' before specific geographical feature 'Yemeni capital'."
+   },
+   {
+    "sentence": "Tens of thousands join French rallies to protest against high living costs.",
+    "corrected": "Tens of thousands join French rallies over high living costs.",
+    "reason": "Incorrect preposition usage in this headline context; 'over' fits the original style."
+   },
+   {
+    "sentence": "Longtime overstayer was arrested in Bangkok during a planned police raid.",
+    "corrected": "A longtime overstayer was arrested in Bangkok during a planned police raid.",
+    "reason": "Missing indefinite article 'A' before singular countable noun phrase."
+   },
+   {
+    "sentence": "Asian consumers embrace individual scents and wellness rituals to improve life quality.",
+    "corrected": "Asian consumers embrace individual scents and wellness rituals to improve quality of life.",
+    "reason": "Improper fixed phrase usage; the standard idiom is 'quality of life'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Ordering food in Spanish-speaking countries is simple once you know a few courteous phrases. Here is how to navigate a local menu with confidence.",
+   "phrases": [
+    {
+     "phrase": "La cuenta, por favor",
+     "pronunciation": "lah KWEN-tah por fah-VOR",
+     "meaning": "The bill, please."
+    },
+    {
+     "phrase": "Para llevar",
+     "pronunciation": "PAH-rah yeh-VAR",
+     "meaning": "To take away / To go."
+    },
+    {
+     "phrase": "Quisiera un menú",
+     "pronunciation": "kee-SYEH-rah oon meh-NOO",
+     "meaning": "I would like a menu."
+    }
+   ],
+   "root": {
+    "root": "gustar",
+    "meaning": "to please / to taste",
+    "english_words": "gusto, disgust, gustatory",
+    "note": "Derived from Latin 'gustare', this root gives English words related to taste and enjoyment."
+   },
+   "borrowed": {
+    "word": "café",
+    "note": "Borrowed via French from Spanish and Arabic, referring originally to both the coffee bean and the drink served."
+   },
+   "curious": {
+    "word": "Empalagar",
+    "pronunciation": "em-pah-lah-GAR",
+    "meaning": "To feel sick or overwhelmed by eating too much sweet food.",
+    "note": "English has no single verb to describe that specific sickly feeling after overindulging in sugar."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 357,
+  "world_1": 154,
+  "world_2": 128,
+  "thailand_1": 125,
+  "thailand_2": 127,
+  "feature": 258,
+  "real_english": 181,
+  "language_lab": 215,
+  "other_language": 126,
+  "word_bank": 327,
+  "total": 2182
+ },
+ "notes": [
+  "dropped 'cordial' from star_words: it does not appear in the articles",
+  "dropped 'turnover' from recycled_words: it does not appear in the articles",
+  "dropped 'secular' from recycled_words: it does not appear in the articles",
+  "dropped 'streamline' from recycled_words: it does not appear in the articles",
+  "dropped 'feasibility' from recycled_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 357 words (target 470–510)",
+  "thailand_1: 125 words (target 140–160)",
+  "feature: 258 words (target 310–370)",
+  "real_english: 181 words (target 260–320)",
+  "whole issue: 2182 words (target 2300–2700)",
+  "sentences over 35 words: cover.paragraphs[1] (36 words); trap.explanation (41 words); word_bank[0].example (36 words); word_bank[1].example (36 words)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
