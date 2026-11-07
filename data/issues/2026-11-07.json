@@ -1,0 +1,627 @@
+{
+ "plan": {
+  "date": "2026-11-07",
+  "date_long": "Saturday, 7 November 2026",
+  "weekday": "Sat",
+  "issue_no": 9,
+  "language": "German",
+  "phrase_theme": "ordering food",
+  "feature": "Cultures / Digital Life",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Odd one out",
+  "trap": "Word order & questions",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bureaucratic",
+   "coercion",
+   "compelling",
+   "consensus",
+   "coordinated",
+   "crackdown",
+   "credible",
+   "culinary",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "disenfranchise",
+   "disparity",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "extinction",
+   "feasibility",
+   "fluctuations",
+   "foster",
+   "hospitality",
+   "improvise",
+   "incorporate",
+   "intermittent",
+   "look into",
+   "mindset",
+   "mitigate",
+   "monopoly",
+   "navigate",
+   "opt for",
+   "optimum",
+   "oversight",
+   "proscription",
+   "reinstate",
+   "sanctuary",
+   "scavenge",
+   "scrutiny",
+   "slashing",
+   "sparked",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "subsidize",
+   "tailored",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "versatile"
+  ],
+  "review_pool": [
+   {
+    "word": "foster",
+    "taught_date": "2026-11-06",
+    "days_ago": 1
+   },
+   {
+    "word": "sanctuary",
+    "taught_date": "2026-11-06",
+    "days_ago": 1
+   },
+   {
+    "word": "mitigate",
+    "taught_date": "2026-11-06",
+    "days_ago": 1
+   },
+   {
+    "word": "navigate",
+    "taught_date": "2026-11-06",
+    "days_ago": 1
+   },
+   {
+    "word": "consensus",
+    "taught_date": "2026-11-06",
+    "days_ago": 1
+   },
+   {
+    "word": "culinary",
+    "taught_date": "2026-11-06",
+    "days_ago": 1
+   },
+   {
+    "word": "hospitality",
+    "taught_date": "2026-11-06",
+    "days_ago": 1
+   },
+   {
+    "word": "coordinated",
+    "taught_date": "2026-11-04",
+    "days_ago": 3
+   },
+   {
+    "word": "credible",
+    "taught_date": "2026-11-04",
+    "days_ago": 3
+   },
+   {
+    "word": "evacuate",
+    "taught_date": "2026-11-04",
+    "days_ago": 3
+   },
+   {
+    "word": "slashing",
+    "taught_date": "2026-11-04",
+    "days_ago": 3
+   },
+   {
+    "word": "monopoly",
+    "taught_date": "2026-11-04",
+    "days_ago": 3
+   },
+   {
+    "word": "autonomous",
+    "taught_date": "2026-11-04",
+    "days_ago": 3
+   },
+   {
+    "word": "oversight",
+    "taught_date": "2026-11-04",
+    "days_ago": 3
+   },
+   {
+    "word": "improvise",
+    "taught_date": "2026-11-04",
+    "days_ago": 3
+   },
+   {
+    "word": "attributed",
+    "taught_date": "2026-10-31",
+    "days_ago": 7
+   },
+   {
+    "word": "unprecedented",
+    "taught_date": "2026-10-31",
+    "days_ago": 7
+   },
+   {
+    "word": "intermittent",
+    "taught_date": "2026-10-31",
+    "days_ago": 7
+   },
+   {
+    "word": "designated",
+    "taught_date": "2026-10-31",
+    "days_ago": 7
+   },
+   {
+    "word": "compelling",
+    "taught_date": "2026-10-31",
+    "days_ago": 7
+   },
+   {
+    "word": "mindset",
+    "taught_date": "2026-10-31",
+    "days_ago": 7
+   },
+   {
+    "word": "opt for",
+    "taught_date": "2026-10-31",
+    "days_ago": 7
+   },
+   {
+    "word": "curate",
+    "taught_date": "2026-10-31",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "trinken",
+   "Pretzel",
+   "Kaffeeklatsch",
+   "sprechen",
+   "Kindergarten",
+   "Feierabend"
+  ],
+  "recent_news_titles": [
+   "Paraguay President Santiago Peña resigns after bank collapse",
+   "Paraguay President Pena resigns in wake of bank collapse",
+   "Gavin Newsom commutes sentences of all death row inmates in California",
+   "Melania Trump calls for peace at meeting with Russia, Ukraine officials",
+   "Changan Automobile unveils 3-year expansion plan",
+   "Amnesty warns Uyghur deportations risk lives",
+   "Winners, losers, the EU: Five takeaways from the US midterms",
+   "The biggest winners and losers of the 2026 US midterms",
+   "Secret police files released in Hungary, 37 years after fall of communism",
+   "US midterm elections 2026 live: Democratic lead grows in Mississippi Senate race as Republican blame game begins",
+   "State ups efforts to protect rubber prices",
+   "Sensors to monitor temperatures near two coral reefs",
+   "Seven flights across Europe targeted by suspected bomb threats",
+   "Seven planes across Europe searched or diverted after ‘malicious hoax’ bomb threats",
+   "US to cut nearly $4 billion in Israel military aid, Trump says",
+   "Spanish transport minister resigns after deadly train crash",
+   "Airports gear up for the intelligent aviation era",
+   "House panel rules spark backlash"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "NPR",
+   "title": "Pope Leo begins a 12-day, 3-country South America tour after his cancer surgery",
+   "url": "https://www.npr.org/2026/11/06/nx-s1-6026702/pope-leo-begins-12-day-3-country-tour-after-cancer-surgery",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "BBC News",
+   "title": "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+   "url": "https://www.bbc.co.uk/news/articles/cqn06j0y61k6o?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "The Guardian",
+   "title": "Thomas Markle, Meghan’s father, charged in Florida in connection to child sexual abuse material",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/06/thomas-markle-arrested",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "Al Jazeera",
+   "title": "Who is Stephen Miller, Trump’s new White House chief of staff?",
+   "url": "https://www.aljazeera.com/news/2026/11/6/who-is-stephen-miller-trumps-new-white-house-chief-of-staff?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Grab seeks to monetise Thai cultural appeal",
+   "url": "https://www.bangkokpost.com/business/general/3350179/grab-seeks-to-monetise-thai-cultural-appeal",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "SX festival spotlights climate",
+   "url": "https://www.bangkokpost.com/thailand/general/3350289/sx-festival-spotlights-climate",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "secular",
+   "stamina",
+   "warrant",
+   "monetize",
+   "capitalizing",
+   "sustainable",
+   "scenarios"
+  ],
+  "recycled_words": [
+   "mitigate"
+  ],
+  "cover": {
+   "headline": "Pope Leo Begins Far-Reaching South American Tour Following Surgery",
+   "paragraphs": [
+    "Pope Leo XIV has arrived in South America to launch a twelve-day, three-country journey that marks his most extensive overseas trip since taking office. The tour is his first major trip following surgery last month to remove the lower lobe of his right lung after doctors discovered a tumor. Vatican officials confirmed he completed his two-week recovery, requires no additional medical treatment, and remains extremely enthusiastic about the demanding itinerary.",
+    "The trip covers thousands of miles and involves twelve flights across Uruguay, Argentina, and Peru. Among the stops is Cusco, Peru, located over 11,000 feet above sea level, where travelers often require supplemental oxygen. Despite the physical challenges, Vatican communications chief Maria Montserrat Alvarado stressed that the pontiff possesses strong **stamina** and that his medical team is fully prepared on board if any issues arise. Analysts note the Vatican intends to show he is fully back on track.",
+    "The first leg brought the Pope to Uruguay, famously known as Latin America's most **secular** nation. The country established a strict separation of church and state over a century ago, legally renaming traditional holidays like Christmas and Easter to neutral terms. Only about a third of citizens identify as Catholic. A proposed papal speech to the national parliament was quickly canceled after receiving swift criticism from politicians and the public.",
+    "Despite the low church attendance, crowds lined the streets of Montevideo to greet Pope Leo. Left-wing President Yamandú Orsi presided over an official welcome outside the main cathedral. In his address, the Pope delivered direct criticism of Uruguay's liberal laws regarding abortion and euthanasia. He emphasized that society holds a responsibility to protect family life and ensure every human being is accompanied until their natural end.",
+    "The tour holds deep personal significance for the pontiff, who spent two decades serving in Peru as a missionary and later as a bishop. Later this week, he will travel to Argentina, fulfilling a long-held goal of the late Pope Francis to visit his home country. The visit to Argentina will test how the Church manages complex relations with right-wing political leaders across the region."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Meghan Markle's Father Arrested in Florida Over Illegal Images",
+    "paragraphs": [
+     "Thomas Markle, the 82-year-old father of Meghan, Duchess of Sussex, was arrested by federal agents on Friday at a senior care facility in Florida. Federal officials charged him with one count of possessing child sexual abuse material. A court appearance in Tampa resulted in his release under electronic monitoring conditions while the investigation continues.",
+     "According to federal court filings, agents seized around 78 items from two storage units Markle rented in California for nearly twenty years. The items included photographs, slides, and film depicting himself with minor girls. Authorities noted that a search failed to __mitigate__ the severity of the findings, though no evidence indicates domestic victims were involved.",
+     "The FBI confirmed that international partners assisted with the multi-agency investigation. Markle's legal representatives have raised questions regarding his health, noting public reports that he may suffer from dementia. Justice Department officials stated they intend to prosecute the case to the full extent of federal law."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Trump Names Stephen Miller as New White House Chief of Staff",
+    "paragraphs": [
+     "United States President Donald Trump announced on Friday that long-time policy adviser Stephen Miller will serve as his new White House chief of staff. Miller takes over the key administrative role from Susie Wiles on Monday. The decision follows recent midterm election results that saw opposition lawmakers secure future control of Congress.",
+     "Miller, 41, has been a key figure in shaping hardline immigration policies since joining Trump's initial presidential campaign in 2016. Supporters credit him with building the administration's core platform messaging, while critics have long opposed his aggressive policy stance. His promotion does not __**warrant__** approval from the Senate, allowing an immediate transition.",
+     "Incoming congressional leaders are expected to launch investigations into Miller's previous executive actions once they take office in January. Political analysts view the appointment as a clear sign that the administration intends to double down on its primary domestic policy goals despite growing political pressure from opposing lawmakers."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Grab Thailand Launches Strategy to Promote Cultural Tourism",
+    "paragraphs": [
+     "Grab Thailand has introduced a new commercial strategy designed to **monetize** the country's rich heritage while supporting local economic growth. By **capitalizing** on traditional culture, the digital platform aims to connect foreign visitors directly with local communities, food venues, and historical sites. Foreign tourists currently represent a quarter of the company's local active user base.",
+     "The company's new framework links transportation and food delivery with regional arts and **culinary** traditions. Grab reported that foreign travelers generated over three million rides to cultural destinations last year. Top locations included famous Bangkok temples, historical parks, and the **Sanctuary** of Truth, a massive wooden temple structure located in Pattaya.",
+     "Additionally, Grab is urging Thai market regulators to reconsider proposed rules governing digital platforms. Company executives emphasized that their service fee caps have remained unchanged for six years. They hope the new cultural initiative will help expand local food brands to consumers across broader Southeast Asian markets."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Sustainability Expo Highlights Climate Change Risks in Bangkok",
+    "paragraphs": [
+     "The SX Food Festival 2026 opened in Bangkok on Friday with a major public display highlighting global climate change risks. Organizers installed a ten-tonne iceberg at the venue to demonstrate the visual impact of rapidly melting glaciers. The temporary ice structure was produced using carbon-neutral methods to avoid generating net environmental emissions.",
+     "The exhibition features interactive **scenarios** showing how rising sea levels could flood major coastal cities worldwide, including Bangkok. Visitors walk through themed zones that demonstrate how shifting global weather patterns will eventually affect agricultural production and daily eating habits. The event also offers practical advice on sorting domestic waste correctly.",
+     "Participating chefs are showcasing eco-friendly dishes designed to promote **sustainable** dining choices. Event organizers hope the interactive displays will help shift the public's **mindset** toward environmental action. The festival runs through mid-November at the Queen Sirikit National Convention Center."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "paragraphs": [
+    "The rapid expansion of remote work has created a global community of digital nomads who perform their daily jobs while moving between foreign countries. Working across borders offers great personal freedom, but it also presents complex cultural challenges. Succeeding as an international remote worker requires more than a laptop and a stable internet connection; it demands real cultural awareness.",
+    "One common difficulty involves adjusting to local communication styles. In many Western corporate environments, direct feedback is valued, and professional discussions are straightforward. However, many Asian societies prioritize indirect communication to maintain social harmony. A digital worker who insists on blunt critique may accidentally offend local colleagues or service providers, creating unnecessary workplace friction.",
+    "Understanding professional boundaries is equally essential when establishing a temporary home overseas. Every region maintains distinct expectations regarding work hours, religious holidays, and daily routines. Assuming that local partners will adopt your personal schedule often leads to misunderstandings. Successful nomads learn to adapt their working habits to match the cultural rhythm of their host country.",
+    "Digital tools can bridge geographic distance, but they cannot replace genuine human empathy. Relying entirely on automated translation apps or remote communication channels often masks subtle social cues. Taking the time to study local traditions, learn basic language greetings, and respect local customs builds trust far faster than relying solely on technological convenience.",
+    "Ultimately, thriving in a globalized remote environment requires continuous flexibility. Workers who view cultural differences as learning opportunities rather than inconveniences build stronger international relationships. By combining modern professional skills with genuine respect for local heritage, modern nomads can enjoy a fulfilling lifestyle while serving as effective global ambassadors."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should digital remote workers adopt the local timezone of their host country?",
+   "view_a": {
+    "title": "Respect Local Rhythms",
+    "text": "Living in a new culture while working late night shifts ruins the experience of traveling. Granted that clients may expect instant replies, remote professionals must set reasonable boundaries. Although working host country hours might require early morning calls with overseas teams, it allows individuals to participate in community life and build genuine local connections."
+   },
+   "view_b": {
+    "title": "Prioritize Client Needs",
+    "text": "Remote employees are paid to deliver results for home-office projects, regardless of where their desk is located. Even though staying on foreign business hours can cause minor fatigue, keeping client alignment remains the top priority. While exploring local attractions is enjoyable, professional duty must come first."
+   },
+   "phrases": [
+    {
+     "phrase": "Granted that clients may expect instant replies",
+     "function": "concession"
+    },
+    {
+     "phrase": "might require early morning calls",
+     "function": "hedging"
+    },
+    {
+     "phrase": "Even though staying on foreign business hours can cause minor fatigue",
+     "function": "contrast"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Word Order in Indirect Questions",
+   "wrong": "Can you tell me where is the meeting room?",
+   "right": "Can you tell me where the meeting room is?",
+   "explanation": "Thai speakers often keep direct question word order when embedding a clause inside a polite request, influenced by Thai structure like 'บอกได้ไหมว่าห้องประชุมอยู่ที่ไหน'. In English indirect questions, use statement word order (subject + verb) after the question word."
+  },
+  "word_bank": [
+   {
+    "word": "secular",
+    "pos": "adjective",
+    "definition": "not connected with religious or spiritual matters",
+    "thai": "ทางโลก, ที่ไม่เกี่ยวกับศาสนา",
+    "collocations": [
+     "secular state",
+     "secular education",
+     "secular society"
+    ],
+    "example": "The first leg brought the Pope to Uruguay, famously known as Latin America's most **secular** nation."
+   },
+   {
+    "word": "stamina",
+    "pos": "noun",
+    "definition": "the physical or mental strength to do something difficult for a long time",
+    "thai": "ความอดทน, พละกำลัง",
+    "collocations": [
+     "build stamina",
+     "physical stamina",
+     "remarkable stamina"
+    ],
+    "example": "Despite the physical challenges, Vatican communications chief Maria Montserrat Alvarado stressed that the pontiff possesses strong **stamina** and that his medical team is fully prepared on board if any issues arise."
+   },
+   {
+    "word": "warrant",
+    "pos": "verb",
+    "definition": "to make a particular action or idea seem necessary or reasonable",
+    "thai": "สมควรได้รับ, มีเหตุผลเพียงพอที่จะ",
+    "collocations": [
+     "warrant attention",
+     "warrant concern",
+     "warrant further investigation"
+    ],
+    "example": "His promotion does not __**warrant__** approval from the Senate, allowing an immediate transition."
+   },
+   {
+    "word": "monetize",
+    "pos": "verb",
+    "definition": "to make money from a product, service, or asset",
+    "thai": "สร้างรายได้จาก, แปลงเป็นเงิน",
+    "collocations": [
+     "monetize content",
+     "monetize an audience",
+     "monetize personal data"
+    ],
+    "example": "Grab Thailand has introduced a new commercial strategy designed to **monetize** the country's rich heritage while supporting local economic growth."
+   },
+   {
+    "word": "capitalizing",
+    "pos": "verb",
+    "definition": "using a situation or opportunity to gain an advantage",
+    "thai": "ฉวยโอกาส, ใช้ประโยชน์จาก",
+    "collocations": [
+     "capitalizing on demand",
+     "capitalizing on opportunities",
+     "capitalizing on success"
+    ],
+    "example": "By **capitalizing** on traditional culture, the digital platform aims to connect foreign visitors directly with local communities, food venues, and historical sites."
+   },
+   {
+    "word": "sustainable",
+    "pos": "adjective",
+    "definition": "causing little or no damage to the environment and able to continue for a long time",
+    "thai": "ยั่งยืน, เป็นมิตรต่อสิ่งแวดล้อม",
+    "collocations": [
+     "sustainable development",
+     "sustainable energy",
+     "sustainable practices"
+    ],
+    "example": "Participating chefs are showcasing eco-friendly dishes designed to promote **sustainable** dining choices."
+   },
+   {
+    "word": "scenarios",
+    "pos": "noun",
+    "definition": "descriptions of possible situations or events that might happen in the future",
+    "thai": "สถานการณ์จำลอง, ภาพเหตุการณ์ที่เป็นไปได้",
+    "collocations": [
+     "worst-case scenarios",
+     "future scenarios",
+     "hypothetical scenarios"
+    ],
+    "example": "The exhibition features interactive **scenarios** showing how rising sea levels could flood major coastal cities worldwide, including Bangkok."
+   },
+   {
+    "word": "mitigate",
+    "pos": "verb",
+    "definition": "to make something less harmful, unpleasant, or bad",
+    "thai": "บรรเทา, ทำให้น้อยลง",
+    "collocations": [],
+    "example": "Authorities noted that a search failed to __mitigate__ the severity of the findings, though no evidence indicates domestic victims were involved."
+   }
+  ],
+  "activity": {
+   "instructions": "In each item, choose the word that does NOT naturally collocate with the bold target word.",
+   "items": [
+    "secular: (a) government (b) institution (c) belief (d) faith",
+    "stamina: (a) test (b) boost (c) drain (d) apologize",
+    "warrant: (a) suspicion (b) consideration (c) celebration (d) sandwich",
+    "monetize: (a) platform (b) traffic (c) assets (d) sadness",
+    "capitalizing: (a) on trends (b) on weaknesses (c) on mistakes (d) to trees",
+    "sustainable: (a) growth (b) tourism (c) agriculture (d) headache"
+   ],
+   "answers": [
+    "(d) faith — 'secular' refers to non-religious matters, so it contrasts with religious 'faith'.",
+    "(d) apologize — we do not apologize stamina; you can test, boost, or drain stamina.",
+    "(d) sandwich — a tangible object like 'sandwich' does not pair logically with the verb 'warrant'.",
+    "(d) sadness — 'monetize' applies to economic assets, traffic, or digital platforms, not emotional states.",
+    "(d) to trees — the idiom is 'capitalize on' an advantage or error; 'to trees' makes no sense.",
+    "(d) headache — 'sustainable' describes viable, eco-friendly systems, not a temporary physical pain."
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The Vatican press office confirmed that the Pope was recovering good after his recent surgery.",
+    "corrected": "The Vatican press office confirmed that the Pope was recovering well after his recent surgery.",
+    "reason": "adverb needed to modify the verb 'recovering'"
+   },
+   {
+    "sentence": "Grab Thailand hopes to mitigate economic challenges by invest in rural tourism initiatives.",
+    "corrected": "Grab Thailand hopes to mitigate economic challenges by investing in rural tourism initiatives.",
+    "reason": "gerund required after the preposition 'by'"
+   },
+   {
+    "sentence": "The climate exhibition in Bangkok highlighted several dangerous scenarios on rising sea levels.",
+    "corrected": "The climate exhibition in Bangkok highlighted several dangerous scenarios of rising sea levels.",
+    "reason": "incorrect preposition; use 'of' or 'involving' with scenarios"
+   },
+   {
+    "sentence": "Stephen Miller's appointment did not warrant a Senate confirmation hearing according the legal team.",
+    "corrected": "Stephen Miller's appointment did not warrant a Senate confirmation hearing according to the legal team.",
+    "reason": "missing preposition 'to' after 'according'"
+   },
+   {
+    "sentence": "Many professionals living abroad find difficult to adapt to sudden cultural shifts.",
+    "corrected": "Many professionals living abroad find it difficult to adapt to sudden cultural shifts.",
+    "reason": "missing dummy pronoun 'it' before the adjective"
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Ordering food in Germany is straightforward and polite. Knowing a few core phrases helps you navigate restaurant menus and interact smoothly with your server.",
+   "phrases": [
+    {
+     "phrase": "Ich möchte bitte...",
+     "pronunciation": "Ikh MERKH-teh BIT-teh",
+     "meaning": "I would like..., please"
+    },
+    {
+     "phrase": "Die Rechnung, bitte.",
+     "pronunciation": "Dee REKH-noong, BIT-teh",
+     "meaning": "The bill, please."
+    },
+    {
+     "phrase": "Guten Appetit!",
+     "pronunciation": "GOO-ten ah-peh-TEET",
+     "meaning": "Enjoy your meal!"
+    }
+   ],
+   "root": {
+    "root": "essen",
+    "meaning": "to eat",
+    "english_words": "edible, eat",
+    "note": "This fundamental Germanic verb shares deep ancestral roots with everyday English dining vocabulary."
+   },
+   "borrowed": {
+    "word": "delicatessen",
+    "note": "Originating from the German word 'Delikatessen' (fine foods), it entered English to describe specialty food stores."
+   },
+   "curious": {
+    "word": "Kummerspeck",
+    "pronunciation": "KOOM-mer-shpek",
+    "meaning": "grief bacon",
+    "note": "It refers humorously to the excess weight gained from stress-eating during emotional times."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 349,
+  "world_1": 155,
+  "world_2": 152,
+  "thailand_1": 153,
+  "thailand_2": 141,
+  "feature": 270,
+  "real_english": 204,
+  "language_lab": 141,
+  "other_language": 102,
+  "word_bank": 318,
+  "total": 2240
+ },
+ "notes": [
+  "dropped 'heir' from star_words: it does not appear in the articles",
+  "dropped 'sanctuary' from recycled_words: it does not appear in the articles",
+  "dropped 'culinary' from recycled_words: it does not appear in the articles",
+  "dropped 'mindset' from recycled_words: it does not appear in the articles",
+  "★ words appear in only 3 parts of the issue (target 4+)",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 349 words (target 470–510)",
+  "feature: 270 words (target 310–370)",
+  "real_english: 204 words (target 260–320)",
+  "other_language: 102 words (target 140–190)",
+  "whole issue: 2240 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: ok"
+ ],
+ "fallback_used": false
+}
