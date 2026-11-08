@@ -1,0 +1,617 @@
+{
+ "plan": {
+  "date": "2026-11-09",
+  "date_long": "Monday, 9 November 2026",
+  "weekday": "Mon",
+  "issue_no": 11,
+  "language": "French",
+  "phrase_theme": "ordering food",
+  "feature": "Health & Wellbeing",
+  "opinion": "say_it_better",
+  "setting": "workplace email",
+  "activity": "Collocation match",
+  "trap": "Articles (a / an / the)",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "allegations",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bureaucratic",
+   "capitalizing",
+   "coercion",
+   "compelling",
+   "consensus",
+   "coordinated",
+   "crackdown",
+   "credible",
+   "culinary",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "extinction",
+   "feasibility",
+   "fluctuations",
+   "foster",
+   "hospitality",
+   "impasse",
+   "improvise",
+   "incorporate",
+   "intermittent",
+   "look into",
+   "mandate",
+   "mindset",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "nuanced",
+   "opt for",
+   "optimum",
+   "oversight",
+   "proscription",
+   "rectify",
+   "reinstate",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "slashing",
+   "sparked",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "subsidize",
+   "sustainable",
+   "tailored",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "versatile",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "mandate",
+    "taught_date": "2026-11-08",
+    "days_ago": 1
+   },
+   {
+    "word": "impasse",
+    "taught_date": "2026-11-08",
+    "days_ago": 1
+   },
+   {
+    "word": "allegations",
+    "taught_date": "2026-11-08",
+    "days_ago": 1
+   },
+   {
+    "word": "disperse",
+    "taught_date": "2026-11-08",
+    "days_ago": 1
+   },
+   {
+    "word": "nuanced",
+    "taught_date": "2026-11-08",
+    "days_ago": 1
+   },
+   {
+    "word": "discrepancy",
+    "taught_date": "2026-11-08",
+    "days_ago": 1
+   },
+   {
+    "word": "rectify",
+    "taught_date": "2026-11-08",
+    "days_ago": 1
+   },
+   {
+    "word": "foster",
+    "taught_date": "2026-11-06",
+    "days_ago": 3
+   },
+   {
+    "word": "sanctuary",
+    "taught_date": "2026-11-06",
+    "days_ago": 3
+   },
+   {
+    "word": "mitigate",
+    "taught_date": "2026-11-06",
+    "days_ago": 3
+   },
+   {
+    "word": "navigate",
+    "taught_date": "2026-11-06",
+    "days_ago": 3
+   },
+   {
+    "word": "consensus",
+    "taught_date": "2026-11-06",
+    "days_ago": 3
+   },
+   {
+    "word": "culinary",
+    "taught_date": "2026-11-06",
+    "days_ago": 3
+   },
+   {
+    "word": "hospitality",
+    "taught_date": "2026-11-06",
+    "days_ago": 3
+   },
+   {
+    "word": "engulfed",
+    "taught_date": "2026-11-02",
+    "days_ago": 7
+   },
+   {
+    "word": "unrest",
+    "taught_date": "2026-11-02",
+    "days_ago": 7
+   },
+   {
+    "word": "escalating",
+    "taught_date": "2026-11-02",
+    "days_ago": 7
+   },
+   {
+    "word": "tailored",
+    "taught_date": "2026-11-02",
+    "days_ago": 7
+   },
+   {
+    "word": "scrutiny",
+    "taught_date": "2026-11-02",
+    "days_ago": 7
+   },
+   {
+    "word": "optimum",
+    "taught_date": "2026-11-02",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "café",
+   "croissant",
+   "flâner",
+   "parler",
+   "tête-à-tête",
+   "retrouvailles"
+  ],
+  "recent_news_titles": [
+   "Israel's president tasks opposition leader Eisenkot with forming government",
+   "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+   "Yemen: 22 killed in strike near Sanaa, Houthis say",
+   "More than 140,000 rally as new protests against rising costs sweep France",
+   "German nabbed over drugs",
+   "The New Language of Scent: Beyond Perfume to a New Era of Identity, Experience and Innovation",
+   "Pope Leo begins a 12-day, 3-country South America tour after his cancer surgery",
+   "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+   "Thomas Markle, Meghan’s father, charged in Florida in connection to child sexual abuse material",
+   "Who is Stephen Miller, Trump’s new White House chief of staff?",
+   "Grab seeks to monetise Thai cultural appeal",
+   "SX festival spotlights climate",
+   "Paraguay President Santiago Peña resigns after bank collapse",
+   "Paraguay President Pena resigns in wake of bank collapse",
+   "Gavin Newsom commutes sentences of all death row inmates in California",
+   "Melania Trump calls for peace at meeting with Russia, Ukraine officials",
+   "Changan Automobile unveils 3-year expansion plan",
+   "Amnesty warns Uyghur deportations risk lives"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "Al Jazeera",
+   "title": "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
+   "url": "https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+   "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "BBC News",
+   "title": "Seven dead and more than 100 injured after trains collide in Egypt",
+   "url": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "The Guardian",
+   "title": "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+   "url": "https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Looking beyond tax savings",
+   "url": "https://www.bangkokpost.com/business/investment/3351340/looking-beyond-tax-savings",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Police brace for protest convoy in capital",
+   "url": "https://www.bangkokpost.com/thailand/general/3351155/police-brace-for-protest-convoy-in-capital",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "extramarital",
+   "bipartisan",
+   "negligent",
+   "slashed",
+   "tolerance",
+   "proportionately",
+   "sedentary",
+   "vitality"
+  ],
+  "recycled_words": [],
+  "cover": {
+   "headline": "Nvidia Opens Inquiry into CEO Jensen Huang Over Relationship with Suspected Spy",
+   "paragraphs": [
+    "United States chipmaker Nvidia has launched an independent internal investigation into its chief executive officer, billionaire Jensen Huang, after he confirmed having an **extramarital** relationship with a woman accused of gathering intelligence for China. On Sunday, Nvidia announced that the inquiry would be led by a committee of independent directors supported by outside legal counsel. While the board stated it has no reason to believe commercial secrets or national security were compromised, the probe will thoroughly evaluate all accessible details.",
+    "The board emphasized that it prioritizes national and economic security as paramount concerns for shareholders, while maintaining full confidence in Huang and his management team. Huang will remain at the helm of the semiconductor giant during the proceedings, having committed his full cooperation. In an internal message sent to employees, Huang admitted to unfaithfulness toward his wife, expressing deep remorse for hurting his family and acknowledging that no excuse justified his personal conduct.",
+    "The corporate inquiry follows revelations that Jensen Huang may have been targeted in a foreign espionage plot involving Alice Huang, also known as Huang Le. Although she shares the same surname, she has no family relation to the executive. Alice Huang served as an executive at Megaspeed, a Singapore-based data center operator that emerged as a major customer by purchasing roughly 4.8 billion dollars in Nvidia hardware. American authorities had previously monitored her over suspected chip smuggling to China, eventually assessing that she functioned as an intelligence asset passing commercial data to Beijing. The Chinese Embassy in Washington, DC, denied all spying claims.",
+    "The matter quickly drew intense political **scrutiny** in Washington, where relations between the two economic superpowers remain strained over artificial intelligence. A **bipartisan** group of lawmakers expressed alarm regarding the flow of advanced American processors abroad. Representatives on the House foreign affairs and intelligence panels have called on Huang to appear for a closed-door briefing on November 18. Lawmakers, including Senator Elizabeth Warren, stressed that Congress must establish whether sensitive technological assets were exposed, renewing pushes for stricter export curbs on advanced hardware.",
+    "The controversy comes at a delicate juncture for Nvidia, whose valuation surged into the trillions of dollars as its chips became the bedrock for major generative artificial intelligence developers. The company has also contended with volatile market conditions following recent United States midterm elections. Last week, Nvidia shed 450 billion dollars in equity value in a single session before recovering modestly. As geopolitical competition intensifies around strategic computing infrastructure, corporate governance and executive integrity across the technology sector face growing public and governmental oversight."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Deadly Train Collision in Egypt Leaves Seven Dead and Scores Injured",
+    "paragraphs": [
+     "At least seven people were killed and more than one hundred injured when two passenger trains collided near Giza, south of Cairo. The crash occurred when an active southbound service crashed into the rear of a stationary train on the tracks. The impact caused several carriages to overturn and plunge down a railway embankment.",
+     "Emergency teams rushed to the site, where rescue workers searched through mangled cars for trapped survivors. Dr. Khaled Abdel Ghaffar, Egypt's health minister, confirmed that local hospitals were placed on heightened alert to treat fractures and head trauma. A train driver was among those confirmed dead, and prosecutors warned the fatality count could increase.",
+     "President Abdul Fattah al-Sisi ordered an investigation into the collision and promised to hold any **negligent** parties accountable. Railway operations between Giza and Upper Egypt were suspended while heavy cranes cleared the wreckage. The incident has renewed public demands for systemic rail safety improvements and prompted calls for the transport minister to resign."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Pope Leo Visits Argentina Amid Sharp Clashes Over Austerity Policies",
+    "paragraphs": [
+     "Pope Leo XIV arrived in Argentina on Monday, visiting the Cottolengo Don Orione, a Catholic care facility that provides a **sanctuary** for approximately 400 individuals with disabilities. The stop marked the pontiff's first full day of an official tour across South America, which also includes Uruguay and Peru.",
+     "The visit highlights stark ideological disagreements with Argentine President Javier Milei. Since taking office, Milei has **slashed** state spending to combat inflation, freezing funding for vital medications, food, and diapers for disability institutions. Church representatives noted that the pope's message champions human dignity, directly contrasting with the president's free-market approach.",
+     "Economic tensions remain elevated throughout the country as social groups protest significant losses in retiree purchasing power. Furthermore, the leaders diverge over technological governance; the pope previously urged limits on artificial intelligence, whereas Milei advocates for data center expansion without restrictive regulations. Observers view the trip as a profound test of state and church relations."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Advisors Urge Year-End Investors to Look Beyond Tax Deductions",
+    "paragraphs": [
+     "As the final months of 2026 approach, financial planners are advising Thai investors to consider broader financial goals rather than simply chasing tax savings. Many taxpayers are currently assessing options like Retirement Mutual Funds (RMFs), Thai ESG funds, and qualifying life insurance products to reduce taxable income before the tax year closes.",
+     "Advisors stress that an investor's risk **tolerance**, long-term timeline, and liquidity requirements should guide these decisions. RMFs allow deductions up to 30 percent of assessable income within a 500,000-baht collective retirement ceiling, but they demand holding assets until age 55. Similarly, Thai ESG funds offer an individual deduction ceiling of 300,000 baht under specific multi-year holding conditions.",
+     "Purchasing financial products solely to exhaust deduction allowances can lead to costly penalties if investors fail to meet strict holding periods. Professionals suggest that taxpayers carefully calculate remaining limits to find an **optimum** balance between protection, investment stability, and legitimate tax relief."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Bangkok Police Secure Government House Ahead of Vehicle Protest",
+    "paragraphs": [
+     "Metropolitan police have established security perimeters across Bangkok ahead of an approaching convoy of roughly 1,000 vehicles. The demonstrators, led by Mano Khrueakaew, a kamnan (a subdistrict headman) from Krabi, are traveling from southern provinces to demand a 10-baht reduction in fuel prices and state relief for living expenses.",
+     "Authorities enacted street closures around major junctions near Government House, declaring a 50-meter perimeter around the compound as an off-limits assembly zone through November 20. National police leadership instructed deployed officers to enforce public assembly regulations strictly yet **proportionately**, designating specific parking zones to limit traffic congestion for everyday commuters.",
+     "Safety concerns rose after law enforcement discovered a licensed handgun with ammunition in a participant's vehicle during a transit stop in Phetchaburi. The protest leader confirmed he had explicitly prohibited firearms. Police plan to monitor the assembly closely to maintain public order."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "paragraphs": [
+    "Modern office life often requires spending eight to ten hours seated before computer monitors, processing endless emails and attending back-to-back virtual discussions. Over time, this **sedentary** routine drains physical vitality and clouds mental sharpness. Many working adults assume that restoring focus demands intensive workouts or drastic dietary overhauls. In reality, introducing modest, intentional behaviors throughout the workday can dramatically revive both physical endurance and mental clarity.",
+    "The primary drain on daytime energy is prolonged physical stillness, which slows blood circulation and reduces oxygen delivery to the brain. To counter this mid-afternoon slump, professionals can integrate brief physical interruptions into their work patterns. Standing during phone conversations, pacing while brainstorming, or completing gentle leg stretches every hour can reactivate physical circulation. These minimal adjustments combat muscular stiffness and restore mental alertness without disrupting productive workflows.",
+    "Equally critical is the management of sensory input and digital strain. Continuous exposure to bright monitors triggers ocular fatigue, leading to tension headaches and cognitive exhaustion. Adopting regular visual breaks, such as gazing at distant objects across the room for twenty seconds, provides the optic nerves with necessary rest. Pair this visual habit with conscious breathing intervals, exhaling slowly to trigger the nervous system's relaxation response and clear accumulated tension.",
+    "Finally, professional performance depends on mindful hydration and deliberate boundary-setting during breaks. Rushing through lunch while replying to workplace messages prevents cognitive recovery, increasing fatigue later in the afternoon. Stepping away entirely from screens during meal breaks enables true psychological recovery, helping to **foster** steady energy reserves. By committing to these practical, sustainable micro-habits, professionals can safeguard their daily **vitality** and sustain professional effectiveness throughout demanding schedules."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Requesting Additional Time for a Project Deliverable",
+   "situation": "You realize that completing an assigned analytical report by the end of today will compromise its quality. You need to email your manager to request an extension until tomorrow afternoon.",
+   "formal": "Dear Khun Somchai, I am writing to respectfully request a brief extension on the analytical report originally due today. In order to ensure comprehensive data accuracy, I would appreciate submitting the final version by 2:00 PM tomorrow.",
+   "neutral": "Hi Somchai, I would like to ask for a short extension on the analysis report due today. Finalizing the figures properly will take a few more hours, so I plan to send everything over by tomorrow afternoon.",
+   "casual": "Hi Somchai, could we push the deadline for the report to tomorrow afternoon? I want to double-check the latest numbers to make sure everything looks right before sending it across.",
+   "useful_phrases": [
+    "request a brief extension on",
+    "ensure comprehensive data accuracy",
+    "push the deadline to"
+   ]
+  },
+  "trap": {
+   "title": "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "wrong": "I need to send email to client before leaving office.",
+   "right": "I need to send an email to the client before leaving the office.",
+   "explanation": "In Thai, nouns do not require determiners, so speakers often omit 'a', 'an', or 'the' when translating thoughts directly from phrases like ส่งอีเมลให้ลูกค้า (song email hai look-kha). In English, singular countable nouns like 'email', 'client', and 'office' cannot stand alone without an article or determiner. Use 'an' before vowel sounds for non-specific items, and 'the' when referring to a specific person, place, or thing known to both speaker and listener."
+  },
+  "word_bank": [
+   {
+    "word": "extramarital",
+    "pos": "adjective",
+    "definition": "happening outside of marriage, especially involving a sexual relationship",
+    "thai": "นอกสมรส",
+    "collocations": [
+     "extramarital affair",
+     "extramarital relationship",
+     "extramarital sex"
+    ],
+    "example": "United States chipmaker Nvidia has launched an independent internal investigation into its chief executive officer, billionaire Jensen Huang, after he confirmed having an **extramarital** relationship with a woman accused of gathering intelligence for China."
+   },
+   {
+    "word": "bipartisan",
+    "pos": "adjective",
+    "definition": "involving the agreement or cooperation of two political parties",
+    "thai": "ที่มาจากสองพรรคการเมืองร่วมกัน",
+    "collocations": [
+     "bipartisan support",
+     "bipartisan bill",
+     "bipartisan consensus"
+    ],
+    "example": "A **bipartisan** group of lawmakers expressed alarm regarding the flow of advanced American processors abroad."
+   },
+   {
+    "word": "negligent",
+    "pos": "adjective",
+    "definition": "failing to take proper care over something, resulting in harm or damage",
+    "thai": "ประมาทเลินเล่อ",
+    "collocations": [
+     "grossly negligent",
+     "negligent behavior",
+     "negligent driving"
+    ],
+    "example": "President Abdul Fattah al-Sisi ordered an investigation into the collision and promised to hold any **negligent** parties accountable."
+   },
+   {
+    "word": "slashed",
+    "pos": "verb",
+    "definition": "cut or reduced drastically and suddenly",
+    "thai": "ปรับลดลงอย่างมาก",
+    "collocations": [
+     "slashed prices",
+     "slashed budgets",
+     "slashed funding"
+    ],
+    "example": "Since taking office, Milei has **slashed** state spending to combat inflation, freezing funding for vital medications, food, and diapers for disability institutions."
+   },
+   {
+    "word": "tolerance",
+    "pos": "noun",
+    "definition": "the ability or willingness to endure difficult conditions or risks",
+    "thai": "ความอดทน, การรับได้ต่อความเสี่ยง",
+    "collocations": [
+     "risk tolerance",
+     "pain tolerance",
+     "zero tolerance"
+    ],
+    "example": "Advisors stress that an investor's risk **tolerance**, long-term timeline, and liquidity requirements should guide these decisions."
+   },
+   {
+    "word": "proportionately",
+    "pos": "adverb",
+    "definition": "in a way that corresponds in size, amount, or degree to something else",
+    "thai": "อย่างได้สัดส่วน",
+    "collocations": [
+     "increase proportionately",
+     "distributed proportionately",
+     "respond proportionately"
+    ],
+    "example": "National police leadership instructed deployed officers to enforce public assembly regulations strictly yet **proportionately**, designating specific parking zones to limit traffic congestion for everyday commuters."
+   },
+   {
+    "word": "sedentary",
+    "pos": "adjective",
+    "definition": "spending a lot of time sitting and getting little physical exercise",
+    "thai": "ซึ่งต้องนั่งอยู่กับที่นานๆ, ไม่ค่อยขยับร่างกาย",
+    "collocations": [
+     "sedentary lifestyle",
+     "sedentary job",
+     "sedentary behavior"
+    ],
+    "example": "Over time, this **sedentary** routine drains physical vitality and clouds mental sharpness."
+   },
+   {
+    "word": "vitality",
+    "pos": "noun",
+    "definition": "energy, strength, and lively active force",
+    "thai": "พลังชีวิต, ความมีชีวิตชีวา",
+    "collocations": [
+     "youthful vitality",
+     "restore vitality",
+     "economic vitality"
+    ],
+    "example": "Over time, this **sedentary** routine drains physical vitality and clouds mental sharpness."
+   }
+  ],
+  "activity": {
+   "instructions": "Match each word on the left with its most natural partner word on the right. Partner options: affair / budget / lifestyle / support / tolerance / vitality",
+   "items": [
+    "extramarital — ?",
+    "bipartisan — ?",
+    "slashed — ?",
+    "risk — ?",
+    "sedentary — ?",
+    "restore — ?"
+   ],
+   "answers": [
+    "extramarital — affair",
+    "bipartisan — support",
+    "slashed — budget",
+    "risk — tolerance",
+    "sedentary — lifestyle",
+    "restore — vitality"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The supervisory board launched an inquiry to investigate about the chief executive's personal conduct.",
+    "corrected": "The supervisory board launched an inquiry to investigate the chief executive's personal conduct.",
+    "reason": "'Investigate' is a transitive verb and takes a direct object without 'about'."
+   },
+   {
+    "sentence": "Prosecutors announced plans to charge the negligent driver with manslaughter after the collision.",
+    "corrected": "Prosecutors announced plans to charge the negligent driver with manslaughter after the collision.",
+    "reason": "Correct as edited; avoid using incorrect prepositions such as 'charge for'."
+   },
+   {
+    "sentence": "The government slashed social spendings despite angry rallies organized across major cities.",
+    "corrected": "The government slashed social spending despite angry rallies organized across major cities.",
+    "reason": "'Spending' is an uncountable noun when referring to financial expenditure."
+   },
+   {
+    "sentence": "Officers were instructed to respond proportionately with the scale of the gathering.",
+    "corrected": "Officers were instructed to respond proportionately to the scale of the gathering.",
+    "reason": "The adverb 'proportionately' collocates with the preposition 'to', not 'with'."
+   },
+   {
+    "sentence": "Workers stuck in sedentary jobs should pay close attention on their daily posture.",
+    "corrected": "Workers stuck in sedentary jobs should pay close attention to their daily posture.",
+    "reason": "The idiom is 'pay attention to', not 'pay attention on'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Dining out in France is a social ritual centered on hospitality, precision, and savoring fresh ingredients.",
+   "phrases": [
+    {
+     "phrase": "L'addition, s'il vous plaît.",
+     "pronunciation": "la-dee-syon seel voo pleh",
+     "meaning": "The bill, please."
+    },
+    {
+     "phrase": "Une carafe d'eau, s'il vous plaît.",
+     "pronunciation": "ewn ka-raf doh seel voo pleh",
+     "meaning": "A jug of tap water, please."
+    },
+    {
+     "phrase": "Qu'est-ce que vous recommandez ?",
+     "pronunciation": "kess kuh voo ruh-koh-mahn-day",
+     "meaning": "What do you recommend?"
+    }
+   ],
+   "root": {
+    "root": "goût (Latin: gustus)",
+    "meaning": "taste or flavor",
+    "english_words": "disgust, gustatory, gusto",
+    "note": "The French word 'goût' describes flavor, aesthetic preference, or personal inclination."
+   },
+   "borrowed": {
+    "word": "menu",
+    "note": "Derived from the French word meaning detailed or small, describing a concise list of food courses."
+   },
+   "curious": {
+    "word": "terroir",
+    "pronunciation": "tehr-wahr",
+    "meaning": "the complete natural environment in which a wine or food is produced",
+    "note": "It captures how soil, climate, and local farming tradition together create a food's distinct character."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 423,
+  "world_1": 161,
+  "world_2": 153,
+  "thailand_1": 151,
+  "thailand_2": 141,
+  "feature": 271,
+  "real_english": 259,
+  "language_lab": 110,
+  "other_language": 124,
+  "word_bank": 305,
+  "total": 2300
+ },
+ "notes": [
+  "dropped 'scrutiny' from recycled_words: it does not appear in the articles",
+  "dropped 'sanctuary' from recycled_words: it does not appear in the articles",
+  "dropped 'optimum' from recycled_words: it does not appear in the articles",
+  "dropped 'foster' from recycled_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "feature: 271 words (target 310–370)",
+  "language_lab: 110 words (target 150–260)",
+  "other_language: 124 words (target 140–190)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: ok"
+ ],
+ "fallback_used": false
+}

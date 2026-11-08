@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="sepia">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE CITY TIMES · Monday, 9 November 2026</title>
+<meta name="description" content="Monday, 9 November 2026: Nvidia Opens Inquiry into CEO Jensen Huang Over Relationship with Suspected Spy">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&family=Noto+Serif+Thai:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* ── Colours: sepia (default) and black & white ─────────────── */
+:root{--paper:#f3ead7;--ink:#2a2118;--muted:#6b5a45;--rule:#2a2118;--box:#ebdfc6}
+html[data-theme="bw"]{--paper:#ffffff;--ink:#111111;--muted:#555555;--rule:#111111;--box:#f1f1f1}
+
+/* ── Base ───────────────────────────────────────────────────── */
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Serif 4",Georgia,"Noto Serif Thai",serif;font-size:17px;line-height:1.62}
+.page{max-width:1080px;margin:0 auto;padding:16px 16px 48px}
+section{margin-top:30px}
+h3{font-family:"Playfair Display",serif;font-weight:700;font-size:24px;line-height:1.2;margin:0 0 6px}
+h4{font-family:"Playfair Display",serif;font-size:16px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px}
+p{margin:0 0 .8em}
+ol{margin:0;padding-left:1.5em}
+li{margin-bottom:4px}
+[lang="th"]{font-family:"Noto Serif Thai",serif}
+.center{text-align:center}
+.inst{font-style:italic;color:var(--muted)}
+.ex{font-style:italic;color:var(--muted)}
+.small-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+/* ── Toolbar and masthead ───────────────────────────────────── */
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;font-size:13px}
+.toolbar nav{display:flex;gap:14px;flex-wrap:wrap}
+.toolbar a{color:var(--ink)}
+.toolbar button{font:inherit;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule);padding:4px 10px;cursor:pointer}
+.masthead{text-align:center}
+.ears{display:flex;justify-content:space-between;gap:12px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);line-height:1.4}
+.ears span:first-child{text-align:left}
+.ears span:last-child{text-align:right}
+.title{font-family:"UnifrakturMaguntia",serif;font-weight:400;font-size:clamp(42px,10vw,104px);line-height:1;margin:6px 0 12px}
+.dateline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 16px;border-top:1px solid var(--rule);border-bottom:3px double var(--rule);padding:6px 0;font-size:12px;text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Articles ───────────────────────────────────────────────── */
+.kicker{font-family:"Playfair Display",serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;border-top:2px solid var(--rule);border-bottom:1px solid var(--rule);padding:4px 0;margin:0 0 14px}
+.meta{margin:0 0 10px;font-size:14px}
+.level{display:inline-block;border:1px solid var(--ink);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:1px 6px}
+.cover h3{font-size:clamp(30px,5vw,46px);font-weight:900;text-align:center}
+.cover .meta{text-align:center}
+.feature h3{font-size:clamp(24px,3.6vw,32px)}
+.cols{column-gap:32px;column-rule:1px solid var(--rule)}
+@media(min-width:800px){.cover .cols,.feature .cols{column-count:2}}
+.dropcap::first-letter{float:left;font-family:"Playfair Display",serif;font-weight:900;font-size:4.2em;line-height:.8;padding:6px 8px 0 0}
+.stack>article+article{margin-top:20px;padding-top:16px;border-top:1px dashed var(--muted)}
+.rw::after{content:"\21BA";font-size:.75em;vertical-align:super;margin-left:1px;color:var(--muted)}   /* ↺ after review words */
+
+/* ── Layout grids (one column on phones) ────────────────────── */
+.grid2,.pair{display:grid;gap:24px}
+.grid3,.wb-grid{display:grid;gap:12px}
+@media(min-width:760px){
+ .grid2{grid-template-columns:1fr 1fr;gap:0}
+ .grid2>*:first-child{padding-right:24px}
+ .grid2>*:last-child{padding-left:24px;border-left:1px solid var(--rule)}
+ .pair{grid-template-columns:1fr 1fr;gap:16px}
+ .grid3{grid-template-columns:repeat(3,1fr)}
+ .wb-grid{grid-template-columns:1fr 1fr}
+}
+
+/* ── Boxes, Real English, Language Lab ──────────────────────── */
+.box{border:1px solid var(--rule);background:var(--box);padding:14px 16px}
+.box ul{margin:0;padding-left:1.2em}
+.lab{border:3px double var(--rule);background:var(--box);padding:18px 16px}
+.lab>div+div{margin-top:18px;padding-top:14px;border-top:1px solid var(--rule)}
+.wrong{text-decoration:line-through;text-decoration-thickness:1px}
+.wrong::before{content:"\2717\00a0";font-weight:700}   /* ✗ */
+.right::before{content:"\2713\00a0";font-weight:700}   /* ✓ */
+
+/* ── Word Bank ──────────────────────────────────────────────── */
+.wb-card{border:1px solid var(--rule);background:var(--box);padding:12px 14px}
+.wb-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.wb-word{font-family:"Playfair Display",serif;font-weight:700;font-size:19px}
+.wb-pos{font-style:italic;color:var(--muted);font-size:14px}
+.wb-thai{font-weight:600}
+.wb-def{margin:4px 0}
+.wb-coll{font-size:14px;margin:0 0 4px}
+.wb-card .ex{font-size:14px;margin:0}
+.wb-review{margin-top:14px}
+.wb-review li{margin-bottom:6px}
+/* Thai meaning hidden behind a small "ไทย" button */
+details.th{display:inline-block;border:0;padding:0;margin:0;vertical-align:baseline}
+details.th summary{list-style:none;display:inline-block;margin:0;font-family:"Noto Serif Thai",serif;font-size:12px;font-weight:600;letter-spacing:0;text-transform:none;border:1px solid var(--rule);padding:0 6px;line-height:1.5;cursor:pointer}
+details.th summary::-webkit-details-marker{display:none}
+details.th[open] summary{display:none}
+details.th[open] summary+*{display:inline}
+
+/* ── Tables, answer key, sources, archive, footer ───────────── */
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{border-bottom:1px solid var(--rule);padding:6px 8px;text-align:left;vertical-align:top}
+th{font-family:"Playfair Display",serif;text-transform:uppercase;font-size:12px;letter-spacing:.08em;border-bottom:2px solid var(--rule)}
+details{border:1px solid var(--rule);padding:10px 14px}
+summary{cursor:pointer;font-family:"Playfair Display",serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+details[open] summary{margin-bottom:12px}
+.sources{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.sources a{color:inherit}
+.archive-list{list-style:none;padding:0;margin:0}
+.archive-list li{display:flex;gap:16px;align-items:baseline;border-bottom:1px solid var(--rule);padding:10px 0;margin:0}
+.archive-list .d{color:var(--muted);font-size:13px;min-width:13em}
+.archive-list a{color:var(--ink);text-decoration:none;font-weight:700}
+.archive-list a:hover{text-decoration:underline}
+@media(max-width:640px){.archive-list li{flex-wrap:wrap;gap:2px 12px}.archive-list .d{min-width:0}}
+footer{margin-top:36px;border-top:3px double var(--rule);padding-top:8px;text-align:center;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Print on A4 (all hidden answers and Thai meanings are shown) ── */
+@page{size:A4;margin:14mm}
+@media print{
+ html[data-theme]{--paper:#ffffff;--box:#ffffff}
+ .toolbar{display:none}
+ body{font-size:11pt}
+ article,.box,.wb-card,tr{break-inside:avoid}
+}</style>
+</head>
+<body>
+<div class="page">
+
+<div class="toolbar">
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../archive.html">Archive</a>
+<a href="../issues/2026-11-08.html">&larr; Previous day</a>  </nav>
+  <button id="themeBtn" type="button">Black &amp; White</button>
+</div>
+
+<header class="masthead">
+  <div class="ears">
+    <span>Daily English for<br>Thai Professionals</span>
+    <span>Levels B1+ to C1<br>About 20 minutes</span>
+  </div>
+  <h1 class="title">The City Times</h1>
+  <div class="dateline">
+    <span>Monday, 9 November 2026</span>
+    <span>Bangkok Edition</span>
+  </div>
+</header>
+
+<section class="cover">
+  <h2 class="kicker">Cover Story</h2>
+  <article>
+    <h3>Nvidia Opens Inquiry into CEO Jensen Huang Over Relationship with Suspected Spy</h3>
+    <p class="meta"><span class="level">C1 · 3 min</span></p>
+    <div class="cols">
+<p class="dropcap">United States chipmaker Nvidia has launched an independent internal investigation into its chief executive officer, billionaire Jensen Huang, after he confirmed having an <strong>extramarital</strong> relationship with a woman accused of gathering intelligence for China. On Sunday, Nvidia announced that the inquiry would be led by a committee of independent directors supported by outside legal counsel. While the board stated it has no reason to believe commercial secrets or national security were compromised, the probe will thoroughly evaluate all accessible details.</p>
+<p>The board emphasized that it prioritizes national and economic security as paramount concerns for shareholders, while maintaining full confidence in Huang and his management team. Huang will remain at the helm of the semiconductor giant during the proceedings, having committed his full cooperation. In an internal message sent to employees, Huang admitted to unfaithfulness toward his wife, expressing deep remorse for hurting his family and acknowledging that no excuse justified his personal conduct.</p>
+<p>The corporate inquiry follows revelations that Jensen Huang may have been targeted in a foreign espionage plot involving Alice Huang, also known as Huang Le. Although she shares the same surname, she has no family relation to the executive. Alice Huang served as an executive at Megaspeed, a Singapore-based data center operator that emerged as a major customer by purchasing roughly 4.8 billion dollars in Nvidia hardware. American authorities had previously monitored her over suspected chip smuggling to China, eventually assessing that she functioned as an intelligence asset passing commercial data to Beijing. The Chinese Embassy in Washington, DC, denied all spying claims.</p>
+<p>The matter quickly drew intense political <strong>scrutiny</strong> in Washington, where relations between the two economic superpowers remain strained over artificial intelligence. A <strong>bipartisan</strong> group of lawmakers expressed alarm regarding the flow of advanced American processors abroad. Representatives on the House foreign affairs and intelligence panels have called on Huang to appear for a closed-door briefing on November 18. Lawmakers, including Senator Elizabeth Warren, stressed that Congress must establish whether sensitive technological assets were exposed, renewing pushes for stricter export curbs on advanced hardware.</p>
+<p>The controversy comes at a delicate juncture for Nvidia, whose valuation surged into the trillions of dollars as its chips became the bedrock for major generative artificial intelligence developers. The company has also contended with volatile market conditions following recent United States midterm elections. Last week, Nvidia shed 450 billion dollars in equity value in a single session before recovering modestly. As geopolitical competition intensifies around strategic computing infrastructure, corporate governance and executive integrity across the technology sector face growing public and governmental oversight.</p>
+    </div>
+  </article>
+</section>
+
+<section class="grid2">
+  <div class="stack">
+    <h2 class="kicker">World in Brief</h2>
+<article>
+  <h3>Deadly Train Collision in Egypt Leaves Seven Dead and Scores Injured</h3>
+  <p class="meta"><span class="level">B1+ · 2 min</span></p>
+<p>At least seven people were killed and more than one hundred injured when two passenger trains collided near Giza, south of Cairo. The crash occurred when an active southbound service crashed into the rear of a stationary train on the tracks. The impact caused several carriages to overturn and plunge down a railway embankment.</p>
+<p>Emergency teams rushed to the site, where rescue workers searched through mangled cars for trapped survivors. Dr. Khaled Abdel Ghaffar, Egypt&#39;s health minister, confirmed that local hospitals were placed on heightened alert to treat fractures and head trauma. A train driver was among those confirmed dead, and prosecutors warned the fatality count could increase.</p>
+<p>President Abdul Fattah al-Sisi ordered an investigation into the collision and promised to hold any <strong>negligent</strong> parties accountable. Railway operations between Giza and Upper Egypt were suspended while heavy cranes cleared the wreckage. The incident has renewed public demands for systemic rail safety improvements and prompted calls for the transport minister to resign.</p>
+</article>
+<article>
+  <h3>Pope Leo Visits Argentina Amid Sharp Clashes Over Austerity Policies</h3>
+  <p class="meta"><span class="level">B1+ · 2 min</span></p>
+<p>Pope Leo XIV arrived in Argentina on Monday, visiting the Cottolengo Don Orione, a Catholic care facility that provides a <strong>sanctuary</strong> for approximately 400 individuals with disabilities. The stop marked the pontiff&#39;s first full day of an official tour across South America, which also includes Uruguay and Peru.</p>
+<p>The visit highlights stark ideological disagreements with Argentine President Javier Milei. Since taking office, Milei has <strong>slashed</strong> state spending to combat inflation, freezing funding for vital medications, food, and diapers for disability institutions. Church representatives noted that the pope&#39;s message champions human dignity, directly contrasting with the president&#39;s free-market approach.</p>
+<p>Economic tensions remain elevated throughout the country as social groups protest significant losses in retiree purchasing power. Furthermore, the leaders diverge over technological governance; the pope previously urged limits on artificial intelligence, whereas Milei advocates for data center expansion without restrictive regulations. Observers view the trip as a profound test of state and church relations.</p>
+</article>
+  </div>
+  <div class="stack">
+    <h2 class="kicker">Thailand Today</h2>
+<article>
+  <h3>Advisors Urge Year-End Investors to Look Beyond Tax Deductions</h3>
+  <p class="meta"><span class="level">B1+ · 2 min</span></p>
+<p>As the final months of 2026 approach, financial planners are advising Thai investors to consider broader financial goals rather than simply chasing tax savings. Many taxpayers are currently assessing options like Retirement Mutual Funds (RMFs), Thai ESG funds, and qualifying life insurance products to reduce taxable income before the tax year closes.</p>
+<p>Advisors stress that an investor&#39;s risk <strong>tolerance</strong>, long-term timeline, and liquidity requirements should guide these decisions. RMFs allow deductions up to 30 percent of assessable income within a 500,000-baht collective retirement ceiling, but they demand holding assets until age 55. Similarly, Thai ESG funds offer an individual deduction ceiling of 300,000 baht under specific multi-year holding conditions.</p>
+<p>Purchasing financial products solely to exhaust deduction allowances can lead to costly penalties if investors fail to meet strict holding periods. Professionals suggest that taxpayers carefully calculate remaining limits to find an <strong>optimum</strong> balance between protection, investment stability, and legitimate tax relief.</p>
+</article>
+<article>
+  <h3>Bangkok Police Secure Government House Ahead of Vehicle Protest</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>Metropolitan police have established security perimeters across Bangkok ahead of an approaching convoy of roughly 1,000 vehicles. The demonstrators, led by Mano Khrueakaew, a kamnan (a subdistrict headman) from Krabi, are traveling from southern provinces to demand a 10-baht reduction in fuel prices and state relief for living expenses.</p>
+<p>Authorities enacted street closures around major junctions near Government House, declaring a 50-meter perimeter around the compound as an off-limits assembly zone through November 20. National police leadership instructed deployed officers to enforce public assembly regulations strictly yet <strong>proportionately</strong>, designating specific parking zones to limit traffic congestion for everyday commuters.</p>
+<p>Safety concerns rose after law enforcement discovered a licensed handgun with ammunition in a participant&#39;s vehicle during a transit stop in Phetchaburi. The protest leader confirmed he had explicitly prohibited firearms. Police plan to monitor the assembly closely to maintain public order.</p>
+</article>
+  </div>
+</section>
+
+<section class="feature">
+  <h2 class="kicker">Feature · Health &amp; Wellbeing</h2>
+  <article>
+    <h3>Recharging the Desk-Bound Professional: Small Shifts for Daily Energy</h3>
+    <p class="meta"><span class="level">B2 · 2 min</span></p>
+    <div class="cols">
+<p>Modern office life often requires spending eight to ten hours seated before computer monitors, processing endless emails and attending back-to-back virtual discussions. Over time, this <strong>sedentary</strong> routine drains physical vitality and clouds mental sharpness. Many working adults assume that restoring focus demands intensive workouts or drastic dietary overhauls. In reality, introducing modest, intentional behaviors throughout the workday can dramatically revive both physical endurance and mental clarity.</p>
+<p>The primary drain on daytime energy is prolonged physical stillness, which slows blood circulation and reduces oxygen delivery to the brain. To counter this mid-afternoon slump, professionals can integrate brief physical interruptions into their work patterns. Standing during phone conversations, pacing while brainstorming, or completing gentle leg stretches every hour can reactivate physical circulation. These minimal adjustments combat muscular stiffness and restore mental alertness without disrupting productive workflows.</p>
+<p>Equally critical is the management of sensory input and digital strain. Continuous exposure to bright monitors triggers ocular fatigue, leading to tension headaches and cognitive exhaustion. Adopting regular visual breaks, such as gazing at distant objects across the room for twenty seconds, provides the optic nerves with necessary rest. Pair this visual habit with conscious breathing intervals, exhaling slowly to trigger the nervous system&#39;s relaxation response and clear accumulated tension.</p>
+<p>Finally, professional performance depends on mindful hydration and deliberate boundary-setting during breaks. Rushing through lunch while replying to workplace messages prevents cognitive recovery, increasing fatigue later in the afternoon. Stepping away entirely from screens during meal breaks enables true psychological recovery, helping to <strong>foster</strong> steady energy reserves. By committing to these practical, sustainable micro-habits, professionals can safeguard their daily <strong>vitality</strong> and sustain professional effectiveness throughout demanding schedules.</p>
+    </div>
+  </article>
+</section>
+
+<section>
+  <h2 class="kicker">Real English · Say It Better · Workplace Email</h2>
+  <h3>Requesting Additional Time for a Project Deliverable</h3>
+  <p class="meta"><span class="level">B2 · 2 min</span></p>
+  <p>You realize that completing an assigned analytical report by the end of today will compromise its quality. You need to email your manager to request an extension until tomorrow afternoon.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Register</th><th>How to say it</th></tr></thead>
+    <tbody>
+      <tr><td>Formal</td><td>Dear Khun Somchai, I am writing to respectfully request a brief extension on the analytical report originally due today. In order to ensure comprehensive data accuracy, I would appreciate submitting the final version by 2:00 PM tomorrow.</td></tr>
+      <tr><td>Neutral</td><td>Hi Somchai, I would like to ask for a short extension on the analysis report due today. Finalizing the figures properly will take a few more hours, so I plan to send everything over by tomorrow afternoon.</td></tr>
+      <tr><td>Casual</td><td>Hi Somchai, could we push the deadline for the report to tomorrow afternoon? I want to double-check the latest numbers to make sure everything looks right before sending it across.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="pair" style="margin-top:16px">
+    <div class="box">
+      <h4>Useful Phrases</h4>
+      <ul><li>request a brief extension on</li><li>ensure comprehensive data accuracy</li><li>push the deadline to</li></ul>
+    </div>
+    <div class="box">
+      <h4>Thai Speaker's Trap</h4>
+      <p class="small-label">Articles (a / an / the)</p>
+      <p><strong>Articles (a / an / the): Omitting Articles Before Singular Countable Nouns</strong></p>
+      <p class="wrong">I need to send email to client before leaving office.</p>
+      <p class="right">I need to send an email to the client before leaving the office.</p>
+      <p>In Thai, nouns do not require determiners, so speakers often omit &#39;a&#39;, &#39;an&#39;, or &#39;the&#39; when translating thoughts directly from phrases like <span lang="th">ส่งอีเมลให้ลูกค้า</span> (song email hai look-kha). In English, singular countable nouns like &#39;email&#39;, &#39;client&#39;, and &#39;office&#39; cannot stand alone without an article or determiner. Use &#39;an&#39; before vowel sounds for non-specific items, and &#39;the&#39; when referring to a specific person, place, or thing known to both speaker and listener.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Language Lab</h2>
+  <div class="lab">
+    <div>
+      <h4>Collocation match</h4>
+      <p class="inst">Match each word on the left with its most natural partner word on the right. Partner options: affair / budget / lifestyle / support / tolerance / vitality</p>
+      <ol><li>extramarital — ?</li><li>bipartisan — ?</li><li>slashed — ?</li><li>risk — ?</li><li>sedentary — ?</li><li>restore — ?</li></ol>
+    </div>
+    <div>
+      <h4>Error Identification</h4>
+      <p class="inst">Each sentence has one mistake. Find it and correct it.</p>
+      <ol><li>The supervisory board launched an inquiry to investigate about the chief executive&#39;s personal conduct.</li><li>Prosecutors announced plans to charge the negligent driver with manslaughter after the collision.</li><li>The government slashed social spendings despite angry rallies organized across major cities.</li><li>Officers were instructed to respond proportionately with the scale of the gathering.</li><li>Workers stuck in sedentary jobs should pay close attention on their daily posture.</li></ol>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Word Bank</h2>
+  <p class="inst">&#9733; today's new words, in <strong>bold</strong> in the articles · &#8634; review words from earlier days · tap <em>ไทย</em> for the Thai meaning</p>
+  <div class="wb-grid">
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; extramarital</span> <span class="wb-pos">adjective</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">นอกสมรส</span></details>
+      </div>
+      <p class="wb-def">happening outside of marriage, especially involving a sexual relationship</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> extramarital affair · extramarital relationship · extramarital sex</p><p class="ex">“United States chipmaker Nvidia has launched an independent internal investigation into its chief executive officer, billionaire Jensen Huang, after he confirmed having an <strong>extramarital</strong> relationship with a woman accused of gathering intelligence for China.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; bipartisan</span> <span class="wb-pos">adjective</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ที่มาจากสองพรรคการเมืองร่วมกัน</span></details>
+      </div>
+      <p class="wb-def">involving the agreement or cooperation of two political parties</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> bipartisan support · bipartisan bill · bipartisan consensus</p><p class="ex">“A <strong>bipartisan</strong> group of lawmakers expressed alarm regarding the flow of advanced American processors abroad.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; negligent</span> <span class="wb-pos">adjective</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ประมาทเลินเล่อ</span></details>
+      </div>
+      <p class="wb-def">failing to take proper care over something, resulting in harm or damage</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> grossly negligent · negligent behavior · negligent driving</p><p class="ex">“President Abdul Fattah al-Sisi ordered an investigation into the collision and promised to hold any <strong>negligent</strong> parties accountable.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; slashed</span> <span class="wb-pos">verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ปรับลดลงอย่างมาก</span></details>
+      </div>
+      <p class="wb-def">cut or reduced drastically and suddenly</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> slashed prices · slashed budgets · slashed funding</p><p class="ex">“Since taking office, Milei has <strong>slashed</strong> state spending to combat inflation, freezing funding for vital medications, food, and diapers for disability institutions.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; tolerance</span> <span class="wb-pos">noun</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ความอดทน, การรับได้ต่อความเสี่ยง</span></details>
+      </div>
+      <p class="wb-def">the ability or willingness to endure difficult conditions or risks</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> risk tolerance · pain tolerance · zero tolerance</p><p class="ex">“Advisors stress that an investor&#39;s risk <strong>tolerance</strong>, long-term timeline, and liquidity requirements should guide these decisions.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; proportionately</span> <span class="wb-pos">adverb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">อย่างได้สัดส่วน</span></details>
+      </div>
+      <p class="wb-def">in a way that corresponds in size, amount, or degree to something else</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> increase proportionately · distributed proportionately · respond proportionately</p><p class="ex">“National police leadership instructed deployed officers to enforce public assembly regulations strictly yet <strong>proportionately</strong>, designating specific parking zones to limit traffic congestion for everyday commuters.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; sedentary</span> <span class="wb-pos">adjective</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ซึ่งต้องนั่งอยู่กับที่นานๆ, ไม่ค่อยขยับร่างกาย</span></details>
+      </div>
+      <p class="wb-def">spending a lot of time sitting and getting little physical exercise</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> sedentary lifestyle · sedentary job · sedentary behavior</p><p class="ex">“Over time, this <strong>sedentary</strong> routine drains physical vitality and clouds mental sharpness.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; vitality</span> <span class="wb-pos">noun</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">พลังชีวิต, ความมีชีวิตชีวา</span></details>
+      </div>
+      <p class="wb-def">energy, strength, and lively active force</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> youthful vitality · restore vitality · economic vitality</p><p class="ex">“Over time, this <strong>sedentary</strong> routine drains physical vitality and clouds mental sharpness.”</p>    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Other Languages · French</h2>
+  <h3>Ordering food</h3>
+  <p>Dining out in France is a social ritual centered on hospitality, precision, and savoring fresh ingredients.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>French</th><th>Say it like</th><th>Meaning</th></tr></thead>
+    <tbody>
+<tr><td lang="fr"><strong>L&#39;addition, s&#39;il vous plaît.</strong></td><td>la-dee-syon seel voo pleh</td><td>The bill, please.</td></tr>
+<tr><td lang="fr"><strong>Une carafe d&#39;eau, s&#39;il vous plaît.</strong></td><td>ewn ka-raf doh seel voo pleh</td><td>A jug of tap water, please.</td></tr>
+<tr><td lang="fr"><strong>Qu&#39;est-ce que vous recommandez ?</strong></td><td>kess kuh voo ruh-koh-mahn-day</td><td>What do you recommend?</td></tr>
+    </tbody>
+  </table></div>
+  <div class="grid3" style="margin-top:16px">
+    <div class="box">
+      <h4>Word Root</h4>
+      <p><strong lang="fr">goût (Latin: gustus)</strong> = taste or flavor</p>
+      <p><span class="small-label">In English</span> disgust, gustatory, gusto</p>
+      <p class="ex">The French word &#39;goût&#39; describes flavor, aesthetic preference, or personal inclination.</p>
+    </div>
+    <div class="box">
+      <h4>Borrowed into English</h4>
+      <p><strong>menu</strong></p>
+      <p>Derived from the French word meaning detailed or small, describing a concise list of food courses.</p>
+    </div>
+    <div class="box">
+      <h4>Curious Word</h4>
+      <p><strong lang="fr">terroir</strong> <span class="wb-pos">tehr-wahr</span></p>
+      <p>the complete natural environment in which a wine or food is produced</p>
+      <p class="ex">It captures how soil, climate, and local farming tradition together create a food&#39;s distinct character.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <details>
+    <summary>Answer Key · tap to reveal</summary>
+    <h4>Collocation match</h4>
+    <ol><li>extramarital — affair</li><li>bipartisan — support</li><li>slashed — budget</li><li>risk — tolerance</li><li>sedentary — lifestyle</li><li>restore — vitality</li></ol>
+    <h4 style="margin-top:12px">Error Identification</h4>
+    <ol><li>The supervisory board launched an inquiry to investigate the chief executive&#39;s personal conduct. — <em>&#39;Investigate&#39; is a transitive verb and takes a direct object without &#39;about&#39;.</em></li><li>Prosecutors announced plans to charge the negligent driver with manslaughter after the collision. — <em>Correct as edited; avoid using incorrect prepositions such as &#39;charge for&#39;.</em></li><li>The government slashed social spending despite angry rallies organized across major cities. — <em>&#39;Spending&#39; is an uncountable noun when referring to financial expenditure.</em></li><li>Officers were instructed to respond proportionately to the scale of the gathering. — <em>The adverb &#39;proportionately&#39; collocates with the preposition &#39;to&#39;, not &#39;with&#39;.</em></li><li>Workers stuck in sedentary jobs should pay close attention to their daily posture. — <em>The idiom is &#39;pay attention to&#39;, not &#39;pay attention on&#39;.</em></li></ol>
+  </details>
+</section>
+
+<section class="sources">
+  <h2 class="kicker">Sources</h2>
+  <ol>
+<li><a href="https://www.aljazeera.com/news/2026/11/8/us-chipmaker-nvidia-investigates-ceo-jensen-huang-over-affair?traffic_source=rss" rel="noopener">Al Jazeera — US chipmaker Nvidia investigates CEO Jensen Huang over affair</a></li>
+<li><a href="https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation" rel="noopener">The Guardian — Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence</a></li>
+<li><a href="https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&amp;at_campaign=rss" rel="noopener">BBC News — Seven dead and more than 100 injured after trains collide in Egypt</a></li>
+<li><a href="https://www.theguardian.com/world/2026/nov/08/popes-visit-to-argentina-sets-up-showdown-with-hyper-capitalist-milei" rel="noopener">The Guardian — Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei</a></li>
+<li><a href="https://www.bangkokpost.com/business/investment/3351340/looking-beyond-tax-savings" rel="noopener">Bangkok Post Business — Looking beyond tax savings</a></li>
+<li><a href="https://www.bangkokpost.com/thailand/general/3351155/police-brace-for-protest-convoy-in-capital" rel="noopener">Bangkok Post — Police brace for protest convoy in capital</a></li>
+  </ol>
+</section>
+
+<footer>THE CITY TIMES · Monday, 9 November 2026 · Written with AI from the sources listed above</footer>
+
+</div>
+<script>
+// Sepia ⇄ black & white switch (remembered in this browser), and open every
+// hidden answer / Thai meaning when the page is printed.
+(function(){
+  var root = document.documentElement, btn = document.getElementById('themeBtn');
+  function setTheme(t){
+    root.setAttribute('data-theme', t);
+    btn.textContent = t === 'bw' ? 'Sepia' : 'Black & White';
+    try { localStorage.setItem('city-theme', t); } catch (e) {}
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('city-theme'); } catch (e) {}
+  setTheme(saved === 'bw' ? 'bw' : 'sepia');
+  btn.addEventListener('click', function(){
+    setTheme(root.getAttribute('data-theme') === 'bw' ? 'sepia' : 'bw');
+  });
+  window.addEventListener('beforeprint', function(){
+    var d = document.querySelectorAll('details');
+    for (var i = 0; i < d.length; i++) { d[i].open = true; }
+  });
+})();</script>
+</body>
+</html>
