@@ -1,0 +1,695 @@
+{
+ "plan": {
+  "date": "2026-11-10",
+  "date_long": "Tuesday, 10 November 2026",
+  "weekday": "Tue",
+  "issue_no": 12,
+  "language": "Italian",
+  "phrase_theme": "ordering food",
+  "feature": "Tech & Science",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Gap fill",
+  "trap": "Prepositions",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "allegations",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "capitalizing",
+   "coercion",
+   "compelling",
+   "consensus",
+   "coordinated",
+   "crackdown",
+   "credible",
+   "culinary",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "extinction",
+   "extramarital",
+   "feasibility",
+   "fluctuations",
+   "foster",
+   "hospitality",
+   "impasse",
+   "improvise",
+   "incorporate",
+   "intermittent",
+   "look into",
+   "mandate",
+   "mindset",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "opt for",
+   "optimum",
+   "oversight",
+   "proportionately",
+   "proscription",
+   "rectify",
+   "reinstate",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "slashed",
+   "slashing",
+   "sparked",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "subsidize",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "versatile",
+   "vitality",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "extramarital",
+    "taught_date": "2026-11-09",
+    "days_ago": 1
+   },
+   {
+    "word": "bipartisan",
+    "taught_date": "2026-11-09",
+    "days_ago": 1
+   },
+   {
+    "word": "negligent",
+    "taught_date": "2026-11-09",
+    "days_ago": 1
+   },
+   {
+    "word": "slashed",
+    "taught_date": "2026-11-09",
+    "days_ago": 1
+   },
+   {
+    "word": "tolerance",
+    "taught_date": "2026-11-09",
+    "days_ago": 1
+   },
+   {
+    "word": "proportionately",
+    "taught_date": "2026-11-09",
+    "days_ago": 1
+   },
+   {
+    "word": "sedentary",
+    "taught_date": "2026-11-09",
+    "days_ago": 1
+   },
+   {
+    "word": "vitality",
+    "taught_date": "2026-11-09",
+    "days_ago": 1
+   },
+   {
+    "word": "secular",
+    "taught_date": "2026-11-07",
+    "days_ago": 3
+   },
+   {
+    "word": "stamina",
+    "taught_date": "2026-11-07",
+    "days_ago": 3
+   },
+   {
+    "word": "warrant",
+    "taught_date": "2026-11-07",
+    "days_ago": 3
+   },
+   {
+    "word": "monetize",
+    "taught_date": "2026-11-07",
+    "days_ago": 3
+   },
+   {
+    "word": "capitalizing",
+    "taught_date": "2026-11-07",
+    "days_ago": 3
+   },
+   {
+    "word": "sustainable",
+    "taught_date": "2026-11-07",
+    "days_ago": 3
+   },
+   {
+    "word": "scenarios",
+    "taught_date": "2026-11-07",
+    "days_ago": 3
+   },
+   {
+    "word": "disenfranchise",
+    "taught_date": "2026-11-03",
+    "days_ago": 7
+   },
+   {
+    "word": "bureaucratic",
+    "taught_date": "2026-11-03",
+    "days_ago": 7
+   },
+   {
+    "word": "scavenge",
+    "taught_date": "2026-11-03",
+    "days_ago": 7
+   },
+   {
+    "word": "streamline",
+    "taught_date": "2026-11-03",
+    "days_ago": 7
+   },
+   {
+    "word": "subsidize",
+    "taught_date": "2026-11-03",
+    "days_ago": 7
+   },
+   {
+    "word": "disparity",
+    "taught_date": "2026-11-03",
+    "days_ago": 7
+   },
+   {
+    "word": "reinstate",
+    "taught_date": "2026-11-03",
+    "days_ago": 7
+   },
+   {
+    "word": "incorporate",
+    "taught_date": "2026-11-03",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "espresso",
+   "barista",
+   "pausa",
+   "parlare",
+   "cappuccino",
+   "magari"
+  ],
+  "recent_news_titles": [
+   "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
+   "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+   "Seven dead and more than 100 injured after trains collide in Egypt",
+   "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+   "Looking beyond tax savings",
+   "Police brace for protest convoy in capital",
+   "Israel's president tasks opposition leader Eisenkot with forming government",
+   "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+   "Yemen: 22 killed in strike near Sanaa, Houthis say",
+   "More than 140,000 rally as new protests against rising costs sweep France",
+   "German nabbed over drugs",
+   "The New Language of Scent: Beyond Perfume to a New Era of Identity, Experience and Innovation",
+   "Pope Leo begins a 12-day, 3-country South America tour after his cancer surgery",
+   "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+   "Thomas Markle, Meghan’s father, charged in Florida in connection to child sexual abuse material",
+   "Who is Stephen Miller, Trump’s new White House chief of staff?",
+   "Grab seeks to monetise Thai cultural appeal",
+   "SX festival spotlights climate"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "BBC News",
+   "title": "France accuses Iran of supermarket fridge hacking",
+   "url": "https://www.bbc.co.uk/news/articles/cmg474vk6dyqo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "Al Jazeera",
+   "title": "France blames Iran for October supermarket cyberattack",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/10/france-blames-iran-for-october-supermarket-cyberattack?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "DW",
+   "title": "Nvidia shareholders sue Jensen Huang over alleged spy ties",
+   "url": "https://www.dw.com/en/nvidia-shareholders-sue-jensen-huang-over-alleged-spy-ties/a-79905809?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "Al Jazeera",
+   "title": "Russell Brand sentenced to 10.5 years over sexual assault charges",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/9/russell-brand-sentenced-to-10-5-years-over-sexual-assault-charges?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "world_2 (second source)",
+   "source": "NPR",
+   "title": "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+   "url": "https://www.npr.org/2026/11/09/nx-s1-6034335/british-comedian-russell-brand-sentenced",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_1",
+   "source": "Khaosod English",
+   "title": "Singapore detains Odyssey cruise ship over reported fuel debt",
+   "url": "https://www.khaosodenglish.com/news/international/2026/11/10/singapore-detains-odyssey-cruise-ship-over-reported-fuel-debt/",
+   "thin": false
+  },
+  {
+   "id": "S7",
+   "role": "thailand_2",
+   "source": "Bangkok Post Business",
+   "title": "Survey finds Thais keen on AI use",
+   "url": "https://www.bangkokpost.com/business/general/3351879/survey-finds-thais-keen-on-ai-use",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "sabotage",
+   "retaliation",
+   "deterrence",
+   "unsubstantiated",
+   "misogyny",
+   "unsustainable",
+   "transparency",
+   "overreliance"
+  ],
+  "recycled_words": [
+   "proportionate",
+   "extramarital",
+   "slashed"
+  ],
+  "cover": {
+   "headline": "France Accuses Iran of Cyberattack on Supermarket Fridges",
+   "paragraphs": [
+    "France has formally accused Iran's Islamic Revolutionary Guard Corps (IRGC) of conducting a series of major cyber-attacks that disrupted food storage systems across the country last month. According to French Foreign Minister Jean-Noël Barrot, hackers deliberately raised the temperatures of fridges and freezers in hundreds of grocery stores, forcing retailers to destroy tons of chilled and frozen goods. Barrot described the incident as an unprecedented act of aggression aimed at national **sabotage** and vital security interests.",
+    "The cyber incident took place on October 11, when attackers targeted specialized software created by the Danish engineering firm Danfoss, which allows store owners to control cold-storage systems remotely. The breach affected over 100 Cooperative U stores as well as 180 branches of Intermarche and Netto. In several locations, overnight storage temperatures spiked to 50 degrees Celsius. Other major national chains, including Carrefour, Monoprix, and E.Leclerc, also reported system disruptions.",
+    "In response, the French government summoned the Iranian ambassador to Paris to lodge a formal protest. Paris prosecutor Laure Beccuau confirmed that an official investigation has opened against the head and two deputies of Shahid Kaveh, a specialized cyber unit affiliated with the IRGC. Minister Barrot stated that France would take all necessary and __proportionate__ measures to defend its infrastructure and create an effective **deterrence** against future digital threats.",
+    "While Iranian media outlets dismissed the claims as baseless, commentators in Tehran have recently suggested expanding political **retaliation** beyond the Middle East if regional conflict escalates. Analysts remain uncertain whether the digital attack was intended as a warning signal. The incident was followed by a second wave of hacks in November that affected over 100 stores in Belgium, Luxembourg, Sweden, Ireland, the Netherlands, Estonia, and Finland, though official connections between these events remain unconfirmed.",
+    "Although two Russian-aligned hacking groups briefly claimed responsibility, international investigators largely dismissed those assertions. Cyber security experts note that technical attribution remains exceptionally difficult because advanced state actors routinely hide their locations. Nevertheless, French authorities insist that their findings clearly point to state-sponsored actors working within Iran's military apparatus."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Nvidia Investors Sue CEO Over Alleged Intelligence Ties",
+    "paragraphs": [
+     "Shareholders have filed a proposed class-action lawsuit against Nvidia and its chief executive, Jensen Huang, accusing them of failing to disclose potential national security risks. The legal filing in California claims the executive hid a relationship with Alice Huang, a former foreign corporate executive identified by US authorities as a suspected Chinese intelligence asset.",
+     "The legal challenge follows reports of an ongoing FBI investigation into foreign intelligence targets within American technology firms. In an open letter, Huang admitted to an __extramarital__ affair without naming the individual, while promising full cooperation with an independent corporate inquiry. President Donald Trump expressed personal support for the chief executive, noting that Huang denied knowing about any espionage activity.",
+     "China's Foreign Ministry strongly rejected the claims, labeling the espionage allegations as completely **unsubstantiated** smears. Meanwhile, Nvidia's share price fell by 4.3% following the legal disclosures. The case has raised sharp concerns among investors about corporate leadership and security protocols at the world's leading artificial intelligence chipmaker."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "British Comedian Russell Brand Sentenced for Sexual Assaults",
+    "paragraphs": [
+     "Former British television host and comedian Russell Brand has been sentenced to 10 years and six months in prison after being convicted of rape and sexual assault in a London court. Judge Justice Bennathan handed down the ruling at Southwark Crown Court following a high-profile trial that featured testimony from six anonymous witnesses.",
+     "The jury found the 51-year-old guilty on four counts relating to incidents between 2004 and 2009, including the rape of a woman in 2009. Victims delivered emotional impact statements before sentencing, detailing long-term harm. Prosecutors argued that despite his changing public media persona, a clear pattern of **misogyny** and predatory behavior characterized his career.",
+     "Brand continuously denied all allegations, asserting that all his past sexual relationships were fully consensual. His legal team is expected to evaluate appellate options, but the lengthy prison sentence marks a total fall for the former international celebrity."
+    ],
+    "source_ids": [
+     "S4",
+     "S5"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Luxury Cruise Ship Detained in Singapore Over Unpaid Debts",
+    "paragraphs": [
+     "The luxury cruise vessel MV Odyssey has been detained in Singapore following a legal filing over unpaid fuel debts. The legal action was initiated by a Singaporean law firm representing creditors after the ship's operator, Florida-based Villa Vie Residences, failed to cover approximately 16.75 million baht in fuel expenses.",
+     "The vessel had abruptly ended its planned three-year world voyage in late October at Sihanoukville, Cambodia. Around 200 international passengers were forced to disembark with minimal notice after the operator claimed that soaring global fuel costs made ongoing operations financial **unsustainable**. Over 90 former passengers remained scattered across Cambodian towns, including Phnom Penh, while arranging alternate travel.",
+     "The Odyssey eventually departed Cambodia without passengers on November 4 before being seized by maritime authorities in Singapore. Legal experts note that the court-ordered detention could eventually lead to an auction of the vessel if outstanding operational debts remain unpaid by the owners."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   },
+   {
+    "headline": "Thai Consumers Show Strong Enthusiasm for AI Tools",
+    "paragraphs": [
+     "A new survey by market research firm Ipsos reveals that 74% of Thai consumers view artificial intelligence positively, compared to a global average of just 55%. Additionally, 80% of employed Thai respondents stated that digital automation tools actively help them save valuable time during their daily work routines.",
+     "Despite high enthusiasm, the study highlighted significant consumer concerns regarding personal data security and commercial **transparency**. Only 35% of respondents consider automated chatbots trustworthy, while 85% believe businesses must clearly disclose when automation is used. Furthermore, 79% felt corporate customer services were becoming excessively impersonal.",
+     "The findings also show a broader trend toward digital reliance across generations, alongside rising anxiety about economic changes. Analysts suggest that companies wanting to succeed in the market must address privacy demands while modernizing their digital offerings."
+    ],
+    "source_ids": [
+     "S7"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "The Hidden Energy Costs of Our Connected World",
+   "paragraphs": [
+    "Every time we stream a video, query an artificial intelligence model, or save photos to cloud servers, we set off a chain reaction across global digital infrastructure. While cloud services feel invisible and weightless, the physical data centers supporting our daily habits require enormous amounts of electrical power and water cooling to operate continuously.",
+    "Recent technology trends have __slashed__ processing times for complex business tasks, but computing demands have grown exponentially. Modern server facilities consume more electricity than many small nations. The physical footprint of the internet includes massive warehouse buildings filled with high-performance computers that operate continuously, generating vast quantities of heat that must be managed.",
+    "This expanding infrastructure places unique pressure on regional power grids. In many regions, utility providers struggle to balance residential electricity needs with the immense demands of technological hubs. Engine designers and computer engineers are searching for solution pathways, exploring liquid cooling systems and localized renewable microgrids to reduce operational impacts.",
+    "Addressing this challenge does not require individuals to abandon digital tools. Instead, technology sector leaders emphasize the importance of software efficiency and hardware sustainability. Designing lightweight code and optimizing server utilization can significantly lower energy requirements without compromising performance.",
+    "Consumers can also play a role by adopting mindful digital habits. Simple actions like cleaning out unused cloud storage, avoiding unnecessary high-definition video background streaming, and using local device processing when possible can reduce collective server loads. Balancing digital convenience with energy awareness remains a key responsibility in our modern age."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "view_a": {
+    "title": "Protect True Rest",
+    "text": "Employees must disconnect entirely while on vacation. Constant notifications create mental fatigue and prevent true recovery. Although urgent matters occasionally arise, proper delegation prevents workflow breakdowns. Checking messages during leave signals an **overreliance** on individuals rather than robust systems. While emergency contact protocols could exist, complete detachment remains necessary for long-term health."
+   },
+   "view_b": {
+    "title": "Maintain Peace of Mind",
+    "text": "A brief daily check of unread messages can prevent overwhelming stress upon return. Staying aware of critical updates allows professionals to handle minor issues early, preventing major workplace crises. Even though total disconnection sounds ideal, completely ignoring inbox updates often causes severe return anxiety. With reasonable boundaries, light monitoring supports professional continuity without ruining rest."
+   },
+   "phrases": [
+    {
+     "phrase": "Although urgent matters occasionally arise",
+     "function": "concession"
+    },
+    {
+     "phrase": "complete detachment remains necessary",
+     "function": "hedging"
+    },
+    {
+     "phrase": "Even though total disconnection sounds ideal",
+     "function": "contrast"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Incorrect Preposition After 'Arrive'",
+   "wrong": "We arrived to the office early this morning.",
+   "right": "We arrived at the office early this morning.",
+   "explanation": "Thai speakers often use 'to' after 'arrive' because the Thai word 'ถึง' (theung) translates directly as moving toward a destination. In English, use 'arrive at' for specific places like offices or buildings, and 'arrive in' for cities or countries. Never use 'arrive to'."
+  },
+  "word_bank": [
+   {
+    "word": "sabotage",
+    "pos": "noun",
+    "definition": "deliberate damage done to weaken an enemy, competitor, or system",
+    "thai": "การวินาศกรรม / การรบกวนเจตนาให้เสียหาย",
+    "collocations": [
+     "acts of sabotage",
+     "industrial sabotage",
+     "commit sabotage"
+    ],
+    "example": "Barrot described the incident as an unprecedented act of aggression aimed at national **sabotage** and vital security interests."
+   },
+   {
+    "word": "retaliation",
+    "pos": "noun",
+    "definition": "action taken to harm someone in return for an injury or offense",
+    "thai": "การแก้แค้น / การตอบโต้",
+    "collocations": [
+     "in retaliation for",
+     "fear of retaliation",
+     "military retaliation"
+    ],
+    "example": "While Iranian media outlets dismissed the claims as baseless, commentators in Tehran have recently suggested expanding political **retaliation** beyond the Middle East if regional conflict escalates."
+   },
+   {
+    "word": "deterrence",
+    "pos": "noun",
+    "definition": "the action of discouraging an action through fear of consequences",
+    "thai": "การการป้องปราม / สิ่งยับยั้ง",
+    "collocations": [
+     "effective deterrence",
+     "nuclear deterrence",
+     "deterrence strategy"
+    ],
+    "example": "Minister Barrot stated that France would take all necessary and __proportionate__ measures to defend its infrastructure and create an effective **deterrence** against future digital threats."
+   },
+   {
+    "word": "unsubstantiated",
+    "pos": "adjective",
+    "definition": "not supported or proven by evidence",
+    "thai": "ซึ่งไม่มีหลักฐานยืนยัน",
+    "collocations": [
+     "unsubstantiated claims",
+     "unsubstantiated rumors",
+     "unsubstantiated allegations"
+    ],
+    "example": "China's Foreign Ministry strongly rejected the claims, labeling the espionage allegations as completely **unsubstantiated** smears."
+   },
+   {
+    "word": "misogyny",
+    "pos": "noun",
+    "definition": "dislike of, contempt for, or ingrained prejudice against women",
+    "thai": "การเกลียดชังผู้หญิง",
+    "collocations": [
+     "entrenched misogyny",
+     "online misogyny",
+     "combat misogyny"
+    ],
+    "example": "Prosecutors argued that despite his changing public media persona, a clear pattern of **misogyny** and predatory behavior characterized his career."
+   },
+   {
+    "word": "unsustainable",
+    "pos": "adjective",
+    "definition": "not able to be maintained at the current rate or level",
+    "thai": "ไม่สามารถรักษาไว้ได้ในระยะยาว / ไม่ยั่งยืน",
+    "collocations": [
+     "unsustainable debt",
+     "environmentally unsustainable",
+     "unsustainable growth"
+    ],
+    "example": "Around 200 international passengers were forced to disembark with minimal notice after the operator claimed that soaring global fuel costs made ongoing operations financial **unsustainable**."
+   },
+   {
+    "word": "transparency",
+    "pos": "noun",
+    "definition": "the quality of being open, clear, and easy to understand",
+    "thai": "ความโปร่งใส",
+    "collocations": [
+     "full transparency",
+     "lack of transparency",
+     "promote transparency"
+    ],
+    "example": "Despite high enthusiasm, the study highlighted significant consumer concerns regarding personal data security and commercial **transparency**."
+   },
+   {
+    "word": "overreliance",
+    "pos": "noun",
+    "definition": "excessive dependence on someone or something",
+    "thai": "การพึ่งพามากเกินไป",
+    "collocations": [
+     "overreliance on imports",
+     "avoid overreliance",
+     "overreliance on technology"
+    ],
+    "example": "Checking messages during leave signals an **overreliance** on individuals rather than robust systems."
+   },
+   {
+    "word": "proportionate",
+    "pos": "adjective",
+    "definition": "correct or suitable in size, amount, or degree when compared to something else",
+    "thai": "ที่ได้สัดส่วน / เหมาะสม",
+    "collocations": [],
+    "example": "Minister Barrot stated that France would take all necessary and __proportionate__ measures to defend its infrastructure and create an effective **deterrence** against future digital threats."
+   },
+   {
+    "word": "extramarital",
+    "pos": "adjective",
+    "definition": "occurring outside of marriage",
+    "thai": "นอกใจ / นอกสมรส",
+    "collocations": [],
+    "example": "In an open letter, Huang admitted to an __extramarital__ affair without naming the individual, while promising full cooperation with an independent corporate inquiry."
+   },
+   {
+    "word": "slashed",
+    "pos": "verb",
+    "definition": "reduced drastically or sharply",
+    "thai": "ปรับลดลงอย่างมาก",
+    "collocations": [],
+    "example": "Recent technology trends have __slashed__ processing times for complex business tasks, but computing demands have grown exponentially."
+   }
+  ],
+  "activity": {
+   "instructions": "Fill in each gap using the correct word from the box: [sabotage, deterrence, unsubstantiated, misogyny, unsustainable, transparency].",
+   "items": [
+    "The board pledged full ______ regarding how customer data is processed.",
+    "Spreading ______ rumors about a competitor can harm your company reputation.",
+    "The high cost of maintaining old servers is economically ______ for the startup.",
+    "Strong cyber defences act as a powerful ______ against potential hackers.",
+    "Investigators suspect that an insider committed IT ______ to delay the product launch.",
+    "The audit exposed deep-seated ______ within the corporate leadership team."
+   ],
+   "answers": [
+    "transparency",
+    "unsubstantiated",
+    "unsustainable",
+    "deterrence",
+    "sabotage",
+    "misogyny"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The government launched an inquiry after cyberattacks caused massive retaliation in public services.",
+    "corrected": "The government launched an inquiry after cyberattacks caused massive disruption in public services.",
+    "reason": "Retaliation means revenge against an attacker, which does not fit the context of public service disruption."
+   },
+   {
+    "sentence": "The company relies too much on contractor work, leading to an overreliance to temporary staff.",
+    "corrected": "The company relies too much on contractor work, leading to an overreliance on temporary staff.",
+    "reason": "Overreliance takes the preposition 'on', not 'to'."
+   },
+   {
+    "sentence": "The court decided that the punishment was fully proportionate with the crime committed.",
+    "corrected": "The court decided that the punishment was fully proportionate to the crime committed.",
+    "reason": "Proportionate takes the preposition 'to', not 'with'."
+   },
+   {
+    "sentence": "The executive denied allegations regarding an extramarital affairs during the press conference.",
+    "corrected": "The executive denied allegations regarding an extramarital affair during the press conference.",
+    "reason": "The singular article 'an' requires the singular noun 'affair'."
+   },
+   {
+    "sentence": "The store slashed it's prices to attract more shoppers during the holiday season.",
+    "corrected": "The store slashed its prices to attract more shoppers during the holiday season.",
+    "reason": "The possessive pronoun is 'its', whereas 'it's' is a contraction for 'it is'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Ordering food in Italy is simple once you know a few classic polite phrases. Enjoying a meal in a traditional trattoria is a central part of Italian daily life.",
+   "phrases": [
+    {
+     "phrase": "Vorrei...",
+     "pronunciation": "vohr-RAY",
+     "meaning": "I would like..."
+    },
+    {
+     "phrase": "Il conto, per favore.",
+     "pronunciation": "eel EHN-toh, pehr fah-VOH-reh",
+     "meaning": "The bill, please."
+    },
+    {
+     "phrase": "Buon appetito!",
+     "pronunciation": "bwon ahp-peh-TEE-toh",
+     "meaning": "Enjoy your meal!"
+    }
+   ],
+   "root": {
+    "root": "gustus",
+    "meaning": "taste",
+    "english_words": "disgust, gustatory, gusto",
+    "note": "This Latin root gives us the English word 'gusto', meaning doing something with great enthusiasm and enjoyment."
+   },
+   "borrowed": {
+    "word": "al dente",
+    "note": "Literally meaning 'to the tooth', this phrase describes pasta cooked to be firm to the bite."
+   },
+   "curious": {
+    "word": "scarpetta",
+    "pronunciation": "skahr-PEHT-tah",
+    "meaning": "mopping up leftover sauce on a plate with a small piece of bread",
+    "note": "Literally meaning 'little shoe', doing 'fare la scarpetta' is a comforting Italian dining tradition."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 338,
+  "world_1": 161,
+  "world_2": 145,
+  "thailand_1": 149,
+  "thailand_2": 130,
+  "feature": 247,
+  "real_english": 208,
+  "language_lab": 152,
+  "other_language": 121,
+  "word_bank": 417,
+  "total": 2252
+ },
+ "notes": [
+  "dropped 'bipartisan' from recycled_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 338 words (target 470–510)",
+  "feature: 247 words (target 310–370)",
+  "real_english: 208 words (target 260–320)",
+  "other_language: 121 words (target 140–190)",
+  "whole issue: 2252 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
