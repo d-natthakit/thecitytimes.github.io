@@ -1,0 +1,699 @@
+{
+ "plan": {
+  "date": "2026-11-11",
+  "date_long": "Wednesday, 11 November 2026",
+  "weekday": "Wed",
+  "issue_no": 13,
+  "language": "German",
+  "phrase_theme": "shopping",
+  "feature": "Arts & Entertainment",
+  "opinion": "say_it_better",
+  "setting": "meetings & calls",
+  "activity": "Word forms",
+  "trap": "Tenses & time expressions",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "allegations",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "capitalizing",
+   "coercion",
+   "compelling",
+   "consensus",
+   "coordinated",
+   "crackdown",
+   "credible",
+   "culinary",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "extinction",
+   "extramarital",
+   "feasibility",
+   "fluctuations",
+   "foster",
+   "hospitality",
+   "impasse",
+   "improvise",
+   "incorporate",
+   "intermittent",
+   "look into",
+   "mandate",
+   "mindset",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "opt for",
+   "optimum",
+   "overreliance",
+   "oversight",
+   "proportionately",
+   "proscription",
+   "rectify",
+   "reinstate",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "slashed",
+   "slashing",
+   "sparked",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "subsidize",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transparency",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "versatile",
+   "vitality",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "sabotage",
+    "taught_date": "2026-11-10",
+    "days_ago": 1
+   },
+   {
+    "word": "retaliation",
+    "taught_date": "2026-11-10",
+    "days_ago": 1
+   },
+   {
+    "word": "deterrence",
+    "taught_date": "2026-11-10",
+    "days_ago": 1
+   },
+   {
+    "word": "unsubstantiated",
+    "taught_date": "2026-11-10",
+    "days_ago": 1
+   },
+   {
+    "word": "misogyny",
+    "taught_date": "2026-11-10",
+    "days_ago": 1
+   },
+   {
+    "word": "unsustainable",
+    "taught_date": "2026-11-10",
+    "days_ago": 1
+   },
+   {
+    "word": "transparency",
+    "taught_date": "2026-11-10",
+    "days_ago": 1
+   },
+   {
+    "word": "overreliance",
+    "taught_date": "2026-11-10",
+    "days_ago": 1
+   },
+   {
+    "word": "mandate",
+    "taught_date": "2026-11-08",
+    "days_ago": 3
+   },
+   {
+    "word": "impasse",
+    "taught_date": "2026-11-08",
+    "days_ago": 3
+   },
+   {
+    "word": "allegations",
+    "taught_date": "2026-11-08",
+    "days_ago": 3
+   },
+   {
+    "word": "disperse",
+    "taught_date": "2026-11-08",
+    "days_ago": 3
+   },
+   {
+    "word": "nuanced",
+    "taught_date": "2026-11-08",
+    "days_ago": 3
+   },
+   {
+    "word": "discrepancy",
+    "taught_date": "2026-11-08",
+    "days_ago": 3
+   },
+   {
+    "word": "rectify",
+    "taught_date": "2026-11-08",
+    "days_ago": 3
+   },
+   {
+    "word": "coordinated",
+    "taught_date": "2026-11-04",
+    "days_ago": 7
+   },
+   {
+    "word": "credible",
+    "taught_date": "2026-11-04",
+    "days_ago": 7
+   },
+   {
+    "word": "evacuate",
+    "taught_date": "2026-11-04",
+    "days_ago": 7
+   },
+   {
+    "word": "slashing",
+    "taught_date": "2026-11-04",
+    "days_ago": 7
+   },
+   {
+    "word": "monopoly",
+    "taught_date": "2026-11-04",
+    "days_ago": 7
+   },
+   {
+    "word": "autonomous",
+    "taught_date": "2026-11-04",
+    "days_ago": 7
+   },
+   {
+    "word": "oversight",
+    "taught_date": "2026-11-04",
+    "days_ago": 7
+   },
+   {
+    "word": "improvise",
+    "taught_date": "2026-11-04",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "essen",
+   "delicatessen",
+   "Kummerspeck",
+   "trinken",
+   "Pretzel",
+   "Kaffeeklatsch",
+   "sprechen",
+   "Kindergarten",
+   "Feierabend"
+  ],
+  "recent_news_titles": [
+   "France accuses Iran of supermarket fridge hacking",
+   "France blames Iran for October supermarket cyberattack",
+   "Nvidia shareholders sue Jensen Huang over alleged spy ties",
+   "Russell Brand sentenced to 10.5 years over sexual assault charges",
+   "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+   "Singapore detains Odyssey cruise ship over reported fuel debt",
+   "Survey finds Thais keen on AI use",
+   "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
+   "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+   "Seven dead and more than 100 injured after trains collide in Egypt",
+   "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+   "Looking beyond tax savings",
+   "Police brace for protest convoy in capital",
+   "Israel's president tasks opposition leader Eisenkot with forming government",
+   "Israel’s president picks Yashar leader Gadi Eisenkot to form government",
+   "Yemen: 22 killed in strike near Sanaa, Houthis say",
+   "More than 140,000 rally as new protests against rising costs sweep France",
+   "German nabbed over drugs",
+   "The New Language of Scent: Beyond Perfume to a New Era of Identity, Experience and Innovation"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "The Guardian",
+   "title": "US officials seek ‘final end’ to Russia-Ukraine war, as Abu Dhabi talks set to continue",
+   "url": "https://www.theguardian.com/world/2026/nov/10/us-officials-russia-ukraine-war-abu-dhabi-talks",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "NPR",
+   "title": "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+   "url": "https://www.npr.org/2026/11/10/g-s1-152773/russia-ukraine-war-talks",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "Al Jazeera",
+   "title": "US House Republicans block Pete Hegseth impeachment effort",
+   "url": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "BBC News",
+   "title": "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+   "url": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Biofuel consumption soars following excise tax cuts",
+   "url": "https://www.bangkokpost.com/business/general/3352595/biofuel-consumption-soars-following-excise-tax-cuts",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Ex-monk leads convoy demanding cheaper fuel",
+   "url": "https://www.bangkokpost.com/thailand/general/3352670/exmonk-leads-convoy-demanding-cheaper-fuel",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "substantive",
+   "architecture",
+   "slashed",
+   "resolution",
+   "framework",
+   "concessions",
+   "pivotal",
+   "advocacy"
+  ],
+  "recycled_words": [
+   "sabotage",
+   "credible",
+   "nuanced",
+   "transparency"
+  ],
+  "cover": {
+   "headline": "US Seeks End to War in Ukraine as Trilateral Abu Dhabi Talks Resume",
+   "paragraphs": [
+    "United States officials announced they are pursuing a final end to the war in Ukraine during trilateral talks in Abu Dhabi. The high-level discussions bring together representatives from Russia, Ukraine, and the United States for their first **substantive** negotiations since February. While leaders Volodymyr Zelenskyy and Vladimir Putin were absent, negotiators opened a multi-day schedule aimed at resolving Europe's largest military conflict since the Second World War.",
+    "The renewed diplomatic push comes during a shifting domestic and international political landscape. Recent midterm elections in the United States have weakened President Donald Trump at home, while Russia's wartime economy faces increasing pressure. Simultaneously, Moscow has intensified strikes against Ukraine's power grid as winter sets in. American representatives Jared Kushner and Steve Witkoff led the delegation in the United Arab Emirates to revive dialogue after three previous negotiation rounds yielded no major breakthroughs.",
+    "A central element of the American proposal involves designing a new security **architecture** for Europe. US officials suggested reviving the NATO-Russia Council, suspended after the 2022 invasion, and exploring security guarantees for Ukraine similar to NATO's Article 5 protection. Under such a **framework**, Washington could provide long-term funding, resources, and direct military support. To secure a deal, Washington also indicated that it might consider lifting economic sanctions against Russia.",
+    "European leaders, however, remain cautious about the evolving negotiations. The European Union's foreign policy chief, Kaja Kallas, stressed that international agreements protecting national sovereignty already exist, but Russia fails to respect them. Furthermore, European officials expressed concern that Washington might grant major **concessions** to Moscow, such as agreeing to Russian demands that NATO reduce its footprint in Eastern Europe. Critics also warned that hybrid warfare and cyberattacks could complicate any prospective security guarantees.",
+    "To address European anxieties, US Secretary of State Marco Rubio assured allies in Paris that European nations would participate in the broader process. European representatives held separate talks with Ukrainian and American teams, issuing a joint statement that any __credible__ agreement must respect territorial integrity and independent decision-making. Ukrainian President Zelenskyy noted that initial discussions covered humanitarian concerns, including prisoner exchanges and the return of captive civilians, while cautioning that significant work remains ahead."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "US House Republicans Block Defense Secretary Impeachment Vote",
+    "paragraphs": [
+     "Republicans in the United States House of Representatives have blocked an attempt to impeach Defense Secretary Pete Hegseth. Lawmakers voted 211 to 204 to send the **resolution** to the Republican-led House Judiciary Committee. This procedural step effectively stops a direct vote on eight articles of impeachment. Representative Thomas Massie was the sole Republican who joined Democrats to oppose the referral.",
+     "The impeachment resolution accused the Pentagon chief of leading an unauthorized war against Iran without required congressional approval. It also cited military strikes against alleged drug trafficking vessels, which legal scholars labeled extrajudicial actions. Hegseth dismissed the resolution as a farce and an attempt at political __sabotage__, while President Donald Trump publicly praised the Republican unity that defeated the motion.",
+     "The vote highlights growing political tension following recent midterm election losses for the ruling party. Polls indicate voters blame the ongoing conflict for rising fuel and food prices. Although the resolution was halted, critics continue to question Hegseth's strategy and the accuracy of public updates regarding the war effort."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Thomas Markle Returned to Custody After Violating Release Terms",
+    "paragraphs": [
+     "Thomas Markle, the father of Meghan, Duchess of Sussex, has been taken back into US federal custody in Florida. A judge revoked his pretrial release after prosecutors reported that he removed his electronic location monitor. Markle was denied bond during an appearance before a magistrate judge in Tampa, who ordered a medical evaluation and necessary medication for the 82-year-old.",
+     "Markle was originally arrested following FBI searches of Los Angeles storage units he rented since 2008. Federal agents seized items that contained alleged child sex abuse material, with witnesses identifying Markle in older photographs. Markle has strongly denied the charges, calling the allegations sick lies. Officials emphasized that court orders regarding pretrial detention are strict rules that will be fully enforced.",
+     "Prior to his arrest, Markle lived in the Philippines before returning to the United States. Following the judge's determination that his housing arrangements were untenable, Markle will remain in custody while legal proceedings continue in federal court."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Biofuel Consumption Surges After Government Tax Reductions",
+    "paragraphs": [
+     "Biofuel usage across Thailand has expanded significantly following recent government tax incentives. According to Prime Minister Anutin Charnvirakul, daily consumption of E20 gasohol jumped nineteen percent after the cabinet **slashed** excise taxes on blended fuels. Consumption of B20 biodiesel also saw a dramatic surge of forty-one percent during the same period.",
+     "The three-month tax reduction policy plays a **pivotal** role in lowering fuel costs for vehicle owners while supporting local farmers. Higher demand for B20 helps absorb palm oil surpluses, while increased E20 usage boosts consumption of cassava and molasses. Government officials stated that the measure encourages cleaner fuel choices, reduces dependence on crude oil imports, and stabilizes domestic crop prices.",
+     "Energy officials noted that the sharp rise in biofuel uptake strengthens the agricultural economy. By encouraging motorists to adopt alternative fuels, the temporary tax policy provides direct financial support to rural farming communities across the nation."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Former Monk Leads Vehicle Protest Demanding Cheaper Diesel",
+    "paragraphs": [
+     "A former Buddhist monk turned village headman has led a vehicle convoy from southern Thailand to Bangkok to demand lower fuel prices. Mano Khrueakaew, a 52-year-old local administrator from Krabi province, organized the demonstration to highlight how high fuel costs harm transport operators, small businesses, and agricultural workers struggling with rising living costs.",
+     "The protest vehicle column grew to approximately 80 vehicles upon reaching Government House in Bangkok. Mano is calling on the administration to cut diesel prices by ten baht per liter and review national fuel pricing calculations. He emphasized that high fuel expenses severely impact rubber farmers and crop harvesting operations during challenging seasonal periods.",
+     "Mano's public campaign has drawn widespread attention through social media. This latest action follows his previous **advocacy** work against industrial waste and proposed regional infrastructure projects, reflecting a broader public effort to demand economic relief for local communities."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "The Evolving World of Voice Acting in Video Games and Animation",
+   "paragraphs": [
+    "The entertainment industry has undergone a massive transformation in how stories are brought to life. Voice acting, once seen as a background element in animated cartoons and early video games, has matured into a sophisticated craft. Today, voice performers are celebrated artists who bring depth, emotional complexity, and distinct personalities to digital characters, shaping how audiences connect with modern entertainment.",
+    "Technological advancements have elevated the demands placed on voice actors. Modern video game production routinely uses performance capture technology, requiring actors to deliver spoken dialogue while wearing motion-tracking suits. This means performers must master physical movement alongside vocal delivery. The process demands exceptional focus, as actors must recreate subtle emotional beats within minimal studio environments, often interacting with imaginary props and virtual scenery.",
+    "Beyond technical skills, voice artists must demonstrate incredible vocal flexibility to portray __nuanced__ character personalities. A single actor might voice a battle-hardened warrior, a quirky comic relief character, or a sinister villain within the same project. Maintaining vocal health while executing intense sound effects, such as shouting or recording combat grunts, requires disciplined technique. Without proper training, performers risk severe vocal strain during long recording sessions.",
+    "The rise of global streaming platforms and localized media has created new opportunities for voice talent worldwide. Professional studios now seek authentic regional accents and diverse vocal styles to match international character rosters. Increased industry __transparency__ regarding casting decisions and union protections has also helped improve working conditions for performers across the globe.",
+    "As interactive storytelling continues to expand, voice performance remains an essential bridge between human emotion and digital art. For fans and aspiring creators alike, appreciating the hard work behind the microphone offers a richer understanding of contemporary media production."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Proposing an Action Item in a Project Call",
+   "situation": "You are in an online team meeting and want to suggest that your team review the quarterly budget report before finalizing the project timeline.",
+   "formal": "I recommend that we thoroughly examine the quarterly budget report prior to finalizing our schedule to ensure financial alignment.",
+   "neutral": "I suggest we take a look at the quarterly budget report before we lock in our timeline so that we can avoid potential issues.",
+   "casual": "Let's check out the quarterly budget report before fixing the timeline just to make sure we are good on cash.",
+   "useful_phrases": [
+    "prior to finalizing our schedule",
+    "lock in our timeline",
+    "make sure we are good on cash"
+   ]
+  },
+  "trap": {
+   "title": "Using 'Since' Instead of 'For' with Duration",
+   "wrong": "We have discussed this issue since two hours.",
+   "right": "We have discussed this issue for two hours.",
+   "explanation": "In English, use 'for' to describe a total duration or length of time (e.g., for two hours, for three days). Use 'since' only when referring to a specific starting point in the past (e.g., since 9:00 AM, since last Monday). Thai speakers often confuse these because the word ตั้งแต่ (tang-tae) or เป็นเวลา (pen-wee-la) can lead to mixing up starting points and total durations."
+  },
+  "word_bank": [
+   {
+    "word": "substantive",
+    "pos": "adjective",
+    "definition": "meaningful, real, and focused on important facts or details",
+    "thai": "เป็นชิ้นเป็นอัน / มีสาระสำคัญ",
+    "collocations": [
+     "substantive talks",
+     "substantive progress",
+     "substantive change"
+    ],
+    "example": "The high-level discussions bring together representatives from Russia, Ukraine, and the United States for their first **substantive** negotiations since February."
+   },
+   {
+    "word": "architecture",
+    "pos": "noun",
+    "definition": "the complex structure or design of a system, organization, or agreement",
+    "thai": "โครงสร้าง / สถาปัตยกรรม",
+    "collocations": [
+     "security architecture",
+     "system architecture",
+     "financial architecture"
+    ],
+    "example": "A central element of the American proposal involves designing a new security **architecture** for Europe."
+   },
+   {
+    "word": "slashed",
+    "pos": "verb",
+    "definition": "reduced or cut dramatically and quickly",
+    "thai": "ลดลงอย่างมาก",
+    "collocations": [
+     "slash prices",
+     "slash taxes",
+     "slash budgets"
+    ],
+    "example": "According to Prime Minister Anutin Charnvirakul, daily consumption of E20 gasohol jumped nineteen percent after the cabinet **slashed** excise taxes on blended fuels."
+   },
+   {
+    "word": "resolution",
+    "pos": "noun",
+    "definition": "a formal decision or statement agreed upon by a vote in an official group",
+    "thai": "มติ / ข้อตกลง",
+    "collocations": [
+     "pass a resolution",
+     "adopt a resolution",
+     "reject a resolution"
+    ],
+    "example": "Lawmakers voted 211 to 204 to send the **resolution** to the Republican-led House Judiciary Committee."
+   },
+   {
+    "word": "framework",
+    "pos": "noun",
+    "definition": "a basic structure of ideas or rules used to make decisions or plan something",
+    "thai": "กรอบแนวคิด / กรอบทำงาน",
+    "collocations": [
+     "legal framework",
+     "policy framework",
+     "conceptual framework"
+    ],
+    "example": "Under such a **framework**, Washington could provide long-term funding, resources, and direct military support."
+   },
+   {
+    "word": "concessions",
+    "pos": "noun",
+    "definition": "things granted or yielded to end a disagreement",
+    "thai": "การผ่อนปรน / ยินยอม",
+    "collocations": [
+     "make concessions",
+     "grant concessions",
+     "demand concessions"
+    ],
+    "example": "Furthermore, European officials expressed concern that Washington might grant major **concessions** to Moscow, such as agreeing to Russian demands that NATO reduce its footprint in Eastern Europe."
+   },
+   {
+    "word": "pivotal",
+    "pos": "adjective",
+    "definition": "crucial, vital, or having a significant effect on the success of something",
+    "thai": "ที่สำคัญยิ่ง / เป็นจุดเปลี่ยน",
+    "collocations": [
+     "play a pivotal role",
+     "pivotal moment",
+     "pivotal decision"
+    ],
+    "example": "The three-month tax reduction policy plays a **pivotal** role in lowering fuel costs for vehicle owners while supporting local farmers."
+   },
+   {
+    "word": "advocacy",
+    "pos": "noun",
+    "definition": "public support or recommendation for a particular cause, policy, or idea",
+    "thai": "การรณรงค์ สนับสนุน",
+    "collocations": [
+     "consumer advocacy",
+     "advocacy group",
+     "policy advocacy"
+    ],
+    "example": "This latest action follows his previous **advocacy** work against industrial waste and proposed regional infrastructure projects, reflecting a broader public effort to demand economic relief for local communities."
+   },
+   {
+    "word": "sabotage",
+    "pos": "noun",
+    "definition": "deliberate damage or disruption to prevent a plan or process from succeeding",
+    "thai": "การวินาศกรรม / การขัดขวาง",
+    "collocations": [],
+    "example": "Hegseth dismissed the resolution as a farce and an attempt at political __sabotage__, while President Donald Trump publicly praised the Republican unity that defeated the motion."
+   },
+   {
+    "word": "credible",
+    "pos": "adjective",
+    "definition": "able to be believed or trusted; convincing",
+    "thai": "ที่น่าเชื่อถือ",
+    "collocations": [],
+    "example": "European representatives held separate talks with Ukrainian and American teams, issuing a joint statement that any __credible__ agreement must respect territorial integrity and independent decision-making."
+   },
+   {
+    "word": "nuanced",
+    "pos": "adjective",
+    "definition": "having subtle distinctions, variations, or delicate details",
+    "thai": "ที่มีความละเอียดซับซ้อน",
+    "collocations": [],
+    "example": "Beyond technical skills, voice artists must demonstrate incredible vocal flexibility to portray __nuanced__ character personalities."
+   },
+   {
+    "word": "transparency",
+    "pos": "noun",
+    "definition": "the state of being open, honest, and free from secret motives",
+    "thai": "ความโปร่งใส",
+    "collocations": [],
+    "example": "Increased industry __transparency__ regarding casting decisions and union protections has also helped improve working conditions for performers across the globe."
+   }
+  ],
+  "activity": {
+   "instructions": "Complete each sentence by writing the correct form of the word shown in brackets.",
+   "items": [
+    "The delegates hope to enter into ______ negotiations tomorrow morning. (substance)",
+    "Engineers spend months designing the software ______ before starting development. (architecture)",
+    "The retail store announced significant price ______ on all seasonal inventory. (slash)",
+    "The committee voted unanimously on the proposed ______. (resolve)",
+    "Both companies agreed to build a solid ______ for future cooperation. (frame)",
+    "After hours of debate, the negotiator offered key ______ to finalize the contract. (concede)"
+   ],
+   "answers": [
+    "substantive",
+    "architecture",
+    "slashes (or slashing / cuts)",
+    "resolution",
+    "framework",
+    "concessions"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "US House Republicans blocked the defense secretary impeachment vote after long debate.",
+    "corrected": "US House Republicans blocked the defense secretary's impeachment vote after long debate.",
+    "reason": "Possessive apostrophe needed for 'secretary's'."
+   },
+   {
+    "sentence": "Former monk leads vehicle protest for demanding cheaper diesel across the nation.",
+    "corrected": "Former monk leads vehicle protest to demand cheaper diesel across the nation.",
+    "reason": "Use infinitive 'to demand' instead of 'for demanding'."
+   },
+   {
+    "sentence": "Biofuel consumption surged after government slashed taxes on local gas stations.",
+    "corrected": "Biofuel consumption surged after the government slashed taxes on local gas stations.",
+    "reason": "Missing definite article 'the' before 'government'."
+   },
+   {
+    "sentence": "The evolving world of voice acting is pivotal for create believable characters.",
+    "corrected": "The evolving world of voice acting is pivotal for creating believable characters.",
+    "reason": "Preposition 'for' must be followed by gerund 'creating'."
+   },
+   {
+    "sentence": "Thomas Markle was returned into custody after violating his release conditions.",
+    "corrected": "Thomas Markle was returned to custody after violating his release conditions.",
+    "reason": "Correct preposition is 'to custody', not 'into custody'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Navigating a local market or supermarket in Germany is easy once you know a few fundamental shopping expressions.",
+   "phrases": [
+    {
+     "phrase": "Was kostet das?",
+     "pronunciation": "vas KOST-et das",
+     "meaning": "How much does that cost?"
+    },
+    {
+     "phrase": "Ich hätte gerne...",
+     "pronunciation": "ich HET-teh GAIR-neh",
+     "meaning": "I would like to have..."
+    },
+    {
+     "phrase": "Zahlen, bitte!",
+     "pronunciation": "TSAH-len BIT-teh",
+     "meaning": "The bill, please!"
+    }
+   ],
+   "root": {
+    "root": "kaufen",
+    "meaning": "to buy",
+    "english_words": "cheap, chaffer",
+    "note": "This Germanic root relates to buying and trading, giving rise to English terms linked to low prices or bargaining."
+   },
+   "borrowed": {
+    "word": "Glockenspiel",
+    "note": "Borrowed directly into English, it literally means 'bell play', describing a musical instrument with tuned metal bars."
+   },
+   "curious": {
+    "word": "Hamsterkauf",
+    "pronunciation": "HAM-ster-kowf",
+    "meaning": "Panic buying or stockpiling food",
+    "note": "This vivid word compares people stocking up on supplies during a crisis to hamsters hoarding food in their cheeks."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 357,
+  "world_1": 169,
+  "world_2": 157,
+  "thailand_1": 147,
+  "thailand_2": 145,
+  "feature": 281,
+  "real_english": 197,
+  "language_lab": 141,
+  "other_language": 115,
+  "word_bank": 474,
+  "total": 2355
+ },
+ "notes": [
+  "★ words repeated within 30 days: slashed",
+  "★ words appear in only 3 parts of the issue (target 4+)",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 357 words (target 470–510)",
+  "real_english: 197 words (target 260–320)",
+  "other_language: 115 words (target 140–190)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
