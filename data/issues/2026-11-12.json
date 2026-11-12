@@ -1,0 +1,681 @@
+{
+ "plan": {
+  "date": "2026-11-12",
+  "date_long": "Thursday, 12 November 2026",
+  "weekday": "Thu",
+  "issue_no": 14,
+  "language": "Spanish",
+  "phrase_theme": "shopping",
+  "feature": "Home / Environment",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Synonym choice",
+  "trap": "Countable/uncountable & plurals",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "capitalizing",
+   "coercion",
+   "compelling",
+   "concessions",
+   "consensus",
+   "coordinated",
+   "crackdown",
+   "credible",
+   "culinary",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "extinction",
+   "extramarital",
+   "feasibility",
+   "fluctuations",
+   "foster",
+   "framework",
+   "hospitality",
+   "impasse",
+   "improvise",
+   "incorporate",
+   "intermittent",
+   "look into",
+   "mandate",
+   "mindset",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "opt for",
+   "optimum",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "proportionately",
+   "proscription",
+   "rectify",
+   "reinstate",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "slashed",
+   "slashing",
+   "sparked",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transparency",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "versatile",
+   "vitality",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "substantive",
+    "taught_date": "2026-11-11",
+    "days_ago": 1
+   },
+   {
+    "word": "architecture",
+    "taught_date": "2026-11-11",
+    "days_ago": 1
+   },
+   {
+    "word": "slashed",
+    "taught_date": "2026-11-11",
+    "days_ago": 1
+   },
+   {
+    "word": "resolution",
+    "taught_date": "2026-11-11",
+    "days_ago": 1
+   },
+   {
+    "word": "framework",
+    "taught_date": "2026-11-11",
+    "days_ago": 1
+   },
+   {
+    "word": "concessions",
+    "taught_date": "2026-11-11",
+    "days_ago": 1
+   },
+   {
+    "word": "pivotal",
+    "taught_date": "2026-11-11",
+    "days_ago": 1
+   },
+   {
+    "word": "advocacy",
+    "taught_date": "2026-11-11",
+    "days_ago": 1
+   },
+   {
+    "word": "extramarital",
+    "taught_date": "2026-11-09",
+    "days_ago": 3
+   },
+   {
+    "word": "bipartisan",
+    "taught_date": "2026-11-09",
+    "days_ago": 3
+   },
+   {
+    "word": "negligent",
+    "taught_date": "2026-11-09",
+    "days_ago": 3
+   },
+   {
+    "word": "tolerance",
+    "taught_date": "2026-11-09",
+    "days_ago": 3
+   },
+   {
+    "word": "proportionately",
+    "taught_date": "2026-11-09",
+    "days_ago": 3
+   },
+   {
+    "word": "sedentary",
+    "taught_date": "2026-11-09",
+    "days_ago": 3
+   },
+   {
+    "word": "vitality",
+    "taught_date": "2026-11-09",
+    "days_ago": 3
+   },
+   {
+    "word": "defied",
+    "taught_date": "2026-11-05",
+    "days_ago": 7
+   },
+   {
+    "word": "coercion",
+    "taught_date": "2026-11-05",
+    "days_ago": 7
+   },
+   {
+    "word": "extinction",
+    "taught_date": "2026-11-05",
+    "days_ago": 7
+   },
+   {
+    "word": "adulterant",
+    "taught_date": "2026-11-05",
+    "days_ago": 7
+   },
+   {
+    "word": "unprecedented",
+    "taught_date": "2026-11-05",
+    "days_ago": 7
+   },
+   {
+    "word": "fluctuations",
+    "taught_date": "2026-11-05",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "gustar",
+   "café",
+   "Empalagar",
+   "Aqua / Agua",
+   "Cafeteria",
+   "Merienda",
+   "hablar",
+   "fiesta",
+   "Sobremesa"
+  ],
+  "recent_news_titles": [
+   "US officials seek ‘final end’ to Russia-Ukraine war, as Abu Dhabi talks set to continue",
+   "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+   "US House Republicans block Pete Hegseth impeachment effort",
+   "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+   "Biofuel consumption soars following excise tax cuts",
+   "Ex-monk leads convoy demanding cheaper fuel",
+   "France accuses Iran of supermarket fridge hacking",
+   "France blames Iran for October supermarket cyberattack",
+   "Nvidia shareholders sue Jensen Huang over alleged spy ties",
+   "Russell Brand sentenced to 10.5 years over sexual assault charges",
+   "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+   "Singapore detains Odyssey cruise ship over reported fuel debt",
+   "Survey finds Thais keen on AI use",
+   "US chipmaker Nvidia investigates CEO Jensen Huang over affair",
+   "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+   "Seven dead and more than 100 injured after trains collide in Egypt",
+   "Pope’s visit to Argentina sets up showdown with ‘hyper-capitalist’ Milei",
+   "Looking beyond tax savings",
+   "Police brace for protest convoy in capital"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "BBC News",
+   "title": "Democrat Scott Colom seals historic win in Mississippi Senate race",
+   "url": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "Democrat Scott Colom unseats Cindy Hyde-Smith in stunning Mississippi Senate win",
+   "url": "https://www.theguardian.com/us-news/2026/nov/11/scott-colom-mississippi-senate-race",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "Al Jazeera",
+   "title": "Former Italian Red Brigades member escapes house arrest in Argentina",
+   "url": "https://www.aljazeera.com/news/2026/11/12/former-italian-red-brigades-member-escapes-house-arrest-in-argentina?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "DW",
+   "title": "Italy: Hundreds of schools evacuated after bomb threats",
+   "url": "https://www.dw.com/en/italy-hundreds-of-schools-evacuated-after-bomb-threats/a-79918034?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "More investors look to professionals",
+   "url": "https://www.bangkokpost.com/business/investment/3353024/more-investors-look-to-professionals",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Amlo seeks B320m asset seizures",
+   "url": "https://www.bangkokpost.com/thailand/general/3353084/amlo-seeks-b320m-asset-seizures",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "stunning",
+   "logistics",
+   "mayhem",
+   "expertise",
+   "forfeit",
+   "compostable"
+  ],
+  "recycled_words": [
+   "unprecedented",
+   "framework",
+   "sedentary"
+  ],
+  "cover": {
+   "headline": "Historic Senate Win in Mississippi Caps Democratic Midterm Surge",
+   "paragraphs": [
+    "In a **stunning** political outcome, Democrat Scott Colom has won the US Senate election in Mississippi, defeating incumbent Republican Cindy Hyde-Smith. The victory marks a historic moment for the state, as Colom becomes the first Black senator elected from Mississippi in more than 140 years. Official figures showed Colom securing 49.2 percent of the vote, while Hyde-Smith received 48.7 percent and an independent candidate picked up 2.1 percent. Hyde-Smith conceded on Wednesday evening through a social media video, offering her congratulations and expressing respect for the decision of the voters.",
+    "The victory brings an end to a long Republican winning streak in Mississippi that had extended back to 1982. The outcome was widely seen as __unprecedented__, given that President Donald Trump carried the state by more than 22 percentage points during the 2024 presidential election. Celebrations erupted at the headquarters of the National Association for the Advancement of Colored People in Jackson when the news broke, with community leaders pointing to intense local organizing efforts as the primary driver behind the result.",
+    "Colom, a local prosecutor, successfully tapped into broad voter frustration surrounding the national economy. During his campaign, he focused heavily on voter concerns over tariffs and rising prices under the current presidential administration. He visited all 82 counties in Mississippi, giving his opponent a critical nickname that linked her directly to high consumer costs. Meanwhile, Hyde-Smith faced criticism from voters for making relatively few public appearances throughout the campaign period.",
+    "This historic win in Mississippi provides Democrats with a key seat as part of a wider national trend. The election results put the party at 55 seats in the 100-member Senate, representing their largest midterm gain in decades. Voters across several traditional Republican strongholds opted for Democratic candidates, reflecting nationwide anxieties over inflation and ongoing foreign conflicts.",
+    "The newly elected senator will soon take his seat in Washington to represent Mississippi. His victory adds to a broader shifting political landscape across the United States, where economic worries have reshaped long-standing voter loyalties."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Former Italian Militant Escapes House Arrest in Argentina",
+    "paragraphs": [
+     "A 74-year-old former member of Italy's Red Brigades, Leonardo Bertulazzi, has escaped from house arrest in Argentina. Authorities reported that he used a harness and rope to climb down from a fifth-floor apartment before fleeing onto the street. He had also placed his electronic ankle monitor inside a heated container to avoid triggering alarms.",
+     "Bertulazzi was convicted in Italy for his role in the 1978 kidnapping and murder of former Prime Minister Aldo Moro. After living in South America for years, his refugee status was revoked in 2024. Argentine courts had recently approved his extradition back to Italy to serve a 27-year sentence.",
+     "Argentine police have launched a nationwide search and offered a 20 million peso reward for information leading to his capture. Italian officials expressed confidence that law enforcement will locate the fugitive and complete the extradition process quickly."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "False Bomb Threats Trigger Widespread Italian School Evacuations",
+    "paragraphs": [
+     "Hundreds of schools across Italy were evacuated on Wednesday morning after receiving identical electronic messages claiming that explosives were hidden in their buildings. The threats targeted 312 schools, primarily located in Rome and other major cities, causing widespread panic among parents and teachers.",
+     "Government officials quickly reassured the public, stating that initial investigations showed no evidence of actual danger. Authorities believe the messages were part of an intentional strategy to cause **mayhem** and public alarm. Similar fake messages were recently sent to organizations in Ireland and Bulgaria.",
+     "The Italian cabinet has scheduled emergency meetings to address the disruption. European leaders remain concerned that such false alarms could be part of broader cyber campaigns intended to create instability."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Thai Investors Turn to Professional Managers Amid Market Shifts",
+    "paragraphs": [
+     "Growing global economic uncertainty is prompting more Thai investors to hire professional portfolio managers rather than managing their money independently. According to Bualuang Securities, complex global markets require specialized financial **expertise** and careful risk management strategies.",
+     "Recent market volatility, driven by international trade tariffs and geopolitical conflicts, has led many investors toward structured wealth services. In response, brokerage firms have introduced tailored portfolio models. These financial models help investors maintain steady income while adjusting asset allocations during turbulent times.",
+     "Financial institutions in Thailand plan to expand these services further to serve a wider range of clients. Analysts expect that professional guidance will remain attractive as investors seek foreign opportunities and domestic market stability."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Anti-Money Laundering Office Seeks Asset Seizure in Fraud Case",
+    "paragraphs": [
+     "Thailand's Anti-Money Laundering Office has submitted legal reports seeking to **forfeit** 320 million baht in assets linked to a major local government examination fraud. The case involves a former municipal official in Phetchabun province and more than 20 associates.",
+     "The seized assets include land deeds, gold jewelry, digital assets, and high-value savings accounts located across Bangkok, Nonthaburi, and Phetchabun. State prosecutors will review the case files before filing a formal petition with the Civil Court.",
+     "Legal proceedings are expected to move forward over the next 90 days. Authorities emphasized that prosecutors are continuing to inspect additional financial channels to recover any remaining assets connected to the network."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "paragraphs": [
+    "Modern households are increasingly looking for practical ways to reduce their environmental footprint without sacrificing daily convenience. Sustainable living does not require rebuilding your home from scratch; instead, it often begins with small changes in daily habits and product choices.",
+    "Energy management is one of the most effective areas for immediate improvement. Simple updates, such as replacing traditional bulbs with energy-efficient LED lighting and sealing window drafts, can help regulate indoor temperatures. For working adults who spend hours at home, avoiding a __sedentary__ routine near active cooling units can also help lower utility usage while maintaining comfort.",
+    "Managing home waste presents another clear opportunity for everyday sustainability. Switching to **compostable** organic trash bags and establishing regular sorting bins helps keep plastic waste out of municipal landfills. Using reusable containers for leftovers and meal preparation further reduces single-use packaging around the kitchen.",
+    "Water conservation habits can also be updated within a simple legal and domestic __framework__. Installing low-flow aerators on faucets significantly reduces daily consumption without lowering water pressure. These minor installations help conserve local water supplies while keeping utility bills manageable over time.",
+    "Creating a sustainable home environment relies on consistent daily decisions. By reviewing home energy habits, reducing household waste, and selecting durable materials, residents can create a healthier living space that supports long-term environmental goals."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "view_a": {
+    "title": "Centralized Efficiency",
+    "text": "Mandatory neighborhood composting hubs are essential for modern waste management. While home processing takes effort, central facilities handle organic waste efficiently. Naturally, initial setup costs require funding, but the environmental benefits far outweigh the setup expenses. City residents produce vast amounts of food waste daily that end up in landfills. Central hubs turn this material into useful soil nutrients systematically. Moreover, public programs build strong community responsibility."
+   },
+   "view_b": {
+    "title": "Practical Flexibility",
+    "text": "Neighborhood hubs sound helpful in theory, but mandatory participation creates real problems for busy households. Managing **logistics** like pest control and odors around high-density housing is difficult. Admittedly, organic waste creates emissions in landfills, yet forcing every resident onto a strict municipal schedule is impractical. Individual voluntary efforts combined with private collection options offer a much more realistic solution for urban neighborhoods."
+   },
+   "phrases": [
+    {
+     "phrase": "While home processing takes effort",
+     "function": "concession"
+    },
+    {
+     "phrase": "Admittedly, organic waste creates emissions",
+     "function": "concession"
+    },
+    {
+     "phrase": "yet forcing every resident onto a strict schedule",
+     "function": "contrast"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "wrong": "We should reduce our home garbages by recycling plastics.",
+   "right": "We should reduce our home garbage by recycling plastics.",
+   "explanation": "In English, 'garbage' and 'waste' are mass nouns and cannot be used in the plural form. Thai speakers often add an 's' because in Thai we can count items of trash or think of 'ขยะ' as plural items. To express multiple items, use phrases like 'pieces of garbage' or simply use the singular 'garbage'."
+  },
+  "word_bank": [
+   {
+    "word": "stunning",
+    "pos": "adj.",
+    "definition": "extremely surprising, impressive, or shocking",
+    "thai": "น่าประหลาดใจอย่างยิ่ง",
+    "collocations": [
+     "stunning victory",
+     "stunning announcement",
+     "stunning view"
+    ],
+    "example": "In a **stunning** political outcome, Democrat Scott Colom has won the US Senate election in Mississippi, defeating incumbent Republican Cindy Hyde-Smith."
+   },
+   {
+    "word": "logistics",
+    "pos": "n.",
+    "definition": "the detailed organization and planning of a complex operation",
+    "thai": "การบริหารจัดการขนส่งและห่วงโซ่อุปทาน",
+    "collocations": [
+     "handle logistics",
+     "logistics network",
+     "complex logistics"
+    ],
+    "example": "Managing **logistics** like pest control and odors around high-density housing is difficult."
+   },
+   {
+    "word": "mayhem",
+    "pos": "n.",
+    "definition": "violent or chaotic disorder and confusion",
+    "thai": "ความโกลาหลไร้ระเบียบ",
+    "collocations": [
+     "cause mayhem",
+     "total mayhem",
+     "scene of mayhem"
+    ],
+    "example": "Authorities believe the messages were part of an intentional strategy to cause **mayhem** and public alarm."
+   },
+   {
+    "word": "expertise",
+    "pos": "n.",
+    "definition": "expert skill or knowledge in a particular field",
+    "thai": "ความเชี่ยวชาญ",
+    "collocations": [
+     "technical expertise",
+     "require expertise",
+     "offer expertise"
+    ],
+    "example": "According to Bualuang Securities, complex global markets require specialized financial **expertise** and careful risk management strategies."
+   },
+   {
+    "word": "forfeit",
+    "pos": "v.",
+    "definition": "to lose or surrender something as a penalty for a fault or crime",
+    "thai": "ริบทรัพย์หรือถูกยึด",
+    "collocations": [
+     "forfeit assets",
+     "forfeit the right",
+     "forced to forfeit"
+    ],
+    "example": "Thailand's Anti-Money Laundering Office has submitted legal reports seeking to **forfeit** 320 million baht in assets linked to a major local government examination fraud."
+   },
+   {
+    "word": "compostable",
+    "pos": "adj.",
+    "definition": "capable of decaying natural materials into organic fertilizer",
+    "thai": "ย่อยสลายได้ทางชีวภาพ",
+    "collocations": [
+     "compostable packaging",
+     "compostable waste",
+     "fully compostable"
+    ],
+    "example": "Switching to **compostable** organic trash bags and establishing regular sorting bins helps keep plastic waste out of municipal landfills."
+   },
+   {
+    "word": "unprecedented",
+    "pos": "adj.",
+    "definition": "never done or known before",
+    "thai": "ไม่เคยปรากฏมาก่อน",
+    "collocations": [],
+    "example": "The outcome was widely seen as __unprecedented__, given that President Donald Trump carried the state by more than 22 percentage points during the 2024 presidential election."
+   },
+   {
+    "word": "framework",
+    "pos": "n.",
+    "definition": "a basic structure underlying a system, concept, or text",
+    "thai": "กรอบความคิดหรือระบบงาน",
+    "collocations": [],
+    "example": "Water conservation habits can also be updated within a simple legal and domestic __framework__."
+   },
+   {
+    "word": "sedentary",
+    "pos": "adj.",
+    "definition": "tending to spend much time seated or inactive",
+    "thai": "ที่นั่งอยู่กับที่",
+    "collocations": [],
+    "example": "For working adults who spend hours at home, avoiding a __sedentary__ routine near active cooling units can also help lower utility usage while maintaining comfort."
+   }
+  ],
+  "activity": {
+   "instructions": "Choose the option that is closest in meaning to the bold word in each sentence.",
+   "items": [
+    "The sudden news caused **mayhem** in the city center. (a) calm (b) chaos (c) happiness",
+    "The team showed high technical **expertise** during the project. (a) skill (b) doubt (c) speed",
+    "The criminal was forced to **forfeit** his illegal earnings. (a) save (b) surrender (c) increase",
+    "We bought **compostable** food containers for the office party. (a) plastic (b) biodegradable (c) permanent",
+    "The company handled the delivery **logistics** efficiently. (a) marketing (b) design (c) organization",
+    "The election produced a **stunning** result for everyone. (a) boring (b) surprising (c) expected"
+   ],
+   "answers": [
+    "(b) chaos",
+    "(a) skill",
+    "(b) surrender",
+    "(b) biodegradable",
+    "(c) organization",
+    "(b) surprising"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Democratic candidate wins unprecedented election with a stunning political move.",
+    "corrected": "A Democratic candidate wins an unprecedented election with a stunning political move.",
+    "reason": "Countable singular nouns need an article."
+   },
+   {
+    "sentence": "Authorities suspect the militant escaped from house arrest in Tuesday.",
+    "corrected": "Authorities suspect the militant escaped from house arrest on Tuesday.",
+    "reason": "Use 'on' for specific days of the week."
+   },
+   {
+    "sentence": "False threats caused public alarm and created mayhem into the local schools.",
+    "corrected": "False threats caused public alarm and created mayhem in the local schools.",
+    "reason": "Use 'in' to indicate location within places."
+   },
+   {
+    "sentence": "Thai investors rely on managers who have deep expertise for global financial markets.",
+    "corrected": "Thai investors rely on managers who have deep expertise in global financial markets.",
+    "reason": "The noun 'expertise' takes the preposition 'in'."
+   },
+   {
+    "sentence": "The court decided to forfeit legal assets from suspects involved in fraud.",
+    "corrected": "The court decided to forfeit illegal assets from suspects involved in fraud.",
+    "reason": "Context requires 'illegal' assets to match fraud activity."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Shopping in local Spanish markets is a great way to practice daily vocabulary. Here are useful terms to help you buy food or goods smoothly.",
+   "phrases": [
+    {
+     "phrase": "¿Cuánto cuesta?",
+     "pronunciation": "KWAN-toh KWEHS-tah",
+     "meaning": "How much does it cost?"
+    },
+    {
+     "phrase": "Quiero esto",
+     "pronunciation": "KYEH-roh EHS-toh",
+     "meaning": "I want this"
+    },
+    {
+     "phrase": "La cuenta, por favor",
+     "pronunciation": "lah KWEHN-tah por fah-VOR",
+     "meaning": "The bill, please"
+    }
+   ],
+   "root": {
+    "root": "comprar",
+    "meaning": "to buy (from Latin comparare, to procure or compare)",
+    "english_words": "compare, comparable",
+    "note": "The Latin root for buying involved bringing items together for comparison before purchase."
+   },
+   "borrowed": {
+    "word": "plaza",
+    "note": "Originally referring to a public square or marketplace in Spanish towns."
+   },
+   "curious": {
+    "word": "ganga",
+    "pronunciation": "GAHN-gah",
+    "meaning": "a bargain or great deal",
+    "note": "It refers to finding a high-quality product at an unexpectedly low price."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 334,
+  "world_1": 140,
+  "world_2": 117,
+  "thailand_1": 113,
+  "thailand_2": 107,
+  "feature": 217,
+  "real_english": 245,
+  "language_lab": 159,
+  "other_language": 108,
+  "word_bank": 310,
+  "total": 2018
+ },
+ "notes": [
+  "dropped 'unseat' from star_words: it does not appear in the articles",
+  "dropped 'turn out' from star_words: it does not appear in the articles",
+  "dropped 'slashed' from recycled_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 334 words (target 470–510)",
+  "world_2: 117 words (target 140–160)",
+  "thailand_1: 113 words (target 140–160)",
+  "thailand_2: 107 words (target 140–160)",
+  "feature: 217 words (target 310–370)",
+  "other_language: 108 words (target 140–190)",
+  "whole issue: 2018 words (target 2300–2700)",
+  "sentences over 35 words: cover.paragraphs[1] (37 words)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
