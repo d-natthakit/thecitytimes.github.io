@@ -1,0 +1,721 @@
+{
+ "plan": {
+  "date": "2026-11-13",
+  "date_long": "Friday, 13 November 2026",
+  "weekday": "Fri",
+  "issue_no": 15,
+  "language": "French",
+  "phrase_theme": "shopping",
+  "feature": "Food & Travel",
+  "opinion": "say_it_better",
+  "setting": "social & small talk",
+  "activity": "Mini crossword clues",
+  "trap": "Direct translation from Thai",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "capitalizing",
+   "coercion",
+   "compelling",
+   "compostable",
+   "concessions",
+   "consensus",
+   "coordinated",
+   "crackdown",
+   "credible",
+   "culinary",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "expertise",
+   "extinction",
+   "extramarital",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "hospitality",
+   "impasse",
+   "improvise",
+   "incorporate",
+   "intermittent",
+   "logistics",
+   "look into",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "opt for",
+   "optimum",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "proportionately",
+   "proscription",
+   "rectify",
+   "reinstate",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "slashed",
+   "slashing",
+   "sparked",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transparency",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "versatile",
+   "vitality",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "stunning",
+    "taught_date": "2026-11-12",
+    "days_ago": 1
+   },
+   {
+    "word": "logistics",
+    "taught_date": "2026-11-12",
+    "days_ago": 1
+   },
+   {
+    "word": "mayhem",
+    "taught_date": "2026-11-12",
+    "days_ago": 1
+   },
+   {
+    "word": "expertise",
+    "taught_date": "2026-11-12",
+    "days_ago": 1
+   },
+   {
+    "word": "forfeit",
+    "taught_date": "2026-11-12",
+    "days_ago": 1
+   },
+   {
+    "word": "compostable",
+    "taught_date": "2026-11-12",
+    "days_ago": 1
+   },
+   {
+    "word": "sabotage",
+    "taught_date": "2026-11-10",
+    "days_ago": 3
+   },
+   {
+    "word": "retaliation",
+    "taught_date": "2026-11-10",
+    "days_ago": 3
+   },
+   {
+    "word": "deterrence",
+    "taught_date": "2026-11-10",
+    "days_ago": 3
+   },
+   {
+    "word": "unsubstantiated",
+    "taught_date": "2026-11-10",
+    "days_ago": 3
+   },
+   {
+    "word": "misogyny",
+    "taught_date": "2026-11-10",
+    "days_ago": 3
+   },
+   {
+    "word": "unsustainable",
+    "taught_date": "2026-11-10",
+    "days_ago": 3
+   },
+   {
+    "word": "transparency",
+    "taught_date": "2026-11-10",
+    "days_ago": 3
+   },
+   {
+    "word": "overreliance",
+    "taught_date": "2026-11-10",
+    "days_ago": 3
+   },
+   {
+    "word": "foster",
+    "taught_date": "2026-11-06",
+    "days_ago": 7
+   },
+   {
+    "word": "sanctuary",
+    "taught_date": "2026-11-06",
+    "days_ago": 7
+   },
+   {
+    "word": "mitigate",
+    "taught_date": "2026-11-06",
+    "days_ago": 7
+   },
+   {
+    "word": "navigate",
+    "taught_date": "2026-11-06",
+    "days_ago": 7
+   },
+   {
+    "word": "consensus",
+    "taught_date": "2026-11-06",
+    "days_ago": 7
+   },
+   {
+    "word": "culinary",
+    "taught_date": "2026-11-06",
+    "days_ago": 7
+   },
+   {
+    "word": "hospitality",
+    "taught_date": "2026-11-06",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "goût (Latin: gustus)",
+   "menu",
+   "terroir",
+   "café",
+   "croissant",
+   "flâner",
+   "parler",
+   "tête-à-tête",
+   "retrouvailles"
+  ],
+  "recent_news_titles": [
+   "Democrat Scott Colom seals historic win in Mississippi Senate race",
+   "Democrat Scott Colom unseats Cindy Hyde-Smith in stunning Mississippi Senate win",
+   "Former Italian Red Brigades member escapes house arrest in Argentina",
+   "Italy: Hundreds of schools evacuated after bomb threats",
+   "More investors look to professionals",
+   "Amlo seeks B320m asset seizures",
+   "US officials seek ‘final end’ to Russia-Ukraine war, as Abu Dhabi talks set to continue",
+   "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+   "US House Republicans block Pete Hegseth impeachment effort",
+   "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+   "Biofuel consumption soars following excise tax cuts",
+   "Ex-monk leads convoy demanding cheaper fuel",
+   "France accuses Iran of supermarket fridge hacking",
+   "France blames Iran for October supermarket cyberattack",
+   "Nvidia shareholders sue Jensen Huang over alleged spy ties",
+   "Russell Brand sentenced to 10.5 years over sexual assault charges",
+   "British comedian Russell Brand sentenced to over 10 years for rape and sexual assault",
+   "Singapore detains Odyssey cruise ship over reported fuel debt",
+   "Survey finds Thais keen on AI use"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "The Guardian",
+   "title": "Hegseth gives medal to guard who reprimanded him at Arlington national cemetery – US politics live",
+   "url": "https://www.theguardian.com/us-news/live/2026/nov/12/mississippi-scott-colom-ukraine-donald-trump",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "BBC News",
+   "title": "Hegseth awards medal to war memorial guard who reprimanded him and group",
+   "url": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "Al Jazeera",
+   "title": "Nvidia CEO Jensen Huang steps down, more affair details revealed",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/12/nvidia-ceo-jensen-huang-steps-down-more-affair-details-revealed?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_1 (second source)",
+   "source": "The Guardian",
+   "title": "Who could replace the departed Jensen Huang as Nvidia CEO?",
+   "url": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-nvidia-ceo-replacement",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "world_2",
+   "source": "BBC News",
+   "title": "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
+   "url": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Meta launches new ad tools in Thailand",
+   "url": "https://www.bangkokpost.com/business/general/3353729/meta-launches-new-ad-tools-in-thailand",
+   "thin": false
+  },
+  {
+   "id": "S7",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "'Collective Housing' a boon for 500k in Asia",
+   "url": "https://www.bangkokpost.com/thailand/general/3353624/collective-housing-a-boon-for-500k-in-asia",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "commendation",
+   "solemn",
+   "interim",
+   "burgeoning",
+   "facilitate",
+   "omnichannel",
+   "empower",
+   "cordial"
+  ],
+  "recycled_words": [
+   "stunning",
+   "logistics",
+   "mayhem",
+   "expertise"
+  ],
+  "cover": {
+   "headline": "Pentagon Chief Awards Medal to Guard Who Demanded Silence at War Memorial",
+   "paragraphs": [
+    "US Defence Secretary Pete Hegseth has presented a military award to an army guard who publicly reprimanded him and his entourage for talking and laughing during a visit to one of America's most sacred war memorials. The incident occurred during a Veterans Day observance event at the Tomb of the Unknown Soldier in Arlington National Cemetery.",
+    "A video recording captured the defense secretary, his wife, and senior advisers talking, laughing, and posing for photographs in front of the historic site. Specialist Thomas Iglesias, an army sentinel on duty, stepped toward the group and shouted an order for all visitors to maintain absolute silence and respect. Arlington etiquette guidelines explicitly request that visitors speak quietly and avoid any disrespectful conduct.",
+    "Following the incident, Hegseth issued an official **commendation** to Iglesias. The Pentagon confirmed that the secretary presented the Joint Service Commendation Medal to the guard for the proper execution of his duties. Hegseth posted photographs of the presentation on social media, writing that he values strong standards and praising the soldier for enforcing rules at the memorial.",
+    "Chief Pentagon spokesman Sean Parnell publicly supported the guard's actions. Parnell stated that during the **solemn** occasion, the sentinel acted correctly and respectfully when reminding the group to maintain appropriate decorum. He added that the secretary and the entire department remain dedicated to honoring military sacrifices.",
+    "Specialist Iglesias serves as a guard with the 3rd US Infantry Regiment, a unit known as the Old Guard. This historic unit holds continuous vigil over the Tomb of the Unknown Soldier. The tomb contains the remains of an unidentified US service member killed in World War One and serves as a quiet national **sanctuary** to honor all missing and fallen military personnel."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Nvidia Search Begins for New Leader Following Unexpected Resignation",
+    "paragraphs": [
+     "Nvidia has launched a search for a permanent chief executive officer after co-founder Jensen Huang resigned amid personal conduct allegations. The technology company immediately named its chief financial officer, Colette Kress, as **interim** chief executive while the board considers potential permanent replacements.",
+     "Huang had led Nvidia since founding it in 1993, transforming it into a major force behind global artificial intelligence systems. Industry observers note that whoever permanently succeeds him will hold immense influence over the **burgeoning** technology sector, given Nvidia's dominant role supplying advanced hardware.",
+     "Candidates under consideration include key internal product directors as well as executives from prominent semiconductor partners. Kress, who joined Nvidia in 2013 after extensive corporate finance experience, could also remain in the role long-term."
+    ],
+    "source_ids": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "headline": "US Envoys Hold Peace Discussions in Moscow and Dublin",
+    "paragraphs": [
+     "American diplomatic representatives Jared Kushner and Steve Witkoff have conducted new talks with Russian President Vladimir Putin in Moscow before traveling to Dublin to meet Ukrainian President Volodymyr Zelensky. The diplomatic push aims to find a structural path toward resolving the ongoing war.",
+     "The meetings follow preliminary discussions held in the United Arab Emirates regarding European security arrangements. However, significant political gaps remain, with Russian demands far exceeding conditions that Ukraine considers acceptable. US officials indicated that European nations will be invited to participate directly in upcoming formal sessions.",
+     "During the talks, President Zelensky raised fresh operational concerns regarding satellite connectivity interruptions affecting Ukrainian defensive operations against airborne targets. American representatives confirmed that resolving technical barriers remains essential to **facilitate** stable communication and build constructive dialogue."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Meta Rolls Out Advanced Advertising and AI Tools for Thai Merchants",
+    "paragraphs": [
+     "Technology firm Meta has launched new digital advertising tools in Thailand designed to help businesses manage marketing across multiple commerce platforms. Thailand is among the first markets in the Asia-Pacific region to gain access to these solutions.",
+     "The new features include an **omnichannel** system—meaning an approach that connects physical stores with digital channels—allowing companies to measure combined online and offline purchases. Another tool uses generative artificial intelligence to help merchants turn product images or short descriptions into video advertisements in minutes.",
+     "Meta representatives explained that Thai consumers frequently research products on social media before purchasing at physical shops. The tools aim to bridge this gap, helping small businesses create content faster while accurately tracking their sales results across all sales locations."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   },
+   {
+    "headline": "Community-Led Housing Projects Support Low-Income Urban Residents",
+    "paragraphs": [
+     "More than half a million disadvantaged residents across Asia have gained safe housing through community-led initiatives, according to industry __expertise__ shared at the Sustainability Expo 2026. The approach, known as Collective Housing, puts residents at the center of planning and constructing their own neighborhoods.",
+     "Advocates from Thailand, Indonesia, and Myanmar shared practical examples of how local groups can **empower** families to upgrade settlements. In Thailand, projects along Khlong Prem Prachakorn—a khlong being a traditional canal running through the capital—allowed residents to improve living conditions while staying in their original neighborhoods.",
+     "Speakers highlighted that allowing communities to manage local savings and coordinate construction creates stronger, more adaptable cities. Rather than relying solely on government aid, organized neighborhoods can rebuild faster after natural disasters and maintain long-term urban stability."
+    ],
+    "source_ids": [
+     "S7"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "paragraphs": [
+    "Exploring a bustling neighborhood market in a new country is one of the most rewarding aspects of international travel. From vibrant morning stalls to aromatic night venues, local food hubs offer direct insight into culinary traditions. However, stepping into unfamiliar food markets can occasionally feel overwhelming for travelers unsure of local etiquette or ordering customs.",
+    "To enjoy these experiences fully, baseline preparation is helpful. Before visiting, research local meal times and customary ordering procedures. Observing how local residents queue, select items, and pay provides clear guidance on vendor expectations. Paying attention to these subtle interactions helps visitors avoid awkward misunderstandings and ensures a **cordial** interaction for both buyer and merchant.",
+    "Communication at food stalls does not require fluency in the local language. Basic polite phrases, paired with clear gestures, work remarkably well. Pointing respectfully to displayed ingredients or choosing dishes prepared fresh in front of customers helps ensure safety while simplifying the process. Managing money __logistics__ carefully by carrying small cash denominations also speeds up transactions during busy market hours, preventing unnecessary __mayhem__ at crowded stalls.",
+    "Food hygiene is another key practical consideration. Selecting stalls with high customer turnover generally ensures fresh ingredients and avoids a __stunning__ drop in quality. Watching for clean workspace practices provides additional reassurance. Embracing local dining habits with reasonable preparation transforms simple meals into memorable cultural exchanges."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Joining a Group Meal at a Casual Social Event",
+   "situation": "You arrive at an informal dinner gathering with friends and colleagues after work, and you want to ask if a specific open seat at the main table is currently available for you to sit down.",
+   "formal": "Excuse me, would anyone mind if I take this seat?",
+   "neutral": "Is anyone sitting here, or may I join you?",
+   "casual": "Is this spot free?",
+   "useful_phrases": [
+    "Is anyone sitting here?",
+    "Would you mind if I join you?",
+    "Is this spot free?"
+   ]
+  },
+  "trap": {
+   "title": "Direct Translation: 'Eat Water' for Drinking",
+   "wrong": "I am very thirsty after walking, so I want to eat water.",
+   "right": "I am very thirsty after walking, so I want to drink water.",
+   "explanation": "Thai speakers often translate the general daily verb 'กิน' (kin) directly into English as 'eat', which frequently leads to awkward phrasing like 'eat water' (กินน้ำ). In standard English grammar, the verb 'eat' is reserved strictly for solid food items, whereas liquid beverages always require the verb 'drink'. Using the correct verb ensures your spoken English sounds natural, clear, and professional in social settings."
+  },
+  "word_bank": [
+   {
+    "word": "commendation",
+    "pos": "noun",
+    "definition": "official praise given to someone for a special achievement or good action",
+    "thai": "คำชมเชยอย่างเป็นทางการ",
+    "collocations": [
+     "receive a commendation",
+     "official commendation",
+     "letter of commendation"
+    ],
+    "example": "Following the incident, Hegseth issued an official **commendation** to Iglesias."
+   },
+   {
+    "word": "solemn",
+    "pos": "adjective",
+    "definition": "very serious, dignified, and formal",
+    "thai": "เคร่งขรึม, เป็นทางการ",
+    "collocations": [
+     "solemn occasion",
+     "solemn promise",
+     "solemn expression"
+    ],
+    "example": "Parnell stated that during the **solemn** occasion, the sentinel acted correctly and respectfully when reminding the group to maintain appropriate decorum."
+   },
+   {
+    "word": "interim",
+    "pos": "adjective",
+    "definition": "intended to last for a short time until a permanent replacement is found",
+    "thai": "ชั่วคราว",
+    "collocations": [
+     "interim report",
+     "interim leader",
+     "interim measure"
+    ],
+    "example": "The technology company immediately named its chief financial officer, Colette Kress, as **interim** chief executive while the board considers potential permanent replacements."
+   },
+   {
+    "word": "burgeoning",
+    "pos": "adjective",
+    "definition": "growing or developing very quickly",
+    "thai": "ที่กำลังเติบโตอย่างรวดเร็ว",
+    "collocations": [
+     "burgeoning market",
+     "burgeoning demand",
+     "burgeoning industry"
+    ],
+    "example": "Industry observers note that whoever permanently succeeds him will hold immense influence over the **burgeoning** technology sector, given Nvidia's dominant role supplying advanced hardware."
+   },
+   {
+    "word": "facilitate",
+    "pos": "verb",
+    "definition": "to make an action, process, or task easier or smoother",
+    "thai": "อำนวยความสะดวก",
+    "collocations": [
+     "facilitate trade",
+     "facilitate growth",
+     "facilitate discussions"
+    ],
+    "example": "American representatives confirmed that resolving technical barriers remains essential to **facilitate** stable communication and build constructive dialogue."
+   },
+   {
+    "word": "omnichannel",
+    "pos": "adjective",
+    "definition": "integrating physical stores and digital media to give customers a seamless shopping experience",
+    "thai": "การเชื่อมโยงช่องทางขายทั้งหมดเข้าด้วยกัน",
+    "collocations": [
+     "omnichannel strategy",
+     "omnichannel retail",
+     "omnichannel experience"
+    ],
+    "example": "The new features include an **omnichannel** system—meaning an approach that connects physical stores with digital channels—allowing companies to measure combined online and offline purchases."
+   },
+   {
+    "word": "empower",
+    "pos": "verb",
+    "definition": "to give someone the authority, confidence, or legal power to act",
+    "thai": "ให้อำนาจ, เสริมพลัง",
+    "collocations": [
+     "empower individuals",
+     "empower staff",
+     "empower communities"
+    ],
+    "example": "Advocates from Thailand, Indonesia, and Myanmar shared practical examples of how local groups can **empower** families to upgrade settlements."
+   },
+   {
+    "word": "cordial",
+    "pos": "adjective",
+    "definition": "warm, friendly, and polite",
+    "thai": "ด้วยมิตรไมตรี, สุภาพ",
+    "collocations": [
+     "cordial welcome",
+     "cordial relationship",
+     "cordial atmosphere"
+    ],
+    "example": "Paying attention to these subtle interactions helps visitors avoid awkward misunderstandings and ensures a **cordial** interaction for both buyer and merchant."
+   },
+   {
+    "word": "stunning",
+    "pos": "adjective",
+    "definition": "extremely surprising, impressive, or beautiful",
+    "thai": "น่าประหลาดใจอย่างยิ่ง, สวยงามตระการตา",
+    "collocations": [],
+    "example": "Selecting stalls with high customer turnover generally ensures fresh ingredients and avoids a __stunning__ drop in quality."
+   },
+   {
+    "word": "logistics",
+    "pos": "noun",
+    "definition": "the practical organization and management of complex operations",
+    "thai": "การจัดการขนส่งและระบบการทำงาน",
+    "collocations": [],
+    "example": "Managing money __logistics__ carefully by carrying small cash denominations also speeds up transactions during busy market hours, preventing unnecessary __mayhem__ at crowded stalls."
+   },
+   {
+    "word": "mayhem",
+    "pos": "noun",
+    "definition": "a state of extreme confusion, disorder, or violent disruption",
+    "thai": "ความวุ่นวายโกลาหล",
+    "collocations": [],
+    "example": "Managing money __logistics__ carefully by carrying small cash denominations also speeds up transactions during busy market hours, preventing unnecessary __mayhem__ at crowded stalls."
+   },
+   {
+    "word": "expertise",
+    "pos": "noun",
+    "definition": "expert skill or deep knowledge in a particular field",
+    "thai": "ความเชี่ยวชาญ",
+    "collocations": [],
+    "example": "More than half a million disadvantaged residents across Asia have gained safe housing through community-led initiatives, according to industry __expertise__ shared at the Sustainability Expo 2026."
+   }
+  ],
+  "activity": {
+   "instructions": "Solve these mini crossword clues using today's target words. Letter counts are provided in brackets.",
+   "items": [
+    "To make a process easier or run more smoothly (10)",
+    "Warm, polite, and friendly in manner (7)",
+    "Temporary, serving until a permanent choice is made (7)",
+    "A formal statement or award of official praise (12)",
+    "Connecting physical stores with online sales channels (11)",
+    "To give people the power or confidence to take control (7)"
+   ],
+   "answers": [
+    "facilitate",
+    "cordial",
+    "interim",
+    "commendation",
+    "omnichannel",
+    "empower"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The company named an interim chief while looking for permanent replacement.",
+    "corrected": "The company named an interim chief while looking for a permanent replacement.",
+    "reason": "Missing indefinite article 'a' before singular countable noun phrase 'permanent replacement'."
+   },
+   {
+    "sentence": "Delegates discussed how digital tools can empower to local merchants.",
+    "corrected": "Delegates discussed how digital tools can empower local merchants.",
+    "reason": "The verb 'empower' takes a direct object without the preposition 'to'."
+   },
+   {
+    "sentence": "American envoys held peace discussions in Dublin to facilitate to stable communication.",
+    "corrected": "American envoys held peace discussions in Dublin to facilitate stable communication.",
+    "reason": "The verb 'facilitate' takes a direct object without the preposition 'to'."
+   },
+   {
+    "sentence": "The solemn ceremony demanded visitors to keep completely quiet.",
+    "corrected": "The solemn ceremony demanded that visitors keep completely quiet.",
+    "reason": "'Demand' takes a clause starting with 'that' rather than a direct object plus infinitive."
+   },
+   {
+    "sentence": "The burgeoning tech sector created many new job last year.",
+    "corrected": "The burgeoning tech sector created many new jobs last year.",
+    "reason": "Plural noun 'jobs' is required after the quantifier 'many'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Learning basic French phrases for shopping helps you navigate boutique stores, outdoor markets, and local bakeries with confidence.",
+   "phrases": [
+    {
+     "phrase": "Combien ça coûte ?",
+     "pronunciation": "kom-byan sah koot",
+     "meaning": "How much does it cost?"
+    },
+    {
+     "phrase": "Je voudrais ceci, s'il vous plaît.",
+     "pronunciation": "zhuh voo-dray suh-see, seel voo play",
+     "meaning": "I would like this, please."
+    },
+    {
+     "phrase": "Avez-vous d'autres tailles ?",
+     "pronunciation": "ah-vay voo doht-ruh tie",
+     "meaning": "Do you have other sizes?"
+    }
+   ],
+   "root": {
+    "root": "vente (Latin: vendere)",
+    "meaning": "sale, to sell",
+    "english_words": "vendor, vend, venture, vending machine",
+    "note": "This root relates to commerce and selling products directly to customers."
+   },
+   "borrowed": {
+    "word": "boutique",
+    "note": "Borrowed from French, where it originally meant any small store or shop."
+   },
+   "curious": {
+    "word": "lèche-vitrine",
+    "pronunciation": "lesh-vee-treen",
+    "meaning": "window shopping (literally: window licking)",
+    "note": "A playful French expression describing the act of browsing store windows without buying anything."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 285,
+  "world_1": 120,
+  "world_2": 126,
+  "thailand_1": 121,
+  "thailand_2": 127,
+  "feature": 222,
+  "real_english": 175,
+  "language_lab": 121,
+  "other_language": 116,
+  "word_bank": 441,
+  "total": 2036
+ },
+ "notes": [
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 285 words (target 470–510)",
+  "world_1: 120 words (target 140–160)",
+  "thailand_1: 121 words (target 140–160)",
+  "feature: 222 words (target 310–370)",
+  "real_english: 175 words (target 260–320)",
+  "language_lab: 121 words (target 150–260)",
+  "other_language: 116 words (target 140–190)",
+  "whole issue: 2036 words (target 2300–2700)",
+  "sentences over 35 words: cover.paragraphs[0] (36 words)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
