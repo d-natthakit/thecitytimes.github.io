@@ -1,0 +1,724 @@
+{
+ "plan": {
+  "date": "2026-11-15",
+  "date_long": "Sunday, 15 November 2026",
+  "weekday": "Sun",
+  "issue_no": 17,
+  "language": "German",
+  "phrase_theme": "getting around town",
+  "feature": "Business / Money",
+  "opinion": "say_it_better",
+  "setting": "services & customers",
+  "activity": "Context clue challenge",
+  "trap": "Confusing word pairs (e.g. bored/boring)",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "burgeoning",
+   "capitalizing",
+   "coercion",
+   "commendation",
+   "compelling",
+   "compostable",
+   "concessions",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "crackdown",
+   "credible",
+   "culinary",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "empower",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "expertise",
+   "extinction",
+   "extramarital",
+   "facilitate",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "groomed",
+   "hospitality",
+   "impasse",
+   "improvise",
+   "incorporate",
+   "inevitable",
+   "interim",
+   "intermittent",
+   "listing",
+   "logistics",
+   "look into",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "proportionately",
+   "proscription",
+   "rectify",
+   "reinstate",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "slashed",
+   "slashing",
+   "solemn",
+   "sparked",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "undergoes",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "versatile",
+   "vitality",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "groomed",
+    "taught_date": "2026-11-14",
+    "days_ago": 1
+   },
+   {
+    "word": "misconduct",
+    "taught_date": "2026-11-14",
+    "days_ago": 1
+   },
+   {
+    "word": "listing",
+    "taught_date": "2026-11-14",
+    "days_ago": 1
+   },
+   {
+    "word": "undergoes",
+    "taught_date": "2026-11-14",
+    "days_ago": 1
+   },
+   {
+    "word": "scrutiny",
+    "taught_date": "2026-11-14",
+    "days_ago": 1
+   },
+   {
+    "word": "inevitable",
+    "taught_date": "2026-11-14",
+    "days_ago": 1
+   },
+   {
+    "word": "unaccounted for",
+    "taught_date": "2026-11-14",
+    "days_ago": 1
+   },
+   {
+    "word": "stunning",
+    "taught_date": "2026-11-12",
+    "days_ago": 3
+   },
+   {
+    "word": "logistics",
+    "taught_date": "2026-11-12",
+    "days_ago": 3
+   },
+   {
+    "word": "mayhem",
+    "taught_date": "2026-11-12",
+    "days_ago": 3
+   },
+   {
+    "word": "expertise",
+    "taught_date": "2026-11-12",
+    "days_ago": 3
+   },
+   {
+    "word": "forfeit",
+    "taught_date": "2026-11-12",
+    "days_ago": 3
+   },
+   {
+    "word": "compostable",
+    "taught_date": "2026-11-12",
+    "days_ago": 3
+   },
+   {
+    "word": "mandate",
+    "taught_date": "2026-11-08",
+    "days_ago": 7
+   },
+   {
+    "word": "impasse",
+    "taught_date": "2026-11-08",
+    "days_ago": 7
+   },
+   {
+    "word": "allegations",
+    "taught_date": "2026-11-08",
+    "days_ago": 7
+   },
+   {
+    "word": "disperse",
+    "taught_date": "2026-11-08",
+    "days_ago": 7
+   },
+   {
+    "word": "nuanced",
+    "taught_date": "2026-11-08",
+    "days_ago": 7
+   },
+   {
+    "word": "discrepancy",
+    "taught_date": "2026-11-08",
+    "days_ago": 7
+   },
+   {
+    "word": "rectify",
+    "taught_date": "2026-11-08",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "kaufen",
+   "Glockenspiel",
+   "Hamsterkauf",
+   "essen",
+   "delicatessen",
+   "Kummerspeck",
+   "trinken",
+   "Pretzel",
+   "Kaffeeklatsch",
+   "sprechen",
+   "Kindergarten",
+   "Feierabend"
+  ],
+  "recent_news_titles": [
+   "UK police open sex offence probe into comedian and author David Walliams",
+   "David Walliams: UK police launch sex offense probe into comedian",
+   "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+   "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
+   "CRC sees revenue increase by 5% in third quarter",
+   "Abhisit urges clarity in Shuffle probe",
+   "Hegseth gives medal to guard who reprimanded him at Arlington national cemetery – US politics live",
+   "Hegseth awards medal to war memorial guard who reprimanded him and group",
+   "Nvidia CEO Jensen Huang steps down, more affair details revealed",
+   "Who could replace the departed Jensen Huang as Nvidia CEO?",
+   "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
+   "Meta launches new ad tools in Thailand",
+   "'Collective Housing' a boon for 500k in Asia",
+   "Democrat Scott Colom seals historic win in Mississippi Senate race",
+   "Democrat Scott Colom unseats Cindy Hyde-Smith in stunning Mississippi Senate win",
+   "Former Italian Red Brigades member escapes house arrest in Argentina",
+   "Italy: Hundreds of schools evacuated after bomb threats",
+   "More investors look to professionals",
+   "Amlo seeks B320m asset seizures"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "The Guardian",
+   "title": "Philippines’ Carmelle wins first Eurovision contest in Asia",
+   "url": "https://www.theguardian.com/tv-and-radio/2026/nov/14/philippines-carmelle-wins-first-eurovision-contest-in-asia",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "BBC News",
+   "title": "Philippines wins first Eurovision Song Contest Asia",
+   "url": "https://www.bbc.co.uk/news/articles/cqrlgnx9dx6eo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "BBC News",
+   "title": "Italy fines Meta €805m over accessing users' photos",
+   "url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "DW",
+   "title": "Hungary: Millions in hidden cash found in Orban graft probe",
+   "url": "https://www.dw.com/en/hungary-millions-in-hidden-cash-found-in-orban-graft-probe/a-79946923?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post",
+   "title": "Firms to face rising pressure: SCG",
+   "url": "https://www.bangkokpost.com/thailand/general/3354875/firms-to-face-rising-pressure-scg",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Khaosod English",
+   "title": "Exiled Cambodian politician denounces Francophonie summit, citing repression",
+   "url": "https://www.khaosodenglish.com/news/international/2026/11/14/exiled-cambodian-politician-denounces-francophonie-summit-citing-repression/",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "inaugural",
+   "resilient",
+   "spearhead",
+   "disruption",
+   "outperform",
+   "unveil",
+   "proactive",
+   "collaborate"
+  ],
+  "recycled_words": [
+   "scrutiny",
+   "rectify",
+   "undergoes",
+   "expertise"
+  ],
+  "cover": {
+   "headline": "Philippines’ Carmelle Claims Victory in First Asian Eurovision Edition",
+   "paragraphs": [
+    "Nineteen-year-old Carmelle Collado from the Philippines made history in Bangkok on Saturday night, winning the **inaugural** Eurovision Song Contest Asia. Performing under the single name Carmelle, she took top honors at the One Bangkok Forum with her entry, Sobra-Sobra. The triumph marks a landmark moment for the franchise, being the first regional edition staged outside Europe. Carmelle ended with 211 points, leaving host country Thailand in second place with 170 points and Vietnam in third with 164 points.",
+    "Carmelle’s winning song mixes modern pop and energetic rap with traditional Philippine instruments, namely the kubing and kulintang. Sung in Tagalog and English, the anthem celebrates female strength and independent women. Growing up near railway tracks in the Bicol region of Luzon, Carmelle has performed in televised talent competitions since age twelve. Following her win, she dedicated her success as a tribute to all Filipino women, expressing gratitude to fans worldwide who supported her on this global stage.",
+    "The event hosted eleven competing nations in a vibrant two-and-a-half-hour show. Opening performances celebrated Thai culture, featuring Muay Thai fighters alongside drag artists on street food carts before contestants arrived in tuk-tuks. The varied lineup included a cappella acts, rock ballads, and traditional attire. Bangladesh’s Beatmosphere performed without instruments, while Bhutan’s Nyendra wore a traditional gho against a Himalayan backdrop. Nepal’s singer Pratik Himal Rai delivered a rock performance while appealing for international support following recent devastating floods near the Chinese border.",
+    "The final outcome was determined by combining two separate voting segments. National juries evaluated acts during a Friday rehearsal, awarding the Philippines an initial lead of 93 points. Online public voting provided the remaining half of the total scores, allowing global viewers to submit free votes or purchase additional ballots. Laos representative Thinla suffered technical audio issues during her live set, prompting organizers to broadcast her dress rehearsal video later. Despite the problem, she secured fifth place overall with strong public backing.",
+    "Carmelle received a trophy presented by Bulgarian singer Dara, the recent European contest winner, along with an invitation to perform at Eurovision 2027 in Burgas. Organizers emphasized that hosting rights for future editions will not automatically transfer to winning nations due to infrastructure demands in smaller countries. Executive producer Assaf Blecher revealed that sixteen or seventeen territories have already expressed interest in joining next year's event, setting up a **resilient** platform for expanding the contest across Asia."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Italy Hits Meta with Record Fine Over Photo Privacy",
+    "paragraphs": [
+     "Italian regulators have fined social media giant Meta 805 million euros for accessing Android users' device photos without explicit consent. The Data Protection Authority stated that Meta failed to inform approximately 20 million users clearly about photo collection inside the Facebook app. Officials gave Meta 60 days to turn off the photo feature by default and ask users for separate permission.",
+     "The penalty represents one of the largest financial sanctions ever imposed on a tech firm by Italian authorities. Regulators highlighted the massive number of affected consumers, ongoing violations, and a lack of corporate cooperation. The action targets a feature that scans smartphone galleries to suggest potential media posts. Italian officials noted that initial app notices failed to clarify how photo data would be processed.",
+     "Meta strongly disputed the regulatory findings and confirmed plans to appeal the decision. A spokesperson argued that users must grant permission on their devices before the suggestion system operates and can alter settings anytime. The Italian fine follows a separate US court ruling that ordered Meta to pay major damages over data privacy disclosures, increasing regulatory __scrutiny__ on its global practices."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Hungarian Probe Recovers Hidden Cash in Corruption Case",
+    "paragraphs": [
+     "Hungarian authorities have recovered nearly 20 million dollars in hidden cash during an official corruption investigation involving a former government minister. The newly formed National Asset Recovery and Protection Office discovered the funds during a two-day search in Budapest and three surrounding counties. Officials found banknotes buried in forests, hidden in farm buildings, and locked in a remote safe.",
+     "The seized money is linked to Miklos Sesztak, who served as national development minister under former Prime Minister Viktor Orban between 2014 and 2018. Sesztak was arrested in late September under suspicion of taking over 37 million dollars in bribes connected to state bus purchases and construction contracts. He has denied all criminal charges through his legal representation.",
+     "Current Prime Minister Peter Magyar, set to **spearhead** anti-graft initiatives, praised the cash recovery as a turning point in his administration's reform efforts. Magyar's party won a decisive victory in April, promising to overhaul oversight and improve international relations. Authorities confirmed that all recovered funds have been deposited into state treasury accounts while broader financial investigations continue."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Thai Executives Warn of Rising Economic Pressures",
+    "paragraphs": [
+     "Thai business leaders are advising companies to prepare for significant economic and technological challenges over the next three years. Speaking at a sustainability panel in Bangkok, top executives from Siam Cement Group and Frasers Property Thailand warned that firms failing to prepare risk severe financial damage. They emphasized that any operational **disruption** could harm customer trust and supply chains.",
+     "Industry leaders noted that local firms face intense competition from imported goods and industrial overcapacity in mainland China. To remain competitive, companies must manage borrowing costs, monitor interest rates, and improve energy efficiency. Executives highlighted established corporate codes of conduct as useful tools for setting shared expectations with suppliers, while encouraging business leaders to **outperform** market expectations through sustainable practices.",
+     "The panel also discussed how rapid automation, artificial intelligence, and advanced robotics will impact employment. Speakers called for updated educational programs to train workers for high-value tasks alongside modern technology. Additionally, executives urged policymakers to refine property policies to attract foreign investment and retain top international talent in competitive sectors like semiconductor manufacturing."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Cambodian Opposition Figure Denounces Phnom Penh Summit",
+    "paragraphs": [
+     "Exiled Cambodian opposition leader Sam Rainsy has criticized an international summit taking place in Phnom Penh this weekend, calling the gathering improper. Leaders and senior ministers from French-speaking nations gathered for the International Organisation of La Francophonie summit. Rainsy argued from Paris that ongoing political persecution in Cambodia conflicts directly with the organization's stated values of democracy and human rights.",
+     "Human rights groups and international representatives have voiced similar concerns regarding the host nation. A United Nations envoy urged the Cambodian government to release over 100 detained activists before the event opened. Meanwhile, local civic groups submitted petitions highlighting democratic decline and civil society restrictions. French officials acknowledged these concerns, stating that human rights issues are being addressed through direct diplomatic dialogue rather than boycotts.",
+     "Cambodian officials dismissed the criticisms, stating the government is focused on running a successful international event. Political observers note that government pressure on independent media and political opposition remains strong following decades of single-party dominance. The nation also faces growing international pressure to __rectify__ illegal online fraud operations operating within its borders, which continue to draw global concern."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Mastering Effective Service Delivery and Customer Communication",
+   "paragraphs": [
+    "In today's fast-paced commercial landscape, maintaining strong customer relationships requires clear communication and structured service management. Whether handling daily retail transactions, administrative requests, or complex corporate accounts, front-line professionals must manage client expectations efficiently. Every business transaction __undergoes__ moments of friction, making transparent interaction vital for long-term customer loyalty.",
+    "To deliver high-quality service, organizations must establish standard communication procedures. When unexpected delays arise, acknowledging the issue early prevents customer frustration. Front-line staff should communicate current project statuses clearly without relying on dense jargon. Presenting direct solutions alongside clear timelines helps **unveil** an organization's commitment to quality while reassuring clients during critical project updates.",
+    "Handling demanding client scenarios also requires flexible negotiation skills. When facing unreasonable demands or policy constraints, taking a **proactive** stance helps staff offer viable alternatives rather than simple refusals. Explaining organizational guidelines calmly helps customers understand boundary limitations while keeping conversations productive and polite.",
+    "Effective service delivery relies on deep domain __expertise__ and consistent follow-up. Teams that monitor service inquiries systematically can identify recurring operational bottlenecks before they escalate. By analyzing customer feedback continuously, businesses can refine internal workflows, resolve service complaints smoothly, and protect critical revenue streams in an increasingly competitive marketplace."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Handling a Customer's Urgent Order Change",
+   "situation": "A customer contacts your service team asking to modify a confirmed order right before dispatch. You need to explain that while the package is already packed, you will try to update it.",
+   "formal": "We acknowledge your request to modify the order. Although processing is nearly complete, our team will **collaborate** with dispatch to attempt an adjustment.",
+   "neutral": "We have received your change request. The package is already prepared for shipping, but we will check if our team can update the items for you.",
+   "casual": "Got your message about changing the order! It is already packed up, but let me quick check if we can fix it for you before it goes out.",
+   "useful_phrases": [
+    "We have received your request regarding...",
+    "Although processing is nearly complete...",
+    "We will check if our team can update..."
+   ]
+  },
+  "trap": {
+   "title": "Confusing 'Bored' and 'Boring'",
+   "wrong": "The customer was very boring because the service was slow.",
+   "right": "The customer was very bored because the service was slow.",
+   "explanation": "In English, adjectives ending in '-ed' describe how a person feels, while adjectives ending in '-ing' describe the thing or person that causes the feeling. Saying 'the customer was boring' means the customer was not interesting, which translates incorrectly from the Thai idea of 'ลูกค้ารู้สึกเบื่อ' (the customer felt bored)."
+  },
+  "word_bank": [
+   {
+    "word": "inaugural",
+    "pos": "adjective",
+    "definition": "marking the beginning of an event, institution, or series",
+    "thai": "ครั้งแรก",
+    "collocations": [
+     "inaugural season",
+     "inaugural event",
+     "inaugural speech"
+    ],
+    "example": "Nineteen-year-old Carmelle Collado from the Philippines made history in Bangkok on Saturday night, winning the **inaugural** Eurovision Song Contest Asia."
+   },
+   {
+    "word": "resilient",
+    "pos": "adjective",
+    "definition": "able to recover quickly from difficult conditions",
+    "thai": "ยืดหยุ่นและฟื้นตัวได้เร็ว",
+    "collocations": [
+     "resilient economy",
+     "resilient market",
+     "highly resilient"
+    ],
+    "example": "Executive producer Assaf Blecher revealed that sixteen or seventeen territories have already expressed interest in joining next year's event, setting up a **resilient** platform for expanding the contest across Asia."
+   },
+   {
+    "word": "spearhead",
+    "pos": "verb",
+    "definition": "to lead a campaign, project, or movement",
+    "thai": "เป็นผู้นำในการขับเคลื่อน",
+    "collocations": [
+     "spearhead an initiative",
+     "spearhead a campaign",
+     "spearhead reform efforts"
+    ],
+    "example": "Current Prime Minister Peter Magyar, set to **spearhead** anti-graft initiatives, praised the cash recovery as a turning point in his administration's reform efforts."
+   },
+   {
+    "word": "disruption",
+    "pos": "noun",
+    "definition": "a disturbance that interrupts an activity, process, or system",
+    "thai": "การหยุดชะงัก",
+    "collocations": [
+     "cause disruption",
+     "operational disruption",
+     "major disruption"
+    ],
+    "example": "They emphasized that any operational **disruption** could harm customer trust and supply chains."
+   },
+   {
+    "word": "outperform",
+    "pos": "verb",
+    "definition": "to perform better than another person, team, or expectation",
+    "thai": "ทำผลงานได้เหนือกว่า",
+    "collocations": [
+     "outperform competitors",
+     "outperform expectations",
+     "outperform the market"
+    ],
+    "example": "Executives highlighted established corporate codes of conduct as useful tools for setting shared expectations with suppliers, while encouraging business leaders to **outperform** market expectations through sustainable practices."
+   },
+   {
+    "word": "unveil",
+    "pos": "verb",
+    "definition": "to reveal or present something new to the public for the first time",
+    "thai": "เปิดตัว",
+    "collocations": [
+     "unveil plans",
+     "unveil a new strategy",
+     "unveil a product"
+    ],
+    "example": "Presenting direct solutions alongside clear timelines helps **unveil** an organization's commitment to quality while reassuring clients during critical project updates."
+   },
+   {
+    "word": "proactive",
+    "pos": "adjective",
+    "definition": "taking action early to control a situation rather than responding after it happens",
+    "thai": "เชิงรุก",
+    "collocations": [
+     "proactive approach",
+     "proactive stance",
+     "proactive measures"
+    ],
+    "example": "When facing unreasonable demands or policy constraints, taking a **proactive** stance helps staff offer viable alternatives rather than simple refusals."
+   },
+   {
+    "word": "collaborate",
+    "pos": "verb",
+    "definition": "to work together with others to achieve a shared goal",
+    "thai": "ร่วมมือ",
+    "collocations": [
+     "collaborate with partners",
+     "collaborate closely",
+     "collaborate on a project"
+    ],
+    "example": "Although processing is nearly complete, our team will **collaborate** with dispatch to attempt an adjustment."
+   },
+   {
+    "word": "scrutiny",
+    "pos": "noun",
+    "definition": "critical observation or careful examination",
+    "thai": "การตรวจสอบอย่างเข้มงวด",
+    "collocations": [],
+    "example": "The Italian fine follows a separate US court ruling that ordered Meta to pay major damages over data privacy disclosures, increasing regulatory __scrutiny__ on its global practices."
+   },
+   {
+    "word": "rectify",
+    "pos": "verb",
+    "definition": "to correct or put right a mistake or bad situation",
+    "thai": "แก้ไขให้ถูกต้อง",
+    "collocations": [],
+    "example": "The nation also faces growing international pressure to __rectify__ illegal online fraud operations operating within its borders, which continue to draw global concern."
+   },
+   {
+    "word": "undergoes",
+    "pos": "verb",
+    "definition": "experiences or goes through a process or change",
+    "thai": "เผชิญหรือผ่านกระบวนการ",
+    "collocations": [],
+    "example": "Every business transaction __undergoes__ moments of friction, making transparent interaction vital for long-term customer loyalty."
+   },
+   {
+    "word": "expertise",
+    "pos": "noun",
+    "definition": "expert skill or high-level knowledge in a particular field",
+    "thai": "ความเชี่ยวชาญ",
+    "collocations": [],
+    "example": "Effective service delivery relies on deep domain __expertise__ and consistent follow-up."
+   }
+  ],
+  "activity": {
+   "instructions": "Read each sentence and determine the context meaning of the bold word by choosing (a), (b), or (c).",
+   "items": [
+    "The city hosted its **inaugural** marathon this morning, drawing runners from over thirty countries. (a) final (b) first-ever (c) annual",
+    "Despite facing unexpected supply delays, the firm proved **resilient** and reached its annual profit target. (a) fragile (b) slow (c) adaptable and strong",
+    "She was chosen to **spearhead** the company's new digital transformation project. (a) lead (b) delay (c) observe",
+    "A sudden storm caused a major train **disruption**, leaving hundreds of commuters stranded. (a) expansion (b) interruption (c) improvement",
+    "Tech stocks continue to **outperform** traditional retail investments this quarter. (a) fall behind (b) copy (c) exceed results of",
+    "Instead of waiting for customer complaints, the team took a **proactive** step by updating the software early. (a) taking early action (b) defensive (c) slow"
+   ],
+   "answers": [
+    "(b) first-ever",
+    "(c) adaptable and strong",
+    "(a) lead",
+    "(b) interruption",
+    "(c) exceed results of",
+    "(a) taking early action"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The ministry plans to unveil their new fraud prevention policy next week.",
+    "corrected": "The ministry plans to unveil its new fraud prevention policy next week.",
+    "reason": "Singular noun agreement"
+   },
+   {
+    "sentence": "Our team will collaborate to the local authorities to resolve the issue quickly.",
+    "corrected": "Our team will collaborate with the local authorities to resolve the issue quickly.",
+    "reason": "Incorrect preposition after verb"
+   },
+   {
+    "sentence": "Tech companies face increasing regulatory scrutiny in their privacy practices.",
+    "corrected": "Tech companies face increasing regulatory scrutiny of their privacy practices.",
+    "reason": "Incorrect preposition after scrutiny"
+   },
+   {
+    "sentence": "The company works hard to rectify on the software bugs found during testing.",
+    "corrected": "The company works hard to rectify the software bugs found during testing.",
+    "reason": "Transitive verb used with extra preposition"
+   },
+   {
+    "sentence": "Every major project undergoes through several rounds of quality checks before launch.",
+    "corrected": "Every major project undergoes several rounds of quality checks before launch.",
+    "reason": "Transitive verb used with unnecessary preposition"
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Navigating public transport in German-speaking cities is simple once you know a few key terms. Here are essential words for getting around town smoothly.",
+   "phrases": [
+    {
+     "phrase": "Wo ist die U-Bahn?",
+     "pronunciation": "voh ist dee oo-bahn",
+     "meaning": "Where is the underground train station?"
+    },
+    {
+     "phrase": "Eine Fahrkarte, bitte.",
+     "pronunciation": "eyene-eh fahr-kar-teh bit-teh",
+     "meaning": "One transit ticket, please."
+    },
+    {
+     "phrase": "Fährt dieser Bus zum Bahnhof?",
+     "pronunciation": "fairt dee-zer boos tsoom bahn-hof",
+     "meaning": "Does this bus go to the main station?"
+    }
+   ],
+   "root": {
+    "root": "fahren",
+    "meaning": "to drive, go, or travel",
+    "english_words": "fare, wayfarer, thoroughfare",
+    "note": "The Germanic root relates directly to English words connected with journey costs and passage."
+   },
+   "borrowed": {
+    "word": "Autobahn",
+    "note": "English borrowed Autobahn directly to refer specifically to Germany's famous express highway system without speed limits in open zones."
+   },
+   "curious": {
+    "word": "Schwarzfahren",
+    "pronunciation": "shvarts-fah-ren",
+    "meaning": "riding public transport without buying a valid ticket",
+    "note": "Literally translating to black travelling, it describes illegally riding trains or buses without paying the fare."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 397,
+  "world_1": 186,
+  "world_2": 174,
+  "thailand_1": 172,
+  "thailand_2": 183,
+  "feature": 196,
+  "real_english": 207,
+  "language_lab": 201,
+  "other_language": 135,
+  "word_bank": 447,
+  "total": 2456
+ },
+ "notes": [
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 397 words (target 470–510)",
+  "world_1: 186 words (target 140–160)",
+  "thailand_2: 183 words (target 140–160)",
+  "feature: 196 words (target 310–370)",
+  "real_english: 207 words (target 260–320)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
