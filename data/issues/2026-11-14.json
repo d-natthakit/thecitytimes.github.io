@@ -1,0 +1,732 @@
+{
+ "plan": {
+  "date": "2026-11-14",
+  "date_long": "Saturday, 14 November 2026",
+  "weekday": "Sat",
+  "issue_no": 16,
+  "language": "Italian",
+  "phrase_theme": "shopping",
+  "feature": "Cultures / Digital Life",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Odd one out",
+  "trap": "Word order & questions",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "burgeoning",
+   "capitalizing",
+   "coercion",
+   "commendation",
+   "compelling",
+   "compostable",
+   "concessions",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "crackdown",
+   "credible",
+   "culinary",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "empower",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "expertise",
+   "extinction",
+   "extramarital",
+   "facilitate",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "hospitality",
+   "impasse",
+   "improvise",
+   "incorporate",
+   "interim",
+   "intermittent",
+   "logistics",
+   "look into",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "proportionately",
+   "proscription",
+   "rectify",
+   "reinstate",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "slashed",
+   "slashing",
+   "solemn",
+   "sparked",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transparency",
+   "turnover",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "versatile",
+   "vitality",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "commendation",
+    "taught_date": "2026-11-13",
+    "days_ago": 1
+   },
+   {
+    "word": "solemn",
+    "taught_date": "2026-11-13",
+    "days_ago": 1
+   },
+   {
+    "word": "interim",
+    "taught_date": "2026-11-13",
+    "days_ago": 1
+   },
+   {
+    "word": "burgeoning",
+    "taught_date": "2026-11-13",
+    "days_ago": 1
+   },
+   {
+    "word": "facilitate",
+    "taught_date": "2026-11-13",
+    "days_ago": 1
+   },
+   {
+    "word": "omnichannel",
+    "taught_date": "2026-11-13",
+    "days_ago": 1
+   },
+   {
+    "word": "empower",
+    "taught_date": "2026-11-13",
+    "days_ago": 1
+   },
+   {
+    "word": "cordial",
+    "taught_date": "2026-11-13",
+    "days_ago": 1
+   },
+   {
+    "word": "substantive",
+    "taught_date": "2026-11-11",
+    "days_ago": 3
+   },
+   {
+    "word": "architecture",
+    "taught_date": "2026-11-11",
+    "days_ago": 3
+   },
+   {
+    "word": "slashed",
+    "taught_date": "2026-11-11",
+    "days_ago": 3
+   },
+   {
+    "word": "resolution",
+    "taught_date": "2026-11-11",
+    "days_ago": 3
+   },
+   {
+    "word": "framework",
+    "taught_date": "2026-11-11",
+    "days_ago": 3
+   },
+   {
+    "word": "concessions",
+    "taught_date": "2026-11-11",
+    "days_ago": 3
+   },
+   {
+    "word": "pivotal",
+    "taught_date": "2026-11-11",
+    "days_ago": 3
+   },
+   {
+    "word": "advocacy",
+    "taught_date": "2026-11-11",
+    "days_ago": 3
+   },
+   {
+    "word": "secular",
+    "taught_date": "2026-11-07",
+    "days_ago": 7
+   },
+   {
+    "word": "stamina",
+    "taught_date": "2026-11-07",
+    "days_ago": 7
+   },
+   {
+    "word": "warrant",
+    "taught_date": "2026-11-07",
+    "days_ago": 7
+   },
+   {
+    "word": "monetize",
+    "taught_date": "2026-11-07",
+    "days_ago": 7
+   },
+   {
+    "word": "capitalizing",
+    "taught_date": "2026-11-07",
+    "days_ago": 7
+   },
+   {
+    "word": "sustainable",
+    "taught_date": "2026-11-07",
+    "days_ago": 7
+   },
+   {
+    "word": "scenarios",
+    "taught_date": "2026-11-07",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "gustus",
+   "al dente",
+   "scarpetta",
+   "espresso",
+   "barista",
+   "pausa",
+   "parlare",
+   "cappuccino",
+   "magari"
+  ],
+  "recent_news_titles": [
+   "Hegseth gives medal to guard who reprimanded him at Arlington national cemetery – US politics live",
+   "Hegseth awards medal to war memorial guard who reprimanded him and group",
+   "Nvidia CEO Jensen Huang steps down, more affair details revealed",
+   "Who could replace the departed Jensen Huang as Nvidia CEO?",
+   "US envoys meet Zelensky in Dublin after talks with Putin in Moscow",
+   "Meta launches new ad tools in Thailand",
+   "'Collective Housing' a boon for 500k in Asia",
+   "Democrat Scott Colom seals historic win in Mississippi Senate race",
+   "Democrat Scott Colom unseats Cindy Hyde-Smith in stunning Mississippi Senate win",
+   "Former Italian Red Brigades member escapes house arrest in Argentina",
+   "Italy: Hundreds of schools evacuated after bomb threats",
+   "More investors look to professionals",
+   "Amlo seeks B320m asset seizures",
+   "US officials seek ‘final end’ to Russia-Ukraine war, as Abu Dhabi talks set to continue",
+   "Russia and Ukraine hold nearly 4 hours of U.S.-mediated talks in Abu Dhabi",
+   "US House Republicans block Pete Hegseth impeachment effort",
+   "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
+   "Biofuel consumption soars following excise tax cuts",
+   "Ex-monk leads convoy demanding cheaper fuel"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "Al Jazeera",
+   "title": "UK police open sex offence probe into comedian and author David Walliams",
+   "url": "https://www.aljazeera.com/news/2026/11/14/uk-police-open-sex-offence-probe-into-comedian-and-author-david-walliams?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "DW",
+   "title": "David Walliams: UK police launch sex offense probe into comedian",
+   "url": "https://www.dw.com/en/david-walliams-uk-police-launch-sex-offense-probe-into-comedian/a-79944161?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "BBC News",
+   "title": "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+   "url": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "The Guardian",
+   "title": "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
+   "url": "https://www.theguardian.com/world/2026/nov/13/eisenkot-accuses-netanyahu-of-racist-campaign-against-israels-arab-minority",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "CRC sees revenue increase by 5% in third quarter",
+   "url": "https://www.bangkokpost.com/business/general/3354340/crc-sees-revenue-increase-by-5-in-third-quarter",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Abhisit urges clarity in Shuffle probe",
+   "url": "https://www.bangkokpost.com/thailand/general/3354255/abhisit-urges-clarity-in-shuffle-probe",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "groomed",
+   "misconduct",
+   "listing",
+   "undergoes",
+   "scrutiny",
+   "inevitable",
+   "unaccounted for"
+  ],
+  "recycled_words": [
+   "resolution",
+   "framework",
+   "stamina",
+   "facilitate"
+  ],
+  "cover": {
+   "headline": "UK Police Open Sexual Offense Probe into Comedian David Walliams",
+   "paragraphs": [
+    "Police in London have launched an official investigation into serious sexual offense allegations against British comedian and children's author David Walliams. The Metropolitan Police confirmed on Friday that they received multiple reports of past sexual offenses involving a man in his 50s. Detective Superintendent Mike Cagney urged anyone affected by similar experiences to come forward and speak with officers.",
+    "The official police inquiry follows joint investigative reports published by ITV News and The Guardian. The media outlets released an hourlong video documentary titled David Walliams: Power and Silence. In their reporting, several women accused Walliams of sexual **misconduct** over a 20-year period dating back to 2003. One woman alleged that Walliams sexually assaulted her at his London home when she was 15 years old, while others claimed he **groomed** them while they were teenagers.",
+    "The investigative reports also highlighted allegations of workplace sexual harassment involving female colleagues at his former employer, book publisher HarperCollins, as well as inappropriate behavior on the television show Britain's Got Talent, where Walliams served as a judge. The published reports resulted from a three-year media investigation involving interviews with more than 100 people.",
+    "Walliams, who turned 55, firmly denies all allegations of wrongdoing. In a written statement to the media outlets, Walliams said that while a power imbalance is **inevitable** when one party is famous, abusing that power is something he never did. He maintained that he is not a sexual predator and has not broken the law. Walliams previously lost a High Court bid to block media outlets from naming him, after a judge ruled an injunction would interfere with media rights.",
+    "The Metropolitan Police stated that their current investigation is based on allegations separate from those reported by ITV and The Guardian. However, the public allegations have already caused severe professional consequences for the entertainer. The BBC confirmed it removed several shows featuring Walliams, including his famous sketch show Little Britain, from its services. His talent agency, Independent Talent Group, announced it no longer represents him in any capacity."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "All Passengers Rescued After Mississippi River Cruise Ship Collision",
+    "paragraphs": [
+     "Around 130 passengers were successfully rescued after a cruise ship collides with a cargo vessel on the Mississippi River near New Orleans on Friday. The riverboat, American Heritage, began taking on water and **listing** before tipping onto its side after being struck by the cargo ship Atlantic Asphalt. Officials confirmed 32 people were taken to hospital with non-critical injuries.",
+     "Emergency calls were received around 13:30 EST, prompting immediate action from first responders, police, and local tugboat operators. Authorities temporarily closed the Mississippi River to conduct the search effort. Local officials praised the rapid response, noting that zero people remained **unaccounted for** following the dramatic incident.",
+     "The United States Coast Guard reported that a loss of steering on one of the vessels appears to be the cause of the collision. The riverboat was completing an eight-day cruise when the crash occurred. Officials have launched a full investigation into the exact causes of the maritime accident."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Eisenkot Accuses Netanyahu of Racist Campaign Against Arab Minority",
+    "paragraphs": [
+     "Israeli political leader Gadi Eisenkot has publicly accused caretaker Prime Minister Benjamin Netanyahu of leading a racist campaign against the country's Arab minority. Eisenkot criticized efforts to delegitimize Arab lawmakers after Netanyahu linked Arab-majority political parties to Hamas ahead of government-building talks.",
+     "Arab citizens make up over 20 percent of Israel's population, and two main Arab-majority parties won 19 parliamentary seats in recent elections. Eisenkot stated that Arab citizens are an integral part of Israeli society and condemned attempts to vilify them collectively. He argued that such political attacks violate basic principles of civic responsibility.",
+     "The political tension comes as Eisenkot attempts to form a new governing coalition after receiving the presidential mandate. However, right-wing allies have threatened to withdraw support if Arab parties are included in the final coalition agreement, creating further political uncertainty."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Central Retail Reports Revenue Growth and Third-Quarter Profit Surge",
+    "paragraphs": [
+     "Central Retail Corporation (CRC), a major Thai retail operator running store networks across Thailand and Vietnam, reported total revenue of 61.1 billion baht for the third quarter. This represents a 5 percent increase year-on-year. Core profit from continuing operations rose by 72 percent to reach 2.05 billion baht, exceeding two billion baht for the third consecutive year.",
+     "To sustain growth, CRC is accelerating its strategic plan in the final quarter. The company continues to enhance customer experiences by adopting modern artificial intelligence solutions across its store networks. Additionally, every corporate expansion project **undergoes** a strict financial assessment to maintain capital control, while the firm adopts electric delivery trucks and solar energy to reduce operational costs.",
+     "Central Department Store is also expanding its brand portfolio by introducing more than 25 new international brands during the upcoming festive season. Looking ahead, CRC plans to continue store renovations and new branch openings across both Thailand and Vietnam to capture rising seasonal consumer demand."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Abhisit Urges Transparency in Online Gambling Platform Inquiry",
+    "paragraphs": [
+     "Democrat Party leader Abhisit Vejjajiva has urged the Department of Special Investigation, a Thai federal law enforcement agency, to handle its inquiry into the website Shuffle.com with complete transparency. He warned that a lack of clear explanation could undermine public confidence in the national financial system.",
+     "The case involves allegations regarding online gambling networks and money laundering activities linked to the family of a former political figure. Reports suggest the agency might not accept the case officially because the monetary amount falls short of the required 300 million baht threshold. Abhisit stated that if investigators decide not to pursue the matter, they must explain their legal reasons clearly.",
+     "The politician emphasized that Thailand is already facing public **scrutiny** regarding illicit capital and grey market activities. He added that state agencies must provide clear answers to parliamentary committees to protect economic stability and maintain public trust."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "paragraphs": [
+    "Modern professional life relies heavily on digital platforms to connect teams across continents. We send messages instantly, share project files in seconds, and attend virtual video meetings with colleagues from diverse international backgrounds. However, virtual connectivity does not automatically create deep cultural understanding. True global collaboration requires professional workers to look beyond digital communication tools and actively practice cultural empathy.",
+    "One common challenge in online workplaces is interpreting message tone without physical cues. In many Asian cultures, indirect communication is used to show respect, whereas Western colleagues often prefer direct feedback. When working through chat tools, these stylistic differences can cause minor misunderstandings. Taking time to learn how international colleagues communicate helps team members reach a mutual __resolution__ during challenging projects.",
+    "Building genuine cross-cultural relationships also requires working within a clear communication __framework__. Professionals should remain curious about regional customs, public holidays, and local business etiquette. Instead of assuming everyone shares the same routine, adaptable workers adjust their expectations regarding working hours and response times. Showing consideration for international calendars builds long-term respect.",
+    "To __facilitate__ better teamwork, remote workers can create casual virtual spaces for personal conversations. Brief informal chats before business meetings allow colleagues to share daily cultural experiences, local traditions, or personal stories. These small human connections make virtual interactions feel warmer and reduce the feeling of distance created by digital screens.",
+    "Navigating cultural differences takes mental __stamina__ and patience. Digital tools help us exchange technical information quickly, but human relationships depend on active listening and open minds. By intentionally practicing cultural empathy online, modern professionals can transform global digital workspaces into truly inclusive, supportive environments."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should teams require members to turn cameras on during routine virtual meetings?",
+   "view_a": {
+    "title": "Visibility Builds Connection",
+    "text": "Keeping cameras on during team calls creates essential visual engagement. Seeing colleagues' facial expressions helps team members connect personally and read non-verbal cues. **Admittedly**, constantly appearing on screen can feel tiring during long work sessions. However, visual interaction prevents people from multitasking and keeps discussions focused. Turning cameras on builds trust among remote team members and creates a real meeting environment."
+   },
+   "view_b": {
+    "title": "Flexibility Respects Privacy",
+    "text": "Mandatory camera policies put unnecessary pressure on employees working from home. People may have private home environments or poor internet connections that make video calls stressful. **While** seeing facial expressions is helpful, forcing people onto camera does not guarantee actual engagement. Workers can participate actively through voice chat and shared digital documents. Allowing video choice respects personal privacy and reduces online fatigue."
+   },
+   "phrases": [
+    {
+     "phrase": "Admittedly",
+     "function": "concession"
+    },
+    {
+     "phrase": "While",
+     "function": "contrast"
+    },
+    {
+     "phrase": "can feel tiring",
+     "function": "hedging"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Word Order in Questions",
+   "wrong": "Why you did not turn on your camera during the meeting?",
+   "right": "Why didn't you turn on your camera during the meeting?",
+   "explanation": "Thai speakers often place the subject before the auxiliary verb in English questions, directly translating structures like ทำไมคุณไม่ (why you not). In English direct questions, the auxiliary verb must come before the subject."
+  },
+  "word_bank": [
+   {
+    "word": "groomed",
+    "pos": "verb",
+    "definition": "manipulated or prepared someone over time to exploit them",
+    "thai": "หลอกล่อเพื่อผลประโยชน์ (โดยเฉพาะทางเพศ)",
+    "collocations": [
+     "groom a victim",
+     "groomed online",
+     "groomed for exploitation"
+    ],
+    "example": "One woman alleged that Walliams sexually assaulted her at his London home when she was 15 years old, while others claimed he **groomed** them while they were teenagers."
+   },
+   {
+    "word": "misconduct",
+    "pos": "noun",
+    "definition": "unacceptable, improper, or illegal behavior",
+    "thai": "การประพฤติผิด",
+    "collocations": [
+     "sexual misconduct",
+     "professional misconduct",
+     "allegations of misconduct"
+    ],
+    "example": "In their reporting, several women accused Walliams of sexual **misconduct** over a 20-year period dating back to 2003."
+   },
+   {
+    "word": "listing",
+    "pos": "verb",
+    "definition": "leaning heavily to one side, especially a ship",
+    "thai": "เอียงไปข้างหนึ่ง (เรือ)",
+    "collocations": [
+     "start listing",
+     "listing heavily",
+     "listing ship"
+    ],
+    "example": "The riverboat, American Heritage, began taking on water and **listing** before tipping onto its side after being struck by the cargo ship Atlantic Asphalt."
+   },
+   {
+    "word": "undergoes",
+    "pos": "verb",
+    "definition": "experiences or goes through a process or change",
+    "thai": "ผ่าน (กระบวนการหรือการเปลี่ยนแปลง)",
+    "collocations": [
+     "undergo a change",
+     "undergo inspection",
+     "undergo treatment"
+    ],
+    "example": "Additionally, every corporate expansion project **undergoes** a strict financial assessment to maintain capital control, while the firm adopts electric delivery trucks and solar energy to reduce operational costs."
+   },
+   {
+    "word": "scrutiny",
+    "pos": "noun",
+    "definition": "careful and detailed examination or inspection",
+    "thai": "การตรวจสอบอย่างละเอียด",
+    "collocations": [
+     "public scrutiny",
+     "intense scrutiny",
+     "face scrutiny"
+    ],
+    "example": "The politician emphasized that Thailand is already facing public **scrutiny** regarding illicit capital and grey market activities."
+   },
+   {
+    "word": "inevitable",
+    "pos": "adjective",
+    "definition": "certain to happen and impossible to avoid",
+    "thai": "ซึ่งหลีกเลี่ยงไม่ได้",
+    "collocations": [
+     "an inevitable result",
+     "seem inevitable",
+     "inevitable change"
+    ],
+    "example": "In a written statement to the media outlets, Walliams said that while a power imbalance is **inevitable** when one party is famous, abusing that power is something he never did."
+   },
+   {
+    "word": "unaccounted for",
+    "pos": "adjective",
+    "definition": "missing, with unknown location or status",
+    "thai": "สูญหาย, ยังหาไม่พบ",
+    "collocations": [
+     "remain unaccounted for",
+     "currently unaccounted for",
+     "leave unaccounted for"
+    ],
+    "example": "Local officials praised the rapid response, noting that zero people remained **unaccounted for** following the dramatic incident."
+   },
+   {
+    "word": "resolution",
+    "pos": "noun",
+    "definition": "a firm decision or a solution to a problem",
+    "thai": "การแก้ไขปัญหา หรือ มติ",
+    "collocations": [],
+    "example": "Taking time to learn how international colleagues communicate helps team members reach a mutual __resolution__ during challenging projects."
+   },
+   {
+    "word": "framework",
+    "pos": "noun",
+    "definition": "a basic structure supporting a system or concept",
+    "thai": "กรอบทำงาน หรือ กรอบความคิด",
+    "collocations": [],
+    "example": "Building genuine cross-cultural relationships also requires working within a clear communication __framework__."
+   },
+   {
+    "word": "stamina",
+    "pos": "noun",
+    "definition": "physical or mental endurance over a long period",
+    "thai": "ความอดทน, ความทรหด",
+    "collocations": [],
+    "example": "Navigating cultural differences takes mental __stamina__ and patience."
+   },
+   {
+    "word": "facilitate",
+    "pos": "verb",
+    "definition": "to make an action or process easier",
+    "thai": "อำนวยความสะดวก",
+    "collocations": [],
+    "example": "To __facilitate__ better teamwork, remote workers can create casual virtual spaces for personal conversations."
+   }
+  ],
+  "activity": {
+   "instructions": "In each item, choose the word (a, b, c, or d) that does NOT collocate naturally with the main target word.",
+   "items": [
+    "1. SCRUTINY: (a) public (b) intense (c) face (d) shallow",
+    "2. INEVITABLE: (a) result (b) change (c) outcome (d) completely",
+    "3. MISCONDUCT: (a) sexual (b) professional (c) severe (d) brightly",
+    "4. UNDERGO: (a) treatment (b) inspection (c) change (d) decision",
+    "5. STAMINA: (a) mental (b) physical (c) build (d) delicious",
+    "6. LISTING: (a) heavily (b) ship (c) boat (d) flying"
+   ],
+   "answers": [
+    "1. (d) shallow — 'Scrutiny' implies deep and thorough inspection, so 'shallow' contradicts its core meaning.",
+    "2. (d) completely — 'Inevitable' is an adjective, so it usually collocates with nouns like result, change, or outcome, not an adverb.",
+    "3. (d) brightly — 'Brightly' is an adverb used for light or mood, not describing improper behavior or misconduct.",
+    "4. (d) decision — One 'makes' or 'reaches' a decision rather than 'undergoing' it.",
+    "5. (d) delicious — 'Delicious' describes food taste, whereas 'stamina' relates to physical or mental endurance.",
+    "6. (d) flying — 'Listing' refers to water vessels leaning to one side, not flying aircraft."
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "UK Police opens sexual offense probe into comedian David Walliams.",
+    "corrected": "UK Police open a sexual offense probe into comedian David Walliams.",
+    "reason": "'Police' takes a plural verb in British English, and 'probe' needs an article."
+   },
+   {
+    "sentence": "All passengers were rescued after a Mississippi River cruise ship collided.",
+    "corrected": "All passengers were rescued after a Mississippi River cruise ship collision.",
+    "reason": "The sentence structure requires a noun phrase ('collision') after the pre-positional setup."
+   },
+   {
+    "sentence": "Eisenkot accuses Netanyahu of a racist campaign against the Arab minority.",
+    "corrected": "Eisenkot accuses Netanyahu of launching a racist campaign against the Arab minority.",
+    "reason": "Adding the participle 'launching' clarifies the action of starting a campaign."
+   },
+   {
+    "sentence": "Central Retail reports revenue growth and third-quarter profit surging.",
+    "corrected": "Central Retail reports revenue growth and a third-quarter profit surge.",
+    "reason": "Parallel structure requires a noun ('profit surge') to match 'revenue growth'."
+   },
+   {
+    "sentence": "Abhisit urges transparency on the online gambling platform inquiry.",
+    "corrected": "Abhisit urges transparency in the online gambling platform inquiry.",
+    "reason": "'Inquiry' typically takes the preposition 'in' or 'into' rather than 'on' in this context."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Shopping in Italy is a delight, whether at a street market or a boutique. Knowing a few Italian expressions makes your shopping trip smoother and more enjoyable.",
+   "phrases": [
+    {
+     "phrase": "Quanto costa?",
+     "pronunciation": "KWAN-toh KOS-tah",
+     "meaning": "How much does it cost?"
+    },
+    {
+     "phrase": "Sconto, per favore",
+     "pronunciation": "SKON-toh pehr fah-VOH-reh",
+     "meaning": "A discount, please."
+    },
+    {
+     "phrase": "Posso pagare con carta?",
+     "pronunciation": "POS-soh pah-GAH-reh kon KAR-tah",
+     "meaning": "Can I pay by card?"
+    }
+   ],
+   "root": {
+    "root": "merx",
+    "meaning": "goods, merchandise",
+    "english_words": "market, merchandise, merchant",
+    "note": "This Latin root gave rise to Italian terms for trade and market, which later entered English."
+   },
+   "borrowed": {
+    "word": "fresco",
+    "note": "Borrowed from Italian meaning 'fresh', in English it refers to painting on fresh plaster."
+   },
+   "curious": {
+    "word": "Mercatino",
+    "pronunciation": "mair-kah-TEE-noh",
+    "meaning": "Little market or flea market",
+    "note": "It is a charming term used for small local street stalls and weekend antique sales."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 336,
+  "world_1": 154,
+  "world_2": 135,
+  "thailand_1": 160,
+  "thailand_2": 145,
+  "feature": 268,
+  "real_english": 207,
+  "language_lab": 131,
+  "other_language": 117,
+  "word_bank": 388,
+  "total": 2326
+ },
+ "notes": [
+  "dropped 'delegitimisation' from star_words: it does not appear in the articles",
+  "★ words repeated within 30 days: scrutiny",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 336 words (target 470–510)",
+  "feature: 268 words (target 310–370)",
+  "real_english: 207 words (target 260–320)",
+  "only 4 ★ words are practised in the Language Lab",
+  "language_lab: 131 words (target 150–260)",
+  "other_language: 117 words (target 140–190)",
+  "sentences over 35 words: cover.paragraphs[2] (38 words)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
