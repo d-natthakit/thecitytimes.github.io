@@ -1,0 +1,777 @@
+{
+ "plan": {
+  "date": "2026-11-17",
+  "date_long": "Tuesday, 17 November 2026",
+  "weekday": "Tue",
+  "issue_no": 19,
+  "language": "French",
+  "phrase_theme": "getting around town",
+  "feature": "Tech & Science",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Gap fill",
+  "trap": "Prepositions",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "burgeoning",
+   "capitalizing",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commendation",
+   "compelling",
+   "compostable",
+   "concessions",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culpability",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "disruption",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "expertise",
+   "extinction",
+   "extramarital",
+   "facilitate",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "groomed",
+   "hospitality",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incorporate",
+   "inevitable",
+   "interim",
+   "intermittent",
+   "listing",
+   "logistics",
+   "look into",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "rectify",
+   "reinstate",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "slashed",
+   "slashing",
+   "solemn",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "undergoes",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "versatile",
+   "vitality",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "culpability",
+    "taught_date": "2026-11-16",
+    "days_ago": 1
+   },
+   {
+    "word": "repercussions",
+    "taught_date": "2026-11-16",
+    "days_ago": 1
+   },
+   {
+    "word": "impediments",
+    "taught_date": "2026-11-16",
+    "days_ago": 1
+   },
+   {
+    "word": "encroachment",
+    "taught_date": "2026-11-16",
+    "days_ago": 1
+   },
+   {
+    "word": "sovereignty",
+    "taught_date": "2026-11-16",
+    "days_ago": 1
+   },
+   {
+    "word": "clarification",
+    "taught_date": "2026-11-16",
+    "days_ago": 1
+   },
+   {
+    "word": "unambiguous",
+    "taught_date": "2026-11-16",
+    "days_ago": 1
+   },
+   {
+    "word": "promptly",
+    "taught_date": "2026-11-16",
+    "days_ago": 1
+   },
+   {
+    "word": "groomed",
+    "taught_date": "2026-11-14",
+    "days_ago": 3
+   },
+   {
+    "word": "misconduct",
+    "taught_date": "2026-11-14",
+    "days_ago": 3
+   },
+   {
+    "word": "listing",
+    "taught_date": "2026-11-14",
+    "days_ago": 3
+   },
+   {
+    "word": "undergoes",
+    "taught_date": "2026-11-14",
+    "days_ago": 3
+   },
+   {
+    "word": "scrutiny",
+    "taught_date": "2026-11-14",
+    "days_ago": 3
+   },
+   {
+    "word": "inevitable",
+    "taught_date": "2026-11-14",
+    "days_ago": 3
+   },
+   {
+    "word": "unaccounted for",
+    "taught_date": "2026-11-14",
+    "days_ago": 3
+   },
+   {
+    "word": "sabotage",
+    "taught_date": "2026-11-10",
+    "days_ago": 7
+   },
+   {
+    "word": "retaliation",
+    "taught_date": "2026-11-10",
+    "days_ago": 7
+   },
+   {
+    "word": "deterrence",
+    "taught_date": "2026-11-10",
+    "days_ago": 7
+   },
+   {
+    "word": "unsubstantiated",
+    "taught_date": "2026-11-10",
+    "days_ago": 7
+   },
+   {
+    "word": "misogyny",
+    "taught_date": "2026-11-10",
+    "days_ago": 7
+   },
+   {
+    "word": "unsustainable",
+    "taught_date": "2026-11-10",
+    "days_ago": 7
+   },
+   {
+    "word": "transparency",
+    "taught_date": "2026-11-10",
+    "days_ago": 7
+   },
+   {
+    "word": "overreliance",
+    "taught_date": "2026-11-10",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "vente (Latin: vendere)",
+   "boutique",
+   "lèche-vitrine",
+   "goût (Latin: gustus)",
+   "menu",
+   "terroir",
+   "café",
+   "croissant",
+   "flâner",
+   "parler",
+   "tête-à-tête",
+   "retrouvailles"
+  ],
+  "recent_news_titles": [
+   "Estonia to close all border crossings with Russia after attack on drone maker",
+   "Estonia to close border crossings with Russia after alleged arson attack",
+   "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+   "Czechs rally against plan to switch funding of public media",
+   "Phuket steps up effort to reclaim land",
+   "PM calls on Cambodia to show commitment to peace after Hun Manet’s remarks",
+   "Philippines’ Carmelle wins first Eurovision contest in Asia",
+   "Philippines wins first Eurovision Song Contest Asia",
+   "Italy fines Meta €805m over accessing users' photos",
+   "Hungary: Millions in hidden cash found in Orban graft probe",
+   "Firms to face rising pressure: SCG",
+   "Exiled Cambodian politician denounces Francophonie summit, citing repression",
+   "UK police open sex offence probe into comedian and author David Walliams",
+   "David Walliams: UK police launch sex offense probe into comedian",
+   "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+   "Eisenkot accuses Netanyahu of ‘racist’ campaign against Israel’s Arab minority",
+   "CRC sees revenue increase by 5% in third quarter",
+   "Abhisit urges clarity in Shuffle probe"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "The Guardian",
+   "title": "United Airlines says ‘widespread’ system outage resolved",
+   "url": "https://www.theguardian.com/us-news/2026/nov/16/united-airlines-system-outage",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "DW",
+   "title": "United Airlines resolves tech outage that delayed flights",
+   "url": "https://www.dw.com/en/united-airlines-resolves-tech-outage-that-delayed-flights/a-79964387?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "Al Jazeera",
+   "title": "EU countries announce migrant deportation centre in Rwanda",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/17/eu-countries-announce-migrant-deportation-centre-in-rwanda?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_1 (second source)",
+   "source": "BBC News",
+   "title": "Five EU countries announce migrant deportation centre in Rwanda",
+   "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "world_2",
+   "source": "DW",
+   "title": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
+   "url": "https://www.dw.com/en/france-s-philippe-diallo-to-challenge-infantino-for-fifa-presidency/a-79962843?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_1",
+   "source": "Khaosod English",
+   "title": "Anutin, Trump to sign joint statement on Thai-US reciprocal trade",
+   "url": "https://www.khaosodenglish.com/news/2026/11/17/anutin-trump-to-sign-joint-statement-on-thai-us-reciprocal-trade/",
+   "thin": false
+  },
+  {
+   "id": "S7",
+   "role": "thailand_2",
+   "source": "Bangkok Post Business",
+   "title": "TAT seeks new markets amid ongoing Middle East risks",
+   "url": "https://www.bangkokpost.com/business/general/3356139/tat-seeks-new-markets-amid-ongoing-middle-east-risks",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "malfunction",
+   "vulnerable",
+   "candidacy",
+   "unanimously",
+   "reciprocal",
+   "preservation",
+   "diversify",
+   "integrate"
+  ],
+  "recycled_words": [
+   "repercussions",
+   "scrutiny",
+   "inevitable"
+  ],
+  "cover": {
+   "headline": "Tech Outage Hits United Airlines Days After US Flight Shutdown",
+   "paragraphs": [
+    "United Airlines announced on Monday that it had resolved a major system failure that caused significant flight delays across the United States. The Chicago-based airline confirmed that while departing flights experienced disruptions, airborne flights and those operated by its regional partner, United Express, were completely unaffected. The company emphasized that there was no indication that the incident resulted from a cybersecurity breach.",
+    "According to internal union documents, the web-based outage disabled critical software applications used by pilots in the cockpit. These digital tools allow flight crews to calculate essential preflight parameters, such as aircraft weight, fuel levels, baggage, and weather conditions, to ensure safe takeoffs. Without functioning software, pilots were instructed to follow local ground guidance while departing flights remained stranded at airport gates.",
+    "The operational breakdown affected more than four hundred flights on Monday afternoon, highlighting how **vulnerable** modern aviation remains to digital technology failures. The event occurred just three days after a massive Federal Aviation Administration network **malfunction** grounded commercial flights nationwide for over four hours. United Airlines clarified that Monday's operational issues were entirely separate from Friday's system breakdown, which federal officials blamed on routine maintenance work.",
+    "This disruption is part of a broader series of recent technological meltdowns across major US industries. On the same day, online banking services at several prominent financial institutions experienced severe access issues after a technical glitch at JPMorgan Chase. Furthermore, a massive software breakdown at Microsoft late last week paralyzed essential communication platforms worldwide, causing serious __repercussions__ for hospitals, businesses, and government agencies.",
+    "Aviation experts note that airlines have repeatedly faced operational **impediments** due to legacy computer infrastructure. In August 2025, United suffered a similar grounding after an internal flight data system failed. As global transport and financial networks face growing public __scrutiny__, industry leaders face rising pressure to upgrade critical systems and prevent cascading failures."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Five European Nations Plan Joint Deportation Hub in Rwanda",
+    "paragraphs": [
+     "Five European countries have announced plans to open a joint deportation centre in Rwanda by 2027 to manage illegal migration. Germany, Austria, Denmark, Greece, and the Netherlands agreed to establish the external hub for individuals who have exhausted all legal avenues to remain in Europe.",
+     "Under the agreement, deportees who cannot return to their countries of origin will be transferred to Rwanda. Once there, individuals will either **integrate** into local society or prepare for returning home. The proposal differs from a canceled British scheme, which aimed to process asylum claims abroad.",
+     "While participating governments insist the hub complies with international law, human rights groups express strong concern over potential rights violations. Meanwhile, leaders from other European nations have publicly criticized the plan, arguing that offshore deportation hubs lack humanity."
+    ],
+    "source_ids": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "headline": "European Football Chief Launches Challenge for FIFA Leadership",
+    "paragraphs": [
+     "French Football Federation President Philippe Diallo has officially entered the race to challenge Gianni Infantino for the FIFA presidency. European football's governing body, UEFA, voted **unanimously** to back Diallo ahead of the upcoming election scheduled for March in Morocco.",
+     "Diallo announced his **candidacy** following growing friction between European officials and Infantino over financial proposals and global tournament governance. The French official joins Japanese administrator Kohzo Tashima as formal challengers to the incumbent chief, who has led world football since 2016.",
+     "If successful, Diallo would become the first black president in FIFA history. Infantino has faced mounting criticism in recent months over governance decisions and controversies surrounding high-profile political interactions during major international tournaments."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Thailand and US Sign Trade Agreement at ASEAN Summit",
+    "paragraphs": [
+     "Prime Minister Anutin Charnvirakul and US President Donald Trump are scheduled to sign a joint statement on **reciprocal** trade in Manila. The signing marks a significant moment during the final day of the 49th ASEAN Summit, an annual meeting of Southeast Asian leaders.",
+     "The bilateral agreement focuses on expanding market access, attracting international investment, and enhancing economic security for both nations. Thai officials confirmed that the government prioritizes the **preservation** of export opportunities and boosting business competitiveness across regional markets.",
+     "The ceremony concludes an intensive series of summit meetings involving regional partners, including Japan, China, India, and South Korea. Following the trade signing, Thailand will participate in the formal handover of the ASEAN chairmanship to Singapore for 2027."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   },
+   {
+    "headline": "Tourism Authority Targets New European Markets to Reduce Risk",
+    "paragraphs": [
+     "The Tourism Authority of Thailand, the government agency responsible for promoting travel, is launching new marketing campaigns to **diversify** its visitor base. The strategy aims to reduce reliance on Middle Eastern flight hubs affected by ongoing regional instability.",
+     "Tourism officials are expanding outreach into Eastern Europe and secondary cities in Western Europe. To boost arrivals, the agency is coordinating seasonal charter flights and collaborating with international travel companies to turn consumer interest into direct bookings.",
+     "Data indicates rapid growth from markets like Poland, supported by expanded direct flights to Bangkok. Officials believe targeting new regions will secure stable tourist numbers and ensure long-term economic resilience for the domestic hospitality sector."
+    ],
+    "source_ids": [
+     "S7"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Building Digital Resilience in an Interconnected World",
+   "paragraphs": [
+    "Modern society relies heavily on digital infrastructure to manage daily operations, from public transit systems to international banking. However, recent corporate software failures demonstrate how easily routine activities can collapse when single points of failure break down. When interconnected systems crash simultaneously, organizations quickly realize that digital reliance brings unexpected vulnerabilities alongside productivity gains.",
+    "Achieving true technological resilience requires more than basic software updates; it demands comprehensive risk management strategies. Industry leaders must prioritize regular infrastructure audits and implement redundant backup channels for critical workflows. When core communication platforms fail, teams need immediate access to secondary tools to prevent complete operational paralysis across business units.",
+    "Human preparation is equally vital when navigating automated system disruptions. Employees who rely exclusively on automated software often struggle when sudden technical glitches force a manual fallback. Organizations that routinely practice emergency procedures ensure that staff members remain capable of managing essential operations manually during unexpected digital blackouts.",
+    "Furthermore, technical teams must design software architecture with compartmentalization in mind. Isolating critical modules prevents a localized bug from triggering cascading failures throughout a global network. By creating strict operational boundaries between software components, companies can contain technical errors before they cause widespread commercial damage.",
+    "As digital ecosystems grow increasingly complex, brief software interruptions are becoming __inevitable__. Rather than assuming systems will function perfectly, forward-thinking organizations build flexible operational frameworks. Investing in systemic resilience today protects businesses from costly disruptions and maintains public trust in an unpredictable technological landscape."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should software development teams ban automated code generators for junior developers?",
+   "view_a": {
+    "title": "Enforce Core Skills",
+    "text": "Junior developers must master foundational programming concepts before relying on automated tools. Relying on AI assistants early in a career creates artificial confidence without true technical understanding. While automation speeds up routine coding task output, early career engineers need to solve difficult problems manually to build deep analytical skills. Allowing artificial tools too early prevents new hires from grasping fundamental system mechanics."
+   },
+   "view_b": {
+    "title": "Embrace Modern Workflows",
+    "text": "Banning modern tools isolates junior engineers from industry realities. Today's software environment demands efficiency, and automated assistants help junior developers learn syntax rapidly while tackling complex projects. Granted that basic knowledge remains essential, using modern assistance lets entry-level staff focus on higher-level system architecture rather than repetitive syntax errors. Restricting access simply hinders professional growth in a fast-paced market."
+   },
+   "phrases": [
+    {
+     "phrase": "While automation speeds up routine coding task output",
+     "function": "concession"
+    },
+    {
+     "phrase": "creates artificial confidence without true technical understanding",
+     "function": "contrast"
+    },
+    {
+     "phrase": "Granted that basic knowledge remains essential",
+     "function": "hedging"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Prepositions: 'Depend On' vs. 'Depend With'",
+   "wrong": "Our success depends with our software reliability.",
+   "right": "Our success depends on our software reliability.",
+   "explanation": "Thai speakers often translate the concept of depending on something directly using 'with' because of phrases like ขึ้นอยู่กับ (khuen yu kap). In English, the verb 'depend' always takes the preposition 'on' or 'upon'. Never use 'with' after depend when stating a conditional relationship."
+  },
+  "word_bank": [
+   {
+    "word": "malfunction",
+    "pos": "noun",
+    "definition": "a failure to work or operate correctly",
+    "thai": "การทำงานผิดปกติ",
+    "collocations": [
+     "system malfunction",
+     "technical malfunction",
+     "equipment malfunction"
+    ],
+    "example": "The event occurred just three days after a massive Federal Aviation Administration network **malfunction** grounded commercial flights nationwide for over four hours."
+   },
+   {
+    "word": "vulnerable",
+    "pos": "adjective",
+    "definition": "easily damaged, affected, or harmed",
+    "thai": "ที่เปราะบางหรือเสี่ยงต่ออันตราย",
+    "collocations": [
+     "vulnerable to attack",
+     "vulnerable position",
+     "highly vulnerable"
+    ],
+    "example": "The operational breakdown affected more than four hundred flights on Monday afternoon, highlighting how **vulnerable** modern aviation remains to digital technology failures."
+   },
+   {
+    "word": "candidacy",
+    "pos": "noun",
+    "definition": "the fact of being a candidate for a position or election",
+    "thai": "การสมัครรับเลือกตั้ง",
+    "collocations": [
+     "announce candidacy",
+     "support candidacy",
+     "withdraw candidacy"
+    ],
+    "example": "Diallo announced his **candidacy** following growing friction between European officials and Infantino over financial proposals and global tournament governance."
+   },
+   {
+    "word": "unanimously",
+    "pos": "adverb",
+    "definition": "with the agreement of all people involved",
+    "thai": "อย่างเป็นเอกฉันท์",
+    "collocations": [
+     "voted unanimously",
+     "agreed unanimously",
+     "passed unanimously"
+    ],
+    "example": "European football's governing body, UEFA, voted **unanimously** to back Diallo ahead of the upcoming election scheduled for March in Morocco."
+   },
+   {
+    "word": "reciprocal",
+    "pos": "adjective",
+    "definition": "given, felt, or done in return for something else",
+    "thai": "ซึ่งกันและกัน",
+    "collocations": [
+     "reciprocal trade",
+     "reciprocal agreement",
+     "reciprocal benefit"
+    ],
+    "example": "Prime Minister Anutin Charnvirakul and US President Donald Trump are scheduled to sign a joint statement on **reciprocal** trade in Manila."
+   },
+   {
+    "word": "preservation",
+    "pos": "noun",
+    "definition": "the act of keeping something safe, intact, or in good condition",
+    "thai": "การอนุรักษ์หรือการสงวนไว้",
+    "collocations": [
+     "preservation of environment",
+     "historic preservation",
+     "preservation effort"
+    ],
+    "example": "Thai officials confirmed that the government prioritizes the **preservation** of export opportunities and boosting business competitiveness across regional markets."
+   },
+   {
+    "word": "diversify",
+    "pos": "verb",
+    "definition": "to add variety or branch out into new areas",
+    "thai": "กระจายความเสี่ยงหรือเพิ่มความหลากหลาย",
+    "collocations": [
+     "diversify investments",
+     "diversify market",
+     "diversify income"
+    ],
+    "example": "The Tourism Authority of Thailand, the government agency responsible for promoting travel, is launching new marketing campaigns to **diversify** its visitor base."
+   },
+   {
+    "word": "integrate",
+    "pos": "verb",
+    "definition": "to combine or fit into a larger group or system",
+    "thai": "ผสมผสานหรือรวมเข้าด้วยกัน",
+    "collocations": [
+     "integrate into society",
+     "integrate new systems",
+     "fully integrate"
+    ],
+    "example": "Once there, individuals will either **integrate** into local society or prepare for returning home."
+   },
+   {
+    "word": "repercussions",
+    "pos": "noun",
+    "definition": "unintended consequences or indirect effects of an event",
+    "thai": "ผลกระทบที่ตามมา",
+    "collocations": [],
+    "example": "Furthermore, a massive software breakdown at Microsoft late last week paralyzed essential communication platforms worldwide, causing serious __repercussions__ for hospitals, businesses, and government agencies."
+   },
+   {
+    "word": "scrutiny",
+    "pos": "noun",
+    "definition": "critical observation or careful examination",
+    "thai": "การตรวจสอบอย่างละเอียด",
+    "collocations": [],
+    "example": "As global transport and financial networks face growing public __scrutiny__, industry leaders face rising pressure to upgrade critical systems and prevent cascading failures."
+   },
+   {
+    "word": "inevitable",
+    "pos": "adjective",
+    "definition": "certain to happen and impossible to avoid",
+    "thai": "ซึ่งหลีกเลี่ยงไม่ได้",
+    "collocations": [],
+    "example": "As digital ecosystems grow increasingly complex, brief software interruptions are becoming __inevitable__."
+   }
+  ],
+  "activity": {
+   "instructions": "Complete each sentence using the correct word from the word box: [malfunction, vulnerable, candidacy, unanimously, reciprocal, diversify]. Change word forms if necessary.",
+   "items": [
+    "The board members voted ______ to approve the company's new annual budget.",
+    "Engineers worked quickly to repair a server ______ before customers noticed any network downtime.",
+    "Small businesses are particularly ______ to sudden shifts in foreign exchange rates.",
+    "The two nations decided to sign a ______ trade deal to lower import tariffs for both sides.",
+    "Investors were advised to ______ their portfolios to protect against market volatility.",
+    "The former senator formally announced her ______ for mayor during yesterday's press conference."
+   ],
+   "answers": [
+    "unanimously",
+    "malfunction",
+    "vulnerable",
+    "reciprocal",
+    "diversify",
+    "candidacy"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Five European nations plan joint deportation hub in Rwanda to manage migration.",
+    "corrected": "Five European nations plan a joint deportation hub in Rwanda to manage migration.",
+    "reason": "Missing indefinite article 'a' before singular countable noun phrase 'joint deportation hub'."
+   },
+   {
+    "sentence": "Thailand and US signed trade agreement at ASEAN summit yesterday morning.",
+    "corrected": "Thailand and the US signed a trade agreement at the ASEAN summit yesterday morning.",
+    "reason": "Country names like 'US' require the definite article 'the'."
+   },
+   {
+    "sentence": "Tourism authority targets new markets for reduce risk from international travel drops.",
+    "corrected": "Tourism authority targets new markets to reduce risk from international travel drops.",
+    "reason": "Use the infinitive 'to reduce' instead of 'for reduce' to express purpose."
+   },
+   {
+    "sentence": "Tech outage hits United Airlines days after US flight shutdown happened.",
+    "corrected": "A tech outage hit United Airlines days after a US flight shutdown happened.",
+    "reason": "Missing article 'a' before countable noun 'tech outage'."
+   },
+   {
+    "sentence": "Building digital resilience in an interconnected world is essential for modern business.",
+    "corrected": "Building digital resilience in an interconnected world is essential for modern businesses.",
+    "reason": "Plural noun 'businesses' fits general context better than singular non-count form here."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Navigating a French city is straightforward once you master a few common transit terms and directions.",
+   "phrases": [
+    {
+     "phrase": "Où est la station de métro ?",
+     "pronunciation": "oo eh lah stah-syon duh meh-tro",
+     "meaning": "Where is the subway station?"
+    },
+    {
+     "phrase": "Un billet, s'il vous plaît.",
+     "pronunciation": "uhn bee-yeh seel voo pleh",
+     "meaning": "One ticket, please."
+    },
+    {
+     "phrase": "Tout droit.",
+     "pronunciation": "too drwah",
+     "meaning": "Straight ahead."
+    }
+   ],
+   "root": {
+    "root": "voie",
+    "meaning": "way or path (from Latin via)",
+    "english_words": "via, voyage, convey, deviate",
+    "note": "This Latin root underpins many English travel and transportation terms."
+   },
+   "borrowed": {
+    "word": "route",
+    "note": "Borrowed from Old French 'route' (meaning way or path), which originally derived from Latin 'rupta via' (a broken or cleared path)."
+   },
+   "curious": {
+    "word": "dépaysement",
+    "pronunciation": "deh-pay-eez-mahn",
+    "meaning": "the feeling of being in a foreign place or changing scenery",
+    "note": "It describes the sense of disorientation or delight experienced when traveling outside one's home environment."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 306,
+  "world_1": 129,
+  "world_2": 113,
+  "thailand_1": 118,
+  "thailand_2": 110,
+  "feature": 242,
+  "real_english": 225,
+  "language_lab": 160,
+  "other_language": 124,
+  "word_bank": 392,
+  "total": 2105
+ },
+ "notes": [
+  "dropped 'impediments' from recycled_words: it does not appear in the articles",
+  "★ words appear in only 3 parts of the issue (target 4+)",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 306 words (target 470–510)",
+  "world_2: 113 words (target 140–160)",
+  "thailand_1: 118 words (target 140–160)",
+  "thailand_2: 110 words (target 140–160)",
+  "feature: 242 words (target 310–370)",
+  "real_english: 225 words (target 260–320)",
+  "other_language: 124 words (target 140–190)",
+  "whole issue: 2105 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
