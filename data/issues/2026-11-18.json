@@ -1,0 +1,767 @@
+{
+ "plan": {
+  "date": "2026-11-18",
+  "date_long": "Wednesday, 18 November 2026",
+  "weekday": "Wed",
+  "issue_no": 20,
+  "language": "Italian",
+  "phrase_theme": "getting around town",
+  "feature": "Arts & Entertainment",
+  "opinion": "say_it_better",
+  "setting": "meetings & calls",
+  "activity": "Word forms",
+  "trap": "Tenses & time expressions",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "burgeoning",
+   "candidacy",
+   "capitalizing",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commendation",
+   "compelling",
+   "compostable",
+   "concessions",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culpability",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "disruption",
+   "diversify",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "expertise",
+   "extinction",
+   "extramarital",
+   "facilitate",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "groomed",
+   "hospitality",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incorporate",
+   "inevitable",
+   "integrate",
+   "interim",
+   "intermittent",
+   "listing",
+   "logistics",
+   "look into",
+   "malfunction",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "preservation",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "reciprocal",
+   "rectify",
+   "reinstate",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "slashed",
+   "slashing",
+   "solemn",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "unanimously",
+   "undergoes",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "versatile",
+   "vitality",
+   "vulnerable",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "malfunction",
+    "taught_date": "2026-11-17",
+    "days_ago": 1
+   },
+   {
+    "word": "vulnerable",
+    "taught_date": "2026-11-17",
+    "days_ago": 1
+   },
+   {
+    "word": "candidacy",
+    "taught_date": "2026-11-17",
+    "days_ago": 1
+   },
+   {
+    "word": "unanimously",
+    "taught_date": "2026-11-17",
+    "days_ago": 1
+   },
+   {
+    "word": "reciprocal",
+    "taught_date": "2026-11-17",
+    "days_ago": 1
+   },
+   {
+    "word": "preservation",
+    "taught_date": "2026-11-17",
+    "days_ago": 1
+   },
+   {
+    "word": "diversify",
+    "taught_date": "2026-11-17",
+    "days_ago": 1
+   },
+   {
+    "word": "integrate",
+    "taught_date": "2026-11-17",
+    "days_ago": 1
+   },
+   {
+    "word": "inaugural",
+    "taught_date": "2026-11-15",
+    "days_ago": 3
+   },
+   {
+    "word": "resilient",
+    "taught_date": "2026-11-15",
+    "days_ago": 3
+   },
+   {
+    "word": "spearhead",
+    "taught_date": "2026-11-15",
+    "days_ago": 3
+   },
+   {
+    "word": "disruption",
+    "taught_date": "2026-11-15",
+    "days_ago": 3
+   },
+   {
+    "word": "outperform",
+    "taught_date": "2026-11-15",
+    "days_ago": 3
+   },
+   {
+    "word": "unveil",
+    "taught_date": "2026-11-15",
+    "days_ago": 3
+   },
+   {
+    "word": "proactive",
+    "taught_date": "2026-11-15",
+    "days_ago": 3
+   },
+   {
+    "word": "collaborate",
+    "taught_date": "2026-11-15",
+    "days_ago": 3
+   },
+   {
+    "word": "substantive",
+    "taught_date": "2026-11-11",
+    "days_ago": 7
+   },
+   {
+    "word": "architecture",
+    "taught_date": "2026-11-11",
+    "days_ago": 7
+   },
+   {
+    "word": "slashed",
+    "taught_date": "2026-11-11",
+    "days_ago": 7
+   },
+   {
+    "word": "resolution",
+    "taught_date": "2026-11-11",
+    "days_ago": 7
+   },
+   {
+    "word": "framework",
+    "taught_date": "2026-11-11",
+    "days_ago": 7
+   },
+   {
+    "word": "concessions",
+    "taught_date": "2026-11-11",
+    "days_ago": 7
+   },
+   {
+    "word": "pivotal",
+    "taught_date": "2026-11-11",
+    "days_ago": 7
+   },
+   {
+    "word": "advocacy",
+    "taught_date": "2026-11-11",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Prepositions: 'Depend On' vs. 'Depend With'",
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should software development teams ban automated code generators for junior developers?",
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Building Digital Resilience in an Interconnected World",
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "merx",
+   "fresco",
+   "Mercatino",
+   "gustus",
+   "al dente",
+   "scarpetta",
+   "espresso",
+   "barista",
+   "pausa",
+   "parlare",
+   "cappuccino",
+   "magari"
+  ],
+  "recent_news_titles": [
+   "United Airlines says ‘widespread’ system outage resolved",
+   "United Airlines resolves tech outage that delayed flights",
+   "EU countries announce migrant deportation centre in Rwanda",
+   "Five EU countries announce migrant deportation centre in Rwanda",
+   "France's Philippe Diallo to challenge Infantino for FIFA presidency",
+   "Anutin, Trump to sign joint statement on Thai-US reciprocal trade",
+   "TAT seeks new markets amid ongoing Middle East risks",
+   "Estonia to close all border crossings with Russia after attack on drone maker",
+   "Estonia to close border crossings with Russia after alleged arson attack",
+   "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+   "Czechs rally against plan to switch funding of public media",
+   "Phuket steps up effort to reclaim land",
+   "PM calls on Cambodia to show commitment to peace after Hun Manet’s remarks",
+   "Philippines’ Carmelle wins first Eurovision contest in Asia",
+   "Philippines wins first Eurovision Song Contest Asia",
+   "Italy fines Meta €805m over accessing users' photos",
+   "Hungary: Millions in hidden cash found in Orban graft probe",
+   "Firms to face rising pressure: SCG",
+   "Exiled Cambodian politician denounces Francophonie summit, citing repression"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "The Guardian",
+   "title": "American soldier held in UK suspected of spying for Russia taken into US military custody",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/17/american-soldier-brandon-carroll-tyner-spying-us-military-custody",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "BBC News",
+   "title": "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "url": "https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "DW",
+   "title": "APEC summit: What Trump, Xi and Putin want",
+   "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "Al Jazeera",
+   "title": "Russian military plane crash in Siberia kills 19",
+   "url": "https://www.aljazeera.com/news/2026/11/17/russian-military-plane-crash-in-siberia-kills-19?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Hotel guests spend less amid high season",
+   "url": "https://www.bangkokpost.com/business/general/3356749/hotel-guests-spend-less-amid-high-season",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Election Commission petition draws internal dissent",
+   "url": "https://www.bangkokpost.com/thailand/politics/3356679/election-commission-petition-draws-internal-dissent",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "counterintelligence",
+   "jeopardising",
+   "transactional",
+   "reciprocal",
+   "unpopulated",
+   "occupancy",
+   "jurisdiction",
+   "recap"
+  ],
+  "recycled_words": [
+   "malfunction",
+   "vulnerable"
+  ],
+  "cover": {
+   "headline": "US Soldier Detained in Britain Handed Over to American Military Custody",
+   "paragraphs": [
+    "A senior American army officer who was arrested by British counter-terror police on suspicion of spying for Russia has been transferred to United States military custody. Lt Col Brandon Carroll Tyner, aged 41, was initially detained on 10 November near Gloucester by United Kingdom Counter Terrorism Policing. His arrest followed a long-running investigation involving MI5, the Federal Bureau of Investigation, and the US Army Counterintelligence Command.",
+    "Before his transfer, Tyner was held in London under sections one and three of Britain's National Security Act 2023. These legal provisions relate to obtaining or disclosing protected information and assisting a foreign intelligence service. During the operation, British officers carried out targeted searches at two separate locations in Gloucestershire.",
+    "Tyner was stationed at Imjin Barracks in Innsworth, which serves as the headquarters for NATO's Allied Rapid Reaction Corps. US authorities confirmed that he joined the military in 2008 as a senior human resources officer. Over his career, he completed overseas deployments to Iraq, Qatar, and Afghanistan.",
+    "In response to the arrest, Moscow quickly denied any connection to the officer. Kremlin spokesman Dmitry Peskov stated shortly after the detention that he was unaware of the details, emphasizing that Russia had nothing to do with the situation.",
+    "British law enforcement confirmed that the decision to hand Tyner over to American authorities followed existing international protocols. Assistant Commissioner Laurence Taylor explained that after presenting the case to the Crown Prosecution Service, officials agreed that US authorities should progress the investigation. He stressed that international agencies would act swiftly when suspecting espionage.",
+    "American officials praised the multi-agency coordination and issued a strong warning to military personnel. US Brig Gen Sean Stinchon stated that anyone suspected of betraying their fellow service members and **jeopardising** collective defence would face justice. FBI Director Kash Patel noted that his agency maintains zero tolerance for national security threats, highlighting a fifty-three percent increase in **counterintelligence** arrests over the past twenty-one months."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Leaders Prepare for High-Stakes Talks at APEC Summit in China",
+    "paragraphs": [
+     "Leaders from China, the United States, and Russia are preparing to hold a trilateral meeting on the sidelines of the Asia-Pacific Economic Cooperation summit in Shenzhen. US President Donald Trump and Chinese President Xi Jinping are also scheduled to hold direct talks during the gathering.",
+     "Trade policy analysts do not expect major breakthroughs regarding technology restrictions or tariffs. Instead, both nations aim to maintain their current economic truce. Analysts suggest the two leaders might agree on a timeline for **reciprocal** tariff cuts covering thirty billion dollars in goods on each side.",
+     "While Washington wants Beijing to buy more agricultural goods, China remains cautious. Experts describe the current relationship as a __**transactional__** détente, with further discussions expected at the G20 summit in December."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Russian Military Transport Plane Crashes in Western Siberia",
+    "paragraphs": [
+     "A Russian military transport plane crashed in an **unpopulated** area of western Siberia, killing all nineteen people on board. The Antonov An-12 aircraft went down near the city of Kemerovo, located about three thousand kilometres east of Moscow.",
+     "Emergency crews arrived at the scene near the village of Yagunovo to extinguish a fire caused by the impact. Russia's Defence Ministry stated that preliminary findings point to a mechanical __malfunction__ as the primary cause of the crash.",
+     "The Investigative Committee has launched a formal inquiry into possible violations of flight safety rules. The Soviet-built An-12 turboprop model has been in service since the late 1950s."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Thai Hotels Report Budget Cuts by Guests During High Season",
+    "paragraphs": [
+     "The Thai Hotels Association reported that tourists are reducing their travel spending during the current high season. Rising living costs, expensive flights, and general economic uncertainty have made travelers across all market segments far more cautious.",
+     "Average hotel **occupancy** reached sixty-three percent in October and is expected to reach sixty-eight percent in November. However, half of surveyed hotels expect foreign guest numbers to decline compared to last year, as tourists remain price-sensitive and select lower-cost accommodations.",
+     "Domestic travel spending has also dropped, partly because local residents are prioritizing home repairs following severe September floods. Despite these challenges, hotel operators remain optimistic that upcoming end-of-year festivals in Bangkok and Pattaya will boost overall performance."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Election Commission Faces Dissent Over Constitutional Court Petition",
+    "paragraphs": [
+     "Thailand's Election Commission faces internal disagreement after asking the Constitutional Court to rule on its legal authority. The commission wants to clarify whether the Supreme Court has **jurisdiction** to review complaints regarding the Senate selection process.",
+     "A five-to-two majority of commissioners approved the petition, arguing that decisions certifying Senate candidates should be final. However, two minority commissioners formally objected, warning the move could undermine the established powers of the Supreme Court.",
+     "Critics express concern that limiting direct court access might leave the public __vulnerable__ to political manipulation. They urge the commission to focus on improving election transparency and strengthening rules against voter collusion."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "How Modern Film Scoring Shapes Storytelling Behind the Scenes",
+   "paragraphs": [
+    "When audiences watch a dramatic film, they often focus on actor performances and visual effects. However, the emotional impact of a movie usually relies on its musical score. Modern film scoring is a delicate blend of artistic creativity and technical precision that guides how viewers feel during every scene.",
+    "Film composers begin their work long before a movie reaches theaters. They collaborate closely with directors during early production phases to establish a distinct musical identity. By creating specific musical themes for key characters, composers help audiences track subtle emotional growth throughout a complex story.",
+    "In recent years, the tools available to musicians have expanded rapidly. Traditional orchestral arrangements are now frequently combined with electronic soundscapes and ambient noise. This hybrid approach allows composers to build tension during quiet moments without overwhelming the dialogue spoken on screen.",
+    "Sound placement also plays a vital role in modern cinema sound design. Audio engineers work to balance dialogue, sound effects, and music into a single cohesive track. If the music is too loud, it disrupts the narrative clarity; if it is too soft, dramatic scenes lose their intentional strength.",
+    "Ultimately, a successful film score operates quietly in the background while achieving a powerful effect. By connecting visual storytelling with carefully chosen melodies, composers turn standard video footage into unforgettable cinematic experiences that linger with audiences long after the credits roll."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Summarizing Key Points Before Ending a Team Call",
+   "situation": "You are leading a virtual meeting and want to summarize the main action items before everyone logs off.",
+   "formal": "Before we conclude, let us briefly **recap** the primary action items and confirm responsible parties.",
+   "neutral": "Before we end the call, let's quickly review our main action points and deadlines.",
+   "casual": "Before we jump off, let's quickly go over who is doing what.",
+   "useful_phrases": [
+    "Let us briefly recap the primary action items...",
+    "Before we end the call, let's quickly review...",
+    "Before we jump off, let's quickly go over..."
+   ]
+  },
+  "trap": {
+   "title": "Using 'Since' Instead of 'For' with Duration",
+   "wrong": "We have discussed this project since two hours.",
+   "right": "We have discussed this project for two hours.",
+   "explanation": "Thai speakers often use 'since' to express duration because of direct translation from 'ตั้งแต่' (tang-tae). In English, use 'since' only for a specific starting point in time (e.g., since 9:00 AM) and 'for' to measure a duration or period of time (e.g., for two hours)."
+  },
+  "word_bank": [
+   {
+    "word": "counterintelligence",
+    "pos": "n.",
+    "definition": "activities designed to prevent enemy espionage or intelligence gathering",
+    "thai": "การต่อต้านข่าวกรอง",
+    "collocations": [
+     "counterintelligence agency",
+     "counterintelligence investigation",
+     "military counterintelligence"
+    ],
+    "example": "His arrest followed a long-running investigation involving MI5, the Federal Bureau of Investigation, and the US Army Counterintelligence Command."
+   },
+   {
+    "word": "jeopardising",
+    "pos": "v.",
+    "definition": "putting something at risk of harm, loss, or failure",
+    "thai": "ทำให้เป็นอันตราย",
+    "collocations": [
+     "jeopardise safety",
+     "jeopardise a career",
+     "jeopardise relations"
+    ],
+    "example": "US Brig Gen Sean Stinchon stated that anyone suspected of betraying their fellow service members and **jeopardising** collective defence would face justice."
+   },
+   {
+    "word": "transactional",
+    "pos": "adj.",
+    "definition": "based on mutual exchanges or immediate personal benefit rather than shared values",
+    "thai": "เชิงผลประโยชน์แลกเปลี่ยน",
+    "collocations": [
+     "transactional relationship",
+     "transactional approach",
+     "transactional deal"
+    ],
+    "example": "Experts describe the current relationship as a __**transactional__** détente, with further discussions expected at the G20 summit in December."
+   },
+   {
+    "word": "reciprocal",
+    "pos": "adj.",
+    "definition": "given, felt, or done in return for a similar action",
+    "thai": "ที่ตอบแทนซึ่งกันและกัน",
+    "collocations": [
+     "reciprocal tariff",
+     "reciprocal agreement",
+     "reciprocal action"
+    ],
+    "example": "Analysts suggest the two leaders might agree on a timeline for **reciprocal** tariff cuts covering thirty billion dollars in goods on each side."
+   },
+   {
+    "word": "unpopulated",
+    "pos": "adj.",
+    "definition": "having no residents or human inhabitants",
+    "thai": "ไร้ผู้คนอยู่อาศัย",
+    "collocations": [
+     "unpopulated area",
+     "unpopulated region",
+     "unpopulated terrain"
+    ],
+    "example": "A Russian military transport plane crashed in an **unpopulated** area of western Siberia, killing all nineteen people on board."
+   },
+   {
+    "word": "occupancy",
+    "pos": "n.",
+    "definition": "the proportion of available rooms or space being used",
+    "thai": "อัตราการเข้าพัก",
+    "collocations": [
+     "hotel occupancy",
+     "occupancy rate",
+     "high occupancy"
+    ],
+    "example": "Average hotel **occupancy** reached sixty-three percent in October and is expected to reach sixty-eight percent in November."
+   },
+   {
+    "word": "jurisdiction",
+    "pos": "n.",
+    "definition": "the official power or authority to make legal decisions and judgments",
+    "thai": "เขตอำนาจศาล",
+    "collocations": [
+     "legal jurisdiction",
+     "fall under jurisdiction",
+     "outside jurisdiction"
+    ],
+    "example": "The commission wants to clarify whether the Supreme Court has **jurisdiction** to review complaints regarding the Senate selection process."
+   },
+   {
+    "word": "recap",
+    "pos": "v.",
+    "definition": "to summarize or review the main points of something",
+    "thai": "สรุปความ",
+    "collocations": [
+     "briefly recap",
+     "recap key points",
+     "recap the meeting"
+    ],
+    "example": "Before we conclude, let us briefly **recap** the primary action items and confirm responsible parties."
+   },
+   {
+    "word": "malfunction",
+    "pos": "n.",
+    "definition": "a failure to operate correctly or normally",
+    "thai": "การทำงานผิดปกติ",
+    "collocations": [],
+    "example": "Russia's Defence Ministry stated that preliminary findings point to a mechanical __malfunction__ as the primary cause of the crash."
+   },
+   {
+    "word": "vulnerable",
+    "pos": "adj.",
+    "definition": "exposed to the possibility of being attacked or harmed",
+    "thai": "เปราะบาง",
+    "collocations": [],
+    "example": "Critics express concern that limiting direct court access might leave the public __vulnerable__ to political manipulation."
+   }
+  ],
+  "activity": {
+   "instructions": "Complete each sentence by writing the correct form of the word in brackets.",
+   "items": [
+    "Leaking confidential data online is ________ national security. (jeopardise)",
+    "The two nations agreed on a ________ trade reduction policy last month. (reciprocal)",
+    "Pilots avoided a disaster by steering the plane into an ________ field. (unpopulated)",
+    "High room prices led to lower hotel ________ during the holiday season. (occupancy)",
+    "The regional tribunal claims full legal ________ over local trade disputes. (jurisdiction)",
+    "Before finishing the conference, the speaker offered a short ________ of the main ideas. (recap)"
+   ],
+   "answers": [
+    "jeopardising",
+    "reciprocal",
+    "unpopulated",
+    "occupancy",
+    "jurisdiction",
+    "recap"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The military counterintelligence agency disclosed information about the suspect which was detained yesterday.",
+    "corrected": "The military counterintelligence agency disclosed information about the suspect who was detained yesterday.",
+    "reason": "Use relative pronoun 'who' instead of 'which' for people."
+   },
+   {
+    "sentence": "Diplomats described the meeting as purely transactional, focusing in short-term trade benefits.",
+    "corrected": "Diplomats described the meeting as purely transactional, focusing on short-term trade benefits.",
+    "reason": "The verb 'focus' takes the preposition 'on', not 'in'."
+   },
+   {
+    "sentence": "Investigators are trying to determine if the plane crashed because a mechanical malfunction.",
+    "corrected": "Investigators are trying to determine if the plane crashed because of a mechanical malfunction.",
+    "reason": "Use 'because of' before a noun phrase."
+   },
+   {
+    "sentence": "Without adequate consumer protection laws, local buyers remain highly vulnerable for price hikes.",
+    "corrected": "Without adequate consumer protection laws, local buyers remain highly vulnerable to price hikes.",
+    "reason": "The adjective 'vulnerable' takes the preposition 'to'."
+   },
+   {
+    "sentence": "The committee chairman promised to recap the key points before he ends the meeting tomorrow.",
+    "corrected": "The committee chairman promised to recap the key points before he ended the meeting tomorrow.",
+    "reason": "Past reporting verb 'promised' requires backshifting or consistent tense alignment."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Navigating a city in Italy is simple once you know a few standard transit terms. Here are essential expressions for getting around town.",
+   "phrases": [
+    {
+     "phrase": "Dov'è la stazione?",
+     "pronunciation": "doh-VEH lah stah-TSYOH-neh",
+     "meaning": "Where is the station?"
+    },
+    {
+     "phrase": "Un biglietto, per favore.",
+     "pronunciation": "oon beel-YET-toh pehr fah-VOH-reh",
+     "meaning": "One ticket, please."
+    },
+    {
+     "phrase": "Prossima fermata",
+     "pronunciation": "PROHS-see-mah fehr-MAH-tah",
+     "meaning": "Next stop"
+    }
+   ],
+   "root": {
+    "root": "ducere",
+    "meaning": "to lead or conduct",
+    "english_words": "conduct, reduce, product",
+    "note": "This Latin verb gave Italian words like 'condurre' (to drive or lead) and passed into English terms for guiding or bringing forward."
+   },
+   "borrowed": {
+    "word": "gondola",
+    "note": "Borrowed from Venetian Italian, it refers to the iconic flat-bottomed boat used to navigate Venice's narrow canals."
+   },
+   "curious": {
+    "word": "struscio",
+    "pronunciation": "STROO-shoh",
+    "meaning": "the slow evening stroll through town streets",
+    "note": "It literally means 'rubbing', referring to the gentle sound of feet shuffling along paved streets during evening social walks."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 319,
+  "world_1": 122,
+  "world_2": 104,
+  "thailand_1": 113,
+  "thailand_2": 103,
+  "feature": 226,
+  "real_english": 159,
+  "language_lab": 154,
+  "other_language": 126,
+  "word_bank": 361,
+  "total": 1968
+ },
+ "notes": [
+  "dropped 'slashed' from recycled_words: it does not appear in the articles",
+  "dropped 'resolution' from recycled_words: it does not appear in the articles",
+  "★ words repeated within 30 days: reciprocal",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 319 words (target 470–510)",
+  "world_1: 122 words (target 140–160)",
+  "world_2: 104 words (target 140–160)",
+  "thailand_1: 113 words (target 140–160)",
+  "thailand_2: 103 words (target 140–160)",
+  "feature: 226 words (target 310–370)",
+  "real_english: 159 words (target 260–320)",
+  "whole issue: 1968 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}

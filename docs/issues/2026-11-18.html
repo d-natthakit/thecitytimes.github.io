@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="sepia">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE CITY TIMES · Wednesday, 18 November 2026</title>
+<meta name="description" content="Wednesday, 18 November 2026: US Soldier Detained in Britain Handed Over to American Military Custody">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&family=Noto+Serif+Thai:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* ── Colours: sepia (default) and black & white ─────────────── */
+:root{--paper:#f3ead7;--ink:#2a2118;--muted:#6b5a45;--rule:#2a2118;--box:#ebdfc6}
+html[data-theme="bw"]{--paper:#ffffff;--ink:#111111;--muted:#555555;--rule:#111111;--box:#f1f1f1}
+
+/* ── Base ───────────────────────────────────────────────────── */
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Serif 4",Georgia,"Noto Serif Thai",serif;font-size:17px;line-height:1.62}
+.page{max-width:1080px;margin:0 auto;padding:16px 16px 48px}
+section{margin-top:30px}
+h3{font-family:"Playfair Display",serif;font-weight:700;font-size:24px;line-height:1.2;margin:0 0 6px}
+h4{font-family:"Playfair Display",serif;font-size:16px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px}
+p{margin:0 0 .8em}
+ol{margin:0;padding-left:1.5em}
+li{margin-bottom:4px}
+[lang="th"]{font-family:"Noto Serif Thai",serif}
+.center{text-align:center}
+.inst{font-style:italic;color:var(--muted)}
+.ex{font-style:italic;color:var(--muted)}
+.small-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+/* ── Toolbar and masthead ───────────────────────────────────── */
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;font-size:13px}
+.toolbar nav{display:flex;gap:14px;flex-wrap:wrap}
+.toolbar a{color:var(--ink)}
+.toolbar button{font:inherit;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule);padding:4px 10px;cursor:pointer}
+.masthead{text-align:center}
+.ears{display:flex;justify-content:space-between;gap:12px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);line-height:1.4}
+.ears span:first-child{text-align:left}
+.ears span:last-child{text-align:right}
+.title{font-family:"UnifrakturMaguntia",serif;font-weight:400;font-size:clamp(42px,10vw,104px);line-height:1;margin:6px 0 12px}
+.dateline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 16px;border-top:1px solid var(--rule);border-bottom:3px double var(--rule);padding:6px 0;font-size:12px;text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Articles ───────────────────────────────────────────────── */
+.kicker{font-family:"Playfair Display",serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;border-top:2px solid var(--rule);border-bottom:1px solid var(--rule);padding:4px 0;margin:0 0 14px}
+.meta{margin:0 0 10px;font-size:14px}
+.level{display:inline-block;border:1px solid var(--ink);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:1px 6px}
+.cover h3{font-size:clamp(30px,5vw,46px);font-weight:900;text-align:center}
+.cover .meta{text-align:center}
+.feature h3{font-size:clamp(24px,3.6vw,32px)}
+.cols{column-gap:32px;column-rule:1px solid var(--rule)}
+@media(min-width:800px){.cover .cols,.feature .cols{column-count:2}}
+.dropcap::first-letter{float:left;font-family:"Playfair Display",serif;font-weight:900;font-size:4.2em;line-height:.8;padding:6px 8px 0 0}
+.stack>article+article{margin-top:20px;padding-top:16px;border-top:1px dashed var(--muted)}
+.rw::after{content:"\21BA";font-size:.75em;vertical-align:super;margin-left:1px;color:var(--muted)}   /* ↺ after review words */
+
+/* ── Layout grids (one column on phones) ────────────────────── */
+.grid2,.pair{display:grid;gap:24px}
+.grid3,.wb-grid{display:grid;gap:12px}
+@media(min-width:760px){
+ .grid2{grid-template-columns:1fr 1fr;gap:0}
+ .grid2>*:first-child{padding-right:24px}
+ .grid2>*:last-child{padding-left:24px;border-left:1px solid var(--rule)}
+ .pair{grid-template-columns:1fr 1fr;gap:16px}
+ .grid3{grid-template-columns:repeat(3,1fr)}
+ .wb-grid{grid-template-columns:1fr 1fr}
+}
+
+/* ── Boxes, Real English, Language Lab ──────────────────────── */
+.box{border:1px solid var(--rule);background:var(--box);padding:14px 16px}
+.box ul{margin:0;padding-left:1.2em}
+.lab{border:3px double var(--rule);background:var(--box);padding:18px 16px}
+.lab>div+div{margin-top:18px;padding-top:14px;border-top:1px solid var(--rule)}
+.wrong{text-decoration:line-through;text-decoration-thickness:1px}
+.wrong::before{content:"\2717\00a0";font-weight:700}   /* ✗ */
+.right::before{content:"\2713\00a0";font-weight:700}   /* ✓ */
+
+/* ── Word Bank ──────────────────────────────────────────────── */
+.wb-card{border:1px solid var(--rule);background:var(--box);padding:12px 14px}
+.wb-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.wb-word{font-family:"Playfair Display",serif;font-weight:700;font-size:19px}
+.wb-pos{font-style:italic;color:var(--muted);font-size:14px}
+.wb-thai{font-weight:600}
+.wb-def{margin:4px 0}
+.wb-coll{font-size:14px;margin:0 0 4px}
+.wb-card .ex{font-size:14px;margin:0}
+.wb-review{margin-top:14px}
+.wb-review li{margin-bottom:6px}
+/* Thai meaning hidden behind a small "ไทย" button */
+details.th{display:inline-block;border:0;padding:0;margin:0;vertical-align:baseline}
+details.th summary{list-style:none;display:inline-block;margin:0;font-family:"Noto Serif Thai",serif;font-size:12px;font-weight:600;letter-spacing:0;text-transform:none;border:1px solid var(--rule);padding:0 6px;line-height:1.5;cursor:pointer}
+details.th summary::-webkit-details-marker{display:none}
+details.th[open] summary{display:none}
+details.th[open] summary+*{display:inline}
+
+/* ── Tables, answer key, sources, archive, footer ───────────── */
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{border-bottom:1px solid var(--rule);padding:6px 8px;text-align:left;vertical-align:top}
+th{font-family:"Playfair Display",serif;text-transform:uppercase;font-size:12px;letter-spacing:.08em;border-bottom:2px solid var(--rule)}
+details{border:1px solid var(--rule);padding:10px 14px}
+summary{cursor:pointer;font-family:"Playfair Display",serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+details[open] summary{margin-bottom:12px}
+.sources{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.sources a{color:inherit}
+.archive-list{list-style:none;padding:0;margin:0}
+.archive-list li{display:flex;gap:16px;align-items:baseline;border-bottom:1px solid var(--rule);padding:10px 0;margin:0}
+.archive-list .d{color:var(--muted);font-size:13px;min-width:13em}
+.archive-list a{color:var(--ink);text-decoration:none;font-weight:700}
+.archive-list a:hover{text-decoration:underline}
+@media(max-width:640px){.archive-list li{flex-wrap:wrap;gap:2px 12px}.archive-list .d{min-width:0}}
+footer{margin-top:36px;border-top:3px double var(--rule);padding-top:8px;text-align:center;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Print on A4 (all hidden answers and Thai meanings are shown) ── */
+@page{size:A4;margin:14mm}
+@media print{
+ html[data-theme]{--paper:#ffffff;--box:#ffffff}
+ .toolbar{display:none}
+ body{font-size:11pt}
+ article,.box,.wb-card,tr{break-inside:avoid}
+}</style>
+</head>
+<body>
+<div class="page">
+
+<div class="toolbar">
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../archive.html">Archive</a>
+<a href="../issues/2026-11-17.html">&larr; Previous day</a>  </nav>
+  <button id="themeBtn" type="button">Black &amp; White</button>
+</div>
+
+<header class="masthead">
+  <div class="ears">
+    <span>Daily English for<br>Thai Professionals</span>
+    <span>Levels B1+ to C1<br>About 20 minutes</span>
+  </div>
+  <h1 class="title">The City Times</h1>
+  <div class="dateline">
+    <span>Wednesday, 18 November 2026</span>
+    <span>Bangkok Edition</span>
+  </div>
+</header>
+
+<section class="cover">
+  <h2 class="kicker">Cover Story</h2>
+  <article>
+    <h3>US Soldier Detained in Britain Handed Over to American Military Custody</h3>
+    <p class="meta"><span class="level">C1 · 3 min</span></p>
+    <div class="cols">
+<p class="dropcap">A senior American army officer who was arrested by British counter-terror police on suspicion of spying for Russia has been transferred to United States military custody. Lt Col Brandon Carroll Tyner, aged 41, was initially detained on 10 November near Gloucester by United Kingdom Counter Terrorism Policing. His arrest followed a long-running investigation involving MI5, the Federal Bureau of Investigation, and the US Army Counterintelligence Command.</p>
+<p>Before his transfer, Tyner was held in London under sections one and three of Britain&#39;s National Security Act 2023. These legal provisions relate to obtaining or disclosing protected information and assisting a foreign intelligence service. During the operation, British officers carried out targeted searches at two separate locations in Gloucestershire.</p>
+<p>Tyner was stationed at Imjin Barracks in Innsworth, which serves as the headquarters for NATO&#39;s Allied Rapid Reaction Corps. US authorities confirmed that he joined the military in 2008 as a senior human resources officer. Over his career, he completed overseas deployments to Iraq, Qatar, and Afghanistan.</p>
+<p>In response to the arrest, Moscow quickly denied any connection to the officer. Kremlin spokesman Dmitry Peskov stated shortly after the detention that he was unaware of the details, emphasizing that Russia had nothing to do with the situation.</p>
+<p>British law enforcement confirmed that the decision to hand Tyner over to American authorities followed existing international protocols. Assistant Commissioner Laurence Taylor explained that after presenting the case to the Crown Prosecution Service, officials agreed that US authorities should progress the investigation. He stressed that international agencies would act swiftly when suspecting espionage.</p>
+<p>American officials praised the multi-agency coordination and issued a strong warning to military personnel. US Brig Gen Sean Stinchon stated that anyone suspected of betraying their fellow service members and <strong>jeopardising</strong> collective defence would face justice. FBI Director Kash Patel noted that his agency maintains zero tolerance for national security threats, highlighting a fifty-three percent increase in <strong>counterintelligence</strong> arrests over the past twenty-one months.</p>
+    </div>
+  </article>
+</section>
+
+<section class="grid2">
+  <div class="stack">
+    <h2 class="kicker">World in Brief</h2>
+<article>
+  <h3>Leaders Prepare for High-Stakes Talks at APEC Summit in China</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>Leaders from China, the United States, and Russia are preparing to hold a trilateral meeting on the sidelines of the Asia-Pacific Economic Cooperation summit in Shenzhen. US President Donald Trump and Chinese President Xi Jinping are also scheduled to hold direct talks during the gathering.</p>
+<p>Trade policy analysts do not expect major breakthroughs regarding technology restrictions or tariffs. Instead, both nations aim to maintain their current economic truce. Analysts suggest the two leaders might agree on a timeline for <strong>reciprocal</strong> tariff cuts covering thirty billion dollars in goods on each side.</p>
+<p>While Washington wants Beijing to buy more agricultural goods, China remains cautious. Experts describe the current relationship as a <span class="rw"><strong>transactional</span></strong> détente, with further discussions expected at the G20 summit in December.</p>
+</article>
+<article>
+  <h3>Russian Military Transport Plane Crashes in Western Siberia</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>A Russian military transport plane crashed in an <strong>unpopulated</strong> area of western Siberia, killing all nineteen people on board. The Antonov An-12 aircraft went down near the city of Kemerovo, located about three thousand kilometres east of Moscow.</p>
+<p>Emergency crews arrived at the scene near the village of Yagunovo to extinguish a fire caused by the impact. Russia&#39;s Defence Ministry stated that preliminary findings point to a mechanical <span class="rw">malfunction</span> as the primary cause of the crash.</p>
+<p>The Investigative Committee has launched a formal inquiry into possible violations of flight safety rules. The Soviet-built An-12 turboprop model has been in service since the late 1950s.</p>
+</article>
+  </div>
+  <div class="stack">
+    <h2 class="kicker">Thailand Today</h2>
+<article>
+  <h3>Thai Hotels Report Budget Cuts by Guests During High Season</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>The Thai Hotels Association reported that tourists are reducing their travel spending during the current high season. Rising living costs, expensive flights, and general economic uncertainty have made travelers across all market segments far more cautious.</p>
+<p>Average hotel <strong>occupancy</strong> reached sixty-three percent in October and is expected to reach sixty-eight percent in November. However, half of surveyed hotels expect foreign guest numbers to decline compared to last year, as tourists remain price-sensitive and select lower-cost accommodations.</p>
+<p>Domestic travel spending has also dropped, partly because local residents are prioritizing home repairs following severe September floods. Despite these challenges, hotel operators remain optimistic that upcoming end-of-year festivals in Bangkok and Pattaya will boost overall performance.</p>
+</article>
+<article>
+  <h3>Election Commission Faces Dissent Over Constitutional Court Petition</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>Thailand&#39;s Election Commission faces internal disagreement after asking the Constitutional Court to rule on its legal authority. The commission wants to clarify whether the Supreme Court has <strong>jurisdiction</strong> to review complaints regarding the Senate selection process.</p>
+<p>A five-to-two majority of commissioners approved the petition, arguing that decisions certifying Senate candidates should be final. However, two minority commissioners formally objected, warning the move could undermine the established powers of the Supreme Court.</p>
+<p>Critics express concern that limiting direct court access might leave the public <span class="rw">vulnerable</span> to political manipulation. They urge the commission to focus on improving election transparency and strengthening rules against voter collusion.</p>
+</article>
+  </div>
+</section>
+
+<section class="feature">
+  <h2 class="kicker">Feature · Arts &amp; Entertainment</h2>
+  <article>
+    <h3>How Modern Film Scoring Shapes Storytelling Behind the Scenes</h3>
+    <p class="meta"><span class="level">B2 · 2 min</span></p>
+    <div class="cols">
+<p>When audiences watch a dramatic film, they often focus on actor performances and visual effects. However, the emotional impact of a movie usually relies on its musical score. Modern film scoring is a delicate blend of artistic creativity and technical precision that guides how viewers feel during every scene.</p>
+<p>Film composers begin their work long before a movie reaches theaters. They collaborate closely with directors during early production phases to establish a distinct musical identity. By creating specific musical themes for key characters, composers help audiences track subtle emotional growth throughout a complex story.</p>
+<p>In recent years, the tools available to musicians have expanded rapidly. Traditional orchestral arrangements are now frequently combined with electronic soundscapes and ambient noise. This hybrid approach allows composers to build tension during quiet moments without overwhelming the dialogue spoken on screen.</p>
+<p>Sound placement also plays a vital role in modern cinema sound design. Audio engineers work to balance dialogue, sound effects, and music into a single cohesive track. If the music is too loud, it disrupts the narrative clarity; if it is too soft, dramatic scenes lose their intentional strength.</p>
+<p>Ultimately, a successful film score operates quietly in the background while achieving a powerful effect. By connecting visual storytelling with carefully chosen melodies, composers turn standard video footage into unforgettable cinematic experiences that linger with audiences long after the credits roll.</p>
+    </div>
+  </article>
+</section>
+
+<section>
+  <h2 class="kicker">Real English · Say It Better · Meetings &amp; Calls</h2>
+  <h3>Summarizing Key Points Before Ending a Team Call</h3>
+  <p class="meta"><span class="level">B2 · 2 min</span></p>
+  <p>You are leading a virtual meeting and want to summarize the main action items before everyone logs off.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Register</th><th>How to say it</th></tr></thead>
+    <tbody>
+      <tr><td>Formal</td><td>Before we conclude, let us briefly <strong>recap</strong> the primary action items and confirm responsible parties.</td></tr>
+      <tr><td>Neutral</td><td>Before we end the call, let&#39;s quickly review our main action points and deadlines.</td></tr>
+      <tr><td>Casual</td><td>Before we jump off, let&#39;s quickly go over who is doing what.</td></tr>
+    </tbody>
+  </table></div>
+  <div class="pair" style="margin-top:16px">
+    <div class="box">
+      <h4>Useful Phrases</h4>
+      <ul><li>Let us briefly recap the primary action items...</li><li>Before we end the call, let&#39;s quickly review...</li><li>Before we jump off, let&#39;s quickly go over...</li></ul>
+    </div>
+    <div class="box">
+      <h4>Thai Speaker's Trap</h4>
+      <p class="small-label">Tenses &amp; time expressions</p>
+      <p><strong>Using &#39;Since&#39; Instead of &#39;For&#39; with Duration</strong></p>
+      <p class="wrong">We have discussed this project since two hours.</p>
+      <p class="right">We have discussed this project for two hours.</p>
+      <p>Thai speakers often use &#39;since&#39; to express duration because of direct translation from &#39;<span lang="th">ตั้งแต่</span>&#39; (tang-tae). In English, use &#39;since&#39; only for a specific starting point in time (e.g., since 9:00 AM) and &#39;for&#39; to measure a duration or period of time (e.g., for two hours).</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Language Lab</h2>
+  <div class="lab">
+    <div>
+      <h4>Word forms</h4>
+      <p class="inst">Complete each sentence by writing the correct form of the word in brackets.</p>
+      <ol><li>Leaking confidential data online is ________ national security. (jeopardise)</li><li>The two nations agreed on a ________ trade reduction policy last month. (reciprocal)</li><li>Pilots avoided a disaster by steering the plane into an ________ field. (unpopulated)</li><li>High room prices led to lower hotel ________ during the holiday season. (occupancy)</li><li>The regional tribunal claims full legal ________ over local trade disputes. (jurisdiction)</li><li>Before finishing the conference, the speaker offered a short ________ of the main ideas. (recap)</li></ol>
+    </div>
+    <div>
+      <h4>Error Identification</h4>
+      <p class="inst">Each sentence has one mistake. Find it and correct it.</p>
+      <ol><li>The military counterintelligence agency disclosed information about the suspect which was detained yesterday.</li><li>Diplomats described the meeting as purely transactional, focusing in short-term trade benefits.</li><li>Investigators are trying to determine if the plane crashed because a mechanical malfunction.</li><li>Without adequate consumer protection laws, local buyers remain highly vulnerable for price hikes.</li><li>The committee chairman promised to recap the key points before he ends the meeting tomorrow.</li></ol>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Word Bank</h2>
+  <p class="inst">&#9733; today's new words, in <strong>bold</strong> in the articles · &#8634; review words from earlier days · tap <em>ไทย</em> for the Thai meaning</p>
+  <div class="wb-grid">
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; counterintelligence</span> <span class="wb-pos">n.</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">การต่อต้านข่าวกรอง</span></details>
+      </div>
+      <p class="wb-def">activities designed to prevent enemy espionage or intelligence gathering</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> counterintelligence agency · counterintelligence investigation · military counterintelligence</p><p class="ex">“His arrest followed a long-running investigation involving MI5, the Federal Bureau of Investigation, and the US Army Counterintelligence Command.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; jeopardising</span> <span class="wb-pos">v.</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ทำให้เป็นอันตราย</span></details>
+      </div>
+      <p class="wb-def">putting something at risk of harm, loss, or failure</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> jeopardise safety · jeopardise a career · jeopardise relations</p><p class="ex">“US Brig Gen Sean Stinchon stated that anyone suspected of betraying their fellow service members and <strong>jeopardising</strong> collective defence would face justice.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; transactional</span> <span class="wb-pos">adj.</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">เชิงผลประโยชน์แลกเปลี่ยน</span></details>
+      </div>
+      <p class="wb-def">based on mutual exchanges or immediate personal benefit rather than shared values</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> transactional relationship · transactional approach · transactional deal</p><p class="ex">“Experts describe the current relationship as a <span class="rw"><strong>transactional</span></strong> détente, with further discussions expected at the G20 summit in December.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; reciprocal</span> <span class="wb-pos">adj.</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ที่ตอบแทนซึ่งกันและกัน</span></details>
+      </div>
+      <p class="wb-def">given, felt, or done in return for a similar action</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> reciprocal tariff · reciprocal agreement · reciprocal action</p><p class="ex">“Analysts suggest the two leaders might agree on a timeline for <strong>reciprocal</strong> tariff cuts covering thirty billion dollars in goods on each side.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; unpopulated</span> <span class="wb-pos">adj.</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ไร้ผู้คนอยู่อาศัย</span></details>
+      </div>
+      <p class="wb-def">having no residents or human inhabitants</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> unpopulated area · unpopulated region · unpopulated terrain</p><p class="ex">“A Russian military transport plane crashed in an <strong>unpopulated</strong> area of western Siberia, killing all nineteen people on board.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; occupancy</span> <span class="wb-pos">n.</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">อัตราการเข้าพัก</span></details>
+      </div>
+      <p class="wb-def">the proportion of available rooms or space being used</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> hotel occupancy · occupancy rate · high occupancy</p><p class="ex">“Average hotel <strong>occupancy</strong> reached sixty-three percent in October and is expected to reach sixty-eight percent in November.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; jurisdiction</span> <span class="wb-pos">n.</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">เขตอำนาจศาล</span></details>
+      </div>
+      <p class="wb-def">the official power or authority to make legal decisions and judgments</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> legal jurisdiction · fall under jurisdiction · outside jurisdiction</p><p class="ex">“The commission wants to clarify whether the Supreme Court has <strong>jurisdiction</strong> to review complaints regarding the Senate selection process.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; recap</span> <span class="wb-pos">v.</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">สรุปความ</span></details>
+      </div>
+      <p class="wb-def">to summarize or review the main points of something</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> briefly recap · recap key points · recap the meeting</p><p class="ex">“Before we conclude, let us briefly <strong>recap</strong> the primary action items and confirm responsible parties.”</p>    </div>
+  </div>
+  <div class="box wb-review">
+    <h4>Review Words</h4>
+    <ul>
+<li><span class="rw"><strong>malfunction</strong></span> <span class="wb-pos">n.</span> · a failure to operate correctly or normally <details class="th"><summary>ไทย</summary><span lang="th">การทำงานผิดปกติ</span></details> <small>(from 17 Nov)</small></li>
+<li><span class="rw"><strong>vulnerable</strong></span> <span class="wb-pos">adj.</span> · exposed to the possibility of being attacked or harmed <details class="th"><summary>ไทย</summary><span lang="th">เปราะบาง</span></details> <small>(from 17 Nov)</small></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Other Languages · Italian</h2>
+  <h3>Getting around town</h3>
+  <p>Navigating a city in Italy is simple once you know a few standard transit terms. Here are essential expressions for getting around town.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Italian</th><th>Say it like</th><th>Meaning</th></tr></thead>
+    <tbody>
+<tr><td lang="it"><strong>Dov&#39;è la stazione?</strong></td><td>doh-VEH lah stah-TSYOH-neh</td><td>Where is the station?</td></tr>
+<tr><td lang="it"><strong>Un biglietto, per favore.</strong></td><td>oon beel-YET-toh pehr fah-VOH-reh</td><td>One ticket, please.</td></tr>
+<tr><td lang="it"><strong>Prossima fermata</strong></td><td>PROHS-see-mah fehr-MAH-tah</td><td>Next stop</td></tr>
+    </tbody>
+  </table></div>
+  <div class="grid3" style="margin-top:16px">
+    <div class="box">
+      <h4>Word Root</h4>
+      <p><strong lang="it">ducere</strong> = to lead or conduct</p>
+      <p><span class="small-label">In English</span> conduct, reduce, product</p>
+      <p class="ex">This Latin verb gave Italian words like &#39;condurre&#39; (to drive or lead) and passed into English terms for guiding or bringing forward.</p>
+    </div>
+    <div class="box">
+      <h4>Borrowed into English</h4>
+      <p><strong>gondola</strong></p>
+      <p>Borrowed from Venetian Italian, it refers to the iconic flat-bottomed boat used to navigate Venice&#39;s narrow canals.</p>
+    </div>
+    <div class="box">
+      <h4>Curious Word</h4>
+      <p><strong lang="it">struscio</strong> <span class="wb-pos">STROO-shoh</span></p>
+      <p>the slow evening stroll through town streets</p>
+      <p class="ex">It literally means &#39;rubbing&#39;, referring to the gentle sound of feet shuffling along paved streets during evening social walks.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <details>
+    <summary>Answer Key · tap to reveal</summary>
+    <h4>Word forms</h4>
+    <ol><li>jeopardising</li><li>reciprocal</li><li>unpopulated</li><li>occupancy</li><li>jurisdiction</li><li>recap</li></ol>
+    <h4 style="margin-top:12px">Error Identification</h4>
+    <ol><li>The military counterintelligence agency disclosed information about the suspect who was detained yesterday. — <em>Use relative pronoun &#39;who&#39; instead of &#39;which&#39; for people.</em></li><li>Diplomats described the meeting as purely transactional, focusing on short-term trade benefits. — <em>The verb &#39;focus&#39; takes the preposition &#39;on&#39;, not &#39;in&#39;.</em></li><li>Investigators are trying to determine if the plane crashed because of a mechanical malfunction. — <em>Use &#39;because of&#39; before a noun phrase.</em></li><li>Without adequate consumer protection laws, local buyers remain highly vulnerable to price hikes. — <em>The adjective &#39;vulnerable&#39; takes the preposition &#39;to&#39;.</em></li><li>The committee chairman promised to recap the key points before he ended the meeting tomorrow. — <em>Past reporting verb &#39;promised&#39; requires backshifting or consistent tense alignment.</em></li></ol>
+  </details>
+</section>
+
+<section class="sources">
+  <h2 class="kicker">Sources</h2>
+  <ol>
+<li><a href="https://www.theguardian.com/uk-news/2026/nov/17/american-soldier-brandon-carroll-tyner-spying-us-military-custody" rel="noopener">The Guardian — American soldier held in UK suspected of spying for Russia taken into US military custody</a></li>
+<li><a href="https://www.bbc.co.uk/news/articles/c6x284ez38vdo?at_medium=RSS&amp;at_campaign=rss" rel="noopener">BBC News — American soldier arrested by UK police on suspicion of spying taken into US military custody</a></li>
+<li><a href="https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-all-1573-rdf" rel="noopener">DW — APEC summit: What Trump, Xi and Putin want</a></li>
+<li><a href="https://www.aljazeera.com/news/2026/11/17/russian-military-plane-crash-in-siberia-kills-19?traffic_source=rss" rel="noopener">Al Jazeera — Russian military plane crash in Siberia kills 19</a></li>
+<li><a href="https://www.bangkokpost.com/business/general/3356749/hotel-guests-spend-less-amid-high-season" rel="noopener">Bangkok Post Business — Hotel guests spend less amid high season</a></li>
+<li><a href="https://www.bangkokpost.com/thailand/politics/3356679/election-commission-petition-draws-internal-dissent" rel="noopener">Bangkok Post — Election Commission petition draws internal dissent</a></li>
+  </ol>
+</section>
+
+<footer>THE CITY TIMES · Wednesday, 18 November 2026 · Written with AI from the sources listed above</footer>
+
+</div>
+<script>
+// Sepia ⇄ black & white switch (remembered in this browser), and open every
+// hidden answer / Thai meaning when the page is printed.
+(function(){
+  var root = document.documentElement, btn = document.getElementById('themeBtn');
+  function setTheme(t){
+    root.setAttribute('data-theme', t);
+    btn.textContent = t === 'bw' ? 'Sepia' : 'Black & White';
+    try { localStorage.setItem('city-theme', t); } catch (e) {}
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('city-theme'); } catch (e) {}
+  setTheme(saved === 'bw' ? 'bw' : 'sepia');
+  btn.addEventListener('click', function(){
+    setTheme(root.getAttribute('data-theme') === 'bw' ? 'sepia' : 'bw');
+  });
+  window.addEventListener('beforeprint', function(){
+    var d = document.querySelectorAll('details');
+    for (var i = 0; i < d.length; i++) { d[i].open = true; }
+  });
+})();</script>
+</body>
+</html>
