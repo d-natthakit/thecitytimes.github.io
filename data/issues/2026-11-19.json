@@ -1,0 +1,772 @@
+{
+ "plan": {
+  "date": "2026-11-19",
+  "date_long": "Thursday, 19 November 2026",
+  "weekday": "Thu",
+  "issue_no": 21,
+  "language": "German",
+  "phrase_theme": "asking for directions",
+  "feature": "Home / Environment",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Synonym choice",
+  "trap": "Countable/uncountable & plurals",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "burgeoning",
+   "candidacy",
+   "capitalizing",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commendation",
+   "compelling",
+   "compostable",
+   "concessions",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "counterintelligence",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culpability",
+   "curate",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "disparity",
+   "disperse",
+   "disruption",
+   "diversify",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "expertise",
+   "extinction",
+   "extramarital",
+   "facilitate",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "groomed",
+   "hospitality",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incorporate",
+   "inevitable",
+   "integrate",
+   "interim",
+   "intermittent",
+   "jeopardising",
+   "jurisdiction",
+   "listing",
+   "logistics",
+   "look into",
+   "malfunction",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "occupancy",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "preservation",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "recap",
+   "reciprocal",
+   "rectify",
+   "reinstate",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "slashed",
+   "slashing",
+   "solemn",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transactional",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "unanimously",
+   "undergoes",
+   "unpopulated",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "versatile",
+   "vitality",
+   "vulnerable",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "counterintelligence",
+    "taught_date": "2026-11-18",
+    "days_ago": 1
+   },
+   {
+    "word": "jeopardising",
+    "taught_date": "2026-11-18",
+    "days_ago": 1
+   },
+   {
+    "word": "transactional",
+    "taught_date": "2026-11-18",
+    "days_ago": 1
+   },
+   {
+    "word": "reciprocal",
+    "taught_date": "2026-11-18",
+    "days_ago": 1
+   },
+   {
+    "word": "unpopulated",
+    "taught_date": "2026-11-18",
+    "days_ago": 1
+   },
+   {
+    "word": "occupancy",
+    "taught_date": "2026-11-18",
+    "days_ago": 1
+   },
+   {
+    "word": "jurisdiction",
+    "taught_date": "2026-11-18",
+    "days_ago": 1
+   },
+   {
+    "word": "recap",
+    "taught_date": "2026-11-18",
+    "days_ago": 1
+   },
+   {
+    "word": "culpability",
+    "taught_date": "2026-11-16",
+    "days_ago": 3
+   },
+   {
+    "word": "repercussions",
+    "taught_date": "2026-11-16",
+    "days_ago": 3
+   },
+   {
+    "word": "impediments",
+    "taught_date": "2026-11-16",
+    "days_ago": 3
+   },
+   {
+    "word": "encroachment",
+    "taught_date": "2026-11-16",
+    "days_ago": 3
+   },
+   {
+    "word": "sovereignty",
+    "taught_date": "2026-11-16",
+    "days_ago": 3
+   },
+   {
+    "word": "clarification",
+    "taught_date": "2026-11-16",
+    "days_ago": 3
+   },
+   {
+    "word": "unambiguous",
+    "taught_date": "2026-11-16",
+    "days_ago": 3
+   },
+   {
+    "word": "promptly",
+    "taught_date": "2026-11-16",
+    "days_ago": 3
+   },
+   {
+    "word": "stunning",
+    "taught_date": "2026-11-12",
+    "days_ago": 7
+   },
+   {
+    "word": "logistics",
+    "taught_date": "2026-11-12",
+    "days_ago": 7
+   },
+   {
+    "word": "mayhem",
+    "taught_date": "2026-11-12",
+    "days_ago": 7
+   },
+   {
+    "word": "expertise",
+    "taught_date": "2026-11-12",
+    "days_ago": 7
+   },
+   {
+    "word": "forfeit",
+    "taught_date": "2026-11-12",
+    "days_ago": 7
+   },
+   {
+    "word": "compostable",
+    "taught_date": "2026-11-12",
+    "days_ago": 7
+   }
+  ],
+  "recent_traps": [
+   "Using 'Since' Instead of 'For' with Duration",
+   "Prepositions: 'Depend On' vs. 'Depend With'",
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Summarizing Key Points Before Ending a Team Call",
+   "Should software development teams ban automated code generators for junior developers?",
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "How Modern Film Scoring Shapes Storytelling Behind the Scenes",
+   "Building Digital Resilience in an Interconnected World",
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "fahren",
+   "Autobahn",
+   "Schwarzfahren",
+   "kaufen",
+   "Glockenspiel",
+   "Hamsterkauf",
+   "essen",
+   "delicatessen",
+   "Kummerspeck",
+   "trinken",
+   "Pretzel",
+   "Kaffeeklatsch",
+   "sprechen",
+   "Kindergarten",
+   "Feierabend"
+  ],
+  "recent_news_titles": [
+   "American soldier held in UK suspected of spying for Russia taken into US military custody",
+   "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "APEC summit: What Trump, Xi and Putin want",
+   "Russian military plane crash in Siberia kills 19",
+   "Hotel guests spend less amid high season",
+   "Election Commission petition draws internal dissent",
+   "United Airlines says ‘widespread’ system outage resolved",
+   "United Airlines resolves tech outage that delayed flights",
+   "EU countries announce migrant deportation centre in Rwanda",
+   "Five EU countries announce migrant deportation centre in Rwanda",
+   "France's Philippe Diallo to challenge Infantino for FIFA presidency",
+   "Anutin, Trump to sign joint statement on Thai-US reciprocal trade",
+   "TAT seeks new markets amid ongoing Middle East risks",
+   "Estonia to close all border crossings with Russia after attack on drone maker",
+   "Estonia to close border crossings with Russia after alleged arson attack",
+   "Australia, Canada, Italy and the UK urge Israel to allow aid into Gaza",
+   "Czechs rally against plan to switch funding of public media",
+   "Phuket steps up effort to reclaim land",
+   "PM calls on Cambodia to show commitment to peace after Hun Manet’s remarks"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "Al Jazeera",
+   "title": "Trump and Putin to meet one-on-one in China Thursday",
+   "url": "https://www.aljazeera.com/news/2026/11/18/trump-and-putin-to-meet-one-on-one-in-china-thursday?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "NPR",
+   "title": "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6027645/trump-to-meet-with-russias-putin-and-chinas-xi-for-historic-joint-meeting",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "DW",
+   "title": "Israel launches new ground operation in Gaza",
+   "url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "BBC News",
+   "title": "Crimean Bridge attacked again, Russian official says",
+   "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "SEC defends proposed stablecoin rules",
+   "url": "https://www.bangkokpost.com/business/investment/3357364/sec-defends-proposed-stablecoin-rules",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "10,000 monks feted with alms",
+   "url": "https://www.bangkokpost.com/thailand/general/3357521/10000-monks-feted-with-alms",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "settlement",
+   "counterpart",
+   "dislodge",
+   "arsenal",
+   "circumvent",
+   "solidarity",
+   "curb",
+   "conducive"
+  ],
+  "recycled_words": [
+   "logistics"
+  ],
+  "cover": {
+   "headline": "Historic Trilateral Summit Convenes as Washington Pursues Ukrainian Peace",
+   "paragraphs": [
+    "United States President Donald Trump is set to hold a high-stakes one-on-one meeting with Russian President Vladimir Putin on Thursday in China. The two leaders last met in Alaska in August 2025 during negotiations to end the war in Ukraine, where they failed to reach a lasting **settlement**. According to an American official, this latest dialogue forms part of a wider, organized diplomatic mission designed to halt the fighting and reduce the severe human suffering caused by the conflict.",
+    "Beyond direct talks with Russia, Washington is also advancing discussions with European partners. American envoys Steve Witkoff and Jared Kushner are scheduled to meet with Ukrainian representatives and European allies in Berlin on Thursday. Their talks focus on constructing post-war security guarantees alongside a comprehensive economic recovery strategy for Kyiv, aiming to secure conditions for a stable, sovereign Ukraine.",
+    "The diplomatic activity in China also features a broader historic engagement. Trump and Putin are scheduled to join their Chinese **counterpart**, Xi Jinping, for a trilateral summit on the sidelines of the Asia-Pacific Economic Cooperation forum in Shenzhen. This unprecedented gathering marks the first time the leaders of these three major powers have met together in such a format.",
+    "The Chinese host delivered an unexpected welcome when Trump arrived in the southern metropolis, greeting the American president directly on the airport tarmac. This marks the third encounter between Trump and Xi this year, set against an ambitious backdrop in Shenzhen. The host city has actively showcased cutting-edge technologies, including electric vehicles and humanoid robots serving drinks in conference areas.",
+    "However, deep commercial and strategic frictions continue to define relations between Washington and Beijing. The United States has barred advanced Chinese robotics and electric vehicles from entering its domestic market on national security grounds. Washington has also accused Beijing of restricting exports of rare earths, which remain critical components in consumer electronics and advanced defense systems.",
+    "In response, the Trump administration has steadily expanded blacklists targeting Chinese technology firms and academic institutions. Just this week, the United States Commerce Department moved to block remote access to the most advanced American semiconductor chips. Although previous negotiations led to a temporary pause on tariffs, reaching a durable commercial agreement continues to face significant diplomatic and economic hurdles.",
+    "The outcome of Thursday's extensive talks in Shenzhen could carry profound global **repercussions**, testing whether direct engagement between rival superpowers can overcome entrenched trade disputes and help end Europe's deadliest ongoing war."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Israeli Military Launches New Incursion in Central Gaza",
+    "paragraphs": [
+     "Israeli forces launched a fresh ground operation in central Gaza on Wednesday, aiming to **dislodge** Hamas fighters operating west of the Yellow Line. That boundary, established under the October 2025 ceasefire, divides Israeli and Hamas areas.",
+     "Military authorities issued warnings urging humanitarian agencies and civilians to avoid regions near the Al-Bureij and Nuseirat refugee camps, as well as the Salah al-Din road. Hamas denounced the operation, asserting that the incursions breach the ceasefire, while Israeli officials maintained the offensive was necessary to stop militant regrouping.",
+     "The renewed combat worsens an already dire humanitarian crisis. United Nations relief agencies warn that 1.4 million Palestinians face severe hunger as winter approaches, with critical shortages of food and shelter threatening displaced communities across the territory."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Ukrainian Strikes Target Crucial Crimean Bridge Again",
+    "paragraphs": [
+     "Ukraine has struck the Crimean Bridge for the third time this week, forcing authorities to temporarily suspend transit across the vital crossing. Russian-appointed regional officials confirmed the overnight hit, noting that engineers were assessing the extent of the damage.",
+     "The strikes follow an earlier operation on November 17, when Ukrainian drones and missiles collapsed a key road span into the sea. Ukrainian planners spent weeks preparing the operation, utilizing a diverse **arsenal** of long-range weapons to sever the 12-mile link.",
+     "Kyiv views the structure as an essential asset supporting Russian front-line military __logistics__. Meanwhile, Russian forces launched retaliatory drone and missile attacks, damaging bridges in Kyiv and hitting Odesa, where three people were killed on Wednesday."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Regulator Defends Stricter Transfer Caps on Stablecoins",
+    "paragraphs": [
+     "Thailand's Securities and Exchange Commission has defended a proposed daily limit of five million baht on foreign currency-backed stablecoin transfers. The financial watchdog explained that the measure will **circumvent** illicit capital flights and mitigate money-laundering risks.",
+     "Under the draft guidelines, transfers may only occur between accounts owned by the same individual. The regulator highlighted that foreign currency-backed tokens represented 85 percent of digital asset transaction value handled by licensed domestic operators between January and May 2026.",
+     "Officials noted that over 99 percent of retail investors execute transfers well below the proposed threshold. The rules are designed to align digital transactions with Bank of Thailand standards, discouraging unregulated over-the-counter channels while ensuring customer oversight."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Khon Kaen to Host Mass Alms Ceremony for 10,000 Monks",
+    "paragraphs": [
+     "The northeastern city of Khon Kaen will hold a major alms-giving ceremony on December 26, bringing together 10,000 Buddhist monks from across seven provinces. The religious gathering will take place outside the provincial government office.",
+     "Organizers announced that the ceremony commemorates Thao Phia Muang Phan, the historical founder of the city. Officials expect between 30,000 and 50,000 lay devotees to attend the event along the main roadway.",
+     "Beyond honoring cultural roots and promoting religious tourism, the gathering seeks to foster social **solidarity**. Donated dry food items collected from participants will go to the Khon Kaen Gives and Cares Fund to support flood victims and needy families."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Transforming Your Living Space to Support Mental Well-Being",
+   "paragraphs": [
+    "Our immediate living environment exerts a profound influence on our daily emotional health. When domestic spaces become cluttered or poorly lit, our brains constantly process visual noise, which can trigger subtle, chronic stress. Designing a serene home does not require expensive remodeling or minimalist extremes. Instead, thoughtful organizational habits and deliberate spatial adjustments can transform any residence into a sanctuary for relaxation.",
+    "The first step involves intentional decluttering, particularly in areas dedicated to rest and focus. Piles of paperwork, tangled charging cables, and scattered household objects compete for mental attention. By dedicating specific storage zones for common items and clearing flat surfaces, you immediately reduce sensory fatigue. Furthermore, establishing clear physical boundaries between work devices and relaxation areas allows the brain to transition smoothly out of professional mode in the evening.",
+    "Lighting plays an equally vital role in managing daily energy levels and emotional stability. Natural sunlight promotes healthy sleep-wake rhythms and enhances daytime alertness. Opening window coverings early in the day allows bright morning light to flood the interior, which naturally boosts mood. In the evening, dimming overhead illumination and opting for warm, indirect lamps signals to your nervous system that the day is concluding, encouraging better sleep.",
+    "Bringing natural elements indoors offers another practical method to **curb** ambient stress. Houseplants improve interior air circulation while providing soothing organic visual textures that contrast with digital screens. Simple greenery, combined with adequate ventilation, creates an environment that feels fresh and restorative.",
+    "Ultimately, an intentional home layout supports sustained personal recovery after demanding workdays. Cultivating an uncluttered, well-lit, and peaceful living space fosters a setting **conducive** to genuine rest, helping professionals recharge both physically and mentally."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should households switch to smart home automation for residential energy management?",
+   "view_a": {
+    "title": "Efficiency Through Intelligent Automation",
+    "text": "Adopting connected home automation provides effortless energy conservation. Smart thermostats and sensor-based lighting automatically turn off when rooms are unoccupied, eliminating human forgetfulness. **Although it is true that** initial hardware costs can be significant, the long-term electricity savings quickly justify the purchase. Automated schedules also adjust indoor climate settings based on weather patterns, reducing excessive utility consumption. Furthermore, mobile dashboards allow residents to monitor power usage instantly, fostering greater awareness. Smart automation delivers convenience and lower bills without requiring daily manual adjustments."
+   },
+   "view_b": {
+    "title": "Simplicity and Privacy Over Technology",
+    "text": "Relying on complex smart gadgets often introduces unnecessary complications to domestic life. **It seems likely that** many automated systems collect intrusive household data, raising legitimate digital privacy concerns. In addition, software bugs, connectivity dropouts, and platform updates frequently require tedious troubleshooting. **On the other hand**, simple manual mindfulness, such as switching off air conditioners and unplugging unused appliances, achieves similar energy savings without electronic waste or privacy risks. A sustainable household depends primarily on personal habits rather than expensive, connected machinery."
+   },
+   "phrases": [
+    {
+     "phrase": "Although it is true that",
+     "function": "concession"
+    },
+    {
+     "phrase": "It seems likely that",
+     "function": "hedging"
+    },
+    {
+     "phrase": "On the other hand",
+     "function": "contrast"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Equipment is Uncountable",
+   "wrong": "We purchased several new smart home equipments to lower our electricity bills.",
+   "right": "We purchased several new pieces of smart home equipment to lower our electricity bills.",
+   "explanation": "Thai speakers often add an '-s' to the noun 'equipment' because the Thai term 'อุปกรณ์' can easily refer to multiple individual items. In English, 'equipment' is an uncountable mass noun and never takes a plural '-s'. If you need to count individual units, use a phrase like 'pieces of equipment' or 'items of equipment'."
+  },
+  "word_bank": [
+   {
+    "word": "settlement",
+    "pos": "n.",
+    "definition": "an official agreement that ends an argument or dispute",
+    "thai": "ข้อตกลงยุติความขัดแย้ง",
+    "collocations": [
+     "reach a settlement",
+     "peace settlement",
+     "negotiate a settlement"
+    ],
+    "example": "The two leaders last met in Alaska in August 2025 during negotiations to end the war in Ukraine, where they failed to reach a lasting **settlement**."
+   },
+   {
+    "word": "counterpart",
+    "pos": "n.",
+    "definition": "a person or thing holding a position matching another in a different place or organization",
+    "thai": "ตำแหน่งที่เทียบเท่ากัน",
+    "collocations": [
+     "foreign counterpart",
+     "meet with counterparts",
+     "counterpart in office"
+    ],
+    "example": "Trump and Putin are scheduled to join their Chinese **counterpart**, Xi Jinping, for a trilateral summit on the sidelines of the Asia-Pacific Economic Cooperation forum in Shenzhen."
+   },
+   {
+    "word": "dislodge",
+    "pos": "v.",
+    "definition": "to remove someone or something from a fixed or established position",
+    "thai": "ขับไล่ หรือ ทำให้ออกจากตำแหน่ง",
+    "collocations": [
+     "dislodge an enemy",
+     "dislodge troops",
+     "dislodge from position"
+    ],
+    "example": "Israeli forces launched a fresh ground operation in central Gaza on Wednesday, aiming to **dislodge** Hamas fighters operating west of the Yellow Line."
+   },
+   {
+    "word": "arsenal",
+    "pos": "n.",
+    "definition": "a collection of weapons or resources available for a purpose",
+    "thai": "คลังอาวุธ หรือ ทรัพยากรที่มีอยู่",
+    "collocations": [
+     "military arsenal",
+     "diverse arsenal",
+     "expand the arsenal"
+    ],
+    "example": "Ukrainian planners spent weeks preparing the operation, utilizing a diverse **arsenal** of long-range weapons to sever the 12-mile link."
+   },
+   {
+    "word": "circumvent",
+    "pos": "v.",
+    "definition": "to cleverly avoid a rule, law, or obstacle",
+    "thai": "หลบเลี่ยง หรือ ก้าวข้ามข้อจำกัด",
+    "collocations": [
+     "circumvent the rules",
+     "circumvent restrictions",
+     "circumvent controls"
+    ],
+    "example": "The financial watchdog explained that the measure will **circumvent** illicit capital flights and mitigate money-laundering risks."
+   },
+   {
+    "word": "solidarity",
+    "pos": "n.",
+    "definition": "unity or mutual support among people who share a common interest",
+    "thai": "ความสามัคคี หรือ ความเป็นน้ำหนึ่งใจเดียวกัน",
+    "collocations": [
+     "show solidarity",
+     "in solidarity with",
+     "foster solidarity"
+    ],
+    "example": "Beyond honoring cultural roots and promoting religious tourism, the gathering seeks to foster social **solidarity**."
+   },
+   {
+    "word": "curb",
+    "pos": "v.",
+    "definition": "to control, limit, or keep something undesirable in check",
+    "thai": "ควบคุม หรือ ยับยั้ง",
+    "collocations": [
+     "curb spending",
+     "curb inflation",
+     "curb stress"
+    ],
+    "example": "Bringing natural elements indoors offers another practical method to **curb** ambient stress."
+   },
+   {
+    "word": "conducive",
+    "pos": "adj.",
+    "definition": "making a particular situation or outcome likely or possible",
+    "thai": "เอื้อต่อ...",
+    "collocations": [
+     "conducive to learning",
+     "conducive environment",
+     "conducive to health"
+    ],
+    "example": "Cultivating an uncluttered, well-lit, and peaceful living space fosters a setting **conducive** to genuine rest, helping professionals recharge both physically and mentally."
+   },
+   {
+    "word": "logistics",
+    "pos": "n.",
+    "definition": "the detailed organization and execution of a complex operation",
+    "thai": "การบริหารจัดการขนส่งและส่งกำลังบำรุง",
+    "collocations": [],
+    "example": "Kyiv views the structure as an essential asset supporting Russian front-line military __logistics__."
+   }
+  ],
+  "activity": {
+   "instructions": "Choose the word or phrase that is closest in meaning to the bold word in each sentence.",
+   "items": [
+    "The diplomats met late into the night to negotiate a peaceful **settlement** to the conflict. (a) argument (b) agreement (c) struggle",
+    "The local manager discussed the new strategy with her European **counterpart**. (a) equivalent (b) opponent (c) predecessor",
+    "Security guards worked quickly to **dislodge** the protesters blocking the main entrance. (a) welcome (b) observe (c) remove",
+    "The company added several digital tools to its **arsenal** to boost customer engagement. (a) office (b) resources (c) profit",
+    "Some buyers tried to **circumvent** the daily transaction limit by using multiple accounts. (a) bypass (b) respect (c) cancel",
+    "Quiet lighting creates an atmosphere **conducive** to deep concentration. (a) favorable (b) harmful (c) irrelevant"
+   ],
+   "answers": [
+    "(b) agreement",
+    "(a) equivalent",
+    "(c) remove",
+    "(b) resources",
+    "(a) bypass",
+    "(a) favorable"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The leaders assembled to show solidarity for the refugees fleeing the war.",
+    "corrected": "The leaders assembled to show solidarity with the refugees fleeing the war.",
+    "reason": "Incorrect preposition; the phrase is 'solidarity with'."
+   },
+   {
+    "sentence": "New policies were introduced to curb on rising energy costs this winter.",
+    "corrected": "New policies were introduced to curb rising energy costs this winter.",
+    "reason": "Transitive verb 'curb' does not take the preposition 'on'."
+   },
+   {
+    "sentence": "The army failed to dislodge enemy troops out of the fortified hill.",
+    "corrected": "The army failed to dislodge enemy troops from the fortified hill.",
+    "reason": "Incorrect preposition; the verb 'dislodge' pairs with 'from'."
+   },
+   {
+    "sentence": "The country relies on a powerful arsenal to protecting its maritime borders.",
+    "corrected": "The country relies on a powerful arsenal to protect its maritime borders.",
+    "reason": "Infinitive pattern requires 'to protect' instead of 'to protecting'."
+   },
+   {
+    "sentence": "Companies try to circumvent rules by move funds across international borders.",
+    "corrected": "Companies try to circumvent rules by moving funds across international borders.",
+    "reason": "Preposition 'by' must be followed by a gerund ('moving')."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Navigating a foreign city becomes much easier once you learn a few basic German phrases for asking directions.",
+   "phrases": [
+    {
+     "phrase": "Wo ist...?",
+     "pronunciation": "voh ist",
+     "meaning": "Where is...?"
+    },
+    {
+     "phrase": "Entschuldigung!",
+     "pronunciation": "ent-SHOOL-dee-goong",
+     "meaning": "Excuse me!"
+    },
+    {
+     "phrase": "Geradeaus gehen",
+     "pronunciation": "geh-RAH-deh-ows GAY-en",
+     "meaning": "Go straight ahead"
+    }
+   ],
+   "root": {
+    "root": "weg",
+    "meaning": "way or path",
+    "english_words": "way, pathway, away",
+    "note": "This Germanic root relating to paths appears in modern German street names like 'Bahnhofsweg' and connects directly to the English word 'way'."
+   },
+   "borrowed": {
+    "word": "autobahn",
+    "note": "English borrowed this word directly to describe the famed high-speed highway system in Germany."
+   },
+   "curious": {
+    "word": "Zugzwang",
+    "pronunciation": "TSOOG-tsvang",
+    "meaning": "a situation where any move you make will worsen your position",
+    "note": "Originally from chess, this word describes feeling forced to take action even when every choice has negative outcomes."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 404,
+  "world_1": 122,
+  "world_2": 116,
+  "thailand_1": 113,
+  "thailand_2": 106,
+  "feature": 275,
+  "real_english": 282,
+  "language_lab": 185,
+  "other_language": 110,
+  "word_bank": 360,
+  "total": 2242
+ },
+ "notes": [
+  "dropped 'repercussions' from recycled_words: it does not appear in the articles",
+  "dropped 'clarification' from recycled_words: it does not appear in the articles",
+  "dropped 'promptly' from recycled_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 404 words (target 470–510)",
+  "world_1: 122 words (target 140–160)",
+  "world_2: 116 words (target 140–160)",
+  "thailand_1: 113 words (target 140–160)",
+  "thailand_2: 106 words (target 140–160)",
+  "feature: 275 words (target 310–370)",
+  "other_language: 110 words (target 140–190)",
+  "whole issue: 2242 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
