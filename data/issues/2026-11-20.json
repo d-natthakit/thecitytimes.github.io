@@ -1,0 +1,848 @@
+{
+ "plan": {
+  "date": "2026-11-20",
+  "date_long": "Friday, 20 November 2026",
+  "weekday": "Fri",
+  "issue_no": 22,
+  "language": "Spanish",
+  "phrase_theme": "asking for directions",
+  "feature": "Food & Travel",
+  "opinion": "say_it_better",
+  "setting": "social & small talk",
+  "activity": "Mini crossword clues",
+  "trap": "Direct translation from Thai",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "arsenal",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "burgeoning",
+   "candidacy",
+   "capitalizing",
+   "circumvent",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commendation",
+   "compelling",
+   "compostable",
+   "concessions",
+   "conducive",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "counterintelligence",
+   "counterpart",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culpability",
+   "curate",
+   "curb",
+   "defied",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "dislodge",
+   "disparity",
+   "disperse",
+   "disruption",
+   "diversify",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "expertise",
+   "extinction",
+   "extramarital",
+   "facilitate",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "groomed",
+   "hospitality",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incorporate",
+   "inevitable",
+   "integrate",
+   "interim",
+   "intermittent",
+   "jeopardising",
+   "jurisdiction",
+   "listing",
+   "logistics",
+   "look into",
+   "malfunction",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "occupancy",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "preservation",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "recap",
+   "reciprocal",
+   "rectify",
+   "reinstate",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "settlement",
+   "slashed",
+   "slashing",
+   "solemn",
+   "solidarity",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transactional",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "unanimously",
+   "undergoes",
+   "unpopulated",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "versatile",
+   "vitality",
+   "vulnerable",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "settlement",
+    "taught_date": "2026-11-19",
+    "days_ago": 1
+   },
+   {
+    "word": "counterpart",
+    "taught_date": "2026-11-19",
+    "days_ago": 1
+   },
+   {
+    "word": "dislodge",
+    "taught_date": "2026-11-19",
+    "days_ago": 1
+   },
+   {
+    "word": "arsenal",
+    "taught_date": "2026-11-19",
+    "days_ago": 1
+   },
+   {
+    "word": "circumvent",
+    "taught_date": "2026-11-19",
+    "days_ago": 1
+   },
+   {
+    "word": "solidarity",
+    "taught_date": "2026-11-19",
+    "days_ago": 1
+   },
+   {
+    "word": "curb",
+    "taught_date": "2026-11-19",
+    "days_ago": 1
+   },
+   {
+    "word": "conducive",
+    "taught_date": "2026-11-19",
+    "days_ago": 1
+   },
+   {
+    "word": "malfunction",
+    "taught_date": "2026-11-17",
+    "days_ago": 3
+   },
+   {
+    "word": "vulnerable",
+    "taught_date": "2026-11-17",
+    "days_ago": 3
+   },
+   {
+    "word": "candidacy",
+    "taught_date": "2026-11-17",
+    "days_ago": 3
+   },
+   {
+    "word": "unanimously",
+    "taught_date": "2026-11-17",
+    "days_ago": 3
+   },
+   {
+    "word": "reciprocal",
+    "taught_date": "2026-11-17",
+    "days_ago": 3
+   },
+   {
+    "word": "preservation",
+    "taught_date": "2026-11-17",
+    "days_ago": 3
+   },
+   {
+    "word": "diversify",
+    "taught_date": "2026-11-17",
+    "days_ago": 3
+   },
+   {
+    "word": "integrate",
+    "taught_date": "2026-11-17",
+    "days_ago": 3
+   },
+   {
+    "word": "commendation",
+    "taught_date": "2026-11-13",
+    "days_ago": 7
+   },
+   {
+    "word": "solemn",
+    "taught_date": "2026-11-13",
+    "days_ago": 7
+   },
+   {
+    "word": "interim",
+    "taught_date": "2026-11-13",
+    "days_ago": 7
+   },
+   {
+    "word": "burgeoning",
+    "taught_date": "2026-11-13",
+    "days_ago": 7
+   },
+   {
+    "word": "facilitate",
+    "taught_date": "2026-11-13",
+    "days_ago": 7
+   },
+   {
+    "word": "omnichannel",
+    "taught_date": "2026-11-13",
+    "days_ago": 7
+   },
+   {
+    "word": "empower",
+    "taught_date": "2026-11-13",
+    "days_ago": 7
+   },
+   {
+    "word": "cordial",
+    "taught_date": "2026-11-13",
+    "days_ago": 7
+   },
+   {
+    "word": "versatile",
+    "taught_date": "2026-10-30",
+    "days_ago": 21
+   },
+   {
+    "word": "stint",
+    "taught_date": "2026-10-30",
+    "days_ago": 21
+   },
+   {
+    "word": "derail",
+    "taught_date": "2026-10-30",
+    "days_ago": 21
+   },
+   {
+    "word": "sparked",
+    "taught_date": "2026-10-30",
+    "days_ago": 21
+   },
+   {
+    "word": "steer clear of",
+    "taught_date": "2026-10-30",
+    "days_ago": 21
+   },
+   {
+    "word": "delicacies",
+    "taught_date": "2026-10-30",
+    "days_ago": 21
+   },
+   {
+    "word": "adventurous",
+    "taught_date": "2026-10-30",
+    "days_ago": 21
+   },
+   {
+    "word": "etiquette",
+    "taught_date": "2026-10-30",
+    "days_ago": 21
+   }
+  ],
+  "recent_traps": [
+   "Equipment is Uncountable",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Prepositions: 'Depend On' vs. 'Depend With'",
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should households switch to smart home automation for residential energy management?",
+   "Summarizing Key Points Before Ending a Team Call",
+   "Should software development teams ban automated code generators for junior developers?",
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Transforming Your Living Space to Support Mental Well-Being",
+   "How Modern Film Scoring Shapes Storytelling Behind the Scenes",
+   "Building Digital Resilience in an Interconnected World",
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "camino",
+   "barrio",
+   "callejón",
+   "comprar",
+   "plaza",
+   "ganga",
+   "gustar",
+   "café",
+   "Empalagar",
+   "Aqua / Agua",
+   "Cafeteria",
+   "Merienda",
+   "hablar",
+   "fiesta",
+   "Sobremesa"
+  ],
+  "recent_news_titles": [
+   "Trump and Putin to meet one-on-one in China Thursday",
+   "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+   "Israel launches new ground operation in Gaza",
+   "Crimean Bridge attacked again, Russian official says",
+   "SEC defends proposed stablecoin rules",
+   "10,000 monks feted with alms",
+   "American soldier held in UK suspected of spying for Russia taken into US military custody",
+   "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "APEC summit: What Trump, Xi and Putin want",
+   "Russian military plane crash in Siberia kills 19",
+   "Hotel guests spend less amid high season",
+   "Election Commission petition draws internal dissent",
+   "United Airlines says ‘widespread’ system outage resolved",
+   "United Airlines resolves tech outage that delayed flights",
+   "EU countries announce migrant deportation centre in Rwanda",
+   "Five EU countries announce migrant deportation centre in Rwanda",
+   "France's Philippe Diallo to challenge Infantino for FIFA presidency",
+   "Anutin, Trump to sign joint statement on Thai-US reciprocal trade",
+   "TAT seeks new markets amid ongoing Middle East risks"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "BBC News",
+   "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+   "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "DW",
+   "title": "Cincinnati's famous hippo Fiona dies after eating visitor's hat",
+   "url": "https://www.dw.com/en/cincinnati-s-famous-hippo-fiona-dies-after-eating-visitor-s-hat/a-79998371?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_1 (second source)",
+   "source": "BBC News",
+   "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+   "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "world_2",
+   "source": "Al Jazeera",
+   "title": "What does the Myanmar genocide ruling mean for the Rohingya?",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/what-does-the-myanmar-genocide-ruling-mean-for-the-rohingya?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "world_2 (second source)",
+   "source": "BBC News",
+   "title": "Rohingya genocide: What was said in court and what happens now?",
+   "url": "https://www.bbc.co.uk/news/videos/c60qj10j0ld5o?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S7",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Looser TV broadcasting rules urged",
+   "url": "https://www.bangkokpost.com/business/general/3358139/looser-tv-broadcasting-rules-urged",
+   "thin": false
+  },
+  {
+   "id": "S8",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Korakot eyes the top job at THAI",
+   "url": "https://www.bangkokpost.com/thailand/general/3357909/korakot-eyes-the-top-job-at-thai",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "deliberate",
+   "stain",
+   "ingested",
+   "interventions",
+   "relieve",
+   "assessment",
+   "gracefully"
+  ],
+  "recycled_words": [
+   "preservation",
+   "curb",
+   "facilitate",
+   "cordial"
+  ],
+  "cover": {
+   "headline": "UN Court Rules Myanmar Committed Genocide Against Rohingya Minority",
+   "paragraphs": [
+    "In an unprecedented decision, the International Court of Justice has found Myanmar guilty of committing genocide against its Rohingya Muslim minority. The verdict, announced by court president Yuji Iwasawa, marks the first time in history that an international tribunal has declared a state responsible for genocide under the 1948 Genocide Convention. The court stated that the military acted with the clear intent to destroy a substantial portion of the population.",
+    "The legal battle began seven years ago when The Gambia brought the case to the court in the Netherlands. It focused on large-scale military actions initiated in 2017 in Rakhine State, following attacks by armed Rohingya fighters on police posts. The judges concluded that the subsequent military operations involved **deliberate**, indiscriminate violence against civilians, including mass killings and widespread sexual abuse, driving over 700,000 Rohingya to seek refuge in neighboring Bangladesh.",
+    "While Myanmar officials previously denied the allegations by arguing that their troops were conducting legitimate counter-terrorism operations, the court unanimously rejected those claims. The judges found that genocidal intent was the only reasonable inference to draw from the evidence. Furthermore, the court noted that state institutions engaged in systematic destruction of evidence, including the burning of bodies and villages, while promoting hate speech that dehumanized the minority group.",
+    "The ruling leaves a lasting **stain** on the state, distinguishing this case from previous international trials that targeted individual perpetrators rather than whole governments. Although the court lacks direct power to imprison military officials, it declared that Myanmar has an obligation to pay proportionate financial compensation, with the exact monetary figures to be determined during future legal proceedings.",
+    "Human rights groups and Rohingya communities across the globe celebrated the decision as a critical step toward justice after decades of suffering. However, international observers emphasize that the judgment must lead to concrete political action to secure the long-term __preservation__ of the Rohingya people's rights and safety."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Famous Hippo Fiona Dies at Cincinnati Zoo After Swallowing Hat",
+    "paragraphs": [
+     "Fiona, the beloved hippopotamus who captured global attention following her premature birth in 2017, has died at the Cincinnati Zoo in Ohio. Zoo officials confirmed the tragic news after veterinary teams spent days trying to help her overcome a severe medical emergency.",
+     "The incident began approximately ten days ago when a visitor's knitted hat was accidentally thrown into the air, caught by a ceiling fan, and landed inside Fiona's enclosure. The hippo **ingested** the object, which eventually caused a dangerous obstruction in her small intestine.",
+     "Despite emergency medical **interventions** and constant care, veterinary staff could not save her, as surgical procedures are not feasible for full-grown hippos. Zoo directors expressed profound shock over the outcome, praising the care team for trying everything possible to save the famous animal."
+    ],
+    "source_ids": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "headline": "Rohingya Refugees Celebrate Historic Ruling from International Court",
+    "paragraphs": [
+     "Rohingya refugees living in Bangladesh camps reacted with immense joy and emotional celebrations after learning that the International Court of Justice ruled in their favor. Crowds gathered around public viewing screens to watch the final verdict broadcast live from the Netherlands.",
+     "Community members expressed deep relief, calling the decision a long-awaited formal recognition of their immense hardship. For many survivors who fled violent operations in 2017, the court ruling provides renewed hope for future generations seeking safety and legal rights.",
+     "Human rights advocate groups emphasized that while the court verdict represents a major legal victory, global leaders must now take action to enforce the ruling and protect displaced communities."
+    ],
+    "source_ids": [
+     "S5",
+     "S6"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "NBTC Proposes Looser Network Coverage Rules to Lower TV Costs",
+    "paragraphs": [
+     "A recent study by the National Broadcasting and Telecommunications Commission recommends relaxing network coverage requirements for digital television multiplexers, known locally as MUX. The proposal suggests letting operators choose between 80 percent and 95 percent population coverage instead of the current mandatory 95 percent threshold.",
+     "Lowering the coverage requirement could significantly reduce monthly rental charges for television channels, providing relief to broadcasters struggling with rising business expenses. Officials noted that the existing rules were designed when terrestrial broadcasting was the main way to deliver television content, which no longer matches modern media habits.",
+     "However, regulators must carefully balance cost reductions for businesses with public service obligations. Lowering network reach could impact access to news in remote areas, so the commission must __curb__ unnecessary fees while preserving essential information access for vulnerable communities."
+    ],
+    "source_ids": [
+     "S7"
+    ]
+   },
+   {
+    "headline": "Three Candidates Shortlisted for Chief Executive Role at THAI Airways",
+    "paragraphs": [
+     "Thai Airways International has narrowed its search for a new chief executive officer, locally called the DD, down to three internal candidates. The selection process comes as the national carrier works to strengthen commercial recovery and maintain operational efficiency following recent financial restructuring.",
+     "The finalists include former commercial chief Korakot Chatasingha, technical operations chief Cherdchoke Lathikol, and aviation business head Varangkana Lueroojwong. All three executives bring decades of institutional knowledge, having built long careers across engineering, catering, cargo, and marketing departments within the company.",
+     "An overseas human resources consultancy is conducting further assessments before the board makes a final decision in December. The chosen candidate will take office on January 1, 2027, to lead the airline through its next phase of global growth."
+    ],
+    "source_ids": [
+     "S8"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Mastering Street Food Travel: Eat Like a Local with Confidence",
+   "paragraphs": [
+    "Exploring street food stalls is often the highlight of international travel, offering an authentic taste of local culture and traditions. However, dining in unfamiliar outdoor markets can feel intimidating for first-time visitors who worry about ordering or health risks. With a thoughtful approach, you can step out of your comfort zone and enjoy delicious regional meals safely.",
+    "Before sitting down at a stall, take a moment to observe the customer traffic and overall hygiene. High customer turn-over is one of the best indicators of fresh ingredients, as food is cooked rapidly at high temperatures rather than sitting out for hours. Watching how vendors handle raw meats and cash can also help you make a quick **assessment** of their food safety practices.",
+    "Communicating your preferences across language barriers does not need to be stressful. Simple hand gestures, pointing directly to freshly displayed ingredients, or carrying written translations of your dietary needs can __facilitate__ smooth interactions with vendors. Learning basic local greetings shows respect and often earns warm hospitality from stall owners.",
+    "To avoid digestive issues, start small by sampling modest portions before trying complex local dishes. Carrying hand sanitizer and choosing cooked items over raw garnishes can further **relieve** common travel worries. Embracing street dining allows travelers to support small family vendors while discovering extraordinary flavors that standard hotel restaurants rarely capture."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Joining an Ongoing Conversation",
+   "situation": "You arrive slightly late to a company dinner reception where several colleagues are already engaged in an animated group discussion. You want to step into the circle **gracefully**, show genuine curiosity about their topic, and establish a __cordial__ rapport without interrupting anyone mid-sentence.",
+   "formal": "Pardon the intrusion, but may I join this circle, or are you currently attending to a confidential work matter? I would be delighted to hear your thoughts on the subject whenever convenient.",
+   "neutral": "Would you mind if I joined your conversation? I could not help noticing everyone's enthusiasm, and I would love to catch up on what you are talking about.",
+   "casual": "Mind if I squeeze in here with you guys? Everyone looks so engaged, so please fill me in on what I missed!",
+   "useful_phrases": [
+    "Pardon the intrusion, but may I join you?",
+    "Would you mind if I joined your conversation?",
+    "Please fill me in on what I missed!"
+   ]
+  },
+  "trap": {
+   "title": "Direct Translation: 'Play Internet' vs. 'Use the Internet'",
+   "wrong": "After finishing dinner yesterday, I stayed in my bedroom and played internet until midnight.",
+   "right": "After finishing dinner yesterday, I stayed in my bedroom and used the internet until midnight.",
+   "explanation": "Thai speakers often transfer เล่นอินเทอร์เน็ต directly into English as 'play internet' because the verb เล่น commonly introduces leisure activities in Thai. However, native English speakers make a **distinct** separation between gaming and browsing, using verbs like 'use', 'browse', or 'surf' instead of 'play'. To sound natural in everyday small talk, say you were 'using the internet', 'surfing the web', or simply 'online'."
+  },
+  "word_bank": [
+   {
+    "word": "deliberate",
+    "pos": "adjective",
+    "definition": "done consciously and intentionally",
+    "thai": "ที่เจตนา/ตั้งใจ",
+    "collocations": [
+     "deliberate attempt",
+     "deliberate choice",
+     "deliberate act"
+    ],
+    "example": "The judges concluded that the subsequent military operations involved **deliberate**, indiscriminate violence against civilians, including mass killings and widespread sexual abuse, driving over 700,000 Rohingya to seek refuge in neighboring Bangladesh."
+   },
+   {
+    "word": "stain",
+    "pos": "noun",
+    "definition": "a mark of disgrace or dishonor on someone's reputation",
+    "thai": "มลทิน/รอยแปดเปื้อน",
+    "collocations": [
+     "lasting stain",
+     "remove a stain",
+     "stain on reputation"
+    ],
+    "example": "The ruling leaves a lasting **stain** on the state, distinguishing this case from previous international trials that targeted individual perpetrators rather than whole governments."
+   },
+   {
+    "word": "ingested",
+    "pos": "verb",
+    "definition": "swallowed or took food, drink, or another substance into the body",
+    "thai": "กิน/กลืนลงไป",
+    "collocations": [
+     "accidentally ingested",
+     "ingested toxic materials",
+     "ingested food"
+    ],
+    "example": "The hippo **ingested** the object, which eventually caused a dangerous obstruction in her small intestine."
+   },
+   {
+    "word": "interventions",
+    "pos": "noun",
+    "definition": "actions taken to improve a situation or treat a medical condition",
+    "thai": "การแทรกแซง/การรักษาทางการแพทย์",
+    "collocations": [
+     "medical interventions",
+     "early interventions",
+     "surgical interventions"
+    ],
+    "example": "Despite emergency medical **interventions** and constant care, veterinary staff could not save her, as surgical procedures are not feasible for full-grown hippos."
+   },
+   {
+    "word": "relieve",
+    "pos": "verb",
+    "definition": "to lessen or remove pain, distress, or anxiety",
+    "thai": "บรรเทา/แบ่งเบา",
+    "collocations": [
+     "relieve stress",
+     "relieve pain",
+     "relieve anxiety"
+    ],
+    "example": "Carrying hand sanitizer and choosing cooked items over raw garnishes can further **relieve** common travel worries."
+   },
+   {
+    "word": "assessment",
+    "pos": "noun",
+    "definition": "the evaluation or estimation of the nature, quality, or ability of someone or something",
+    "thai": "การประเมินผล",
+    "collocations": [
+     "risk assessment",
+     "conduct an assessment",
+     "initial assessment"
+    ],
+    "example": "An overseas human resources consultancy is conducting further assessments before the board makes a final decision in December."
+   },
+   {
+    "word": "gracefully",
+    "pos": "adverb",
+    "definition": "in a smooth, polite, or attractive manner",
+    "thai": "อย่างสง่างาม/อย่างละมุนละม่อม",
+    "collocations": [
+     "move gracefully",
+     "handle gracefully",
+     "accept defeat gracefully"
+    ],
+    "example": "You want to step into the circle **gracefully**, show genuine curiosity about their topic, and establish a __cordial__ rapport without interrupting anyone mid-sentence."
+   },
+   {
+    "word": "preservation",
+    "pos": "noun",
+    "definition": "the act of keeping something safe, intact, or in good condition",
+    "thai": "การอนุรักษ์/การสงวนไว้",
+    "collocations": [],
+    "example": "However, international observers emphasize that the judgment must lead to concrete political action to secure the long-term __preservation__ of the Rohingya people's rights and safety."
+   },
+   {
+    "word": "curb",
+    "pos": "verb",
+    "definition": "to restrain or keep something in check",
+    "thai": "ควบคุม/ยับยั้ง",
+    "collocations": [],
+    "example": "Lowering network reach could impact access to news in remote areas, so the commission must __curb__ unnecessary fees while preserving essential information access for vulnerable communities."
+   },
+   {
+    "word": "facilitate",
+    "pos": "verb",
+    "definition": "to make a process or action easier or smoother",
+    "thai": "อำนวยความสะดวก",
+    "collocations": [],
+    "example": "Simple hand gestures, pointing directly to freshly displayed ingredients, or carrying written translations of your dietary needs can __facilitate__ smooth interactions with vendors."
+   },
+   {
+    "word": "cordial",
+    "pos": "adjective",
+    "definition": "warm, friendly, and polite",
+    "thai": "ที่เป็นมิตร/ที่จริงใจ",
+    "collocations": [],
+    "example": "You want to step into the circle **gracefully**, show genuine curiosity about their topic, and establish a __cordial__ rapport without interrupting anyone mid-sentence."
+   }
+  ],
+  "activity": {
+   "instructions": "Solve the mini crossword clues using today's target words. Letter counts are given in parentheses.",
+   "items": [
+    "1. Done intentionally rather than by accident (10)",
+    "2. A mark of disgrace that damages a reputation (5)",
+    "3. Swallowed or absorbed food or objects into the body (8)",
+    "4. To lessen or reduce feelings of pain or worry (7)",
+    "5. The evaluation of someone's skills or a situation (10)",
+    "6. In an elegant, polite, and smooth manner (10)"
+   ],
+   "answers": [
+    "1. deliberate",
+    "2. stain",
+    "3. ingested",
+    "4. relieve",
+    "5. assessment",
+    "6. gracefully"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The court decided that Myanmar army committed severe human rights violations.",
+    "corrected": "The court decided that the Myanmar army committed severe human rights violations.",
+    "reason": "Missing definite article 'the' before specific institution 'Myanmar army'."
+   },
+   {
+    "sentence": "Visitors were shocked when the zoo announced that Fiona died from swallowed plastic.",
+    "corrected": "Visitors were shocked when the zoo announced that Fiona died from swallowing plastic.",
+    "reason": "Incorrect verb form after preposition 'from'; gerund 'swallowing' is required."
+   },
+   {
+    "sentence": "Refugees celebrated the court ruling which brought hope to them people.",
+    "corrected": "Refugees celebrated the court ruling which brought hope to their people.",
+    "reason": "Incorrect pronoun form; possessive adjective 'their' is required before noun."
+   },
+   {
+    "sentence": "The commission proposed a new plan for lower regional broadcasting costs.",
+    "corrected": "The commission proposed a new plan to lower regional broadcasting costs.",
+    "reason": "Incorrect preposition; 'to lower' expresses purpose better than 'for lower'."
+   },
+   {
+    "sentence": "The shortlisted candidate discussed about her executive background with the board.",
+    "corrected": "The shortlisted candidate discussed her executive background with the board.",
+    "reason": "Unnecessary preposition 'about' after the transitive verb 'discussed'."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "When traveling in Spanish-speaking regions, knowing basic phrases to navigate streets and find destinations is essential.",
+   "phrases": [
+    {
+     "phrase": "Dónde está...?",
+     "pronunciation": "dohn-deh ehs-tah",
+     "meaning": "Where is...?"
+    },
+    {
+     "phrase": "A la derecha",
+     "pronunciation": "ah lah deh-reh-chah",
+     "meaning": "To the right"
+    },
+    {
+     "phrase": "Todo recto",
+     "pronunciation": "toh-doh rrehk-toh",
+     "meaning": "Straight ahead"
+    }
+   ],
+   "root": {
+    "root": "dirigere",
+    "meaning": "to set straight or guide",
+    "english_words": "direct, direction, director",
+    "note": "Latin root that gives Spanish 'dirección' and English 'direction' their modern meanings."
+   },
+   "borrowed": {
+    "word": "patio",
+    "note": "Borrowed from Spanish where it originally described an inner courtyard open to the sky."
+   },
+   "curious": {
+    "word": "Callejear",
+    "pronunciation": "kah-yeh-heh-ahr",
+    "meaning": "To wander through streets aimlessly",
+    "note": "A poetic Spanish verb that captures the joy of exploring city lanes without a set map."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 314,
+  "world_1": 128,
+  "world_2": 109,
+  "thailand_1": 132,
+  "thailand_2": 123,
+  "feature": 221,
+  "real_english": 252,
+  "language_lab": 131,
+  "other_language": 96,
+  "word_bank": 421,
+  "total": 2111
+ },
+ "notes": [
+  "dropped 'distinct' from star_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 314 words (target 470–510)",
+  "world_2: 109 words (target 140–160)",
+  "thailand_2: 123 words (target 140–160)",
+  "feature: 221 words (target 310–370)",
+  "language_lab: 131 words (target 150–260)",
+  "other_language: 96 words (target 140–190)",
+  "whole issue: 2111 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: no answer within 240s",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
