@@ -1,0 +1,852 @@
+{
+ "plan": {
+  "date": "2026-11-21",
+  "date_long": "Saturday, 21 November 2026",
+  "weekday": "Sat",
+  "issue_no": 23,
+  "language": "French",
+  "phrase_theme": "asking for directions",
+  "feature": "Cultures / Digital Life",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Odd one out",
+  "trap": "Word order & questions",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "arsenal",
+   "assessment",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "burgeoning",
+   "candidacy",
+   "capitalizing",
+   "circumvent",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commendation",
+   "compelling",
+   "compostable",
+   "concessions",
+   "conducive",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "counterintelligence",
+   "counterpart",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culpability",
+   "curate",
+   "curb",
+   "defied",
+   "deliberate",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "discrepancy",
+   "disenfranchise",
+   "dislodge",
+   "disparity",
+   "disperse",
+   "disruption",
+   "diversify",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "expertise",
+   "extinction",
+   "extramarital",
+   "facilitate",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "gracefully",
+   "groomed",
+   "hospitality",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incorporate",
+   "inevitable",
+   "ingested",
+   "integrate",
+   "interim",
+   "intermittent",
+   "interventions",
+   "jeopardising",
+   "jurisdiction",
+   "listing",
+   "logistics",
+   "look into",
+   "malfunction",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "occupancy",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "preservation",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "recap",
+   "reciprocal",
+   "rectify",
+   "reinstate",
+   "relieve",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "settlement",
+   "slashed",
+   "slashing",
+   "solemn",
+   "solidarity",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stain",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tolerance",
+   "transactional",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "unanimously",
+   "undergoes",
+   "unpopulated",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "versatile",
+   "vitality",
+   "vulnerable",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "deliberate",
+    "taught_date": "2026-11-20",
+    "days_ago": 1
+   },
+   {
+    "word": "stain",
+    "taught_date": "2026-11-20",
+    "days_ago": 1
+   },
+   {
+    "word": "ingested",
+    "taught_date": "2026-11-20",
+    "days_ago": 1
+   },
+   {
+    "word": "interventions",
+    "taught_date": "2026-11-20",
+    "days_ago": 1
+   },
+   {
+    "word": "relieve",
+    "taught_date": "2026-11-20",
+    "days_ago": 1
+   },
+   {
+    "word": "assessment",
+    "taught_date": "2026-11-20",
+    "days_ago": 1
+   },
+   {
+    "word": "gracefully",
+    "taught_date": "2026-11-20",
+    "days_ago": 1
+   },
+   {
+    "word": "counterintelligence",
+    "taught_date": "2026-11-18",
+    "days_ago": 3
+   },
+   {
+    "word": "jeopardising",
+    "taught_date": "2026-11-18",
+    "days_ago": 3
+   },
+   {
+    "word": "transactional",
+    "taught_date": "2026-11-18",
+    "days_ago": 3
+   },
+   {
+    "word": "reciprocal",
+    "taught_date": "2026-11-18",
+    "days_ago": 3
+   },
+   {
+    "word": "unpopulated",
+    "taught_date": "2026-11-18",
+    "days_ago": 3
+   },
+   {
+    "word": "occupancy",
+    "taught_date": "2026-11-18",
+    "days_ago": 3
+   },
+   {
+    "word": "jurisdiction",
+    "taught_date": "2026-11-18",
+    "days_ago": 3
+   },
+   {
+    "word": "recap",
+    "taught_date": "2026-11-18",
+    "days_ago": 3
+   },
+   {
+    "word": "groomed",
+    "taught_date": "2026-11-14",
+    "days_ago": 7
+   },
+   {
+    "word": "misconduct",
+    "taught_date": "2026-11-14",
+    "days_ago": 7
+   },
+   {
+    "word": "listing",
+    "taught_date": "2026-11-14",
+    "days_ago": 7
+   },
+   {
+    "word": "undergoes",
+    "taught_date": "2026-11-14",
+    "days_ago": 7
+   },
+   {
+    "word": "scrutiny",
+    "taught_date": "2026-11-14",
+    "days_ago": 7
+   },
+   {
+    "word": "inevitable",
+    "taught_date": "2026-11-14",
+    "days_ago": 7
+   },
+   {
+    "word": "unaccounted for",
+    "taught_date": "2026-11-14",
+    "days_ago": 7
+   },
+   {
+    "word": "attributed",
+    "taught_date": "2026-10-31",
+    "days_ago": 21
+   },
+   {
+    "word": "unprecedented",
+    "taught_date": "2026-10-31",
+    "days_ago": 21
+   },
+   {
+    "word": "intermittent",
+    "taught_date": "2026-10-31",
+    "days_ago": 21
+   },
+   {
+    "word": "designated",
+    "taught_date": "2026-10-31",
+    "days_ago": 21
+   },
+   {
+    "word": "compelling",
+    "taught_date": "2026-10-31",
+    "days_ago": 21
+   },
+   {
+    "word": "mindset",
+    "taught_date": "2026-10-31",
+    "days_ago": 21
+   },
+   {
+    "word": "opt for",
+    "taught_date": "2026-10-31",
+    "days_ago": 21
+   },
+   {
+    "word": "curate",
+    "taught_date": "2026-10-31",
+    "days_ago": 21
+   }
+  ],
+  "recent_traps": [
+   "Direct Translation: 'Play Internet' vs. 'Use the Internet'",
+   "Equipment is Uncountable",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Prepositions: 'Depend On' vs. 'Depend With'",
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Joining an Ongoing Conversation",
+   "Should households switch to smart home automation for residential energy management?",
+   "Summarizing Key Points Before Ending a Team Call",
+   "Should software development teams ban automated code generators for junior developers?",
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Mastering Street Food Travel: Eat Like a Local with Confidence",
+   "Transforming Your Living Space to Support Mental Well-Being",
+   "How Modern Film Scoring Shapes Storytelling Behind the Scenes",
+   "Building Digital Resilience in an Interconnected World",
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "voie",
+   "route",
+   "dépaysement",
+   "vente (Latin: vendere)",
+   "boutique",
+   "lèche-vitrine",
+   "goût (Latin: gustus)",
+   "menu",
+   "terroir",
+   "café",
+   "croissant",
+   "flâner",
+   "parler",
+   "tête-à-tête",
+   "retrouvailles"
+  ],
+  "recent_news_titles": [
+   "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+   "Cincinnati's famous hippo Fiona dies after eating visitor's hat",
+   "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+   "What does the Myanmar genocide ruling mean for the Rohingya?",
+   "Rohingya genocide: What was said in court and what happens now?",
+   "Looser TV broadcasting rules urged",
+   "Korakot eyes the top job at THAI",
+   "Trump and Putin to meet one-on-one in China Thursday",
+   "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+   "Israel launches new ground operation in Gaza",
+   "Crimean Bridge attacked again, Russian official says",
+   "SEC defends proposed stablecoin rules",
+   "10,000 monks feted with alms",
+   "American soldier held in UK suspected of spying for Russia taken into US military custody",
+   "American soldier arrested by UK police on suspicion of spying taken into US military custody",
+   "APEC summit: What Trump, Xi and Putin want",
+   "Russian military plane crash in Siberia kills 19",
+   "Hotel guests spend less amid high season",
+   "Election Commission petition draws internal dissent"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "Al Jazeera",
+   "title": "Indian man sentenced to 19 years in US Sikh separatist assassination plot",
+   "url": "https://www.aljazeera.com/news/2026/11/20/indian-man-sentenced-to-19-years-in-us-sikh-separatist-assassination-plot?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "BBC News",
+   "title": "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
+   "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "DW",
+   "title": "US judge approves Bayer's $7.25 billion cancer settlement",
+   "url": "https://www.dw.com/en/us-judge-approves-bayer-s-7-25-billion-cancer-settlement/a-80007474?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "BBC News",
+   "title": "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+   "url": "https://www.bbc.co.uk/news/articles/cmjeqv89egylo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Vietjet Thailand aims to boost capacity on Japan routes",
+   "url": "https://www.bangkokpost.com/business/general/3358614/vietjet-thailand-aims-to-boost-capacity-on-japan-routes",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Subsidy delays draw Democrat criticism",
+   "url": "https://www.bangkokpost.com/thailand/politics/3358474/subsidy-delays-draw-democrat-criticism",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "extradition",
+   "straying",
+   "informant",
+   "compensate",
+   "dilapidated",
+   "incentives",
+   "tangible",
+   "fall behind"
+  ],
+  "recycled_words": [
+   "scrutiny",
+   "inevitable",
+   "jeopardising",
+   "assessment"
+  ],
+  "cover": {
+   "headline": "Indian National Jailed for Over 19 Years in New York Plot Targeting Sikh Leader",
+   "paragraphs": [
+    "A federal court in Manhattan has sentenced an Indian citizen to 235 months in prison for his role in an attempted murder-for-hire plot. Nikhil Gupta, 55, faced sentencing on Friday after pleading guilty in February to three conspiracy charges, including murder-for-hire and conspiracy to commit money laundering. US District Judge Victor Marrero handed down the term of more than 19 and a half years, noting that Gupta will likely face deportation to India after completing his sentence.",
+    "The intended target of the scheme was Gurpatwant Singh Pannun, a prominent New York-based Sikh separatist leader and dual US-Canadian citizen. Pannun acts as a legal advocate for Sikhs for Justice, a US-based organisation that campaigns for Punjab to establish an independent sovereign state called Khalistan. India banned the separatist group in 2019 and has accused Pannun of being a terrorist, an accusation that he firmly denies. The Khalistan independence movement has faced steadfast opposition from all political parties in New Delhi.",
+    "According to court documents, Gupta was recruited in May 2023 by Vikash Yadav, an Indian intelligence officer, to arrange Pannun's assassination. Yadav allegedly provided Gupta with sensitive details, including Pannun's New York residential address and daily schedule. Acting under Yadav's direction, Gupta reached out to a contact in the United States to arrange the contract killing. That individual, however, was secretly an informant for the US government. The **informant** introduced Gupta to an alleged hitman, who was actually an undercover officer with the Drug Enforcement Administration.",
+    "Investigators revealed that Gupta and Yadav arranged for a cash delivery of $15,000 to the supposed hitman to execute the operation. Authorities subsequently arrested Gupta in Prague, and he remained held without bail following his **extradition** to the United States in June 2023. While federal prosecutors with the Manhattan US Attorney's Office had sought a sentence of roughly 24 years, Gupta had agreed in a plea deal to serve at least two decades. Yadav has also been charged in the indictment, though he is not currently in American custody.",
+    "During Friday's hearing, Gupta expressed remorse, admitting that he regretted **straying** from the nonviolent principles of Mahatma Gandhi and offering apologies to Pannun, his family, and affected communities. Pannun attended the sentencing, describing Gupta as merely a foot soldier operating on behalf of Indian Prime Minister Narendra Modi's administration. He stated that the plot was meant to silence his visible campaign, vowing to continue pursuing self-determination for Punjab.",
+    "The case has brought bilateral ties under severe diplomatic __scrutiny__, as multiple alleged plots against Sikh activists have emerged across North America. New Delhi has officially denied any involvement in the assassination plot, maintaining that such foreign operations violate established state policy."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Judge Approves Landmark $7.25 Billion Settlement Over Roundup Weedkiller",
+    "paragraphs": [
+     "A federal judge in Missouri has granted final approval to a $7.25 billion settlement between German chemical group Bayer and tens of thousands of plaintiffs. The legal action claimed that exposure to Roundup weedkiller caused non-Hodgkin lymphoma, a form of blood cancer.",
+     "Judge Timothy Boyer ruled the agreement was fair and adequate. Bayer will pay into a dedicated fund over 21 years to **compensate** existing and future patients. Although some plaintiff attorneys criticized individual awards of $10,000 to $165,000 as inadequate, the judge noted further delays would harm sick victims.",
+     "Roundup's active chemical, glyphosate, remains widely used globally. Bayer inherited the lawsuits after acquiring Monsanto in 2018. While this approval brings substantial relief, about 200 cases still proceed in other federal courts."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "New York Mayor Unveils Plan to Shutter Rikers Island Complex by 2032",
+    "paragraphs": [
+     "New York City Mayor Zohran Mamdani announced a comprehensive strategy on Friday to close the notorious Rikers Island jail complex by 2032. The city plans to replace the facility with four modern borough-based jails.",
+     "The **dilapidated** 413-acre complex has long faced criticism over crumbling buildings, severe staffing shortages, and frequent inmate deaths. Under the new proposal, officials intend to reduce the current inmate population from over 6,500 down to 4,100 detainees.",
+     "However, the correction officers' union strongly criticized the population limit, warning that arbitrary caps will end up __jeopardising__ public safety. The mayor's administration insisted that safe alternatives exist and that modern detention facilities remain an __inevitable__ requirement for the city."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Vietjet Thailand Expands Japan Capacity Beyond One Million Seats",
+    "paragraphs": [
+     "Vietjet Thailand has announced ambitious expansion plans, aiming to provide more than one million seats on routes to Japan next year. The low-cost carrier is adding services to regional destinations such as Fukuoka, Okinawa, and Sapporo.",
+     "Thai tourists now represent the largest visitor group from Southeast Asia travelling to Japan. According to the Japan National Tourism Organization, about 70 percent of Thai visitors are repeat travellers who increasingly explore mountain landscapes and nature spots rather than major metropolitan hubs like Tokyo.",
+     "Despite surging jet fuel prices, Vietjet reported average passenger load factors near 90 percent. The carrier plans to transition entirely to a fleet of 36 Boeing 737-8 aircraft next year to support further route additions."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Opposition Democrat Party Criticizes Severe Solar Subsidy Scheme Delays",
+    "paragraphs": [
+     "Thailand's opposition Democrat Party has demanded an explanation from the government after revealing that none of the 70,000 applicants in the national household solar scheme have received payments. The project offers cash **incentives** of up to 50,000 baht per household.",
+     "Democrat economic representative Teerat Ratanaseraporn warned that despite significant budget allocations, the public has not experienced any **tangible** results. Less than ten months remain before the August 2027 grid connection deadline, yet zero systems have secured formal grid approval.",
+     "The party raised concerns that rushed inspections near the programme deadline could compromise safety standards. Officials were urged to perform a clear technical __assessment__ and simplify restrictive agency requirements to help homeowners complete the installation process on time."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "The Silent Shift: Rethinking Our Always-On Culture in a Hyper-Connected Era",
+   "paragraphs": [
+    "Modern working life often feels like an unending stream of push notifications, message banners, and calendar reminders. Over the past decade, digital communication tools have seamlessly integrated into our personal routines, quietly erasing the boundary between public engagement and private restoration. Many working adults now operate under an unspoken expectation of immediate responsiveness, checking group chats over dinner and monitoring workplace updates during weekend leisure.",
+    "This persistent digital connectivity fundamentally alters how cultural communities interact and build relationships. When our attention remains perpetually divided, shared physical spaces often lose their communal warmth. Meals with family or casual gatherings with peers frequently turn into parallel screen-viewing sessions. While online tools allow us to coordinate logistics instantly and maintain distant friendships, they can also weaken our capacity for patient, uninterrupted listening during face-to-face interactions.",
+    "Furthermore, constant connectivity creates subtle psychological exhaustion. The urge to monitor feeds often stems from a fear that we will **fall behind** on critical developments or professional opportunities. Nevertheless, continuous digital exposure forces the brain to remain in a low-grade state of vigilance. Without quiet intervals for cognitive processing, creativity declines, and daily problem-solving becomes reactive rather than deliberate.",
+    "Reclaiming autonomy in this connected culture does not require abandoning modern devices entirely. Instead, individuals can establish predictable digital boundaries that honour personal wellbeing. Simple habits, such as designating phone-free zones during family meals or silencing non-urgent notifications after evening hours, help restore mental clarity. Teams can also agree on sensible response windows rather than expecting instant replies outside regular business hours.",
+    "Ultimately, technological devices should support human connection rather than dominate daily existence. By exercising conscious intention over when and how we engage with digital platforms, we protect our mental space, enrich our real-world relationships, and build a sustainable cultural balance in an increasingly automated world."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should urban professionals practice a strict digital detox by disconnecting from personal social media every weekend?",
+   "view_a": {
+    "title": "A Vital Reset for Focus",
+    "text": "Taking two days away from algorithmic feeds restores mental clarity and protects personal downtime. **Although it is true that** modern social platforms keep us connected with friends, continuous scrolling drains cognitive energy and fuels unhealthy social comparisons. Disconnecting over the weekend allows working adults to engage deeply in offline hobbies, spend quality time with loved ones, and experience genuine rest without the constant itch to check notifications. Stepping away temporarily breaks compulsive digital habits and builds emotional resilience for the workweek ahead."
+   },
+   "view_b": {
+    "title": "An Unrealistic Routine",
+    "text": "**It could be argued that** complete disengagement creates unnecessary friction in our daily lives. Modern social platforms are not merely entertainment channels; they are practical tools used to coordinate weekend meetups, discover local cultural events, and keep in touch with distant relatives. **On the other hand**, imposing an all-or-nothing ban often produces anxiety regarding missed messages or urgent updates. Practicing moderate, mindful usage throughout the day is far more sustainable than enforcing rigid, artificial blackouts that disrupt real-world weekend planning."
+   },
+   "phrases": [
+    {
+     "phrase": "Although it is true that",
+     "function": "concession"
+    },
+    {
+     "phrase": "It could be argued that",
+     "function": "hedging"
+    },
+    {
+     "phrase": "On the other hand",
+     "function": "contrast"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Question Word Order: Putting Auxiliary Verbs in the Right Place",
+   "wrong": "Why you did not reply to my message this morning?",
+   "right": "Why didn't you reply to my message this morning?",
+   "explanation": "Thai speakers often transfer Thai sentence structure by placing question words like 'why' (ทำไม) directly before the subject and verb without moving the auxiliary verb. In standard English questions, the auxiliary verb ('did', 'do', or 'is') must appear before the subject: 'Why didn't you...' rather than 'Why you did not...'."
+  },
+  "word_bank": [
+   {
+    "word": "extradition",
+    "pos": "noun",
+    "definition": "the legal surrender of a suspected or convicted criminal to another state or nation",
+    "thai": "การส่งผู้ร้ายข้ามแดน",
+    "collocations": [
+     "extradition treaty",
+     "face extradition",
+     "extradition request"
+    ],
+    "example": "Authorities subsequently arrested Gupta in Prague, and he remained held without bail following his **extradition** to the United States in June 2023."
+   },
+   {
+    "word": "straying",
+    "pos": "verb",
+    "definition": "wandering away from a path, set purpose, or moral principle",
+    "thai": "การหลงทิศ, การเบี่ยงเบนออกจากแนวทาง",
+    "collocations": [
+     "straying from the point",
+     "straying from the path",
+     "straying into territory"
+    ],
+    "example": "During Friday's hearing, Gupta expressed remorse, admitting that he regretted **straying** from the nonviolent principles of Mahatma Gandhi and offering apologies to Pannun, his family, and affected communities."
+   },
+   {
+    "word": "informant",
+    "pos": "noun",
+    "definition": "a person who discreetly feeds inside information to the police or an authority",
+    "thai": "สายสืบ, ผู้ให้ข้อมูลลับ",
+    "collocations": [
+     "confidential informant",
+     "police informant",
+     "reliable informant"
+    ],
+    "example": "That individual, however, was secretly an informant for the US government."
+   },
+   {
+    "word": "compensate",
+    "pos": "verb",
+    "definition": "to pay money to balance out injury, damage, or loss suffered",
+    "thai": "ชดเชย, เยียวยา",
+    "collocations": [
+     "compensate victims",
+     "compensate for losses",
+     "adequately compensate"
+    ],
+    "example": "Bayer will pay into a dedicated fund over 21 years to **compensate** existing and future patients."
+   },
+   {
+    "word": "dilapidated",
+    "pos": "adjective",
+    "definition": "falling into decay or ruined through long neglect",
+    "thai": "ทรุดโทรม, ผุพัง",
+    "collocations": [
+     "dilapidated building",
+     "dilapidated condition",
+     "dilapidated infrastructure"
+    ],
+    "example": "The **dilapidated** 413-acre complex has long faced criticism over crumbling buildings, severe staffing shortages, and frequent inmate deaths."
+   },
+   {
+    "word": "incentives",
+    "pos": "noun",
+    "definition": "rewards or advantages designed to encourage specific actions or choices",
+    "thai": "สิ่งจูงใจ, มาตรการกระตุ้น",
+    "collocations": [
+     "financial incentives",
+     "tax incentives",
+     "performance incentives"
+    ],
+    "example": "The project offers cash **incentives** of up to 50,000 baht per household."
+   },
+   {
+    "word": "tangible",
+    "pos": "adjective",
+    "definition": "clearly visible, actual, or capable of being touched and measured",
+    "thai": "เป็นรูปธรรม, สัมผัสได้",
+    "collocations": [
+     "tangible benefits",
+     "tangible results",
+     "tangible proof"
+    ],
+    "example": "Democrat economic representative Teerat Ratanaseraporn warned that despite significant budget allocations, the public has not experienced any **tangible** results."
+   },
+   {
+    "word": "fall behind",
+    "pos": "phrasal verb",
+    "definition": "to fail to move, pay, or progress as quickly as others",
+    "thai": "ล้าหลัง, ตามไม่ทัน, ค้างชำระ",
+    "collocations": [
+     "fall behind schedule",
+     "fall behind with payments",
+     "fall behind competitors"
+    ],
+    "example": "The urge to monitor feeds often stems from a fear that we will **fall behind** on critical developments or professional opportunities."
+   },
+   {
+    "word": "scrutiny",
+    "pos": "noun",
+    "definition": "close, detailed, and critical examination",
+    "thai": "การตรวจสอบอย่างละเอียดถี่ถ้วน",
+    "collocations": [],
+    "example": "The case has brought bilateral ties under severe diplomatic __scrutiny__, as multiple alleged plots against Sikh activists have emerged across North America."
+   },
+   {
+    "word": "inevitable",
+    "pos": "adjective",
+    "definition": "sure to happen and completely impossible to avoid",
+    "thai": "ซึ่งหลีกเลี่ยงไม่ได้",
+    "collocations": [],
+    "example": "The mayor's administration insisted that safe alternatives exist and that modern detention facilities remain an __inevitable__ requirement for the city."
+   },
+   {
+    "word": "jeopardising",
+    "pos": "verb",
+    "definition": "putting something valuable into serious danger of loss or damage",
+    "thai": "ทำให้ตกอยู่ในอันตราย, เสี่ยงภัย",
+    "collocations": [],
+    "example": "However, the correction officers' union strongly criticized the population limit, warning that arbitrary caps will end up __jeopardising__ public safety."
+   },
+   {
+    "word": "assessment",
+    "pos": "noun",
+    "definition": "the judgment, appraisal, or calculation of the quality, value, or state of something",
+    "thai": "การประเมิน, การวัดผล",
+    "collocations": [],
+    "example": "Officials were urged to perform a clear technical __assessment__ and simplify restrictive agency requirements to help homeowners complete the installation process on time."
+   }
+  ],
+  "activity": {
+   "instructions": "In each item, choose the word that does NOT form a natural collocation with the target word. Write the odd word down.",
+   "items": [
+    "extradition: (a) request (b) treaty (c) flavor (d) hearing",
+    "tangible: (a) assets (b) benefits (c) results (d) humidity",
+    "compensate: (a) handsomely (b) victims (c) vertically (d) fully",
+    "dilapidated: (a) house (b) condition (c) warehouse (d) emotion",
+    "incentives: (a) economic (b) perverse (c) sour (d) cash",
+    "informant: (a) confidential (b) anonymous (c) delicious (d) reliable"
+   ],
+   "answers": [
+    "(c) flavor — flavor refers to taste, not legal processes.",
+    "(d) humidity — weather uses high, heavy, or relative humidity, not tangible.",
+    "(c) vertically — vertically describes direction, not ways of paying or balancing a loss.",
+    "(d) emotion — dilapidated describes damaged physical structures or objects, not feelings.",
+    "(c) sour — sour describes tastes or temperaments, not types of incentives.",
+    "(c) delicious — delicious relates to food, not persons providing intelligence."
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The government is offering generous incentives for encourage families to adopt solar technology.",
+    "corrected": "The government is offering generous incentives to encourage families to adopt solar technology.",
+    "reason": "incentive takes a to-infinitive, not for + base verb"
+   },
+   {
+    "sentence": "If employees do not update their digital skills regularly, they will fall behind of their peers.",
+    "corrected": "If employees do not update their digital skills regularly, they will fall behind their peers.",
+    "reason": "fall behind does not take the preposition of"
+   },
+   {
+    "sentence": "Frequent project delays are seriously jeopardising about the municipality's clean energy targets.",
+    "corrected": "Frequent project delays are seriously jeopardising the municipality's clean energy targets.",
+    "reason": "jeopardise is a transitive verb and takes no preposition"
+   },
+   {
+    "sentence": "Under intense public scrutiny, the aviation authority conducted a thorough assessment for the runway safety protocols.",
+    "corrected": "Under intense public scrutiny, the aviation authority conducted a thorough assessment of the runway safety protocols.",
+    "reason": "assessment collocates with the preposition of when denoting the target of appraisal"
+   },
+   {
+    "sentence": "Without sustained investment, higher ticket prices will become an inevitable result from expanding the fleet.",
+    "corrected": "Without sustained investment, higher ticket prices will become an inevitable result of expanding the fleet.",
+    "reason": "result takes the preposition of to express source or cause"
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Finding your way around a French town is easy once you master a few polite phrases for directions.",
+   "phrases": [
+    {
+     "phrase": "Où est la gare, s'il vous plaît ?",
+     "pronunciation": "oo eh lah gahr, seel voo pleh",
+     "meaning": "Where is the train station, please?"
+    },
+    {
+     "phrase": "Tout droit",
+     "pronunciation": "too drwah",
+     "meaning": "Straight ahead"
+    },
+    {
+     "phrase": "À gauche au carrefour",
+     "pronunciation": "ah gohsh oh kar-foor",
+     "meaning": "Turn left at the intersection"
+    }
+   ],
+   "root": {
+    "root": "tourner (Latin: tornare)",
+    "meaning": "to turn or spin on a lathe",
+    "english_words": "tour, tournament, contour",
+    "note": "French travelers used the root when describing moving around a circuit, which later entered English as tourism."
+   },
+   "borrowed": {
+    "word": "cul-de-sac",
+    "note": "Literally meaning the bottom of a sack, French speakers use this term for a dead-end street."
+   },
+   "curious": {
+    "word": "boussole",
+    "pronunciation": "boo-sol",
+    "meaning": "magnetic compass; moral guide",
+    "note": "In everyday speech, losing one's compass (perdre la boussole) means becoming completely disoriented or acting irrationally."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 444,
+  "world_1": 122,
+  "world_2": 111,
+  "thailand_1": 116,
+  "thailand_2": 117,
+  "feature": 298,
+  "real_english": 282,
+  "language_lab": 148,
+  "other_language": 127,
+  "word_bank": 461,
+  "total": 2492
+ },
+ "notes": [
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "world_1: 122 words (target 140–160)",
+  "world_2: 111 words (target 140–160)",
+  "thailand_1: 116 words (target 140–160)",
+  "thailand_2: 117 words (target 140–160)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: ok"
+ ],
+ "fallback_used": false
+}
