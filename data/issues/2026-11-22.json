@@ -1,0 +1,841 @@
+{
+ "plan": {
+  "date": "2026-11-22",
+  "date_long": "Sunday, 22 November 2026",
+  "weekday": "Sun",
+  "issue_no": 24,
+  "language": "Italian",
+  "phrase_theme": "asking for directions",
+  "feature": "Business / Money",
+  "opinion": "say_it_better",
+  "setting": "services & customers",
+  "activity": "Context clue challenge",
+  "trap": "Confusing word pairs (e.g. bored/boring)",
+  "avoid_star_words": [
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "architecture",
+   "arsenal",
+   "assessment",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "burgeoning",
+   "candidacy",
+   "capitalizing",
+   "circumvent",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commendation",
+   "compelling",
+   "compensate",
+   "compostable",
+   "concessions",
+   "conducive",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "counterintelligence",
+   "counterpart",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culpability",
+   "curate",
+   "curb",
+   "defied",
+   "deliberate",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "dilapidated",
+   "discrepancy",
+   "disenfranchise",
+   "dislodge",
+   "disparity",
+   "disperse",
+   "disruption",
+   "diversify",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "expertise",
+   "extinction",
+   "extradition",
+   "extramarital",
+   "facilitate",
+   "fall behind",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "gracefully",
+   "groomed",
+   "hospitality",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incentives",
+   "incorporate",
+   "inevitable",
+   "informant",
+   "ingested",
+   "integrate",
+   "interim",
+   "intermittent",
+   "interventions",
+   "jeopardising",
+   "jurisdiction",
+   "listing",
+   "logistics",
+   "look into",
+   "malfunction",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "occupancy",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "preservation",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "recap",
+   "reciprocal",
+   "rectify",
+   "reinstate",
+   "relieve",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "settlement",
+   "slashed",
+   "slashing",
+   "solemn",
+   "solidarity",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stain",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "straying",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tangible",
+   "tolerance",
+   "transactional",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "unanimously",
+   "undergoes",
+   "unpopulated",
+   "unprecedented",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "versatile",
+   "vitality",
+   "vulnerable",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "extradition",
+    "taught_date": "2026-11-21",
+    "days_ago": 1
+   },
+   {
+    "word": "straying",
+    "taught_date": "2026-11-21",
+    "days_ago": 1
+   },
+   {
+    "word": "informant",
+    "taught_date": "2026-11-21",
+    "days_ago": 1
+   },
+   {
+    "word": "compensate",
+    "taught_date": "2026-11-21",
+    "days_ago": 1
+   },
+   {
+    "word": "dilapidated",
+    "taught_date": "2026-11-21",
+    "days_ago": 1
+   },
+   {
+    "word": "incentives",
+    "taught_date": "2026-11-21",
+    "days_ago": 1
+   },
+   {
+    "word": "tangible",
+    "taught_date": "2026-11-21",
+    "days_ago": 1
+   },
+   {
+    "word": "fall behind",
+    "taught_date": "2026-11-21",
+    "days_ago": 1
+   },
+   {
+    "word": "settlement",
+    "taught_date": "2026-11-19",
+    "days_ago": 3
+   },
+   {
+    "word": "counterpart",
+    "taught_date": "2026-11-19",
+    "days_ago": 3
+   },
+   {
+    "word": "dislodge",
+    "taught_date": "2026-11-19",
+    "days_ago": 3
+   },
+   {
+    "word": "arsenal",
+    "taught_date": "2026-11-19",
+    "days_ago": 3
+   },
+   {
+    "word": "circumvent",
+    "taught_date": "2026-11-19",
+    "days_ago": 3
+   },
+   {
+    "word": "solidarity",
+    "taught_date": "2026-11-19",
+    "days_ago": 3
+   },
+   {
+    "word": "curb",
+    "taught_date": "2026-11-19",
+    "days_ago": 3
+   },
+   {
+    "word": "conducive",
+    "taught_date": "2026-11-19",
+    "days_ago": 3
+   },
+   {
+    "word": "inaugural",
+    "taught_date": "2026-11-15",
+    "days_ago": 7
+   },
+   {
+    "word": "resilient",
+    "taught_date": "2026-11-15",
+    "days_ago": 7
+   },
+   {
+    "word": "spearhead",
+    "taught_date": "2026-11-15",
+    "days_ago": 7
+   },
+   {
+    "word": "disruption",
+    "taught_date": "2026-11-15",
+    "days_ago": 7
+   },
+   {
+    "word": "outperform",
+    "taught_date": "2026-11-15",
+    "days_ago": 7
+   },
+   {
+    "word": "unveil",
+    "taught_date": "2026-11-15",
+    "days_ago": 7
+   },
+   {
+    "word": "proactive",
+    "taught_date": "2026-11-15",
+    "days_ago": 7
+   },
+   {
+    "word": "collaborate",
+    "taught_date": "2026-11-15",
+    "days_ago": 7
+   },
+   {
+    "word": "proscription",
+    "taught_date": "2026-11-01",
+    "days_ago": 21
+   },
+   {
+    "word": "crackdown",
+    "taught_date": "2026-11-01",
+    "days_ago": 21
+   },
+   {
+    "word": "adversary",
+    "taught_date": "2026-11-01",
+    "days_ago": 21
+   },
+   {
+    "word": "bilateral",
+    "taught_date": "2026-11-01",
+    "days_ago": 21
+   },
+   {
+    "word": "feasibility",
+    "taught_date": "2026-11-01",
+    "days_ago": 21
+   },
+   {
+    "word": "turnover",
+    "taught_date": "2026-11-01",
+    "days_ago": 21
+   },
+   {
+    "word": "streamline",
+    "taught_date": "2026-11-01",
+    "days_ago": 21
+   },
+   {
+    "word": "look into",
+    "taught_date": "2026-11-01",
+    "days_ago": 21
+   }
+  ],
+  "recent_traps": [
+   "Question Word Order: Putting Auxiliary Verbs in the Right Place",
+   "Direct Translation: 'Play Internet' vs. 'Use the Internet'",
+   "Equipment is Uncountable",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Prepositions: 'Depend On' vs. 'Depend With'",
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should urban professionals practice a strict digital detox by disconnecting from personal social media every weekend?",
+   "Joining an Ongoing Conversation",
+   "Should households switch to smart home automation for residential energy management?",
+   "Summarizing Key Points Before Ending a Team Call",
+   "Should software development teams ban automated code generators for junior developers?",
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "The Silent Shift: Rethinking Our Always-On Culture in a Hyper-Connected Era",
+   "Mastering Street Food Travel: Eat Like a Local with Confidence",
+   "Transforming Your Living Space to Support Mental Well-Being",
+   "How Modern Film Scoring Shapes Storytelling Behind the Scenes",
+   "Building Digital Resilience in an Interconnected World",
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "ducere",
+   "gondola",
+   "struscio",
+   "merx",
+   "fresco",
+   "Mercatino",
+   "gustus",
+   "al dente",
+   "scarpetta",
+   "espresso",
+   "barista",
+   "pausa",
+   "parlare",
+   "cappuccino",
+   "magari"
+  ],
+  "recent_news_titles": [
+   "Indian man sentenced to 19 years in US Sikh separatist assassination plot",
+   "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
+   "US judge approves Bayer's $7.25 billion cancer settlement",
+   "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+   "Vietjet Thailand aims to boost capacity on Japan routes",
+   "Subsidy delays draw Democrat criticism",
+   "Myanmar committed genocide against Rohingya minority, top UN court rules",
+   "Myanmar committed genocide against Rohingya minority, world’s top court rules",
+   "Cincinnati's famous hippo Fiona dies after eating visitor's hat",
+   "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+   "What does the Myanmar genocide ruling mean for the Rohingya?",
+   "Rohingya genocide: What was said in court and what happens now?",
+   "Looser TV broadcasting rules urged",
+   "Korakot eyes the top job at THAI",
+   "Trump and Putin to meet one-on-one in China Thursday",
+   "Trump to meet with Russia's Putin and China's Xi for historic joint meeting",
+   "Israel launches new ground operation in Gaza",
+   "Crimean Bridge attacked again, Russian official says",
+   "SEC defends proposed stablecoin rules",
+   "10,000 monks feted with alms"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "The Guardian",
+   "title": "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+   "url": "https://www.theguardian.com/world/2026/nov/21/alleged-mexican-drug-cartel-boss-el-chapo-isidro-meza-flores-arrested",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "Al Jazeera",
+   "title": "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+   "url": "https://www.aljazeera.com/news/2026/11/21/who-is-el-chapo-isidro-the-alleged-cartel-boss-arrested-in-mexico?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "Al Jazeera",
+   "title": "Thousands protest across Europe over living costs and housing",
+   "url": "https://www.aljazeera.com/news/2026/11/21/thousands-protest-across-europe-over-living-costs-and-housing?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "NPR",
+   "title": "Mexico detains top cartel boss 'El Chapo Isidro,' setting off violence",
+   "url": "https://www.npr.org/2026/11/21/nx-s1-6049672/cartel-boss-el-chapo-isidro-detained",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Bangkok Post",
+   "title": "New skywalk eases access to historic Talat Phlu community",
+   "url": "https://www.bangkokpost.com/thailand/general/3359090/new-skywalk-eases-access-to-historic-talat-phlu-community",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post Business",
+   "title": "EU proposes tax on Big Tech to pad budget",
+   "url": "https://www.bangkokpost.com/business/general/3358890/eu-proposes-tax-on-big-tech-to-pad-budget",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "fugitive",
+   "indictment",
+   "evade",
+   "commence",
+   "unrest",
+   "accessible",
+   "intermediary",
+   "allocation"
+  ],
+  "recycled_words": [
+   "unveil"
+  ],
+  "cover": {
+   "headline": "Mexican Elite Forces Arrest Alleged Cartel Boss 'El Chapo Isidro' in Fierce Sinaloa Raid",
+   "paragraphs": [
+    "In a high-stakes military operation on Friday night, Mexican elite special forces captured Fausto Isidro Meza Flores, widely known as 'El Chapo Isidro'. The alleged drug kingpin was listed among the FBI's Ten Most Wanted **fugitive** figures. The raid took place in Guasave, a city located in the northwestern state of Sinaloa, and sparked fierce clashes between security personnel and heavily armed cartel operatives.",
+    "According to Mexico's defence ministry, the arresting force arrived in the target area using stealth and surprise before establishing a defensive perimeter. Suspected cartel gunmen immediately retaliated with gunfire and explosive devices. Despite the intense onslaught, troops entered the residence and secured Meza Flores alongside his alleged second-in-command, Germán N, alias 'Serafín', and an alleged financial operator named José N. Eight suspected criminals were detained in total.",
+    "The overnight assault triggered severe local **unrest** across Guasave. Cartel members erected burning roadblocks, while frightened civilians fled gun battles that interrupted an ongoing baseball game at Kuroda Park stadium. Official reports confirmed four Mexican infantry soldiers lost their lives during the fighting, while seven cartel attackers died. Meza Flores was subsequently transported by military aircraft to Mexico City to face formal legal proceedings.",
+    "United States intelligence assisted Mexican authorities during the mission. United States President Donald Trump had recently pressed Mexican President Claudia Sheinbaum to combat criminal syndicates more aggressively, warning that cartels could not be allowed to run the neighbouring country. Although Meza Flores shares a famous alias, he is not related to Joaquin 'El Chapo' Guzman. Instead, officials identify him as the head of the Beltrán Leyva criminal organisation and an ally of the Mayos faction within the Sinaloa Cartel.",
+    "Meza Flores had managed to **evade** justice for well over a decade despite an active reward of up to five million dollars offered by the United States Department of State. A federal **indictment** issued by United States prosecutors in 2012, followed by another in 2019, accused him of conspiring to distribute vast quantities of heroin, methamphetamine, cocaine, and marijuana. In Mexico, he faced outstanding warrants concerning organised crime and public health violations.",
+    "The arrest marks a major operational development in regional security, although security analysts caution that leadership vacuums often trigger volatile internal power struggles among rival factions. Mexican defence authorities confirmed that Meza Flores remains subject to an active **extradition** order to the United States. While Sinaloa state authorities announced that local order had been largely restored by Saturday, the broader cross-border legal process will now **commence**."
+   ],
+   "source_ids": [
+    "S1",
+    "S2",
+    "S4"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Tens of Thousands Rally Across Europe to Protest Soaring Living Costs and Housing Pressures",
+    "paragraphs": [
+     "Tens of thousands of demonstrators gathered across major European cities on Saturday to voice mounting frustration over unaffordable housing, rising living costs, and funding reductions for public services. The mobilisations brought diverse civic groups together, ranging from student collectives to established trade unions.",
+     "In France, the interior ministry recorded over 82,000 marchers nationwide, marking the sixth consecutive weekend of unrest sparked initially by school conditions. Meanwhile, Portuguese workers marched through Lisbon amid heavy rain. Unions highlighted severe housing strain, noting domestic property prices have more than doubled since 2017 while wages trail the European Union average.",
+     "Similar youth-led demonstrations took place in Germany, Finland, and Italy, addressing broader concerns from education spending to military service. With household budgets under strain, community organisers confirmed that public campaigns demanding affordable essential goods and fair pay will continue across several countries next week."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Mexican Military Raid That Captured Top Cartel Leader Triggers Intense Gunfights in Sinaloa",
+    "paragraphs": [
+     "A coordinated military raid to capture cartel boss Fausto Isidro Meza Flores unleashed chaotic street violence across Guasave, Sinaloa, before calm returned on Saturday. The detention was facilitated by intelligence support from the United States government.",
+     "The sudden assault prompted armed cartel operatives to launch retaliatory gun battles and set vehicles ablaze. Frightened spectators and athletes scrambled for safety when sustained gunfire interrupted an active baseball match. Because of fierce resistance on the ground, military forces were delayed until dawn before evacuating Meza Flores by air to Mexico City.",
+     "Authorities hailed the operation as a critical victory against the Beltrán Leyva organisation, an ally of the Mayos faction. However, security specialists warn the dramatic arrest could trigger retaliatory violence as rival criminal syndicates fight to claim control over valuable trafficking corridors."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Bangkok Opens New Khlong Skywalk Connecting Thon Buri and Talat Phlu Heritage District",
+    "paragraphs": [
+     "The Bangkok Metropolitan Administration has officially __unveiled__ a dedicated pedestrian skywalk spanning Khlong Bangkok Yai, a major historic canal in the capital. Bangkok Governor Chadchart Sittipunt presided over the opening ceremony on Saturday morning along the canal bank.",
+     "Measuring 93 metres long and three metres wide, the bridge creates a direct pedestrian route between Bangkok Yai district office and the vibrant Talat Phlu neighbourhood in Thon Buri. The structure includes dual passenger lifts, safety ramps, and stairs to ensure it remains fully **accessible** for elderly residents and people with mobility challenges.",
+     "City officials noted the crossing separates foot traffic from adjacent roadways, enhancing commuter safety. It also provides panoramic views of the Phra Buddha Dhammakaya Thep Mongkol statue at Wat Pak Nam Phasi Charoen, linking urban transit hubs with historic cultural sites to boost community tourism."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "European Council Proposes Digital Levy on Global Tech Giants to Bridge Budget Deficit",
+    "paragraphs": [
+     "European Council President Antonio Costa presented a comprehensive spending plan on Saturday that seeks to resolve heated internal disputes among member governments regarding long-term European Union finances. The proposal significantly scales back earlier European Commission budget figures.",
+     "To generate fresh public revenue, the plan introduces a three percent levy on online advertising and digital services. This measure specifically targets technology firms reporting an annual European digital **turnover** of at least 50 million euros and worldwide revenues surpassing 750 million euros, functioning as a non-traditional **intermediary** fiscal contribution.",
+     "The broader funding package also incorporates higher tobacco duties and an electronic waste levy. European leaders will debate the contentious proposal during upcoming Brussels summits before entering formal negotiations with the European Parliament ahead of upcoming regional elections."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Rethinking Workplace Cash Flow: Practical Budgeting Systems for Modern Professionals",
+   "paragraphs": [
+    "Managing personal finances alongside professional responsibilities often feels overwhelming in an era dominated by automated transactions, variable earnings, and persistent economic pressures. Many working adults maintain a steady income yet struggle to identify where their earnings vanish by the end of each month. Mastering personal capital requires intentional structure rather than constant deprivation.",
+    "A dependable financial strategy begins with a precise spending audit. Tracking expenses over a standard thirty-day cycle reveals unexamined habits, such as recurring digital subscriptions or premium workplace conveniences, which quietly erode monthly savings. Categorising expenditures into fixed necessities, personal development, and savings enables clearer decision-making before impulse purchases take hold.",
+    "To build financial resilience, experts often suggest using a deliberate fund **allocation** model. Instead of treating savings as leftover money, professionals should direct a predetermined percentage toward emergency funds or retirement instruments the moment compensation arrives. This practice creates a **tangible** safety net that mitigates anxiety during career transitions, medical emergencies, or unexpected market downturns.",
+    "Furthermore, individuals should treat personal financial health as an ongoing business operation. Reviewing investment balances, renegotiating banking charges, and adjusting budgets quarterly ensures fiscal strategies adapt to rising expenses. By treating income management with systematic professionalism, individuals can build durable economic independence and achieve genuine peace of mind."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Informing a Dining Customer That a Menu Dish Is Unavailable",
+   "situation": "A server at a restaurant needs to tell a customer that the seafood pasta they ordered is sold out for the evening and offer a suitable alternative.",
+   "formal": "I sincerely apologise, but our kitchen has exhausted its supply of seafood pasta for this evening. May I recommend our handmade mushroom risotto, which offers a comparable richness?",
+   "neutral": "I am sorry, but the seafood pasta is currently unavailable tonight. Would you like to try our mushroom risotto instead? It is very popular.",
+   "casual": "Sorry about that, but we have completely run out of the seafood pasta tonight. Can I get you the mushroom risotto instead? It is really delicious.",
+   "useful_phrases": [
+    "exhausted its supply",
+    "currently unavailable",
+    "run out of"
+   ]
+  },
+  "trap": {
+   "title": "Confusing 'Borrow' and 'Lend'",
+   "wrong": "Could you please borrow me your pen for a moment to complete this form?",
+   "right": "Could you please lend me your pen for a moment to complete this form?",
+   "explanation": "Thai speakers often confuse these words because the Thai verb ยืม can express both directions of giving and receiving temporary possession. In English, 'borrow' means to receive something temporarily from someone, while 'lend' means to give something temporarily to another person."
+  },
+  "word_bank": [
+   {
+    "word": "fugitive",
+    "pos": "noun",
+    "definition": "a person who has escaped from a place or is hiding from the police",
+    "thai": "ผู้หลบหนี",
+    "collocations": [
+     "wanted fugitive",
+     "fugitive from justice",
+     "capture a fugitive"
+    ],
+    "example": "The alleged drug kingpin was listed among the FBI's Ten Most Wanted **fugitive** figures."
+   },
+   {
+    "word": "indictment",
+    "pos": "noun",
+    "definition": "a formal legal statement charging someone with a serious crime",
+    "thai": "การฟ้องร้องอย่างเป็นทางการ",
+    "collocations": [
+     "federal indictment",
+     "issue an indictment",
+     "face an indictment"
+    ],
+    "example": "A federal **indictment** issued by United States prosecutors in 2012, followed by another in 2019, accused him of conspiring to distribute vast quantities of heroin, methamphetamine, cocaine, and marijuana."
+   },
+   {
+    "word": "evade",
+    "pos": "verb",
+    "definition": "to escape or avoid someone or something, especially by cleverness",
+    "thai": "หลบเลี่ยง",
+    "collocations": [
+     "evade arrest",
+     "evade taxes",
+     "evade capture"
+    ],
+    "example": "Meza Flores had managed to **evade** justice for well over a decade despite an active reward of up to five million dollars offered by the United States Department of State."
+   },
+   {
+    "word": "commence",
+    "pos": "verb",
+    "definition": "to begin or start something formal",
+    "thai": "เริ่มต้น",
+    "collocations": [
+     "commence proceedings",
+     "commence work",
+     "commence operations"
+    ],
+    "example": "While Sinaloa state authorities announced that local order had been largely restored by Saturday, the broader cross-border legal process will now **commence**."
+   },
+   {
+    "word": "unrest",
+    "pos": "noun",
+    "definition": "a state of anger, dissatisfaction, or fighting among a group of people",
+    "thai": "ความไม่สงบ",
+    "collocations": [
+     "civil unrest",
+     "trigger unrest",
+     "growing unrest"
+    ],
+    "example": "The overnight assault triggered severe local **unrest** across Guasave."
+   },
+   {
+    "word": "accessible",
+    "pos": "adjective",
+    "definition": "easy to enter, reach, use, or understand for everyone",
+    "thai": "เข้าถึงได้ง่าย",
+    "collocations": [
+     "easily accessible",
+     "wheelchair accessible",
+     "make accessible"
+    ],
+    "example": "The structure includes dual passenger lifts, safety ramps, and stairs to ensure it remains fully **accessible** for elderly residents and people with mobility challenges."
+   },
+   {
+    "word": "intermediary",
+    "pos": "adjective",
+    "definition": "acting as a link or mediator between people, groups, or stages",
+    "thai": "ที่เป็นตัวกลาง",
+    "collocations": [
+     "intermediary role",
+     "intermediary service",
+     "financial intermediary"
+    ],
+    "example": "This measure specifically targets technology firms reporting an annual European digital **turnover** of at least 50 million euros and worldwide revenues surpassing 750 million euros, functioning as a non-traditional **intermediary** fiscal contribution."
+   },
+   {
+    "word": "allocation",
+    "pos": "noun",
+    "definition": "the process of giving out or setting aside money, resources, or time",
+    "thai": "การจัดสรร",
+    "collocations": [
+     "resource allocation",
+     "budget allocation",
+     "asset allocation"
+    ],
+    "example": "To build financial resilience, experts often suggest using a deliberate fund **allocation** model."
+   },
+   {
+    "word": "unveil",
+    "pos": "verb",
+    "definition": "to reveal or show something new to the public for the first time",
+    "thai": "เปิดตัว",
+    "collocations": [],
+    "example": "The Bangkok Metropolitan Administration has officially __unveiled__ a dedicated pedestrian skywalk spanning Khlong Bangkok Yai, a major historic canal in the capital."
+   }
+  ],
+  "activity": {
+   "instructions": "Guess the meaning of the bold target words from the sentence context.",
+   "items": [
+    "The police surrounded the neighborhood to catch the **fugitive** before he could leave town. (a) local politician (b) escaped criminal (c) safety inspector",
+    "The court issued an **indictment** charging the executive with corporate fraud. (a) formal criminal charge (b) thank-you note (c) job promotion",
+    "Drivers should not try to **evade** traffic fines by providing false address details. (a) collect (b) avoid (c) double",
+    "The official ceremony will **commence** promptly at nine o'clock tomorrow morning. (a) finish (b) delay (c) begin",
+    "Soaring energy costs caused widespread **unrest** among local business owners. (a) peaceful agreement (b) public dissatisfaction (c) sudden celebration",
+    "The new mobile application features a simple layout that is fully **accessible** to older users. (a) hidden from view (b) easy to access (c) expensive to buy"
+   ],
+   "answers": [
+    "(b) escaped criminal",
+    "(a) formal criminal charge",
+    "(b) avoid",
+    "(c) begin",
+    "(b) public dissatisfaction",
+    "(b) easy to access"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Tens of Thousands Rally Across Europe to Protest Soaring Living Costs and Housing Pressures.",
+    "corrected": "Tens of thousands rally across Europe to protest soaring living costs and housing pressures.",
+    "reason": "Title case capitalizes non-standard words unnecessarily in main text body."
+   },
+   {
+    "sentence": "Mexican military raid that captured top cartel leader triggers intense gunfights in Sinaloa.",
+    "corrected": "A Mexican military raid that captured a top cartel leader triggers intense gunfights in Sinaloa.",
+    "reason": "Missing indefinite article 'a' before singular countable noun."
+   },
+   {
+    "sentence": "European Council proposes digital levy on global tech giants for bridge budget deficit.",
+    "corrected": "European Council proposes digital levy on global tech giants to bridge budget deficit.",
+    "reason": "Incorrect preposition usage before infinitive verb."
+   },
+   {
+    "sentence": "Bangkok opens new Khlong skywalk connecting Thon Buri with Talat Phlu heritage district.",
+    "corrected": "Bangkok opens new Khlong skywalk connecting Thon Buri and Talat Phlu heritage district.",
+    "reason": "The verb 'connect' takes 'and' when joining two places together."
+   },
+   {
+    "sentence": "Rethinking workplace cash flow: practical budgeting systems for modern professional.",
+    "corrected": "Rethinking workplace cash flow: practical budgeting systems for modern professionals.",
+    "reason": "Plural noun needed when referring to a category of people generally."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Navigating a new Italian city is easier when you can ask locals for simple directions.",
+   "phrases": [
+    {
+     "phrase": "Dov'è...?",
+     "pronunciation": "doh-VEH",
+     "meaning": "Where is...?"
+    },
+    {
+     "phrase": "Girate a destra",
+     "pronunciation": "jee-RAH-teh ah DEHS-trah",
+     "meaning": "Turn right"
+    },
+    {
+     "phrase": "Sempre diritto",
+     "pronunciation": "SEHM-preh dee-REET-toh",
+     "meaning": "Straight ahead"
+    }
+   ],
+   "root": {
+    "root": "via",
+    "meaning": "road or way",
+    "english_words": "via, deviate, obvious, viaduct",
+    "note": "This Latin and Italian root relates to pathways and traveling along routes."
+   },
+   "borrowed": {
+    "word": "piazza",
+    "note": "English borrowed this word to describe an open public square in a town."
+   },
+   "curious": {
+    "word": "vicolo",
+    "pronunciation": "VEE-koh-loh",
+    "meaning": "a narrow alley or side street",
+    "note": "It captures the charm of hidden, picturesque walkways found throughout historical Italian towns."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 412,
+  "world_1": 140,
+  "world_2": 131,
+  "thailand_1": 136,
+  "thailand_2": 125,
+  "feature": 207,
+  "real_english": 196,
+  "language_lab": 201,
+  "other_language": 88,
+  "word_bank": 371,
+  "total": 2221
+ },
+ "notes": [
+  "dropped 'extradition' from recycled_words: it does not appear in the articles",
+  "dropped 'turnover' from recycled_words: it does not appear in the articles",
+  "dropped 'tangible' from recycled_words: it does not appear in the articles",
+  "★ words repeated within 30 days: unrest",
+  "★ words appear in only 3 parts of the issue (target 4+)",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 412 words (target 470–510)",
+  "thailand_2: 125 words (target 140–160)",
+  "feature: 207 words (target 310–370)",
+  "real_english: 196 words (target 260–320)",
+  "other_language: 88 words (target 140–190)",
+  "whole issue: 2221 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
