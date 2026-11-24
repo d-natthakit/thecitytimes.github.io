@@ -1,0 +1,841 @@
+{
+ "plan": {
+  "date": "2026-11-24",
+  "date_long": "Tuesday, 24 November 2026",
+  "weekday": "Tue",
+  "issue_no": 26,
+  "language": "Spanish",
+  "phrase_theme": "at the hotel",
+  "feature": "Tech & Science",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Gap fill",
+  "trap": "Prepositions",
+  "avoid_star_words": [
+   "accessible",
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "allocation",
+   "architecture",
+   "arsenal",
+   "assessment",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "bureaucratic",
+   "burgeoning",
+   "candidacy",
+   "capitalizing",
+   "circumvent",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commence",
+   "commendation",
+   "compelling",
+   "compensate",
+   "compostable",
+   "concessions",
+   "conducive",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "counterintelligence",
+   "counterpart",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culmination",
+   "culpability",
+   "curate",
+   "curb",
+   "deadlock",
+   "defied",
+   "deliberate",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "dilapidated",
+   "discrepancy",
+   "disenfranchise",
+   "dislodge",
+   "disparity",
+   "disperse",
+   "disruption",
+   "divergent",
+   "diversify",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalate",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "evade",
+   "expertise",
+   "extinction",
+   "extradition",
+   "extramarital",
+   "facilitate",
+   "fall behind",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "fugitive",
+   "gracefully",
+   "groomed",
+   "hospitality",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incentives",
+   "incorporate",
+   "indictment",
+   "inevitable",
+   "informant",
+   "ingested",
+   "integrate",
+   "interim",
+   "intermediary",
+   "intermittent",
+   "interventions",
+   "jeopardising",
+   "jurisdiction",
+   "listing",
+   "logistics",
+   "look into",
+   "malfunction",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "occupancy",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "preservation",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "recap",
+   "reciprocal",
+   "rectify",
+   "reinstate",
+   "relieve",
+   "relinquish",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "settlement",
+   "slashed",
+   "slashing",
+   "solemn",
+   "solidarity",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stain",
+   "stalemate",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "straying",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tangible",
+   "tolerance",
+   "transactional",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "unanimously",
+   "undergoes",
+   "unpopulated",
+   "unprecedented",
+   "unravel",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "versatile",
+   "vitality",
+   "vulnerable",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "culmination",
+    "taught_date": "2026-11-23",
+    "days_ago": 1
+   },
+   {
+    "word": "deadlock",
+    "taught_date": "2026-11-23",
+    "days_ago": 1
+   },
+   {
+    "word": "divergent",
+    "taught_date": "2026-11-23",
+    "days_ago": 1
+   },
+   {
+    "word": "stalemate",
+    "taught_date": "2026-11-23",
+    "days_ago": 1
+   },
+   {
+    "word": "escalate",
+    "taught_date": "2026-11-23",
+    "days_ago": 1
+   },
+   {
+    "word": "relinquish",
+    "taught_date": "2026-11-23",
+    "days_ago": 1
+   },
+   {
+    "word": "disparity",
+    "taught_date": "2026-11-23",
+    "days_ago": 1
+   },
+   {
+    "word": "unravel",
+    "taught_date": "2026-11-23",
+    "days_ago": 1
+   },
+   {
+    "word": "extradition",
+    "taught_date": "2026-11-21",
+    "days_ago": 3
+   },
+   {
+    "word": "straying",
+    "taught_date": "2026-11-21",
+    "days_ago": 3
+   },
+   {
+    "word": "informant",
+    "taught_date": "2026-11-21",
+    "days_ago": 3
+   },
+   {
+    "word": "compensate",
+    "taught_date": "2026-11-21",
+    "days_ago": 3
+   },
+   {
+    "word": "dilapidated",
+    "taught_date": "2026-11-21",
+    "days_ago": 3
+   },
+   {
+    "word": "incentives",
+    "taught_date": "2026-11-21",
+    "days_ago": 3
+   },
+   {
+    "word": "tangible",
+    "taught_date": "2026-11-21",
+    "days_ago": 3
+   },
+   {
+    "word": "fall behind",
+    "taught_date": "2026-11-21",
+    "days_ago": 3
+   },
+   {
+    "word": "malfunction",
+    "taught_date": "2026-11-17",
+    "days_ago": 7
+   },
+   {
+    "word": "vulnerable",
+    "taught_date": "2026-11-17",
+    "days_ago": 7
+   },
+   {
+    "word": "candidacy",
+    "taught_date": "2026-11-17",
+    "days_ago": 7
+   },
+   {
+    "word": "unanimously",
+    "taught_date": "2026-11-17",
+    "days_ago": 7
+   },
+   {
+    "word": "reciprocal",
+    "taught_date": "2026-11-17",
+    "days_ago": 7
+   },
+   {
+    "word": "preservation",
+    "taught_date": "2026-11-17",
+    "days_ago": 7
+   },
+   {
+    "word": "diversify",
+    "taught_date": "2026-11-17",
+    "days_ago": 7
+   },
+   {
+    "word": "integrate",
+    "taught_date": "2026-11-17",
+    "days_ago": 7
+   },
+   {
+    "word": "disenfranchise",
+    "taught_date": "2026-11-03",
+    "days_ago": 21
+   },
+   {
+    "word": "bureaucratic",
+    "taught_date": "2026-11-03",
+    "days_ago": 21
+   },
+   {
+    "word": "scavenge",
+    "taught_date": "2026-11-03",
+    "days_ago": 21
+   },
+   {
+    "word": "streamline",
+    "taught_date": "2026-11-03",
+    "days_ago": 21
+   },
+   {
+    "word": "subsidize",
+    "taught_date": "2026-11-03",
+    "days_ago": 21
+   },
+   {
+    "word": "reinstate",
+    "taught_date": "2026-11-03",
+    "days_ago": 21
+   },
+   {
+    "word": "incorporate",
+    "taught_date": "2026-11-03",
+    "days_ago": 21
+   }
+  ],
+  "recent_traps": [
+   "Omitting Articles Before Countable Nouns",
+   "Confusing 'Borrow' and 'Lend'",
+   "Question Word Order: Putting Auxiliary Verbs in the Right Place",
+   "Direct Translation: 'Play Internet' vs. 'Use the Internet'",
+   "Equipment is Uncountable",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Prepositions: 'Depend On' vs. 'Depend With'",
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Updating a Manager on a Project Delay",
+   "Informing a Dining Customer That a Menu Dish Is Unavailable",
+   "Should urban professionals practice a strict digital detox by disconnecting from personal social media every weekend?",
+   "Joining an Ongoing Conversation",
+   "Should households switch to smart home automation for residential energy management?",
+   "Summarizing Key Points Before Ending a Team Call",
+   "Should software development teams ban automated code generators for junior developers?",
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Protecting Daily Energy: Practical Steps to Beat Physical and Mental Fatigue",
+   "Rethinking Workplace Cash Flow: Practical Budgeting Systems for Modern Professionals",
+   "The Silent Shift: Rethinking Our Always-On Culture in a Hyper-Connected Era",
+   "Mastering Street Food Travel: Eat Like a Local with Confidence",
+   "Transforming Your Living Space to Support Mental Well-Being",
+   "How Modern Film Scoring Shapes Storytelling Behind the Scenes",
+   "Building Digital Resilience in an Interconnected World",
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "dirigere",
+   "patio",
+   "Callejear",
+   "camino",
+   "barrio",
+   "callejón",
+   "comprar",
+   "plaza",
+   "ganga",
+   "gustar",
+   "café",
+   "Empalagar",
+   "Aqua / Agua",
+   "Cafeteria",
+   "Merienda",
+   "hablar",
+   "fiesta",
+   "Sobremesa"
+  ],
+  "recent_news_titles": [
+   "What's next after no deal at COP31 climate talks?",
+   "Cop31 climate talks break down as key deal rejected",
+   "Suspected drone attack causes explosion on Russian ship in Libya",
+   "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "Democrats capture at least 258 House seats in largest sweep since 1992",
+   "IT firms report solid earnings growth",
+   "Sea row talks move to KL",
+   "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+   "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+   "Thousands protest across Europe over living costs and housing",
+   "Mexico detains top cartel boss 'El Chapo Isidro,' setting off violence",
+   "New skywalk eases access to historic Talat Phlu community",
+   "EU proposes tax on Big Tech to pad budget",
+   "Indian man sentenced to 19 years in US Sikh separatist assassination plot",
+   "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader",
+   "US judge approves Bayer's $7.25 billion cancer settlement",
+   "Mamdani announces plan to close New York's Rikers Island jail by 2032",
+   "Vietjet Thailand aims to boost capacity on Japan routes",
+   "Subsidy delays draw Democrat criticism"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "The Guardian",
+   "title": "US adds Megaspeed, AI firm at center of Nvidia scandal, to trade blacklist",
+   "url": "https://www.theguardian.com/us-news/2026/nov/23/megaspeed-us-trade-blacklist-nvidia",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "BBC News",
+   "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+   "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "BBC News",
+   "title": "How Nvidia is reacting to Jensen Huang's return as CEO",
+   "url": "https://www.bbc.co.uk/news/videos/ckedq2edqegzo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_1 (second source)",
+   "source": "The Guardian",
+   "title": "Jensen Huang reinstated as Nvidia CEO after Trump intervenes",
+   "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "world_2",
+   "source": "DW",
+   "title": "Ukraine updates: Kyiv claims strike that sank Russian ship off Libya",
+   "url": "https://www.dw.com/en/ukraine-updates-kyiv-claims-strike-that-sank-russian-ship-off-libya/live-80015859?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_1",
+   "source": "Khaosod English",
+   "title": "Laos leaves UN’s Least Developed Country list after 55 years",
+   "url": "https://www.khaosodenglish.com/news/asean/2026/11/24/laos-leaves-uns-least-developed-country-list-after-55-years/",
+   "thin": false
+  },
+  {
+   "id": "S7",
+   "role": "thailand_2",
+   "source": "Bangkok Post Business",
+   "title": "Singapore investigating Nvidia-linked Megaspeed after US blacklisting",
+   "url": "https://www.bangkokpost.com/business/general/3360349/singapore-investigating-nvidialinked-megaspeed-after-us-blacklisting",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "scrutiny",
+   "breaching",
+   "leverage",
+   "mitigate",
+   "unravel",
+   "streamline"
+  ],
+  "recycled_words": [],
+  "cover": {
+   "headline": "US Blacklists Asian AI Firm Megaspeed Following Nvidia Semiconductor Scandal",
+   "paragraphs": [
+    "The US Commerce Department placed Singapore-based artificial intelligence company Megaspeed and its subsidiaries in Thailand and Malaysia on a trade blacklist on Monday. The decision requires the firm to seek special permission to acquire US exports, an approval that officials say is likely to be denied. The move follows long-running investigations into whether the company illegally funneled advanced Nvidia microchips to China in violation of trade controls.",
+    "Megaspeed came under intense public **scrutiny** after reports revealed that its controlling shareholder, Alice Huang, maintained a romantic relationship with Nvidia chief executive Jensen Huang. US intelligence reports indicate that Alice Huang kept in contact with a top Chinese intelligence official for over a year during the affair. US authorities suspect the firm operated as a shell business to bypass export restrictions and channel restricted AI hardware into China. Beijing has rejected the spy allegations, calling them groundless.",
+    "The official entity listing follows mounting political pressure within the American government. Treasury Secretary Scott Bessent publicly criticized the Commerce Department for delaying the ban, noting that multiple national security agencies had urged action for months. Lawmakers also questioned why Nvidia failed to detect that its client might be operating as a pass-through intermediary for restricted markets. In response, Nvidia recently established an export control committee to monitor compliance.",
+    "Meanwhile, Singapore Prime Minister Lawrence Wong announced that domestic authorities are conducting their own independent inquiry. Wong clarified that Singapore had previously questioned Alice Huang but released her after finding no legal basis for prosecution under local laws. He stressed that while Singapore is not participating in the US probe, it will take firm action if Megaspeed is found **breaching** local regulations.",
+    "The Department of Justice and the Department of Commerce issued a joint statement confirming they will use all legal means to prosecute any criminal acts linked to Megaspeed. Megaspeed previously stated that it operates lawfully and noted that Alice Huang officially left the business in August 2025. The US Commerce Department has not specified the exact date when export restrictions will take full effect."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "Jensen Huang Restored as Nvidia CEO Following White House Intervention",
+    "paragraphs": [
+     "Tech manufacturer Nvidia reinstated Jensen Huang as chief executive on Monday, less than two weeks after his sudden resignation. The board reversed its previous stance following direct intervention from US President Donald Trump, who confirmed he personally persuaded company leadership to restore Huang to his post.",
+     "Huang had stepped down amid growing scrutiny over personal relationships, including allegations involving a former executive of a blacklisted AI firm. His return immediately boosted investor confidence, driving Nvidia shares up by 32 percent and adding over one trillion dollars to the company's total market value in New York trading.",
+     "Following his restoration, Huang expressed gratitude and committed to leading the semiconductor giant with renewed focus. The decision comes as US authorities continue investigating potential breaches of chip export controls linked to partner distribution networks."
+    ],
+    "source_ids": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "headline": "NATO Deploys Surveillance Aircraft to Poland After Russian Missile Incidents",
+    "paragraphs": [
+     "NATO has authorized the deployment of an early-warning radar aircraft to Poland to strengthen airspace monitoring along its eastern border. The military alliance took action after three Russian missiles landed near a Polish site hosting allied training exercises last week.",
+     "Polish Prime Minister Donald Tusk called the missile incident a deliberate provocation by Moscow. Defense officials stated that the airborne control system will provide deeper operational visibility, allowing rapid identification of potential threats as regional conflicts threaten to spill across international borders.",
+     "Separately, German Chancellor Friedrich Merz remarked during a Brussels briefing that failing to admit Ukraine into NATO back in 2008 was a strategic error. He suggested that full alliance protection at that time could have prevented current military hostilities."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Laos Ends 55 Years on UN List of Least Developed Nations",
+    "paragraphs": [
+     "Laos officially graduated from the United Nations category of Least Developed Countries on Monday, ending 55 years on the list. The UN General Assembly set the transition date after confirming that the nation met long-term targets across income, human assets, and environmental safety measures.",
+     "To leave the category, countries must exceed standards in public health, education, and average annual income. Data from recent reviews showed Laos achieved a per capita income far above the required minimum threshold, reflecting decades of steady structural progress since setting graduation as a national priority in 2000.",
+     "Despite this milestone, development economists caution that economic challenges remain. High national debt service costs continue to limit public spending on healthcare and social services. Furthermore, certain international trade preferences and specialized aid reserved for vulnerable states will gradually phase out."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   },
+   {
+    "headline": "Singapore Probes Local Tech Firm Named in US Export Blacklist",
+    "paragraphs": [
+     "Singapore Prime Minister Lawrence Wong announced in Australia that local authorities are actively investigating cloud company Megaspeed. The statement came shortly after the US Commerce Department added the Singapore-registered firm to its commercial blacklist over suspected illegal microchip shipments to China.",
+     "Wong confirmed that while Singapore is not involved in the American criminal investigation, local law enforcement will act decisively if the firm violated national laws. He noted that an earlier inquiry into former executive Alice Huang ended without prosecution due to insufficient evidence at the time.",
+     "During his official visit to Canberra, Wong also signed a bilateral agreement with Australian Prime Minister Anthony Albanese. The new pact aims to __**streamline__** trade and secure essential supply chains, covering vital imports such as food, medical products, and agricultural goods."
+    ],
+    "source_ids": [
+     "S7"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "The Practical Guide to Evaluating Emerging Workplace Technologies",
+   "paragraphs": [
+    "Modern workplaces continuously introduce automated platforms, artificial intelligence assistants, and cloud connectivity tools designed to boost output. While new digital solutions promise rapid efficiency gains, introducing software without clear planning often creates technical confusion. Professionals must learn how to assess new tools critically before adopting them into daily business operations.",
+    "The first step in evaluating a digital tool involves identifying the precise operational problem it solves. Teams often adopt popular applications simply because they are trending, only to find the software duplicates existing internal systems. Before purchasing software licenses, managers should map current workflows to determine whether automation will truly solve bottlenecks or merely add unnecessary administrative steps.",
+    "Data security and technical integration represent another critical priority. Introducing unverified software can expose sensitive company data to external leaks or compliance breaches. Teams must verify that new platforms meet organizational security standards and work seamlessly with established programs. Failing to address compatibility early can cause project timelines to __**unravel__** when systems clash during active operations.",
+    "Organization leaders should also evaluate the real cost of adoption beyond initial subscription fees. Software implementation requires time for staff training, routine system maintenance, and technical support. Without adequate preparation, employee productivity may temporary **fall behind** as teams struggle to adapt to unfamiliar interfaces. A structured pilot phase allows smaller groups to test applications safely without risk to core business services.",
+    "Ultimately, successful tech adoption relies on practical utility rather than novel trends. When organizations carefully **leverage** digital tools to eliminate routine tasks, employees gain more time for strategic planning and complex problem-solving. Thoughtful evaluation ensures that technological upgrades support long-term operational success without creating hidden administrative burdens."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should companies mandate a complete ban on personal messaging apps on work devices?",
+   "view_a": {
+    "title": "Essential for Data Protection",
+    "text": "Strict controls over software installation are essential to prevent dangerous data leaks. Allowing chat apps on corporate computers invites cyber risks and distracts employees from key duties. **Granted**, staff may feel restricted initially, but securing corporate information must take priority over personal convenience. Without strict rules, operational security will **escalate** into a major vulnerability, making strong technical boundaries absolutely necessary for every modern enterprise."
+   },
+   "view_b": {
+    "title": "Flexible Policies Build Trust",
+    "text": "Complete software bans create an environment of distrust and reduce workplace morale. **Admittedly**, IT departments must **mitigate** cyber security risks, **yet** blanket restrictions often drive employees to use unsafe workaround methods. Organizations should focus on clear digital conduct training rather than total control. Providing clear guidelines helps staff balance professional responsibilities with essential communication, creating a far more resilient corporate culture."
+   },
+   "phrases": [
+    {
+     "phrase": "Granted, staff may feel restricted initially",
+     "function": "concession"
+    },
+    {
+     "phrase": "Admittedly, IT departments must mitigate cyber security risks",
+     "function": "concession"
+    },
+    {
+     "phrase": "yet blanket restrictions often drive employees to use unsafe workaround methods",
+     "function": "contrast"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Incorrect Preposition After 'Discuss'",
+   "wrong": "We need to discuss about the new security policy.",
+   "right": "We need to discuss the new security policy.",
+   "explanation": "Thai speakers often incorrectly insert 'about' after the verb 'discuss' because of a direct translation from the Thai phrase 'พูดคุยเกี่ยวกับ' (phut khui kieokap). In English, 'discuss' is a transitive verb that directly takes a direct object without needing a preposition. Alternatively, you can say 'talk about the policy'."
+  },
+  "word_bank": [
+   {
+    "word": "scrutiny",
+    "pos": "noun",
+    "definition": "careful and thorough examination or inspection of something",
+    "thai": "การตรวจสอบอย่างละเอียด",
+    "collocations": [
+     "intense scrutiny",
+     "come under scrutiny",
+     "face public scrutiny"
+    ],
+    "example": "Megaspeed came under intense public **scrutiny** after reports revealed that its controlling shareholder, Alice Huang, maintained a romantic relationship with Nvidia chief executive Jensen Huang."
+   },
+   {
+    "word": "breaching",
+    "pos": "verb",
+    "definition": "breaking or failing to observe a law, rule, or agreement",
+    "thai": "การละเมิด",
+    "collocations": [
+     "breaching regulations",
+     "breaching a contract",
+     "breaching safety protocols"
+    ],
+    "example": "He stressed that while Singapore is not participating in the US probe, it will take firm action if Megaspeed is found **breaching** local regulations."
+   },
+   {
+    "word": "leverage",
+    "pos": "verb",
+    "definition": "use something to maximum advantage",
+    "thai": "ใช้ประโยชน์จาก",
+    "collocations": [
+     "leverage technology",
+     "leverage resources",
+     "leverage competitive advantage"
+    ],
+    "example": "When organizations carefully **leverage** digital tools to eliminate routine tasks, employees gain more time for strategic planning and complex problem-solving."
+   },
+   {
+    "word": "mitigate",
+    "pos": "verb",
+    "definition": "make something bad or serious less severe or damaging",
+    "thai": "บรรเทา",
+    "collocations": [
+     "mitigate risk",
+     "mitigate potential damage",
+     "mitigate climate impacts"
+    ],
+    "example": "**Admittedly**, IT departments must **mitigate** cyber security risks, **yet** blanket restrictions often drive employees to use unsafe workaround methods."
+   },
+   {
+    "word": "unravel",
+    "pos": "verb",
+    "definition": "fail or fall apart completely after a period of success or order",
+    "thai": "คลี่คลายหรือพังทลายลง",
+    "collocations": [
+     "begin to unravel",
+     "unravel completely",
+     "plans unravel"
+    ],
+    "example": "Failing to address compatibility early can cause project timelines to __**unravel__** when systems clash during active operations."
+   },
+   {
+    "word": "streamline",
+    "pos": "verb",
+    "definition": "make an organization or process simpler and more effective",
+    "thai": "ปรับปรุงกระบวนการให้มีประสิทธิภาพ",
+    "collocations": [
+     "streamline operations",
+     "streamline the process",
+     "streamline procedures"
+    ],
+    "example": "The new pact aims to __**streamline__** trade and secure essential supply chains, covering vital imports such as food, medical products, and agricultural goods."
+   }
+  ],
+  "activity": {
+   "instructions": "Complete each sentence using the correct word from the word box below: [ scrutinize, breaching, leverage, mitigate, unravel, streamline ]",
+   "items": [
+    "1. Companies must try to ______ supply chain risks by diversifying their suppliers across different regions.",
+    "2. The auditors plan to ______ every financial record to ensure full compliance with international standards.",
+    "3. The manager introduced software to ______ administrative procedures and save time for staff.",
+    "4. Any firm found ______ international trade regulations will face heavy financial penalties.",
+    "5. Businesses need to ______ modern digital assets to remain competitive in today's global marketplace.",
+    "6. Without proper coordination, the complicated merger deal could quickly ______ before the deadline."
+   ],
+   "answers": [
+    "1. mitigate",
+    "2. scrutinize",
+    "3. streamline",
+    "4. breaching",
+    "5. leverage",
+    "6. unravel"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "US blacklists Asian AI firm Megaspeed after reports of breaching to export controls.",
+    "corrected": "US blacklists Asian AI firm Megaspeed after reports of breaching export controls.",
+    "reason": "Remove unnecessary preposition 'to' after the transitive verb breaching."
+   },
+   {
+    "sentence": "Jensen Huang was restored as chief executive after the White House intervened the crisis.",
+    "corrected": "Jensen Huang was restored as chief executive after the White House intervened in the crisis.",
+    "reason": "The verb intervene requires the preposition 'in' when referring to a situation."
+   },
+   {
+    "sentence": "NATO deployed surveillance aircrafts to Poland following recent Russian missile incidents.",
+    "corrected": "NATO deployed surveillance aircraft to Poland following recent Russian missile incidents.",
+    "reason": "The word 'aircraft' is an uncountable plural noun form and does not take an 's'."
+   },
+   {
+    "sentence": "Laos has successfully elevated from the list of least developed countries this week.",
+    "corrected": "Laos has successfully graduated from the list of least developed countries this week.",
+    "reason": "Use 'graduated' rather than 'elevated' when describing leaving UN country categories."
+   },
+   {
+    "sentence": "Singapore is investigating a local firm that named in the foreign export blacklist.",
+    "corrected": "Singapore is investigating a local firm that was named in the foreign export blacklist.",
+    "reason": "Passive voice 'was named' is required because the firm was placed on the list by others."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Navigating hotel stays in Spanish-speaking regions is straightforward once you know key vocabulary for checking in and requesting assistance.",
+   "phrases": [
+    {
+     "phrase": "Tengo una reserva",
+     "pronunciation": "TEN-goh oo-nah reh-SEHR-bah",
+     "meaning": "I have a reservation"
+    },
+    {
+     "phrase": "La llave, por favor",
+     "pronunciation": "lah YAH-beh pohr fah-BOHR",
+     "meaning": "The key, please"
+    },
+    {
+     "phrase": "¿A qué hora es el desayuno?",
+     "pronunciation": "ah keh OH-rah ehs el deh-sah-YOO-noh",
+     "meaning": "What time is breakfast?"
+    }
+   ],
+   "root": {
+    "root": "hospes",
+    "meaning": "host, guest, or stranger (Latin)",
+    "english_words": "hotel, hospital, hospitality, hostage",
+    "note": "This ancient Latin root forms the base for words relating to welcoming guests and providing care."
+   },
+   "borrowed": {
+    "word": "armada",
+    "note": "Borrowed from Spanish, where it literally means an armed fleet of ships."
+   },
+   "curious": {
+    "word": "trasnochar",
+    "pronunciation": "trahs-noh-CHAHR",
+    "meaning": "to stay up all night",
+    "note": "A convenient single verb used when you stay awake or party right through until dawn."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 340,
+  "world_1": 131,
+  "world_2": 121,
+  "thailand_1": 133,
+  "thailand_2": 128,
+  "feature": 272,
+  "real_english": 243,
+  "language_lab": 172,
+  "other_language": 117,
+  "word_bank": 244,
+  "total": 2106
+ },
+ "notes": [
+  "dropped 'divergent' from star_words: it does not appear in the articles",
+  "dropped 'subsidize' from star_words: it does not appear in the articles",
+  "★ words repeated within 30 days: scrutiny, mitigate, unravel, streamline",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 340 words (target 470–510)",
+  "world_2: 121 words (target 140–160)",
+  "feature: 272 words (target 310–370)",
+  "other_language: 117 words (target 140–190)",
+  "whole issue: 2106 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
