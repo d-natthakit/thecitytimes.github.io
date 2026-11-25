@@ -1,0 +1,863 @@
+{
+ "plan": {
+  "date": "2026-11-25",
+  "date_long": "Wednesday, 25 November 2026",
+  "weekday": "Wed",
+  "issue_no": 27,
+  "language": "French",
+  "phrase_theme": "at the hotel",
+  "feature": "Arts & Entertainment",
+  "opinion": "say_it_better",
+  "setting": "meetings & calls",
+  "activity": "Word forms",
+  "trap": "Tenses & time expressions",
+  "avoid_star_words": [
+   "accessible",
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "allocation",
+   "architecture",
+   "arsenal",
+   "assessment",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "breaching",
+   "bureaucratic",
+   "burgeoning",
+   "candidacy",
+   "capitalizing",
+   "circumvent",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commence",
+   "commendation",
+   "compelling",
+   "compensate",
+   "compostable",
+   "concessions",
+   "conducive",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "counterintelligence",
+   "counterpart",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culmination",
+   "culpability",
+   "curate",
+   "curb",
+   "deadlock",
+   "defied",
+   "deliberate",
+   "delicacies",
+   "derail",
+   "designated",
+   "deterrence",
+   "dilapidated",
+   "discrepancy",
+   "disenfranchise",
+   "dislodge",
+   "disparity",
+   "disperse",
+   "disruption",
+   "divergent",
+   "diversify",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalate",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "evade",
+   "expertise",
+   "extinction",
+   "extradition",
+   "extramarital",
+   "facilitate",
+   "fall behind",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "fugitive",
+   "gracefully",
+   "groomed",
+   "hospitality",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incentives",
+   "incorporate",
+   "indictment",
+   "inevitable",
+   "informant",
+   "ingested",
+   "integrate",
+   "interim",
+   "intermediary",
+   "intermittent",
+   "interventions",
+   "jeopardising",
+   "jurisdiction",
+   "leverage",
+   "listing",
+   "logistics",
+   "look into",
+   "malfunction",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "occupancy",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "preservation",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "recap",
+   "reciprocal",
+   "rectify",
+   "reinstate",
+   "relieve",
+   "relinquish",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "settlement",
+   "slashed",
+   "slashing",
+   "solemn",
+   "solidarity",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stain",
+   "stalemate",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "straying",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "sustainable",
+   "tailored",
+   "tangible",
+   "tolerance",
+   "transactional",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "unanimously",
+   "undergoes",
+   "unpopulated",
+   "unprecedented",
+   "unravel",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "versatile",
+   "vitality",
+   "vulnerable",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "scrutiny",
+    "taught_date": "2026-11-24",
+    "days_ago": 1
+   },
+   {
+    "word": "breaching",
+    "taught_date": "2026-11-24",
+    "days_ago": 1
+   },
+   {
+    "word": "leverage",
+    "taught_date": "2026-11-24",
+    "days_ago": 1
+   },
+   {
+    "word": "mitigate",
+    "taught_date": "2026-11-24",
+    "days_ago": 1
+   },
+   {
+    "word": "unravel",
+    "taught_date": "2026-11-24",
+    "days_ago": 1
+   },
+   {
+    "word": "streamline",
+    "taught_date": "2026-11-24",
+    "days_ago": 1
+   },
+   {
+    "word": "fugitive",
+    "taught_date": "2026-11-22",
+    "days_ago": 3
+   },
+   {
+    "word": "indictment",
+    "taught_date": "2026-11-22",
+    "days_ago": 3
+   },
+   {
+    "word": "evade",
+    "taught_date": "2026-11-22",
+    "days_ago": 3
+   },
+   {
+    "word": "commence",
+    "taught_date": "2026-11-22",
+    "days_ago": 3
+   },
+   {
+    "word": "unrest",
+    "taught_date": "2026-11-22",
+    "days_ago": 3
+   },
+   {
+    "word": "accessible",
+    "taught_date": "2026-11-22",
+    "days_ago": 3
+   },
+   {
+    "word": "intermediary",
+    "taught_date": "2026-11-22",
+    "days_ago": 3
+   },
+   {
+    "word": "allocation",
+    "taught_date": "2026-11-22",
+    "days_ago": 3
+   },
+   {
+    "word": "counterintelligence",
+    "taught_date": "2026-11-18",
+    "days_ago": 7
+   },
+   {
+    "word": "jeopardising",
+    "taught_date": "2026-11-18",
+    "days_ago": 7
+   },
+   {
+    "word": "transactional",
+    "taught_date": "2026-11-18",
+    "days_ago": 7
+   },
+   {
+    "word": "reciprocal",
+    "taught_date": "2026-11-18",
+    "days_ago": 7
+   },
+   {
+    "word": "unpopulated",
+    "taught_date": "2026-11-18",
+    "days_ago": 7
+   },
+   {
+    "word": "occupancy",
+    "taught_date": "2026-11-18",
+    "days_ago": 7
+   },
+   {
+    "word": "jurisdiction",
+    "taught_date": "2026-11-18",
+    "days_ago": 7
+   },
+   {
+    "word": "recap",
+    "taught_date": "2026-11-18",
+    "days_ago": 7
+   },
+   {
+    "word": "coordinated",
+    "taught_date": "2026-11-04",
+    "days_ago": 21
+   },
+   {
+    "word": "credible",
+    "taught_date": "2026-11-04",
+    "days_ago": 21
+   },
+   {
+    "word": "evacuate",
+    "taught_date": "2026-11-04",
+    "days_ago": 21
+   },
+   {
+    "word": "slashing",
+    "taught_date": "2026-11-04",
+    "days_ago": 21
+   },
+   {
+    "word": "monopoly",
+    "taught_date": "2026-11-04",
+    "days_ago": 21
+   },
+   {
+    "word": "autonomous",
+    "taught_date": "2026-11-04",
+    "days_ago": 21
+   },
+   {
+    "word": "oversight",
+    "taught_date": "2026-11-04",
+    "days_ago": 21
+   },
+   {
+    "word": "improvise",
+    "taught_date": "2026-11-04",
+    "days_ago": 21
+   }
+  ],
+  "recent_traps": [
+   "Incorrect Preposition After 'Discuss'",
+   "Omitting Articles Before Countable Nouns",
+   "Confusing 'Borrow' and 'Lend'",
+   "Question Word Order: Putting Auxiliary Verbs in the Right Place",
+   "Direct Translation: 'Play Internet' vs. 'Use the Internet'",
+   "Equipment is Uncountable",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Prepositions: 'Depend On' vs. 'Depend With'",
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should companies mandate a complete ban on personal messaging apps on work devices?",
+   "Updating a Manager on a Project Delay",
+   "Informing a Dining Customer That a Menu Dish Is Unavailable",
+   "Should urban professionals practice a strict digital detox by disconnecting from personal social media every weekend?",
+   "Joining an Ongoing Conversation",
+   "Should households switch to smart home automation for residential energy management?",
+   "Summarizing Key Points Before Ending a Team Call",
+   "Should software development teams ban automated code generators for junior developers?",
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "The Practical Guide to Evaluating Emerging Workplace Technologies",
+   "Protecting Daily Energy: Practical Steps to Beat Physical and Mental Fatigue",
+   "Rethinking Workplace Cash Flow: Practical Budgeting Systems for Modern Professionals",
+   "The Silent Shift: Rethinking Our Always-On Culture in a Hyper-Connected Era",
+   "Mastering Street Food Travel: Eat Like a Local with Confidence",
+   "Transforming Your Living Space to Support Mental Well-Being",
+   "How Modern Film Scoring Shapes Storytelling Behind the Scenes",
+   "Building Digital Resilience in an Interconnected World",
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "tourner (Latin: tornare)",
+   "cul-de-sac",
+   "boussole",
+   "voie",
+   "route",
+   "dépaysement",
+   "vente (Latin: vendere)",
+   "boutique",
+   "lèche-vitrine",
+   "goût (Latin: gustus)",
+   "menu",
+   "terroir",
+   "café",
+   "croissant",
+   "flâner",
+   "parler",
+   "tête-à-tête",
+   "retrouvailles"
+  ],
+  "recent_news_titles": [
+   "US adds Megaspeed, AI firm at center of Nvidia scandal, to trade blacklist",
+   "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+   "How Nvidia is reacting to Jensen Huang's return as CEO",
+   "Jensen Huang reinstated as Nvidia CEO after Trump intervenes",
+   "Ukraine updates: Kyiv claims strike that sank Russian ship off Libya",
+   "Laos leaves UN’s Least Developed Country list after 55 years",
+   "Singapore investigating Nvidia-linked Megaspeed after US blacklisting",
+   "What's next after no deal at COP31 climate talks?",
+   "Cop31 climate talks break down as key deal rejected",
+   "Suspected drone attack causes explosion on Russian ship in Libya",
+   "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
+   "Democrats capture at least 258 House seats in largest sweep since 1992",
+   "IT firms report solid earnings growth",
+   "Sea row talks move to KL",
+   "Alleged Mexican drug cartel boss ‘El Chapo Isidro’ arrested in special forces raid",
+   "Who is El Chapo Isidro, the alleged cartel boss arrested in Mexico?",
+   "Thousands protest across Europe over living costs and housing",
+   "Mexico detains top cartel boss 'El Chapo Isidro,' setting off violence",
+   "New skywalk eases access to historic Talat Phlu community",
+   "EU proposes tax on Big Tech to pad budget"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "BBC News",
+   "title": "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "Al Jazeera",
+   "title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
+   "url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "The Guardian",
+   "title": "US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving",
+   "url": "https://www.theguardian.com/us-news/2026/nov/24/us-army-iowa-detonation",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "Al Jazeera",
+   "title": "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
+   "url": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Khaosod English",
+   "title": "Authorities prepare to salvage grounded ammonia tanker off Surat Thani",
+   "url": "https://www.khaosodenglish.com/featured/2026/11/25/authorities-prepare-to-salvage-grounded-ammonia-tanker-off-surat-thani/",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post Business",
+   "title": "B.Grimm, NTT plan B113bn data centre",
+   "url": "https://www.bangkokpost.com/business/general/3360699/bgrimm-ntt-plan-b113bn-data-centre",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "verdict",
+   "detonate",
+   "suspended",
+   "salvage",
+   "grounded",
+   "deploy",
+   "hyperscale"
+  ],
+  "recycled_words": [
+   "evacuate",
+   "breaching",
+   "leverage"
+  ],
+  "cover": {
+   "headline": "Huawei Convicted of Trade Secrets Theft but Acquitted of Racketeering Charges",
+   "paragraphs": [
+    "A United States federal jury has found Chinese telecommunications giant Huawei guilty of conspiracy to steal trade secrets and bank fraud following a two-month legal trial in Brooklyn. However, jurors acquitted the firm of the most serious charge it faced: engaging in a criminal racketeering conspiracy. That charge, often applied in organized crime proceedings, argued that Huawei operated systematically as an illicit enterprise.",
+    "The legal battle originated in late 2018 following the arrest of senior executive Cathy Meng in Canada under a US warrant. The US government placed Huawei on a trade restriction list shortly afterward, alleging that the firm's growth posed national security risks. Prosecutors claimed during the trial that Huawei spent decades using false statements and theft to secure an unfair market advantage, including __breaching__ international rules by doing business in Iran and North Korea.",
+    "In response, defense lawyers maintained that the firm achieved its international presence across 170 countries through genuine innovation and hard work rather than unlawful activity. Following the **verdict**, the defense expressed satisfaction that the jury rejected the racketeering count, characterizing that specific charge as an excessive overreach by federal authorities. Defense representatives indicated that they plan to pursue every available appeal after sentencing takes place in late 2027.",
+    "Despite years of heavy legal **scrutiny** and trade restrictions from Washington, industry experts note that the criminal trial has not halted Huawei's broader commercial operations. The company has since successfully diversified its technology investments, transforming itself into a major player in artificial intelligence development across Asian markets.",
+    "The partial conviction marks a historic moment in corporate litigation involving foreign technology companies operating in the US. While federal prosecutors emphasized that corporate misconduct will face legal accountability, the mixed ruling leaves both sides preparing for protracted appellate arguments over the coming years."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "US Army Prepares Controlled Explosion of Explosive Dust in Iowa",
+    "paragraphs": [
+     "The United States Army is scheduled to **detonate** 68 barrels containing five tons of toxic lead azide at an ammunition plant in rural Iowa. Operational commanders stated that immediate action was necessary to avoid a far more dangerous spontaneous explosion of the unstable chemical compounds.",
+     "Military authorities have positioned physical barriers around the site to capture airborne particles, but officials warned nearby residents to prepare to __evacuate__ if necessary. Emergency alerts instructed citizens living within twenty miles to remain indoors with closed windows as wind forecasts help direct the projected plume path.",
+     "Local officials and environmental groups strongly criticized federal agencies for failing to communicate early health risks to vulnerable populations. State leaders promised to investigate the administrative delays once formal legislative sessions open in the new year."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "South Africa Sentences Foreign National Attempting to Join Russian Military",
+    "paragraphs": [
+     "A South African court has convicted a Zimbabwean national who was arrested at a Johannesburg airport while attempting to board a flight to Russia. The individual admitted he applied online to fight in the Ukraine conflict in exchange for financial payment.",
+     "The court handed down a five-year **suspended** sentence alongside an order for immediate deportation back to Zimbabwe. He pleaded guilty under national laws that prohibit mercenaries and strictly regulate foreign military assistance.",
+     "Authorities across Africa continue investigating online recruitment networks targeting young jobseekers. Governments in Kenya and Zimbabwe report that hundreds of citizens have been enticed abroad under false promises of civilian employment."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Maritime Authorities Prepare Emergency Recovery of Tanker off Koh Samui",
+    "paragraphs": [
+     "Thai maritime agencies are preparing to **salvage** the Unique 10, a large liquefied gas tanker that ran aground on coastal rocks off Koh Phaluai in Surat Thani province. Aerial inspections confirmed that the vessel's hull suffered damage, but no oil leakage has been detected in surrounding waters.",
+     "A secondary tanker has been dispatched to receive the **grounded** ship's ammonia cargo before recovery tugboats move the damaged vessel. Officials will **deploy** protective floating containment booms around the site to safeguard marine conservation zones during the operation.",
+     "Marine research centers will conduct detailed environmental assessments of nearby coral reefs once the vessel is safely towed to a regional shipyard for structural repairs."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Power Producer Partners with Japanese Firm for Massive Data Project",
+    "paragraphs": [
+     "B.Grimm Power has signed a memorandum of understanding with Japan's NTT Global Data Centres to construct a massive **hyperscale** data facility inside the Amata City Chonburi Industrial Estate. The project represents an investment exceeding 113 billion baht and is expected to create over 2,500 jobs.",
+     "The proposed 400-megawatt campus aims to support rapidly growing international demand for cloud computing and artificial intelligence services. By providing clean, high-efficiency utility infrastructure, the partnership seeks to __leverage__ regional manufacturing strengths while supporting national digital goals.",
+     "Beyond physical construction, the two firms plan to collaborate with local universities to train Thai workers in software engineering and modern technology management."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "The Art of Constructive Critique: Navigating Feedback in Creative Projects",
+   "paragraphs": [
+    "In modern professional life, working on creative projects—whether designing a marketing campaign, crafting a corporate video, or writing software documentation—requires frequent collaboration. However, evaluating artistic output or creative ideas often feels subjective. Unfiltered feedback can easily bruise egos, while overly vague praise fails to improve final results. Mastering how to give and receive constructive critique is an essential skill for any workplace team.",
+    "Effective feedback begins with establishing clear objectives before any creative work starts. When reviewers evaluate a draft against agreed goals rather than personal taste, the discussion remains objective. Instead of stating that a design looks unappealing, effective professional communicators point out specific elements that may not resonate with the intended target audience. Framing comments around outcomes helps team members process suggestions without feeling personally attacked.",
+    "Timing and structure also play a crucial role in maintaining productive working relationships. Critique should be offered in stages rather than delivered all at once right before a deadline. Early discussions ought to focus on high-level concepts and structure, saving minor formatting details for final reviews. This layered approach prevents creators from wasting effort refining ideas that might ultimately be rewritten.",
+    "Receiving feedback requires active listening and emotional balance. Professionals should view notes not as personal criticism, but as valuable insights designed to elevate the project. Asking clarifying questions helps identify the underlying cause of a reviewer's concern, allowing the creator to propose creative solutions that satisfy project requirements without compromising technical quality.",
+    "Ultimately, building a culture of healthy critique transforms feedback sessions into collaborative problem-solving opportunities. When teams separate personal identity from creative output, project quality improves and workplace trust grows naturally."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Suggesting a schedule adjustment during a meeting",
+   "situation": "You need to ask your team to adjust a meeting agenda because a key item requires more discussion time.",
+   "formal": "If I may make a suggestion, I propose that we extend our discussion on the proposal to address remaining points thoroughly.",
+   "neutral": "I think we should spend a bit more time on this item before moving to the next topic.",
+   "casual": "Can we take a few extra minutes on this before jumping ahead?",
+   "useful_phrases": [
+    "If I may make a suggestion",
+    "spend a bit more time on",
+    "before moving to"
+   ]
+  },
+  "trap": {
+   "title": "Using 'Since' Instead of 'For' with Time Spans",
+   "wrong": "We have discussed this project since two hours.",
+   "right": "We have discussed this project for two hours.",
+   "explanation": "Thai speakers often use 'since' for all time expressions because the Thai word ตั้งแต่ (tang-tae) can refer to starting points. In English, use 'since' for a specific starting point in time (e.g., since 9:00 AM) and 'for' when referring to a total duration or duration length (e.g., for two hours)."
+  },
+  "word_bank": [
+   {
+    "word": "verdict",
+    "pos": "noun",
+    "definition": "An official decision made by a jury or judge in a court of law",
+    "thai": "คำตัดสินของศาล",
+    "collocations": [
+     "reach a verdict",
+     "guilty verdict",
+     "final verdict"
+    ],
+    "example": "Following the **verdict**, the defense expressed satisfaction that the jury rejected the racketeering count, characterizing that specific charge as an excessive overreach by federal authorities."
+   },
+   {
+    "word": "detonate",
+    "pos": "verb",
+    "definition": "To cause something, such as a bomb or explosive material, to explode",
+    "thai": "จุดชนวนระเบิด",
+    "collocations": [
+     "detonate a device",
+     "safely detonate",
+     "detonate explosives"
+    ],
+    "example": "The United States Army is scheduled to **detonate** 68 barrels containing five tons of toxic lead azide at an ammunition plant in rural Iowa."
+   },
+   {
+    "word": "suspended",
+    "pos": "adjective",
+    "definition": "Delaying the enforcement of a court sentence provided the offender keeps good behavior",
+    "thai": "รอการลงโทษ",
+    "collocations": [
+     "suspended sentence",
+     "given a suspended",
+     "receive a suspended"
+    ],
+    "example": "The court handed down a five-year **suspended** sentence alongside an order for immediate deportation back to Zimbabwe."
+   },
+   {
+    "word": "salvage",
+    "pos": "verb",
+    "definition": "To rescue or save a ship or goods from damage or destruction at sea",
+    "thai": "กู้ภัยเรือหรือทรัพย์สิน",
+    "collocations": [
+     "salvage operation",
+     "salvage a ship",
+     "attempt to salvage"
+    ],
+    "example": "Thai maritime agencies are preparing to **salvage** the Unique 10, a large liquefied gas tanker that ran aground on coastal rocks off Koh Phaluai in Surat Thani province."
+   },
+   {
+    "word": "grounded",
+    "pos": "adjective",
+    "definition": "Stuck on the seabed or rocks, unable to move floatably",
+    "thai": "เกยตื้น",
+    "collocations": [
+     "grounded vessel",
+     "grounded tanker",
+     "remain grounded"
+    ],
+    "example": "A secondary tanker has been dispatched to receive the **grounded** ship's ammonia cargo before recovery tugboats move the damaged vessel."
+   },
+   {
+    "word": "deploy",
+    "pos": "verb",
+    "definition": "To bring resources or equipment into effective action or position",
+    "thai": "ปรับกำลังหรืออุปกรณ์เข้าใช้งาน",
+    "collocations": [
+     "deploy resources",
+     "deploy equipment",
+     "deploy forces"
+    ],
+    "example": "Officials will **deploy** protective floating containment booms around the site to safeguard marine conservation zones during the operation."
+   },
+   {
+    "word": "hyperscale",
+    "pos": "adjective",
+    "definition": "Refers to extremely large computing and data center facilities built for massive growth",
+    "thai": "ขนาดใหญ่พิเศษ",
+    "collocations": [
+     "hyperscale data center",
+     "hyperscale facility",
+     "hyperscale infrastructure"
+    ],
+    "example": "B.Grimm Power has signed a memorandum of understanding with Japan's NTT Global Data Centres to construct a massive **hyperscale** data facility inside the Amata City Chonburi Industrial Estate."
+   },
+   {
+    "word": "evacuate",
+    "pos": "verb",
+    "definition": "To move people out of a dangerous place to a safer location",
+    "thai": "อพยพ",
+    "collocations": [],
+    "example": "Military authorities have positioned physical barriers around the site to capture airborne particles, but officials warned nearby residents to prepare to __evacuate__ if necessary."
+   },
+   {
+    "word": "breaching",
+    "pos": "verb",
+    "definition": "Breaking or failing to observe a law, rule, or agreement",
+    "thai": "ละเมิดหรือฝ่าฝืน",
+    "collocations": [],
+    "example": "Prosecutors claimed during the trial that Huawei spent decades using false statements and theft to secure an unfair market advantage, including __breaching__ international rules by doing business in Iran and North Korea."
+   },
+   {
+    "word": "leverage",
+    "pos": "verb",
+    "definition": "To use something to maximum advantage",
+    "thai": "ใช้ประโยชน์จาก",
+    "collocations": [],
+    "example": "By providing clean, high-efficiency utility infrastructure, the partnership seeks to __leverage__ regional manufacturing strengths while supporting national digital goals."
+   }
+  ],
+  "activity": {
+   "instructions": "Complete each sentence by changing the base word in brackets into its correct form (nouns, verbs, or adjectives).",
+   "items": [
+    "The judge announced that the official court ______ would be delivered tomorrow morning. (verdict)",
+    "Engineers planned a controlled ______ to clear the dangerous old structure safely. (detonate)",
+    "Emergency teams were awarded a contract for the rescue and ______ of the sunken ship. (salvage)",
+    "The quick ______ of emergency responders saved many lives during the flood. (deploy)",
+    "The technological advance allowed the company to expand its server infrastructure to a ______ scale. (hyperscale)",
+    "City managers decided that to ______ their assets effectively, they needed better digital tools. (leverage)"
+   ],
+   "answers": [
+    "verdict",
+    "detonation",
+    "salvage",
+    "deployment",
+    "hyperscale",
+    "leverage"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Huawei was convicted from trade secrets theft in federal court yesterday.",
+    "corrected": "Huawei was convicted of trade secrets theft in federal court yesterday.",
+    "reason": "Incorrect preposition after convicted; use 'convicted of'."
+   },
+   {
+    "sentence": "The army plans to detonate the explosives because of the dangerous condition.",
+    "corrected": "The army plans to detonate the explosives because of their dangerous condition.",
+    "reason": "Pronoun disagreement; 'explosives' is plural so 'their' is required."
+   },
+   {
+    "sentence": "The court gave a five-years suspended sentence to the criminal.",
+    "corrected": "The court gave a five-year suspended sentence to the criminal.",
+    "reason": "Hyphenated compound adjectives before a noun take singular form."
+   },
+   {
+    "sentence": "Response teams worked hard for salvage the grounded ship near the shore.",
+    "corrected": "Response teams worked hard to salvage the grounded ship near the shore.",
+    "reason": "Incorrect preposition after worked hard; use 'to' plus infinitive."
+   },
+   {
+    "sentence": "The company wants to deploy new technology for increase efficiency.",
+    "corrected": "The company wants to deploy new technology to increase efficiency.",
+    "reason": "Incorrect preposition before verb; use 'to' plus infinitive for purpose."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Checking into a hotel in a French-speaking region is simple when you know these essential phrases and words.",
+   "phrases": [
+    {
+     "phrase": "Je voudrais réserver une chambre.",
+     "pronunciation": "zhuh voo-DRAY ray-zair-VAY oon SHAHM-bruh",
+     "meaning": "I would like to book a room."
+    },
+    {
+     "phrase": "Avez-vous de la disponibilité?",
+     "pronunciation": "ah-VAY voo duh lah dees-poh-nee-bee-lee-TAY",
+     "meaning": "Do you have any availability?"
+    },
+    {
+     "phrase": "Le petit-déjeuner est-il inclus?",
+     "pronunciation": "luh puh-TEE day-zhuh-NAY ay-teel ahn-KLOO",
+     "meaning": "Is breakfast included?"
+    }
+   ],
+   "root": {
+    "root": "hospes (Latin)",
+    "meaning": "guest, host, or stranger",
+    "english_words": "hotel, hospital, host, hospitality",
+    "note": "This ancient root evolved into the French word hôtel and entered English to describe welcoming places for travelers."
+   },
+   "borrowed": {
+    "word": "concierge",
+    "note": "Originally referring to a building caretaker or doorkeeper in French, it now means hotel staff assisting guests."
+   },
+   "curious": {
+    "word": "pied-à-terre",
+    "pronunciation": "pyay-dah-TAIR",
+    "meaning": "a small secondary home or apartment used during brief stays",
+    "note": "Literally translating to 'foot on ground', it describes a convenient accommodation maintained away from one's main residence."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 296,
+  "world_1": 128,
+  "world_2": 104,
+  "thailand_1": 110,
+  "thailand_2": 105,
+  "feature": 271,
+  "real_english": 166,
+  "language_lab": 160,
+  "other_language": 136,
+  "word_bank": 428,
+  "total": 2080
+ },
+ "notes": [
+  "dropped 'tactfully' from star_words: it does not appear in the articles",
+  "dropped 'scrutiny' from recycled_words: it does not appear in the articles",
+  "★ words appear in only 3 parts of the issue (target 4+)",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 296 words (target 470–510)",
+  "world_2: 104 words (target 140–160)",
+  "thailand_1: 110 words (target 140–160)",
+  "thailand_2: 105 words (target 140–160)",
+  "feature: 271 words (target 310–370)",
+  "real_english: 166 words (target 260–320)",
+  "whole issue: 2080 words (target 2300–2700)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
