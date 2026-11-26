@@ -494,7 +494,7 @@
    "id": "S2",
    "role": "cover (second source)",
    "source": "BBC News",
-   "title": "Macy's postpones Thanksgiving parade due to weather",
+   "title": "Macy's postpones Thanksgiving parade due to severe weather",
    "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo?at_medium=RSS&at_campaign=rss",
    "thin": false
   },
@@ -533,33 +533,36 @@
   {
    "id": "S7",
    "role": "thailand_2",
-   "source": "Bangkok Post",
-   "title": "Scammer claim sparks legal action",
-   "url": "https://www.bangkokpost.com/thailand/politics/3361374/scammer-claim-sparks-legal-action",
+   "source": "Khaosod English",
+   "title": "Police wait outside bathroom as mule account suspect scrolls TikTok",
+   "url": "https://www.khaosodenglish.com/featured/2026/11/26/police-wait-outside-bathroom-as-mule-account-suspect-scrolls-tiktok/",
    "thin": false
   }
  ],
  "content": {
   "star_words": [
-   "postponed",
-   "suspended",
-   "flourishing",
-   "comprehensive",
-   "substantially",
-   "pivotal",
-   "proactive"
+   "impediments",
+   "anticipate",
+   "scavenge",
+   "relinquish",
+   "deliberate",
+   "scrutiny",
+   "vitality",
+   "navigate"
   ],
-  "recycled_words": [],
+  "recycled_words": [
+   "grounded",
+   "suspended",
+   "escalate",
+   "stalemate"
+  ],
   "cover": {
-   "headline": "New York City Macy's Thanksgiving Day Parade Postponed Due to High Winds",
+   "headline": "Historic NYC Thanksgiving Parade Postponed to Saturday Due to Severe Storm",
    "paragraphs": [
-    "New York City’s annual Macy’s Thanksgiving Day parade has been __**postponed**__ due to excessively windy weather and will now be held on Saturday instead of Thursday. Forecasters say an impending storm on Thursday may spoil the street party, which is traditionally marked by a march of huge inflatable balloons among the city skyscrapers and historic downtown areas.",
-    "AccuWeather is forecasting sustained winds of 12 to 25 mph and rain later on Thursday. Under safety guidelines, large balloons must stay grounded if sustained winds exceed 23 mph or gusts exceed 34 mph. The parade balloons have been __**suspended**__ only once previously because of weather, back in 1971, creating a rare historical precedent for the organizers.",
-    "NBC quoted Macy’s executives as saying that the safety of participants and spectators is the top priority for everyone involved. The giant balloons will be deflated on Wednesday night and stored securely in neighbouring New Jersey until they are reinflated for the rescheduled Saturday celebration, ensuring that no potential accidents occur during the severe weather event.",
-    "This year the parade will include a vibrant tribute to Dolly Parton led by Megan Hilty, along with special appearances by Melissa Joan Hart and other stars leading the way for Santa Claus. Nine Broadway shows will be featured as part of a ten-minute medley instead of full show numbers, providing a delightful musical experience for the millions of viewers tuning in from home.",
-    "The Macy’s parade began in 1924 to create buzz for the department store holiday windows at Herald Square. Organizers borrowed animals from the Central Park Zoo for the early parades but ended the practice in 1927 after children became frightened by the live creatures, leading to the introduction of the famous inflatable novelties that we see today.",
-    "The parades were fully cancelled previously only in 1942, 1943, and 1944 because valuable materials needed for the balloons were diverted for the World War Two effort. The modern holiday tradition returns this weekend after meticulous planning, and local authorities are working to ensure a smooth rescheduling process for all attendees and international visitors.",
-    "Local businesses and tourism boards anticipate that shifting the event to Saturday will still generate significant economic activity for the city. Hotels, restaurants, and retail stores near the parade route have adjusted their staffing schedules to accommodate the massive crowds expected over the weekend, turning a potential weather disruption into a __**proactive__** opportunity for local commerce."
+    "New York City’s world-famous Macy’s Thanksgiving Day Parade has been postponed to Saturday as a powerful coastal storm threatens to bring heavy rain and dangerous wind conditions. Organizers were forced to adjust their schedule after forecasters warned of sustained winds reaching up to 25 mph and even stronger gusts. Official safety guidelines dictate that the event's massive floating character balloons must remain __grounded__ if sustained winds top 23 mph or gusts exceed 34 mph.",
+    "The decision marks the very first time in the parade's century-long history that the event has been postponed because of bad weather. In the past, the iconic street celebration was __suspended__ entirely during World War Two from 1942 through 1944 to save essential materials like rubber and helium for the war effort. The giant inflatables were also kept on the ground due to high winds in 1971, but the parade itself went ahead.",
+    "Ahead of the storm, New York Governor Kathy Hochul declared a state of emergency for New York City, Long Island, and Westchester County. Executive producer Will Cross expressed disappointment at the delay but emphasized that the safety of performers, volunteers, and millions of spectators remains the absolute priority. To protect the inflatables from severe weather **impediments**, workers deflated 100 giant balloons on Wednesday night and moved them to a secure facility in neighboring New Jersey until they can be reinflated.",
+    "The parade began in 1924 as a promotional stunt for Macy’s Manhattan flagship store, initially featuring live animals borrowed from the Central Park Zoo. Air-filled and helium balloons replaced the live animals a few years later. Organizers **anticipate** that this year’s rescheduled 100th annual parade will showcase 10 new character inflatables, alongside a special musical tribute to Dolly Parton led by Megan Hilty and a 10-minute Broadway musical medley before Santa Claus closes the show."
    ],
    "source_ids": [
     "S1",
@@ -568,22 +571,22 @@
   },
   "world": [
    {
-    "headline": "Ukraine Strikes Russian Airbase",
+    "headline": "Ukraine Strikes Russian Airbase East of Moscow in Drone Attack",
     "paragraphs": [
-     "The Ukrainian General Staff says its forces struck a major military base in the Nizhny Novgorod region east of Moscow. Ukrainian forces successfully hit the Savasleyka airbase, damaging five aircraft used to launch missiles and bombs.",
-     "The General Staff stated that three MiG-31 jets and two Su-34 fighter-bombers were impacted in the latest long-range attack. Russia did not immediately comment on the report provided by the military command.",
-     "The operation follows recent strikes in Libyan waters and the Gulf of Finland, as well as damage to the Crimea bridge. Fighting has continued since the full-scale invasion in February 2022, causing ongoing regional instability."
+     "Ukrainian forces launched a successful long-range strike against the Savasleyka airbase in Russia's Nizhny Novgorod region, damaging five military aircraft. The attack targeted Russian MiG-31 jets, which carry hypersonic missiles, and Su-34 fighter-bombers used in regular strikes on Ukrainian cities.",
+     "Kyiv stated the operation was part of a broader attempt to weaken Moscow's military assets and disrupt ongoing missile launches. Russian officials have not yet commented on the strike, which follows several recent Ukrainian actions aimed at Russian shipping and infrastructure.",
+     "The attack comes as fighting continues to __escalate__ across Eastern Europe. Ukrainian officials insisted they will continue striking military targets until the campaign against their nation's energy system stops."
     ],
     "source_ids": [
      "S3"
     ]
    },
    {
-    "headline": "Angelina Jolie and Brad Pitt Settle Legal Battle",
+    "headline": "Brad Pitt and Angelina Jolie End Years of Legal Disputes Over French Vineyard",
     "paragraphs": [
-     "Brad Pitt and Angelina Jolie have settled a long-running legal battle over her sale of a stake in their French vineyard. The dispute unfolded amid their bitter divorce proceedings over the past several years.",
-     "Representatives for both Hollywood stars released a joint statement confirming they settled out of court in the best interests of their family. They bought a controlling interest in Château Miraval in 2008 and shared years of business ventures together.",
-     "Pitt had argued that Jolie acted without permission in selling her share to a Russian oligarch. Jolie counter-sued with allegations regarding a 2016 private flight, but both sides have now resolved their respective legal actions amicably."
+     "Hollywood actors Brad Pitt and Angelina Jolie have reached an out-of-court settlement, ending an eight-year legal battle over their shared French winery, Château Miraval. Representatives for both stars confirmed the agreement in a joint statement, asking for privacy for their family.",
+     "The legal fight began after Jolie sold her share in the vineyard to a international beverage group without Pitt's knowledge. Pitt sued, arguing they had agreed not to sell without mutual permission, while Jolie filed counter-claims regarding a private flight incident in 2016.",
+     "The agreement resolves all remaining claims between the former couple, bringing an end to a high-profile courtroom __stalemate__. However, separate litigation between Pitt and the spirit company that bought Jolie's stake remains ongoing."
     ],
     "source_ids": [
      "S4"
@@ -592,11 +595,11 @@
   ],
   "thailand": [
    {
-    "headline": "Phuket to Host Major Muay Thai Stadium",
+    "headline": "Rajadamnern Stadium Announces Billion-Baht Boxing Arena in Phuket",
     "paragraphs": [
-     "Rajadamnern Muay Thai Stadium plans to open its first venue outside Bangkok at Central Phuket in early 2029. The project represents an investment of more than one billion baht as operators aim to attract one million tourists annually.",
-     "The complex will cover nine thousand square metres and accommodate about two thousand five hundred spectators. It will feature live bouts, cultural shows, and a museum alongside dining and retail outlets.",
-     "Global Sport Ventures and Central Pattana are collaborating on the expansion to promote the traditional sport. Architecture firms Populous and Nikken Sekkei are involved in designing the new combat sports venue."
+     "Bangkok's famous Rajadamnern Muay Thai Stadium is expanding outside the capital for the first time by building a one-billion-baht arena at Central Phuket. Set to open in early 2029, the complex will feature a 2,500-seat stadium, a combat sports museum, and dining areas.",
+     "The project is a joint venture between Central Pattana and Global Sport Ventures. Organizers hope the new venue will tap into the growing global interest in traditional Thai martial arts and attract one million international visitors to the island each year.",
+     "International architecture firms known for designing major international stadiums will handle the project. The venue will host live fights, cultural shows, and evening concerts alongside Central Phuket's expanded luxury shopping zone."
     ],
     "source_ids": [
      "S5",
@@ -604,11 +607,11 @@
     ]
    },
    {
-    "headline": "Thai Politician Authorises Legal Action Over Allegations",
+    "headline": "Police Wait Outside Hat Yai Bathroom to Arrest Suspected Online Scam Mule",
     "paragraphs": [
-     "Bhumjaithai MP Suchada Zhang Thaensap has authorised legal action against People's Party MP Rukchanok Srinork over allegations portraying her and her husband as scammers. The political dispute has drawn widespread public attention across various media platforms in recent days.",
-     "The conflict began in October when opposition politicians questioned the government about online gambling networks and asset declarations. Suchada firmly denied the accusations during a press conference and stated she would prove the facts in court.",
-     "Rukchanok expressed readiness to face legal action while insisting she never called the husband a scammer directly. The ongoing political clash continues to develop as both parties present their arguments to the public and legal advisors."
+     "Police officers in Hat Yai waited nearly 30 minutes outside a bathroom door to arrest a 22-year-old suspect accused of operating a mule account. Officers watched the suspect enter the toilet and stayed silent while he watched social media videos inside.",
+     "When the suspect finally emerged, police arrested him under a warrant issued by the Nakhon Sawan Kwaeng Court for computer fraud. The suspect had allegedly sold his bank account for 300 baht, which scammers then used to steal tens of thousands of baht from victims.",
+     "The suspect admitted he knew about the case but had failed to report to police earlier. Officers took him into custody and arranged his transfer to face formal legal proceedings."
     ],
     "source_ids": [
      "S7"
@@ -616,260 +619,293 @@
    }
   ],
   "feature": {
-   "headline": "Creating an Eco-Friendly Home Environment for Daily Well-Being",
+   "headline": "Creating a Sustainable Home: Simple Habits for Every Household",
    "paragraphs": [
-    "Modern urban living often disconnects us from natural rhythms, making home environmental design more important than ever. Transforming our living spaces into sustainable sanctuaries requires intentional choices rather than drastic lifestyle overhauls. By focusing on small daily habits, residents can __**substantially__** reduce their ecological footprint while improving indoor air quality and mental clarity in their living spaces.",
-    "A __**pivotal__** step involves optimizing natural light and ventilation throughout the apartment or house. Heavy drapes can be replaced with sheer fabrics that invite daylight in, reducing the need for artificial daytime lighting. Indoor plants also serve as natural air purifiers, adding vitality to living areas while helping to regulate indoor humidity levels naturally. Selecting durable, locally sourced furnishings further minimizes environmental impact over time.",
-    "Energy management plays an equally crucial role in household sustainability as urban areas continue expanding. Switching to energy-efficient LED lighting and unplugging idle electronic devices prevents unnecessary power consumption during peak hours. Furthermore, establishing a __**comprehensive__** indoor sorting system for organic waste and recyclables encourages mindful consumption habits among all household members, fostering a cleaner community.",
-    "Ultimately, building an eco-friendly home is a gradual journey of awareness rather than an overnight transformation. Residents should focus on progressive improvements that align with their personal routines and household budgets. These thoughtful adjustments ultimately foster a healthier living space for both current occupants and future generations, ensuring a __**flourishing__** ecosystem at the residential level."
+    "Adopting an environmentally friendly lifestyle at home does not require expensive upgrades or a complete life overhaul. Small, thoughtful actions practiced consistently can significantly lower household waste and reduce energy consumption without disruption to your daily routine.",
+    "A great starting point is managing kitchen waste effectively. Instead of tossing organic scraps into standard rubbish bins, households can turn food waste into rich soil through basic home composting. Furthermore, learning how to creative reuse leftovers helps households **scavenge** extra value from food purchases, saving money while cutting back on unnecessary trash.",
+    "Energy management is another vital area where small changes yield big results. Simple habits like unplugging electronics when not in use, switching to energy-efficient light bulbs, and utilizing natural sunlight can noticeably lower monthly electric bills. Taking control of daily power consumption allows families to maintain comfort while lessening their environmental footprint.",
+    "Reducing plastic consumption requires households to **relinquish** the habit of using single-use items. Carrying reusable shopping bags, storing food in glass containers, and choosing products with minimal packaging drastically reduces long-term landfill contribution. Making **deliberate** choices at the grocery store sends a clear signal to manufacturers about eco-friendly demand.",
+    "Under close **scrutiny**, green living proves to be both cost-effective and rewarding. Protecting the **vitality** of our local environment starts with everyday decisions inside our living rooms and kitchens. By taking small, manageable steps today, every family can help build a cleaner community for the future."
    ],
    "source_ids": []
   },
   "two_takes": {
-   "question": "Should urban households adopt strict indoor composting habits?",
+   "question": "Should households compost their organic kitchen waste at home?",
    "view_a": {
-    "title": "Composting Benefits the Environment",
-    "text": "Composting organic kitchen waste significantly reduces the volume of garbage sent to municipal landfills. While managing food scraps indoors requires some initial effort, the positive impact on local soil health and waste reduction is undeniable for modern cities."
+    "title": "Essential for Sustainability",
+    "text": "Home composting is an effective way to cut household waste and support urban gardening. While it takes time to set up, it keeps organic matter out of landfills. Although some people fear bad odors, a properly maintained bin stays fresh and clean. Managing kitchen scraps locally reduces city transport emissions. With basic guidance, any resident can **navigate** household composting easily and turn everyday food scraps into rich, healthy soil."
    },
    "view_b": {
-    "title": "Practical Challenges Limit Adoption",
-    "text": "Indoor composting can attract unwanted pests and create unpleasant odours in compact apartments. Although the environmental intentions are good, practical limitations make strict composting systems unsuitable for many busy city residents who lack outdoor space."
+    "title": "Impractical for Modern City Life",
+    "text": "Composting at home sounds wonderful, but it is often unsuited for apartment living and busy schedules. Even with careful maintenance, food scraps in small spaces frequently attract pests like fruit flies. It seems clear that municipal collection services are much more efficient for dense neighborhoods. Rather than forcing individuals to manage decomposing waste indoors, cities should provide centralized collection facilities for convenience."
    },
    "phrases": [
     {
-     "phrase": "While managing food scraps indoors requires some initial effort",
+     "phrase": "While it takes time to set up",
      "function": "concession"
     },
     {
-     "phrase": "While managing food scraps indoors requires some initial effort",
-     "function": "hedging"
+     "phrase": "Although some people fear bad odors",
+     "function": "concession"
     },
     {
-     "phrase": "Although the environmental intentions are good",
-     "function": "contrast"
+     "phrase": "It seems clear that",
+     "function": "hedging"
     }
    ]
   },
   "trap": {
-   "title": "Using 'Garbage' or 'Waste' as a Countable Noun",
-   "wrong": "Please throw away these garbages before leaving the office.",
-   "right": "Please throw away this garbage before leaving the office.",
-   "explanation": "In English, words like 'garbage', 'waste', and 'equipment' are uncountable nouns. They do not take an 's' at the end and require singular verbs. Thai speakers often translate '__khaya__', which can feel collective, into a plural form, but you must use uninflected forms like 'some garbage' or 'this waste'."
+   "title": "Using 'Garbage' or 'Trash' as Plural Nouns",
+   "wrong": "We should reduce our home garbages by composting food scraps.",
+   "right": "We should reduce our home garbage by composting food scraps.",
+   "explanation": "In English, 'garbage' and 'trash' are uncountable nouns. Thai speakers often add an 's' because they think of individual items of trash (ขยะ). To talk about multiple items, use 'types of garbage' or simply keep 'garbage' without an 's'."
   },
   "word_bank": [
    {
-    "word": "postponed",
-    "pos": "verb",
-    "definition": "arranged for something to take place at a later time than originally planned",
-    "thai": "เลื่อนออกไป",
+    "word": "impediments",
+    "pos": "noun",
+    "definition": "things that make it difficult for someone to achieve something or for something to happen",
+    "thai": "อุปสรรค",
     "collocations": [
-     "postponed indefinitely",
-     "postponed until tomorrow",
-     "event postponed"
+     "major impediments",
+     "remove impediments",
+     "bureaucratic impediments"
     ],
-    "example": "New York City’s annual Macy’s Thanksgiving Day parade has been __**postponed**__ due to excessively windy weather and will now be held on Saturday instead of Thursday."
+    "example": "To protect the inflatables from severe weather **impediments**, workers deflated 100 giant balloons on Wednesday night and moved them to a secure facility in neighboring New Jersey until they can be reinflated."
+   },
+   {
+    "word": "anticipate",
+    "pos": "verb",
+    "definition": "to expect or foresee that something will happen and prepare for it",
+    "thai": "คาดการณ์",
+    "collocations": [
+     "anticipate demand",
+     "eagerly anticipate",
+     "fully anticipate"
+    ],
+    "example": "Organizers **anticipate** that this year’s rescheduled 100th annual parade will showcase 10 new character inflatables, alongside a special musical tribute to Dolly Parton led by Megan Hilty and a 10-minute Broadway musical medley before Santa Claus closes the show."
+   },
+   {
+    "word": "scavenge",
+    "pos": "verb",
+    "definition": "to search for and collect useful things from discarded materials",
+    "thai": "ค้นหาของที่ยังใช้ได้",
+    "collocations": [
+     "scavenge for food",
+     "scavenge value",
+     "scavenge materials"
+    ],
+    "example": "Furthermore, learning how to creative reuse leftovers helps households **scavenge** extra value from food purchases, saving money while cutting back on unnecessary trash."
+   },
+   {
+    "word": "relinquish",
+    "pos": "verb",
+    "definition": "to give up or surrender control, a habit, or a possession",
+    "thai": "สละ, ละทิ้ง",
+    "collocations": [
+     "relinquish control",
+     "relinquish power",
+     "relinquish rights"
+    ],
+    "example": "Reducing plastic consumption requires households to **relinquish** the habit of using single-use items."
+   },
+   {
+    "word": "deliberate",
+    "pos": "adjective",
+    "definition": "done consciously, intentionally, and with careful thought",
+    "thai": "ที่เจตนา, ที่คิดมาอย่างรอบคอบ",
+    "collocations": [
+     "deliberate choice",
+     "deliberate action",
+     "deliberate effort"
+    ],
+    "example": "Making **deliberate** choices at the grocery store sends a clear signal to manufacturers about eco-friendly demand."
+   },
+   {
+    "word": "scrutiny",
+    "pos": "noun",
+    "definition": "critical observation, careful examination, or close inspection",
+    "thai": "การตรวจสอบอย่างละเอียด",
+    "collocations": [
+     "close scrutiny",
+     "public scrutiny",
+     "come under scrutiny"
+    ],
+    "example": "Under close **scrutiny**, green living proves to be both cost-effective and rewarding."
+   },
+   {
+    "word": "vitality",
+    "pos": "noun",
+    "definition": "the state of being strong, active, energetic, or full of life",
+    "thai": "ความมีชีวิตชีวา, พลังชีวิต",
+    "collocations": [
+     "restore vitality",
+     "economic vitality",
+     "full of vitality"
+    ],
+    "example": "Protecting the **vitality** of our local environment starts with everyday decisions inside our living rooms and kitchens."
+   },
+   {
+    "word": "navigate",
+    "pos": "verb",
+    "definition": "to direct one's course or handle a complex process successfully",
+    "thai": "นำทาง, รับมือกับสถานการณ์",
+    "collocations": [
+     "navigate challenges",
+     "navigate the system",
+     "navigate carefully"
+    ],
+    "example": "With basic guidance, any resident can **navigate** household composting easily and turn everyday food scraps into rich, healthy soil."
+   },
+   {
+    "word": "grounded",
+    "pos": "adjective",
+    "definition": "prevented from flying or kept on the ground",
+    "thai": "ถูกห้ามบิน, ให้อยู่บนพื้นดิน",
+    "collocations": [],
+    "example": "Official safety guidelines dictate that the event's massive floating character balloons must remain __grounded__ if sustained winds top 23 mph or gusts exceed 34 mph."
    },
    {
     "word": "suspended",
     "pos": "verb",
-    "definition": "temporarily prevented from continuing or being in force",
-    "thai": "ระงับชั่วคราว",
-    "collocations": [
-     "suspended operations",
-     "service suspended",
-     "suspended temporarily"
-    ],
-    "example": "The parade balloons have been __**suspended**__ only once previously because of weather, back in 1971, creating a rare historical precedent for the organizers."
+    "definition": "stopped temporarily from continuing or taking place",
+    "thai": "ถูกระงับชั่วคราว",
+    "collocations": [],
+    "example": "In the past, the iconic street celebration was __suspended__ entirely during World War Two from 1942 through 1944 to save essential materials like rubber and helium for the war effort."
    },
    {
-    "word": "flourishing",
-    "pos": "adjective",
-    "definition": "developing rapidly and successfully; thriving",
-    "thai": "เจริญรุ่งเรือง",
-    "collocations": [
-     "flourishing business",
-     "flourishing economy",
-     "flourishing ecosystem"
-    ],
-    "example": "These thoughtful adjustments ultimately foster a healthier living space for both current occupants and future generations, ensuring a __**flourishing__** ecosystem at the residential level."
+    "word": "escalate",
+    "pos": "verb",
+    "definition": "to increase rapidly or become more intense",
+    "thai": "ทวีความรุนแรงขึ้น",
+    "collocations": [],
+    "example": "The attack comes as fighting continues to __escalate__ across Eastern Europe."
    },
    {
-    "word": "comprehensive",
-    "pos": "adjective",
-    "definition": "complete; including all or nearly all elements or aspects",
-    "thai": "ครอบคลุม",
-    "collocations": [
-     "comprehensive guide",
-     "comprehensive plan",
-     "comprehensive review"
-    ],
-    "example": "Furthermore, establishing a __**comprehensive__** indoor sorting system for organic waste and recyclables encourages mindful consumption habits among all household members, fostering a cleaner community."
-   },
-   {
-    "word": "substantially",
-    "pos": "adverb",
-    "definition": "to a great or significant extent",
-    "thai": "อย่างมาก",
-    "collocations": [
-     "increased substantially",
-     "reduced substantially",
-     "substantially different"
-    ],
-    "example": "By focusing on small daily habits, residents can __**substantially__** reduce their ecological footprint while improving indoor air quality and mental clarity in their living spaces."
-   },
-   {
-    "word": "pivotal",
-    "pos": "adjective",
-    "definition": "of crucial importance in relation to the development or success of something else",
-    "thai": "มีความสำคัญอย่างยิ่ง",
-    "collocations": [
-     "pivotal role",
-     "pivotal moment",
-     "pivotal factor"
-    ],
-    "example": "A __**pivotal__** step involves optimizing natural light and ventilation throughout the apartment or house."
-   },
-   {
-    "word": "proactive",
-    "pos": "adjective",
-    "definition": "creating or controlling a situation by causing something to happen rather than responding to it after it has happened",
-    "thai": "เชิงรุก",
-    "collocations": [
-     "proactive approach",
-     "proactive measures",
-     "proactive steps"
-    ],
-    "example": "Hotels, restaurants, and retail stores near the parade route have adjusted their staffing schedules to accommodate the massive crowds expected over the weekend, turning a potential weather disruption into a __**proactive__** opportunity for local commerce."
+    "word": "stalemate",
+    "pos": "noun",
+    "definition": "a situation in which no progress can be made or no advancement is possible",
+    "thai": "ภาวะทางตัน",
+    "collocations": [],
+    "example": "The agreement resolves all remaining claims between the former couple, bringing an end to a high-profile courtroom __stalemate__."
    }
   ],
   "activity": {
-   "instructions": "Choose the closest meaning for the target word in each sentence.",
+   "instructions": "Choose the word or phrase that is closest in meaning to the bold word in each sentence.",
    "items": [
-    "The outdoor concert was **postponed** due to the heavy storm. (a) cancelled (b) delayed (c) finished",
-    "Train services were **suspended** because of the technical failure on the track. (a) stopped (b) started (c) accelerated",
-    "The company reported a **flourishing** growth in sales this quarter. (a) declining (b) thriving (c) failing",
-    "We need a **comprehensive** report that covers every single detail of the project. (a) brief (b) thorough (c) simple",
-    "Profits have grown **substantially** since the new marketing strategy was introduced. (a) slightly (b) significantly (c) barely",
-    "Her contribution was **pivotal** to the success of the entire team. (a) minor (b) crucial (c) irrelevant"
+    "1. Bad weather created unexpected **impediments** during the construction project. (a) obstacles (b) advantages (c) clearings",
+    "2. Economists **anticipate** a gradual recovery in international tourism next year. (a) ignore (b) expect (c) prevent",
+    "3. The leader chose to **relinquish** his authority after years of public service. (a) strengthen (b) surrender (c) maintain",
+    "4. She made a **deliberate** attempt to improve her daily communication skills. (a) accidental (b) careless (c) intentional",
+    "5. The new financial policy came under intense public **scrutiny** yesterday. (a) approval (b) examination (c) praise",
+    "6. Regular exercise helps maintain physical **vitality** as people age. (a) energy (b) illness (c) weakness"
    ],
    "answers": [
-    "(b) delayed",
-    "(a) stopped",
-    "(b) thriving",
-    "(b) thorough",
-    "(b) significantly",
-    "(b) crucial"
+    "1. (a) obstacles",
+    "2. (b) expect",
+    "3. (b) surrender",
+    "4. (c) intentional",
+    "5. (b) examination",
+    "6. (a) energy"
    ]
   },
   "errors": [
    {
-    "sentence": "New York City Macy's Thanksgiving Day Parade Postponed Due of High Winds",
-    "corrected": "New York City Macy's Thanksgiving Day Parade Postponed Due to High Winds",
-    "reason": "Wrong preposition (due to)"
+    "sentence": "New York City postpones its historic Thanksgiving parade because a severe storm.",
+    "corrected": "New York City postpones its historic Thanksgiving parade because of a severe storm.",
+    "reason": "Use 'because of' before a noun phrase instead of 'because'."
    },
    {
-    "sentence": "Ukraine Strikes an Russian Airbase",
-    "corrected": "Ukraine Strikes a Russian Airbase",
-    "reason": "Incorrect article before vowel sound"
+    "sentence": "Ukraine launches drone attacks on an airbase located in the east of Moscow.",
+    "corrected": "Ukraine launches drone attacks on an airbase located east of Moscow.",
+    "reason": "Drop 'in the' when stating a direction relative to a specific city."
    },
    {
-    "sentence": "Angelina Jolie and Brad Pitt Settles Legal Battle",
-    "corrected": "Angelina Jolie and Brad Pitt Settle Legal Battle",
-    "reason": "Subject-verb agreement error"
+    "sentence": "Brad Pitt and Angelina Jolie end legal disputes for their French vineyard.",
+    "corrected": "Brad Pitt and Angelina Jolie end legal disputes over their French vineyard.",
+    "reason": "Use 'disputes over' when indicating the subject of disagreement."
    },
    {
-    "sentence": "Phuket to Host Major Muay Thai Stadium Successfully",
-    "corrected": "Phuket to Host Major Muay Thai Stadium",
-    "reason": "Unnecessary adverb added"
+    "sentence": "Rajadamnern Stadium plans to build a new arena with one billion baht.",
+    "corrected": "Rajadamnern Stadium plans to build a new arena worth one billion baht.",
+    "reason": "Use 'worth' to describe total monetary value or cost."
    },
    {
-    "sentence": "Thai Politician Authorises Legal Actions Over Allegations",
-    "corrected": "Thai Politician Authorises Legal Action Over Allegations",
-    "reason": "Uncountable noun pluralised"
+    "sentence": "Hat Yai police officers wait outside a bathroom to arrest a suspect online scam mule.",
+    "corrected": "Hat Yai police officers wait outside a bathroom to arrest a suspected online scam mule.",
+    "reason": "Use the participle 'suspected' to describe a person who is believed to be guilty."
    }
   ],
   "other_language": {
-   "theme_intro": "Checking into a hotel in Italy is easy when you know some basic polite phrases for your room and keys.",
+   "theme_intro": "Checking into a hotel in Italy is straightforward with a few key words.",
    "phrases": [
     {
-     "phrase": "Vorrei fare il check-in.",
-     "pronunciation": "vo-RRAY FA-reel chek-IN",
-     "meaning": "I would like to check in."
+     "phrase": "Ho una prenotazione",
+     "pronunciation": "oh OO-nah preh-noh-tah-TSYOH-neh",
+     "meaning": "I have a reservation"
     },
     {
-     "phrase": "Ecco il mio passaporto.",
-     "pronunciation": "EK-ko eel MEE-o pas-sa-POR-to",
-     "meaning": "Here is my passport."
+     "phrase": "Vorrei il check-out",
+     "pronunciation": "vohr-RAY eel check-out",
+     "meaning": "I would like to check out"
     },
     {
-     "phrase": "A che ora è la colazione?",
-     "pronunciation": "a ke O-ra e la ko-la-TSY-o-ne",
-     "meaning": "What time is breakfast?"
+     "phrase": "Dov'è l'ascensore?",
+     "pronunciation": "doh-VEH lah-shen-SOH-reh",
+     "meaning": "Where is the elevator?"
     }
    ],
    "root": {
-    "root": "albergo",
-    "meaning": "hotel",
-    "english_words": "hotel, host, hostel",
-    "note": "This Italian word comes from Germanic roots meaning shelter."
+    "root": "hospes",
+    "meaning": "host, guest",
+    "english_words": "hospitality, hotel, hostel",
+    "note": "This Latin root gave rise to Italian terms related to receiving visitors and travel accommodation."
    },
    "borrowed": {
-    "word": "camera",
-    "note": "In Italian, camera simply means a room, which comes from Latin for a vaulted ceiling or room."
+    "word": "reception",
+    "note": "While used globally in hotels, modern Italian hospitality adopted European front-desk terminology alongside traditional greetings."
    },
    "curious": {
-    "word": "chiave",
-    "pronunciation": "KYA-ve",
-    "meaning": "key",
-    "note": "An essential word you will hear every time you ask for your room access at reception."
+    "word": "abbiocco",
+    "pronunciation": "ahb-BYOHK-koh",
+    "meaning": "the heavy, drowsy feeling after eating a large meal",
+    "note": "It perfectly captures that relaxing urge to take a afternoon nap right after dining."
    }
   }
  },
  "sizes": {
-  "cover": 401,
-  "world_1": 103,
-  "world_2": 109,
-  "thailand_1": 100,
-  "thailand_2": 111,
-  "feature": 233,
-  "real_english": 191,
-  "language_lab": 154,
-  "other_language": 112,
-  "word_bank": 308,
-  "total": 1944
+  "cover": 302,
+  "world_1": 110,
+  "world_2": 117,
+  "thailand_1": 115,
+  "thailand_2": 116,
+  "feature": 237,
+  "real_english": 234,
+  "language_lab": 184,
+  "other_language": 105,
+  "word_bank": 467,
+  "total": 2197
  },
  "notes": [
-  "dropped 'implement' from star_words: it does not appear in the articles",
-  "dropped 'verdict' from recycled_words: it does not appear in the articles",
-  "dropped 'detonate' from recycled_words: it does not appear in the articles",
-  "dropped 'salvage' from recycled_words: it does not appear in the articles",
-  "★ words repeated within 30 days: suspended, pivotal, proactive",
-  "★ words appear in only 2 parts of the issue (target 4+)",
+  "★ words repeated within 30 days: impediments, scavenge, relinquish, deliberate, scrutiny, vitality, navigate",
+  "★ words appear in only 3 parts of the issue (target 4+)",
   "thailand_2 has only one outlet as a source",
-  "cover: 401 words (target 470–510)",
-  "world_1: 103 words (target 140–160)",
-  "world_2: 109 words (target 140–160)",
-  "thailand_1: 100 words (target 140–160)",
-  "thailand_2: 111 words (target 140–160)",
-  "feature: 233 words (target 310–370)",
-  "real_english: 191 words (target 260–320)",
-  "other_language: 112 words (target 140–190)",
-  "whole issue: 1944 words (target 2300–2700)",
-  "sentences over 35 words: cover.paragraphs[2] (36 words); cover.paragraphs[4] (39 words)"
+  "cover: 302 words (target 470–510)",
+  "world_1: 110 words (target 140–160)",
+  "world_2: 117 words (target 140–160)",
+  "thailand_1: 115 words (target 140–160)",
+  "thailand_2: 116 words (target 140–160)",
+  "feature: 237 words (target 310–370)",
+  "other_language: 105 words (target 140–190)",
+  "whole issue: 2197 words (target 2300–2700)",
+  "sentences over 35 words: cover.paragraphs[3] (39 words); word_bank[1].example (39 words)"
  ],
  "provider": "gemini",
  "requests": [
   "gemini-3.8-flash: HTTP 503 high demand",
-  "gemini-3.6-flash: no answer within 240s",
+  "gemini-3.6-flash: ok",
   "gemini-3.8-flash: HTTP 503 high demand",
-  "gemini-3.8-flash: HTTP 503 high demand",
-  "gemini-3.8-flash: HTTP 503 high demand",
-  "gemini-3.8-flash: HTTP 503 high demand",
-  "gemini-3.5-flash-lite: ok",
-  "gemini-3.8-flash: HTTP 503 high demand",
-  "gemini-3.5-flash-lite: ok",
-  "gemini-3.8-flash: HTTP 503 high demand",
-  "gemini-3.5-flash-lite: ok"
+  "gemini-3.6-flash: ok"
  ],
- "fallback_used": true
+ "fallback_used": false
 }
