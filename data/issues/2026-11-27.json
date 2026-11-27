@@ -1,0 +1,871 @@
+{
+ "plan": {
+  "date": "2026-11-27",
+  "date_long": "Friday, 27 November 2026",
+  "weekday": "Fri",
+  "issue_no": 29,
+  "language": "German",
+  "phrase_theme": "at work",
+  "feature": "Food & Travel",
+  "opinion": "say_it_better",
+  "setting": "social & small talk",
+  "activity": "Mini crossword clues",
+  "trap": "Direct translation from Thai",
+  "avoid_star_words": [
+   "accessible",
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "allocation",
+   "anticipate",
+   "architecture",
+   "arsenal",
+   "assessment",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "breaching",
+   "bureaucratic",
+   "burgeoning",
+   "candidacy",
+   "capitalizing",
+   "circumvent",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commence",
+   "commendation",
+   "compelling",
+   "compensate",
+   "compostable",
+   "concessions",
+   "conducive",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "counterintelligence",
+   "counterpart",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culmination",
+   "culpability",
+   "curate",
+   "curb",
+   "deadlock",
+   "defied",
+   "deliberate",
+   "delicacies",
+   "deploy",
+   "derail",
+   "designated",
+   "deterrence",
+   "detonate",
+   "dilapidated",
+   "discrepancy",
+   "disenfranchise",
+   "dislodge",
+   "disparity",
+   "disperse",
+   "disruption",
+   "divergent",
+   "diversify",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalate",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "evade",
+   "expertise",
+   "extinction",
+   "extradition",
+   "extramarital",
+   "facilitate",
+   "fall behind",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "fugitive",
+   "gracefully",
+   "groomed",
+   "grounded",
+   "hospitality",
+   "hyperscale",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incentives",
+   "incorporate",
+   "indictment",
+   "inevitable",
+   "informant",
+   "ingested",
+   "integrate",
+   "interim",
+   "intermediary",
+   "intermittent",
+   "interventions",
+   "jeopardising",
+   "jurisdiction",
+   "leverage",
+   "listing",
+   "logistics",
+   "look into",
+   "malfunction",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "occupancy",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "preservation",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "recap",
+   "reciprocal",
+   "rectify",
+   "reinstate",
+   "relieve",
+   "relinquish",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "salvage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "settlement",
+   "slashed",
+   "slashing",
+   "solemn",
+   "solidarity",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stain",
+   "stalemate",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "straying",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "suspended",
+   "sustainable",
+   "tailored",
+   "tangible",
+   "tolerance",
+   "transactional",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "unanimously",
+   "undergoes",
+   "unpopulated",
+   "unprecedented",
+   "unravel",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "verdict",
+   "versatile",
+   "vitality",
+   "vulnerable",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "impediments",
+    "taught_date": "2026-11-26",
+    "days_ago": 1
+   },
+   {
+    "word": "anticipate",
+    "taught_date": "2026-11-26",
+    "days_ago": 1
+   },
+   {
+    "word": "scavenge",
+    "taught_date": "2026-11-26",
+    "days_ago": 1
+   },
+   {
+    "word": "relinquish",
+    "taught_date": "2026-11-26",
+    "days_ago": 1
+   },
+   {
+    "word": "deliberate",
+    "taught_date": "2026-11-26",
+    "days_ago": 1
+   },
+   {
+    "word": "scrutiny",
+    "taught_date": "2026-11-26",
+    "days_ago": 1
+   },
+   {
+    "word": "vitality",
+    "taught_date": "2026-11-26",
+    "days_ago": 1
+   },
+   {
+    "word": "navigate",
+    "taught_date": "2026-11-26",
+    "days_ago": 1
+   },
+   {
+    "word": "breaching",
+    "taught_date": "2026-11-24",
+    "days_ago": 3
+   },
+   {
+    "word": "leverage",
+    "taught_date": "2026-11-24",
+    "days_ago": 3
+   },
+   {
+    "word": "mitigate",
+    "taught_date": "2026-11-24",
+    "days_ago": 3
+   },
+   {
+    "word": "unravel",
+    "taught_date": "2026-11-24",
+    "days_ago": 3
+   },
+   {
+    "word": "streamline",
+    "taught_date": "2026-11-24",
+    "days_ago": 3
+   },
+   {
+    "word": "stain",
+    "taught_date": "2026-11-20",
+    "days_ago": 7
+   },
+   {
+    "word": "ingested",
+    "taught_date": "2026-11-20",
+    "days_ago": 7
+   },
+   {
+    "word": "interventions",
+    "taught_date": "2026-11-20",
+    "days_ago": 7
+   },
+   {
+    "word": "relieve",
+    "taught_date": "2026-11-20",
+    "days_ago": 7
+   },
+   {
+    "word": "assessment",
+    "taught_date": "2026-11-20",
+    "days_ago": 7
+   },
+   {
+    "word": "gracefully",
+    "taught_date": "2026-11-20",
+    "days_ago": 7
+   },
+   {
+    "word": "foster",
+    "taught_date": "2026-11-06",
+    "days_ago": 21
+   },
+   {
+    "word": "sanctuary",
+    "taught_date": "2026-11-06",
+    "days_ago": 21
+   },
+   {
+    "word": "consensus",
+    "taught_date": "2026-11-06",
+    "days_ago": 21
+   },
+   {
+    "word": "culinary",
+    "taught_date": "2026-11-06",
+    "days_ago": 21
+   },
+   {
+    "word": "hospitality",
+    "taught_date": "2026-11-06",
+    "days_ago": 21
+   }
+  ],
+  "recent_traps": [
+   "Using 'Garbage' or 'Trash' as Plural Nouns",
+   "Using 'Since' Instead of 'For' with Time Spans",
+   "Incorrect Preposition After 'Discuss'",
+   "Omitting Articles Before Countable Nouns",
+   "Confusing 'Borrow' and 'Lend'",
+   "Question Word Order: Putting Auxiliary Verbs in the Right Place",
+   "Direct Translation: 'Play Internet' vs. 'Use the Internet'",
+   "Equipment is Uncountable",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Prepositions: 'Depend On' vs. 'Depend With'",
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order",
+   "Using 'Take Care' Instead of 'Pay Attention'"
+  ],
+  "recent_opinions": [
+   "Should households compost their organic kitchen waste at home?",
+   "Suggesting a schedule adjustment during a meeting",
+   "Should companies mandate a complete ban on personal messaging apps on work devices?",
+   "Updating a Manager on a Project Delay",
+   "Informing a Dining Customer That a Menu Dish Is Unavailable",
+   "Should urban professionals practice a strict digital detox by disconnecting from personal social media every weekend?",
+   "Joining an Ongoing Conversation",
+   "Should households switch to smart home automation for residential energy management?",
+   "Summarizing Key Points Before Ending a Team Call",
+   "Should software development teams ban automated code generators for junior developers?",
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?",
+   "Declining a Food Offer Politely at a Gathering"
+  ],
+  "recent_features": [
+   "Creating a Sustainable Home: Simple Habits for Every Household",
+   "The Art of Constructive Critique: Navigating Feedback in Creative Projects",
+   "The Practical Guide to Evaluating Emerging Workplace Technologies",
+   "Protecting Daily Energy: Practical Steps to Beat Physical and Mental Fatigue",
+   "Rethinking Workplace Cash Flow: Practical Budgeting Systems for Modern Professionals",
+   "The Silent Shift: Rethinking Our Always-On Culture in a Hyper-Connected Era",
+   "Mastering Street Food Travel: Eat Like a Local with Confidence",
+   "Transforming Your Living Space to Support Mental Well-Being",
+   "How Modern Film Scoring Shapes Storytelling Behind the Scenes",
+   "Building Digital Resilience in an Interconnected World",
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World",
+   "Street Food Smarts: How to Eat Safely and Authentically While Traveling"
+  ],
+  "recent_language_notes": [
+   "Haus",
+   "Poltergeist",
+   "Fernweh",
+   "weg",
+   "autobahn",
+   "Zugzwang",
+   "fahren",
+   "Autobahn",
+   "Schwarzfahren",
+   "kaufen",
+   "Glockenspiel",
+   "Hamsterkauf",
+   "essen",
+   "delicatessen",
+   "Kummerspeck",
+   "trinken",
+   "Pretzel",
+   "Kaffeeklatsch",
+   "sprechen",
+   "Kindergarten",
+   "Feierabend"
+  ],
+  "recent_news_titles": [
+   "New York City’s Macy’s Thanksgiving Day parade postponed due to weather",
+   "Macy's postpones Thanksgiving parade due to severe weather",
+   "Ukraine attacks Russian military base, says five planes struck",
+   "Angelina Jolie and Brad Pitt settle legal battle over French winery",
+   "Phuket to host B1bn Muay Thai stadium",
+   "Rajadamnern Stadium to open billion-baht world-class Muay Thai venue in Phuket",
+   "Police wait outside bathroom as mule account suspect scrolls TikTok",
+   "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
+   "US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving",
+   "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
+   "Authorities prepare to salvage grounded ammonia tanker off Surat Thani",
+   "B.Grimm, NTT plan B113bn data centre",
+   "US adds Megaspeed, AI firm at center of Nvidia scandal, to trade blacklist",
+   "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+   "How Nvidia is reacting to Jensen Huang's return as CEO",
+   "Jensen Huang reinstated as Nvidia CEO after Trump intervenes",
+   "Ukraine updates: Kyiv claims strike that sank Russian ship off Libya",
+   "Laos leaves UN’s Least Developed Country list after 55 years",
+   "Singapore investigating Nvidia-linked Megaspeed after US blacklisting"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "Al Jazeera",
+   "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
+   "url": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+   "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "The Guardian",
+   "title": "Fifa confirms cyber-attack exposed ‘personal and business information’",
+   "url": "https://www.theguardian.com/football/2026/nov/26/fifa-cyberattack-hack-personal-information",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_2",
+   "source": "DW",
+   "title": "Russia-Ukraine war extends to the Baltic and the Mediterranean",
+   "url": "https://www.dw.com/en/russia-ukraine-war-extends-to-the-baltic-and-the-mediterranean/a-80054604?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "thailand_1",
+   "source": "Khaosod English",
+   "title": "Akaranan joins LINE Thailand to tackle online bullying against children on OpenChat",
+   "url": "https://www.khaosodenglish.com/tech/2026/11/27/akaranan-joins-line-thailand-to-tackle-online-bullying-against-children-on-openchat/",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_2",
+   "source": "Bangkok Post Business",
+   "title": "Generali devises plan to achieve top 3 status in Thailand",
+   "url": "https://www.bangkokpost.com/business/general/3361949/generali-devises-plan-to-achieve-top-3-status-in-thailand",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "unlawful",
+   "sabotage",
+   "literacy",
+   "consecutive",
+   "hygiene",
+   "proactive",
+   "breaching",
+   "hospitality"
+  ],
+  "recycled_words": [
+   "mitigate",
+   "scrutiny",
+   "interventions",
+   "navigate"
+  ],
+  "cover": {
+   "headline": "Cairo Ring Road Inferno Kills 31 After Fuel Tanker Collides and Overturns",
+   "paragraphs": [
+    "Egyptian prosecutors have detained a 21-year-old driver following a horrific collision that overturned a fuel tanker on Cairo's ring road, igniting a massive blaze that killed at least 31 people and injured 26 others. The tragic crash occurred around 6:30 p.m. on Wednesday during peak evening traffic along an elevated stretch of the highway in al-Waraq, a densely populated district in Giza. The resulting inferno swept through caught traffic, destroying 27 vehicles, including cars and motorcycles, as secondary explosions of fuel tanks and tyres rocked the area.",
+    "According to preliminary statements from the Public Prosecution, the suspect admitted he was driving at 110 kilometres per hour while switching lanes to overtake other vehicles when his car hit the rear right side of the fuel truck. The driver lost control, causing his vehicle to veer to the far right side of the road. The impact burst one of the tanker's tyres, forcing the heavy vehicle into a concrete barrier where it flipped over and spilled petrol across the busy highway.",
+    "Authorities ordered the young driver held pending further investigation and sent him for forensic drug testing to determine if any substance contributed to the incident. Forensic teams are actively collecting DNA samples from relatives to help identify several victims whose bodies were burned beyond recognition. State officials confirmed that 21 injured individuals remain hospitalized, including eight patients transferred to specialist facilities for intensive care, while traffic resumed on Thursday morning after cleanup crews cleared the wreckage.",
+    "The incident has raised severe questions regarding traffic management and safety legalities on major transit routes. Egyptian MP Mahmoud Samy urged the government to shift its focus from expanding roadways to professionally managing highway safety to __mitigate__ risks. Concerns have also emerged over why the heavy transport vehicle was operating during restricted hours. A 2018 cabinet ruling strictly bars trucks carrying over four tonnes from using the ring road between 6:00 a.m. and midnight, yet prosecutors have not clarified how the tanker gained access during the rush hour peak.",
+    "Official statements cleared secondary infrastructure from causing the initial accident. While early local reports suggested a fallen high-voltage cable caused the crash, the Ministry of Electricity clarified that overhead lines were intact when the fire started and only melted due to the intense heat. President Abdel Fattah el-Sisi ordered full medical care for victims, while Prime Minister Mostafa Madbouly announced financial compensation packages, including bank certificates and replacement vehicles, to assist affected families."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "FIFA Confirms Cyberattack Exposed Data amid Growing Sector Outages",
+    "paragraphs": [
+     "FIFA has confirmed that unauthorized hackers accessed a limited set of personal and business information during a recent cyberattack. The global football governing body strongly condemned the **unlawful** acquisition of data, describing it as an unacceptable violation of privacy that could harm affected individuals. The announcement follows a temporary post by a group called the Handsome Boy Hacking Club, which displayed alleged internal FIFA files online before social media platform X suspended the account.",
+     "Reports indicate that the breach accounted for less than 0.1 percent of the organization's total data. Sources stated that the incident resulted from hackers impersonating staff rather than a technical system failure or someone **breaching** secure infrastructure directly. The cyberattack adds to a growing wave of digital disruptions, coming shortly after major technical outages impacted Microsoft services, US air travel operations, and multiple American banking institutions.",
+     "FIFA is currently working alongside law enforcement authorities to investigate the breach. Meanwhile, the incident occurs at a sensitive moment for FIFA President Gianni Infantino, who faces strong __scrutiny__ from global football stakeholders over controversial proposals to sell rights packages of the World Cup to private investors."
+    ],
+    "source_ids": [
+     "S3"
+    ]
+   },
+   {
+    "headline": "Ukrainian Maritime Strikes Reach Baltic and Mediterranean Waters",
+    "paragraphs": [
+     "The military conflict between Russia and Ukraine has expanded far beyond its regional borders into the Baltic Sea and the Mediterranean. Ukrainian forces recently carried out targeted operations against Russian shipping vessels, striking a cargo ship off the Finnish coast and a naval vessel near Libya. These long-range operations follow recent incidents where suspected Russian missiles fell inside Polish territory near international military exercises.",
+     "The expanding maritime attacks highlight a broader strategy by both nations to target supply lines and strategic infrastructure outside the primary battle zone. Russia has continuously conducted hybrid operations and acts of **sabotage** against countries supporting Kyiv, while Ukraine has used aerial and sea drones to hit Russian oil refineries, airfields, and cargo vessels across the Black Sea and deep within Siberian territory.",
+     "The increasing escalation across international waters raises fresh concerns among NATO members regarding regional security along Europe's eastern flank. With shipping routes becoming frequent targets, neutral commercial vessels in shared maritime corridors face growing operational risks."
+    ],
+    "source_ids": [
+     "S4"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Education Ministry Partners with LINE to Fight Online Cyberbullying",
+    "paragraphs": [
+     "Thailand's Ministry of Education has partnered with LINE Thailand to address online bullying and cyberharassment targeted at children. Deputy Education Minister Akaranan Kankittinan met with platform executives to establish stronger protection measures within LINE OpenChat, a popular group feature used widely for social communication and academic discussions across schools and universities nationwide.",
+     "Rather than shutting down discussion spaces, the joint initiative focuses on **proactive** __interventions__ to create safe online spaces. The Ministry and LINE Thailand plan to train teachers, students, and educational staff on digital **literacy**. The program will cover responsible chatroom management, clear usage guidelines, content moderation, and accessible reporting tools to ensure safety without restricting digital learning.",
+     "Officials stressed that technology must remain an encouraging tool for education rather than a source of emotional harm. The government plans to continue expanding digital skills training to safeguard student privacy and prevent online abuse across all digital educational environments."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   },
+   {
+    "headline": "Generali Thailand Strategy Targets Top Three Market Position",
+    "paragraphs": [
+     "Generali Thailand has unveiled a three-year strategic plan aiming to secure a top-three position in the country's health and unit-linked insurance sectors. Chief Executive Arsh Kaumi announced that the firm aims to boost gross written premiums by over 10 percent in 2027, building on **consecutive** years of double-digit financial growth across its core insurance portfolios.",
+     "The insurer plans to expand its product offerings, broaden distribution channels, and enhance customer service efficiency using artificial intelligence. While bancassurance currently generates 60 to 70 percent of total sales, Generali is expanding its broker network beyond group policies into individual health, personal accident, and endowment insurance to attract affluent clients seeking long-term protection.",
+     "Company leadership emphasized that achieving top-three status is about delivering sustainable value to policyholders rather than simply increasing market size. By offering flexible investment options and reliable claim processing, the company aims to build long-term customer trust."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Navigating International Food Markets: A Traveler's Practical Guide",
+   "paragraphs": [
+    "Exploring traditional food markets is one of the most rewarding ways to experience local culture while traveling abroad. From bustling street stalls in Southeast Asia to historic open-air markets in Europe, these vibrant hubs showcase regional produce, authentic recipes, and community heritage. However, stepping into a busy market without a clear strategy can sometimes feel overwhelming for international visitors.",
+    "To __navigate__ unfamiliar food stalls successfully, research local specialty dishes before arriving. Understanding regional ingredients helps travelers identify fresh items and appreciate authentic local flavors. Observing where resident families line up is another practical strategy; high customer turnover generally indicates fresh ingredients and superior culinary quality.",
+    "Maintaining high food **hygiene** standards is essential to reduce health risks while dining abroad. Choose vendors who prepare food fresh to order over high heat rather than stalls where dishes sit exposed at room temperature. Ordering fully cooked meats, hot soups, and fruits that you can peel yourself significantly reduces the risk of digestive issues.",
+    "Polite interaction with market vendors enhances your overall experience. Learning basic local greetings shows respect for the community, while observing local customs surrounding queueing and payment avoids unnecessary misunderstandings. Exceptional **hospitality** is often returned when travelers show genuine appreciation for regional traditions.",
+    "Finally, stay flexible and keep an open mind. Trying a new ingredient or dish can become the highlight of a trip, creating memorable connections with local food culture. With practical preparation and basic safety awareness, market visits offer an enriching window into everyday life abroad."
+   ],
+   "source_ids": []
+  },
+  "say_it_better": {
+   "situation_title": "Starting small talk with a colleague in a breakroom",
+   "situation": "You see a colleague in the breakroom holding a coffee cup from a new neighborhood cafe and want to ask about it.",
+   "formal": "Excuse me, I noticed your coffee cup from the new cafe nearby. Would you mind sharing your opinion on their menu offerings?",
+   "neutral": "Hi, I see you got coffee from that new cafe around the corner. How do you like their drinks?",
+   "casual": "Hey, is that coffee from the new spot down the street? Is it any good?",
+   "useful_phrases": [
+    "Would you mind sharing your opinion on...",
+    "How do you like their...",
+    "Is it any good?"
+   ]
+  },
+  "trap": {
+   "title": "Direct Translation: 'Eat Water' vs. 'Drink Water'",
+   "wrong": "After finishing my workout, I need to eat water.",
+   "right": "After finishing my workout, I need to drink water.",
+   "explanation": "In Thai, the verb 'กิน' (kin) is used broadly for both solid food and liquids, leading speakers to say 'กินน้ำ' (kin nam). However, in English, 'eat' is reserved strictly for solid foods, while 'drink' must be used for liquids."
+  },
+  "word_bank": [
+   {
+    "word": "unlawful",
+    "pos": "adjective",
+    "definition": "not allowed or permitted by law; illegal",
+    "thai": "ผิดกฎหมาย",
+    "collocations": [
+     "unlawful act",
+     "unlawful entry",
+     "unlawful detention"
+    ],
+    "example": "The global football governing body strongly condemned the **unlawful** acquisition of data, describing it as an unacceptable violation of privacy that could harm affected individuals."
+   },
+   {
+    "word": "sabotage",
+    "pos": "noun",
+    "definition": "the deliberate damage or destruction of property, equipment, or operations",
+    "thai": "การวินาศกรรม / การรบกวนทำลาย",
+    "collocations": [
+     "act of sabotage",
+     "economic sabotage",
+     "suspected sabotage"
+    ],
+    "example": "Russia has continuously conducted hybrid operations and acts of **sabotage** against countries supporting Kyiv, while Ukraine has used aerial and sea drones to hit Russian oil refineries, airfields, and cargo vessels across the Black Sea and deep within Siberian territory."
+   },
+   {
+    "word": "literacy",
+    "pos": "noun",
+    "definition": "competence or knowledge in a specified area, or the ability to read and write",
+    "thai": "ความสามารถในการอ่านออกเขียนได้ / ความรู้ความเข้าใจเฉพาะด้าน",
+    "collocations": [
+     "digital literacy",
+     "financial literacy",
+     "media literacy"
+    ],
+    "example": "The Ministry and LINE Thailand plan to train teachers, students, and educational staff on digital **literacy**."
+   },
+   {
+    "word": "consecutive",
+    "pos": "adjective",
+    "definition": "following continuously or in unbroken logical sequence",
+    "thai": "ที่ต่อเนื่องกัน / ตามลำดับ",
+    "collocations": [
+     "consecutive years",
+     "consecutive days",
+     "consecutive wins"
+    ],
+    "example": "Chief Executive Arsh Kaumi announced that the firm aims to boost gross written premiums by over 10 percent in 2027, building on **consecutive** years of double-digit financial growth across its core insurance portfolios."
+   },
+   {
+    "word": "hygiene",
+    "pos": "noun",
+    "definition": "conditions or practices conducive to maintaining health and preventing disease, especially through cleanliness",
+    "thai": "สุขอนามัย",
+    "collocations": [
+     "food hygiene",
+     "personal hygiene",
+     "poor hygiene"
+    ],
+    "example": "Maintaining high food **hygiene** standards is essential to reduce health risks while dining abroad."
+   },
+   {
+    "word": "proactive",
+    "pos": "adjective",
+    "definition": "creating or controlling a situation by causing something to happen rather than responding to it after it has happened",
+    "thai": "เชิงรุก / ที่เตรียมรับมือล่วงหน้า",
+    "collocations": [
+     "proactive approach",
+     "proactive measures",
+     "proactive stance"
+    ],
+    "example": "Rather than shutting down discussion spaces, the joint initiative focuses on **proactive** __interventions__ to create safe online spaces."
+   },
+   {
+    "word": "breaching",
+    "pos": "verb",
+    "definition": "breaking or failing to observe a law, agreement, or security barrier",
+    "thai": "การฝ่าฝืน / การเจาะทะลุผ่าน",
+    "collocations": [
+     "breaching security",
+     "breaching a contract",
+     "breaching protocol"
+    ],
+    "example": "Sources stated that the incident resulted from hackers impersonating staff rather than a technical system failure or someone **breaching** secure infrastructure directly."
+   },
+   {
+    "word": "hospitality",
+    "pos": "noun",
+    "definition": "the friendly and generous reception and entertainment of guests, visitors, or strangers",
+    "thai": "การต้อนรับขับสู้ / อุตสาหกรรมบริการ",
+    "collocations": [
+     "warm hospitality",
+     "hospitality industry",
+     "generous hospitality"
+    ],
+    "example": "Exceptional **hospitality** is often returned when travelers show genuine appreciation for regional traditions."
+   },
+   {
+    "word": "mitigate",
+    "pos": "verb",
+    "definition": "to make less severe, serious, or painful",
+    "thai": "บรรเทา / ลดความรุนแรง",
+    "collocations": [],
+    "example": "Egyptian MP Mahmoud Samy urged the government to shift its focus from expanding roadways to professionally managing highway safety to __mitigate__ risks."
+   },
+   {
+    "word": "scrutiny",
+    "pos": "noun",
+    "definition": "critical observation or examination",
+    "thai": "การตรวจสอบอย่างเข้มงวด",
+    "collocations": [],
+    "example": "Meanwhile, the incident occurs at a sensitive moment for FIFA President Gianni Infantino, who faces strong __scrutiny__ from global football stakeholders over controversial proposals to sell rights packages of the World Cup to private investors."
+   },
+   {
+    "word": "interventions",
+    "pos": "noun",
+    "definition": "actions taken to improve a situation or prevent harm",
+    "thai": "การแทรกแซง / มาตรการแก้ไขปัญหา",
+    "collocations": [],
+    "example": "Rather than shutting down discussion spaces, the joint initiative focuses on **proactive** __interventions__ to create safe online spaces."
+   },
+   {
+    "word": "navigate",
+    "pos": "verb",
+    "definition": "to plan and direct the route or course of a ship, aircraft, or journey; to find one's way through a complex situation",
+    "thai": "นำทาง / รับมือกับสถานการณ์",
+    "collocations": [],
+    "example": "To __navigate__ unfamiliar food stalls successfully, research local specialty dishes before arriving."
+   }
+  ],
+  "activity": {
+   "instructions": "Solve the mini crossword clues using today's key words. Letter counts are given in parentheses.",
+   "items": [
+    "1. Friendly and warm treatment given to guests or visitors (11)",
+    "2. Not allowed or permitted by the law; illegal (8)",
+    "3. Deliberate damage done to harm an enemy or competitor (8)",
+    "4. Taking action in advance to handle future problems rather than waiting (9)",
+    "5. Knowledge or skill in a specific subject such as digital technology (8)",
+    "6. Following one after another without any interruption (11)"
+   ],
+   "answers": [
+    "1. HOSPITALITY",
+    "2. UNLAWFUL",
+    "3. SABOTAGE",
+    "4. PROACTIVE",
+    "5. LITERACY",
+    "6. CONSECUTIVE"
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "The ministry announced an initiative to mitigate digital risks by breaching security awareness gaps.",
+    "corrected": "The ministry announced an initiative to mitigate digital risks by addressing security awareness gaps.",
+    "reason": "Incorrect vocabulary choice; 'addressing' fits the context of fixing gaps, whereas 'breaching' means breaking into them."
+   },
+   {
+    "sentence": "The local government took proactive measures to prevent sabotage on public infrastructure.",
+    "corrected": "The local government took proactive measures to prevent sabotage of public infrastructure.",
+    "reason": "Incorrect preposition; the noun 'sabotage' takes the preposition 'of', not 'on'."
+   },
+   {
+    "sentence": "The company enjoyed consecutive growth because it maintained high standards of customer service.",
+    "corrected": "The company enjoyed consecutive years of growth because it maintained high standards of customer service.",
+    "reason": "Missing noun phrase; 'consecutive' requires a plural time noun like 'years' when describing business trends."
+   },
+   {
+    "sentence": "Travelers who experience genuine hospitality are usually more willing to navigate difficult situations.",
+    "corrected": "Travelers who experience genuine hospitality are usually more willing to navigate through difficult situations.",
+    "reason": "Missing preposition; while 'navigate' can be transitive, navigating complex experiences often uses 'navigate through'."
+   },
+   {
+    "sentence": "Improving food hygiene standards is an unlawful obligation for every restaurant owner.",
+    "corrected": "Improving food hygiene standards is a legal obligation for every restaurant owner.",
+    "reason": "Wrong word choice; food safety is a legal requirement, whereas 'unlawful' means against the law."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Navigating a German office requires understanding workplace culture and essential daily jargon. Here are key expressions to help you talk about work life in German.",
+   "phrases": [
+    {
+     "phrase": "die Arbeit",
+     "pronunciation": "dee AR-byte",
+     "meaning": "work / job"
+    },
+    {
+     "phrase": "Ich habe viel zu tun.",
+     "pronunciation": "ikh HAH-beh feel tsoo toon",
+     "meaning": "I have a lot of work to do."
+    },
+    {
+     "phrase": "der Termin",
+     "pronunciation": "dair tair-MEEN",
+     "meaning": "appointment / scheduled meeting"
+    }
+   ],
+   "root": {
+    "root": "werk / wirken",
+    "meaning": "to work or cause an effect",
+    "english_words": "work, network, framework",
+    "note": "This Germanic root forms the backbone of vocabulary related to labor and practical creation in both German and English."
+   },
+   "borrowed": {
+    "word": "Doppelgänger",
+    "note": "Originally referring to a ghostly double of a living person, English borrowed this German word to describe anyone who looks remarkably like someone else."
+   },
+   "curious": {
+    "word": "Feierabendbier",
+    "pronunciation": "FYE-er-ah-bent-beer",
+    "meaning": "the refreshing beer enjoyed right after finishing the workday",
+    "note": "German working culture values the clear division between professional tasks and evening relaxation, often marked by this traditional post-work drink."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 407,
+  "world_1": 187,
+  "world_2": 163,
+  "thailand_1": 149,
+  "thailand_2": 146,
+  "feature": 247,
+  "real_english": 167,
+  "language_lab": 146,
+  "other_language": 145,
+  "word_bank": 507,
+  "total": 2480
+ },
+ "notes": [
+  "★ words repeated within 30 days: sabotage, proactive, breaching, hospitality",
+  "★ words appear in only 3 parts of the issue (target 4+)",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 407 words (target 470–510)",
+  "world_1: 187 words (target 140–160)",
+  "feature: 247 words (target 310–370)",
+  "real_english: 167 words (target 260–320)",
+  "sentences over 35 words: cover.paragraphs[1] (38 words); world[1].paragraphs[1] (40 words); word_bank[1].example (40 words)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}
