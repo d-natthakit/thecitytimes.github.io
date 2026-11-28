@@ -1,0 +1,908 @@
+{
+ "plan": {
+  "date": "2026-11-28",
+  "date_long": "Saturday, 28 November 2026",
+  "weekday": "Sat",
+  "issue_no": 30,
+  "language": "Spanish",
+  "phrase_theme": "at work",
+  "feature": "Cultures / Digital Life",
+  "opinion": "two_takes",
+  "setting": "",
+  "activity": "Odd one out",
+  "trap": "Word order & questions",
+  "avoid_star_words": [
+   "accessible",
+   "adulterant",
+   "adventurous",
+   "adversary",
+   "advocacy",
+   "allegations",
+   "allocation",
+   "anticipate",
+   "architecture",
+   "arsenal",
+   "assessment",
+   "attributed",
+   "autonomous",
+   "bilateral",
+   "bipartisan",
+   "breaching",
+   "bureaucratic",
+   "burgeoning",
+   "candidacy",
+   "capitalizing",
+   "circumvent",
+   "clarification",
+   "coercion",
+   "collaborate",
+   "commence",
+   "commendation",
+   "compelling",
+   "compensate",
+   "compostable",
+   "concessions",
+   "conducive",
+   "consecutive",
+   "consensus",
+   "coordinated",
+   "cordial",
+   "counterintelligence",
+   "counterpart",
+   "crackdown",
+   "credible",
+   "culinary",
+   "culmination",
+   "culpability",
+   "curate",
+   "curb",
+   "deadlock",
+   "defied",
+   "deliberate",
+   "delicacies",
+   "deploy",
+   "derail",
+   "designated",
+   "deterrence",
+   "detonate",
+   "dilapidated",
+   "discrepancy",
+   "disenfranchise",
+   "dislodge",
+   "disparity",
+   "disperse",
+   "disruption",
+   "divergent",
+   "diversify",
+   "empower",
+   "encroachment",
+   "engulfed",
+   "escalate",
+   "escalating",
+   "etiquette",
+   "evacuate",
+   "evade",
+   "expertise",
+   "extinction",
+   "extradition",
+   "extramarital",
+   "facilitate",
+   "fall behind",
+   "feasibility",
+   "fluctuations",
+   "forfeit",
+   "foster",
+   "framework",
+   "fugitive",
+   "gracefully",
+   "groomed",
+   "grounded",
+   "hospitality",
+   "hygiene",
+   "hyperscale",
+   "impasse",
+   "impediments",
+   "improvise",
+   "inaugural",
+   "incentives",
+   "incorporate",
+   "indictment",
+   "inevitable",
+   "informant",
+   "ingested",
+   "integrate",
+   "interim",
+   "intermediary",
+   "intermittent",
+   "interventions",
+   "jeopardising",
+   "jurisdiction",
+   "leverage",
+   "listing",
+   "literacy",
+   "logistics",
+   "look into",
+   "malfunction",
+   "mandate",
+   "mayhem",
+   "mindset",
+   "misconduct",
+   "misogyny",
+   "mitigate",
+   "monetize",
+   "monopoly",
+   "navigate",
+   "negligent",
+   "nuanced",
+   "occupancy",
+   "omnichannel",
+   "opt for",
+   "optimum",
+   "outperform",
+   "overreliance",
+   "oversight",
+   "pivotal",
+   "preservation",
+   "proactive",
+   "promptly",
+   "proportionately",
+   "proscription",
+   "recap",
+   "reciprocal",
+   "rectify",
+   "reinstate",
+   "relieve",
+   "relinquish",
+   "repercussions",
+   "resilient",
+   "resolution",
+   "retaliation",
+   "sabotage",
+   "salvage",
+   "sanctuary",
+   "scavenge",
+   "scenarios",
+   "scrutiny",
+   "secular",
+   "sedentary",
+   "settlement",
+   "slashed",
+   "slashing",
+   "solemn",
+   "solidarity",
+   "sovereignty",
+   "sparked",
+   "spearhead",
+   "stain",
+   "stalemate",
+   "stamina",
+   "steer clear of",
+   "stint",
+   "straying",
+   "streamline",
+   "stunning",
+   "subsidize",
+   "substantive",
+   "suspended",
+   "sustainable",
+   "tailored",
+   "tangible",
+   "tolerance",
+   "transactional",
+   "transparency",
+   "turnover",
+   "unaccounted for",
+   "unambiguous",
+   "unanimously",
+   "undergoes",
+   "unlawful",
+   "unpopulated",
+   "unprecedented",
+   "unravel",
+   "unrest",
+   "unsubstantiated",
+   "unsustainable",
+   "unveil",
+   "verdict",
+   "versatile",
+   "vitality",
+   "vulnerable",
+   "warrant"
+  ],
+  "review_pool": [
+   {
+    "word": "unlawful",
+    "taught_date": "2026-11-27",
+    "days_ago": 1
+   },
+   {
+    "word": "sabotage",
+    "taught_date": "2026-11-27",
+    "days_ago": 1
+   },
+   {
+    "word": "literacy",
+    "taught_date": "2026-11-27",
+    "days_ago": 1
+   },
+   {
+    "word": "consecutive",
+    "taught_date": "2026-11-27",
+    "days_ago": 1
+   },
+   {
+    "word": "hygiene",
+    "taught_date": "2026-11-27",
+    "days_ago": 1
+   },
+   {
+    "word": "proactive",
+    "taught_date": "2026-11-27",
+    "days_ago": 1
+   },
+   {
+    "word": "breaching",
+    "taught_date": "2026-11-27",
+    "days_ago": 1
+   },
+   {
+    "word": "hospitality",
+    "taught_date": "2026-11-27",
+    "days_ago": 1
+   },
+   {
+    "word": "verdict",
+    "taught_date": "2026-11-25",
+    "days_ago": 3
+   },
+   {
+    "word": "detonate",
+    "taught_date": "2026-11-25",
+    "days_ago": 3
+   },
+   {
+    "word": "suspended",
+    "taught_date": "2026-11-25",
+    "days_ago": 3
+   },
+   {
+    "word": "salvage",
+    "taught_date": "2026-11-25",
+    "days_ago": 3
+   },
+   {
+    "word": "grounded",
+    "taught_date": "2026-11-25",
+    "days_ago": 3
+   },
+   {
+    "word": "deploy",
+    "taught_date": "2026-11-25",
+    "days_ago": 3
+   },
+   {
+    "word": "hyperscale",
+    "taught_date": "2026-11-25",
+    "days_ago": 3
+   },
+   {
+    "word": "extradition",
+    "taught_date": "2026-11-21",
+    "days_ago": 7
+   },
+   {
+    "word": "straying",
+    "taught_date": "2026-11-21",
+    "days_ago": 7
+   },
+   {
+    "word": "informant",
+    "taught_date": "2026-11-21",
+    "days_ago": 7
+   },
+   {
+    "word": "compensate",
+    "taught_date": "2026-11-21",
+    "days_ago": 7
+   },
+   {
+    "word": "dilapidated",
+    "taught_date": "2026-11-21",
+    "days_ago": 7
+   },
+   {
+    "word": "incentives",
+    "taught_date": "2026-11-21",
+    "days_ago": 7
+   },
+   {
+    "word": "tangible",
+    "taught_date": "2026-11-21",
+    "days_ago": 7
+   },
+   {
+    "word": "fall behind",
+    "taught_date": "2026-11-21",
+    "days_ago": 7
+   },
+   {
+    "word": "secular",
+    "taught_date": "2026-11-07",
+    "days_ago": 21
+   },
+   {
+    "word": "stamina",
+    "taught_date": "2026-11-07",
+    "days_ago": 21
+   },
+   {
+    "word": "warrant",
+    "taught_date": "2026-11-07",
+    "days_ago": 21
+   },
+   {
+    "word": "monetize",
+    "taught_date": "2026-11-07",
+    "days_ago": 21
+   },
+   {
+    "word": "capitalizing",
+    "taught_date": "2026-11-07",
+    "days_ago": 21
+   },
+   {
+    "word": "sustainable",
+    "taught_date": "2026-11-07",
+    "days_ago": 21
+   },
+   {
+    "word": "scenarios",
+    "taught_date": "2026-11-07",
+    "days_ago": 21
+   }
+  ],
+  "recent_traps": [
+   "Direct Translation: 'Eat Water' vs. 'Drink Water'",
+   "Using 'Garbage' or 'Trash' as Plural Nouns",
+   "Using 'Since' Instead of 'For' with Time Spans",
+   "Incorrect Preposition After 'Discuss'",
+   "Omitting Articles Before Countable Nouns",
+   "Confusing 'Borrow' and 'Lend'",
+   "Question Word Order: Putting Auxiliary Verbs in the Right Place",
+   "Direct Translation: 'Play Internet' vs. 'Use the Internet'",
+   "Equipment is Uncountable",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Prepositions: 'Depend On' vs. 'Depend With'",
+   "Articles (a / an / the): Omitting Necessary Articles Before Specific Documents",
+   "Confusing 'Bored' and 'Boring'",
+   "Word Order in Questions",
+   "Direct Translation: 'Eat Water' for Drinking",
+   "Using 'Garbage' or 'Waste' as a Countable Noun",
+   "Using 'Since' Instead of 'For' with Duration",
+   "Incorrect Preposition After 'Arrive'",
+   "Articles (a / an / the): Omitting Articles Before Singular Countable Nouns",
+   "Confusing 'Price' and 'Prize'",
+   "Word Order in Indirect Questions",
+   "Direct Translation: 'Eat Alcohol'",
+   "Using 'Garbage' as a Countable Noun",
+   "Using 'Since' Instead of 'For' to Express Duration",
+   "Incorrect Preposition After 'Discuss'",
+   "Missing 'The' with Superlative Adjectives",
+   "Confusing 'Borrow' and 'Lend'",
+   "Indirect Questions and Inverted Word Order"
+  ],
+  "recent_opinions": [
+   "Starting small talk with a colleague in a breakroom",
+   "Should households compost their organic kitchen waste at home?",
+   "Suggesting a schedule adjustment during a meeting",
+   "Should companies mandate a complete ban on personal messaging apps on work devices?",
+   "Updating a Manager on a Project Delay",
+   "Informing a Dining Customer That a Menu Dish Is Unavailable",
+   "Should urban professionals practice a strict digital detox by disconnecting from personal social media every weekend?",
+   "Joining an Ongoing Conversation",
+   "Should households switch to smart home automation for residential energy management?",
+   "Summarizing Key Points Before Ending a Team Call",
+   "Should software development teams ban automated code generators for junior developers?",
+   "Clarifying a Task Deadline via Workplace Email",
+   "Handling a Customer's Urgent Order Change",
+   "Should teams require members to turn cameras on during routine virtual meetings?",
+   "Joining a Group Meal at a Casual Social Event",
+   "Should urban residential communities switch entirely to mandatory neighborhood composting hubs?",
+   "Proposing an Action Item in a Project Call",
+   "Should working professionals completely disconnect from work communication channels during their annual leave?",
+   "Requesting Additional Time for a Project Deliverable",
+   "Resolving a Pricing Error at Checkout",
+   "Should digital remote workers adopt the local timezone of their host country?",
+   "Politely Declining an Order at a Group Dinner",
+   "Should households switch completely from individual garbage bins to communal neighborhood recycling hubs?",
+   "Proposing a Schedule Change in a Virtual Meeting",
+   "Should tech companies replace human software testers entirely with automated AI testing tools?",
+   "Updating a Manager on Project Delays",
+   "Acknowledging a Customer Service Delay",
+   "Should working adults share their personal hobbies on professional social networks?"
+  ],
+  "recent_features": [
+   "Navigating International Food Markets: A Traveler's Practical Guide",
+   "Creating a Sustainable Home: Simple Habits for Every Household",
+   "The Art of Constructive Critique: Navigating Feedback in Creative Projects",
+   "The Practical Guide to Evaluating Emerging Workplace Technologies",
+   "Protecting Daily Energy: Practical Steps to Beat Physical and Mental Fatigue",
+   "Rethinking Workplace Cash Flow: Practical Budgeting Systems for Modern Professionals",
+   "The Silent Shift: Rethinking Our Always-On Culture in a Hyper-Connected Era",
+   "Mastering Street Food Travel: Eat Like a Local with Confidence",
+   "Transforming Your Living Space to Support Mental Well-Being",
+   "How Modern Film Scoring Shapes Storytelling Behind the Scenes",
+   "Building Digital Resilience in an Interconnected World",
+   "Nurturing Mental Recovery During Demanding Career Seasons",
+   "Mastering Effective Service Delivery and Customer Communication",
+   "Connecting Beyond Screens: Building Real Cultural Empathy in the Digital Age",
+   "Navigating Local Food Markets Abroad with Confidence and Ease",
+   "Building an Eco-Friendly Home: Simple Choices for Daily Impact",
+   "The Evolving World of Voice Acting in Video Games and Animation",
+   "The Hidden Energy Costs of Our Connected World",
+   "Recharging the Desk-Bound Professional: Small Shifts for Daily Energy",
+   "The Hidden Cost of Price Inconsistencies at Retail Checkouts",
+   "Digital Nomads: Navigating Cultural Differences in a Hyper-Connected World",
+   "Navigating Group Dining Across Cultures with Confidence",
+   "Creating Sustainable Energy Habits inside the Modern Workplace",
+   "Behind the Scenes: How Modern Sound Design Shapes Cinema",
+   "Bridging the Digital Divide with Open-Source Tech",
+   "Nourishing Body and Mind: Strategic Nutrition for Busy Professionals",
+   "Managing Customer Friction: How Modern Businesses Protect Revenue",
+   "Mindful Logging: Managing Your Personal Life in a Hyper-Connected World"
+  ],
+  "recent_language_notes": [
+   "hospes",
+   "armada",
+   "trasnochar",
+   "dirigere",
+   "patio",
+   "Callejear",
+   "camino",
+   "barrio",
+   "callejón",
+   "comprar",
+   "plaza",
+   "ganga",
+   "gustar",
+   "café",
+   "Empalagar",
+   "Aqua / Agua",
+   "Cafeteria",
+   "Merienda",
+   "hablar",
+   "fiesta",
+   "Sobremesa"
+  ],
+  "recent_news_titles": [
+   "Egypt detains driver over Cairo fuel tanker fire that killed 31",
+   "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+   "Fifa confirms cyber-attack exposed ‘personal and business information’",
+   "Russia-Ukraine war extends to the Baltic and the Mediterranean",
+   "Akaranan joins LINE Thailand to tackle online bullying against children on OpenChat",
+   "Generali devises plan to achieve top 3 status in Thailand",
+   "New York City’s Macy’s Thanksgiving Day parade postponed due to weather",
+   "Macy's postpones Thanksgiving parade due to severe weather",
+   "Ukraine attacks Russian military base, says five planes struck",
+   "Angelina Jolie and Brad Pitt settle legal battle over French winery",
+   "Phuket to host B1bn Muay Thai stadium",
+   "Rajadamnern Stadium to open billion-baht world-class Muay Thai venue in Phuket",
+   "Police wait outside bathroom as mule account suspect scrolls TikTok",
+   "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
+   "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
+   "US army to detonate 68 barrels of toxic lead in Iowa on day before Thanksgiving",
+   "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
+   "Authorities prepare to salvage grounded ammonia tanker off Surat Thani",
+   "B.Grimm, NTT plan B113bn data centre"
+  ]
+ },
+ "sources": [
+  {
+   "id": "S1",
+   "role": "cover",
+   "source": "BBC News",
+   "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+   "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&at_campaign=rss",
+   "thin": false
+  },
+  {
+   "id": "S2",
+   "role": "cover (second source)",
+   "source": "The Guardian",
+   "title": "Canada’s top court upholds Quebec law barring public sector workers from wearing religious symbols",
+   "url": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols",
+   "thin": false
+  },
+  {
+   "id": "S3",
+   "role": "world_1",
+   "source": "Al Jazeera",
+   "title": "US disables ship attempting to breach Iran blockade",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss",
+   "thin": false
+  },
+  {
+   "id": "S4",
+   "role": "world_1 (second source)",
+   "source": "DW",
+   "title": "US disables ship in Gulf of Oman under Iran blockade",
+   "url": "https://www.dw.com/en/us-disables-ship-in-gulf-of-oman-under-iran-blockade/a-80082950?maca=en-rss-en-all-1573-rdf",
+   "thin": false
+  },
+  {
+   "id": "S5",
+   "role": "world_2",
+   "source": "The Guardian",
+   "title": "OpenAI countersues Apple for allegedly stealing trade secrets",
+   "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+   "thin": false
+  },
+  {
+   "id": "S6",
+   "role": "thailand_1",
+   "source": "Bangkok Post Business",
+   "title": "Big C owner to shutter 12 subpar locations",
+   "url": "https://www.bangkokpost.com/business/general/3362489/big-c-owner-to-shutter-12-subpar-locations",
+   "thin": false
+  },
+  {
+   "id": "S7",
+   "role": "thailand_2",
+   "source": "Bangkok Post",
+   "title": "Pulmonary disease fight stepped up",
+   "url": "https://www.bangkokpost.com/thailand/general/3362609/pulmonary-disease-fight-stepped-up",
+   "thin": false
+  }
+ ],
+ "content": {
+  "star_words": [
+   "contentious",
+   "infringes",
+   "uphold",
+   "preliminary",
+   "turnaround",
+   "intervention",
+   "cognitive",
+   "frown upon"
+  ],
+  "recycled_words": [
+   "secular",
+   "sustainable"
+  ],
+  "cover": {
+   "headline": "Canada Supreme Court Largely Upholds Quebec Ban on Religious Symbols",
+   "paragraphs": [
+    "Canada's top court has largely upheld a __secular__ law in Quebec that bars public sector employees from wearing visible religious symbols at work. The ruling confirms that the province acted within its constitutional authority when enacting Bill 21, a **contentious** statute that prohibits teachers, police officers, government lawyers, and judges from wearing items such as hijabs, turbans, crosses, and kippahs while performing their duties.",
+    "The legal battle began when Quebec passed the measure in 2019 by invoking the notwithstanding clause, a constitutional mechanism that allows provincial legislatures to override certain protected liberties temporarily. Various groups, including Muslim, Sikh, and Catholic educators, initiated legal challenges, arguing that the legislation deeply harmed their basic freedoms. The top court determined that Quebec could shield the statute from most court challenges, though it noted that judges still hold the authority to assess whether provincial measures match the national charter.",
+    "The judgment was not entirely unanimous in every aspect. Writing for the majority, Chief Justice Richard Wagner observed that the legislation reflects the province's historical commitment to secular governance. However, the court established one limit by ruling that the ban cannot prevent elected officials from wearing face coverings, finding that such an exclusion **infringes** upon fundamental democratic rights. Three dissenting justices also warned that the override clause should never validate policies incompatible with a free society.",
+    "Civil liberties advocates swiftly condemned the decision. Stephen Brown, chief executive of the National Council of Canadian Muslims, argued that the policy effectively bars entire categories of people from public sector careers simply because of their faith. Representatives from the English Montreal School Board conveyed strong disappointment, though they acknowledged that certain judicial declarations offered helpful clarity. Meanwhile, Quebec officials defended the policy as a vital effort to **uphold** state neutrality, noting that recent initiatives have extended similar secular rules across daycares and post-secondary institutions.",
+    "The outcome concludes one of the most extensive hearings in the supreme court's history, which involved fifty-one participating interveners and six provincial attorneys general. Prime Minister Mark Carney indicated that federal officials will evaluate the legal implications, emphasizing that all governments must respect minority rights. The decision solidifies Quebec's distinctive legal framework while leaving significant debate nationwide regarding how Canadian institutions balance collective regional identities against individual religious freedoms."
+   ],
+   "source_ids": [
+    "S1",
+    "S2"
+   ]
+  },
+  "world": [
+   {
+    "headline": "US Disables Commercial Ship in Gulf of Oman Under Blockade",
+    "paragraphs": [
+     "The United States military has fired precision munitions at a commercial vessel in the Gulf of Oman after it reportedly ignored warnings to halt. According to US Central Command, the Palau-flagged Pacific Archer had departed the Iranian port of Bandar Abbas before forces acted to **deploy** defensive strikes against its propulsion system.",
+     "American defense officials stated that the military action left the civilian crew unharmed while disabling the vessel's engines. Washington established a naval blockade of Iranian ports in mid-July after diplomatic arrangements collapsed, following earlier hostilities that began in February.",
+     "The operation brings the total number of ships disabled under the blockade to six, with more than 150 others redirected. Meanwhile, regional tensions increased further as Kuwait summoned Iran's ambassador after a drone strike killed two Italian technicians at a military facility."
+    ],
+    "source_ids": [
+     "S3",
+     "S4"
+    ]
+   },
+   {
+    "headline": "OpenAI Sues Apple Over Trade Secrets and Talent Retention",
+    "paragraphs": [
+     "OpenAI has filed a federal lawsuit against Apple in California, accusing the tech giant of stealing trade secrets and discouraging hardware suppliers from collaborating on future devices. The counterclaims follow an earlier lawsuit by Apple alleging that OpenAI improperly poached engineers to obtain proprietary design information.",
+     "In its court filing, OpenAI claimed Apple gained confidential data regarding product roadmaps by rehiring an employee who had worked at OpenAI for six months. Apple denied the claims, calling them an attempt to deflect attention from its own legal action regarding consumer hardware development.",
+     "OpenAI also alleged that Apple monitors former employees through personal accounts after they depart. With legal battles escalating, both firms await **preliminary** court hearings to decide whether strict restrictions on employee movements between competitors will stand."
+    ],
+    "source_ids": [
+     "S5"
+    ]
+   }
+  ],
+  "thailand": [
+   {
+    "headline": "Retailer Berli Jucker Shuts Underperforming Outlets to Lift Profit",
+    "paragraphs": [
+     "Berli Jucker, the commercial operator of the Big C retail chain, will close twelve underperforming hypermarkets by the end of the year to improve operational efficiency. The company had already completed eight closures during the first nine months of 2026 as part of a wider portfolio adjustment.",
+     "Chief Executive Aswin Techajareonvikul stated that the strategic closures contributed 220 million baht to company trading profit. BJC also modernized fifteen large stores alongside hundreds of smaller branches, achieving an 8.3 percent increase in customer transactions at refurbished locations.",
+     "The retailer expects this selective **turnaround** will sustain long-term retail earnings across urban markets. In an unrelated retail development, The Mall Group announced that The Mall Korat in Nakhon Ratchasima will cease operations in January after failing to secure a viable lease renewal."
+    ],
+    "source_ids": [
+     "S6"
+    ]
+   },
+   {
+    "headline": "Health Experts Warn of Rising Respiratory Disease and Vaping Risks",
+    "paragraphs": [
+     "Medical professionals in Thailand are calling for urgent public action to address chronic obstructive pulmonary disease, an irreversible lung illness linked to persistent coughing and breathlessness. The warnings were highlighted during a medical forum hosted by King Chulalongkorn Memorial Hospital for World COPD Day.",
+     "Specialists identified air pollution, secondhand tobacco smoke, and biomass cooking fuel as major causes. Assistant Professor Worawan Sirichana warned that ongoing phlegm production and prolonged illness **warrant** a formal medical evaluation, rather than being dismissed as typical signs of aging.",
+     "Doctors also cautioned that e-cigarette use has climbed to 1.7 million individuals nationwide, creating fresh health hazards for youth. Clinicians stressed that nicotine addiction requires structured clinical **intervention**, urging citizens to avoid viewing vaping as a harmless alternative to conventional smoking."
+    ],
+    "source_ids": [
+     "S7"
+    ]
+   }
+  ],
+  "feature": {
+   "headline": "Designing Healthy Habits for a Clutter-Free Digital Life",
+   "paragraphs": [
+    "Modern working professionals routinely manage hundreds of notifications, group chats, and cloud files daily. While smartphones and online platforms simplify remote collaboration, constant connectivity often leads to mental exhaustion. Digital environments collect clutter just like physical workspaces, and unmanaged digital noise can slowly undermine daily concentration.",
+    "The primary danger of digital overload is continuous task switching. Whenever an alert interrupts an ongoing project, the brain expends valuable energy adjusting its attention. Over several hours, this pattern depletes **cognitive** stamina and diminishes overall job performance. Recognizing this reality enables individuals to view device boundaries not as personal weakness, but as an essential professional requirement.",
+    "Developing a __sustainable__ workflow begins with intentional boundary setting. Rather than leaving notification banners active across all devices, workers can schedule designated windows to review non-urgent correspondence. Silencing ambient alerts during deep focus sessions prevents impulsive phone checking. Furthermore, categorizing shared folders and archiving outdated documents at the end of every week minimizes daily visual friction.",
+    "Creating device-free zones at home also provides genuine mental recovery. Leaving personal laptops outside the bedroom and replacing bedtime screen time with offline reading encourages better sleep hygiene. Simple friction, such as moving entertainment applications into hidden subfolders, naturally reduces mindless screen habits.",
+    "Ultimately, managing personal technology is an ongoing practice rather than a one-time purge. By mindfully structuring notifications and protecting offline hours, professionals can harness technological tools effectively without allowing continuous connectivity to dominate their personal lives."
+   ],
+   "source_ids": []
+  },
+  "two_takes": {
+   "question": "Should office professionals completely separate their personal and work devices?",
+   "view_a": {
+    "title": "Clear Boundaries Preserve Focus",
+    "text": "Carrying separate hardware establishes a vital barrier between private life and office responsibilities. **Admittedly**, managing two distinct devices can feel slightly inconvenient during daily commutes. Nonetheless, this practical division prevents accidental leaks of sensitive business information and shields employees from after-hours interruptions. In the long run, setting explicit technical boundaries ensures that personal privacy remains completely untangled from corporate oversight."
+   },
+   "view_b": {
+    "title": "A Single Device Promotes Simplicity",
+    "text": "Relying on a single personal smartphone for occasional office tasks makes daily life significantly smoother. While traditional managers might **frown upon** mixing personal and work accounts, modern software allows users to isolate corporate profiles securely on one handset. Instead of burdening professionals with extra hardware and cables, this integrated approach keeps digital communication lean, adaptable, and genuinely realistic for modern hybrid schedules."
+   },
+   "phrases": [
+    {
+     "phrase": "Admittedly",
+     "function": "concession"
+    },
+    {
+     "phrase": "In the long run",
+     "function": "hedging"
+    },
+    {
+     "phrase": "Instead of",
+     "function": "contrast"
+    }
+   ]
+  },
+  "trap": {
+   "title": "Word Order in Indirect Questions",
+   "wrong": "Can you tell me where is your new office?",
+   "right": "Can you tell me where your new office is?",
+   "explanation": "Thai speakers often keep question word order inside embedded clauses because Thai questions follow a direct structure like 'อยู่ที่ไหน' (yu thi nai). In English, when a question begins with an introductory phrase like 'Can you tell me' or 'Do you know', the sub-clause shifts to normal statement order (subject + verb)."
+  },
+  "word_bank": [
+   {
+    "word": "contentious",
+    "pos": "adjective",
+    "definition": "causing or likely to cause disagreement or argument",
+    "thai": "ที่ก่อให้เกิดการถกเถียง",
+    "collocations": [
+     "contentious issue",
+     "contentious decision",
+     "highly contentious"
+    ],
+    "example": "The ruling confirms that the province acted within its constitutional authority when enacting Bill 21, a **contentious** statute that prohibits teachers, police officers, government lawyers, and judges from wearing items such as hijabs, turbans, crosses, and kippahs while performing their duties."
+   },
+   {
+    "word": "infringes",
+    "pos": "verb",
+    "definition": "violates or limits a right, law, or agreement",
+    "thai": "ละเมิด",
+    "collocations": [
+     "infringe upon rights",
+     "infringe on privacy",
+     "infringe copyright"
+    ],
+    "example": "However, the court established one limit by ruling that the ban cannot prevent elected officials from wearing face coverings, finding that such an exclusion **infringes** upon fundamental democratic rights."
+   },
+   {
+    "word": "uphold",
+    "pos": "verb",
+    "definition": "to support or maintain a custom, law, or decision",
+    "thai": "ผดุงไว้ หรือ ยืนยันตามกฎหมาย",
+    "collocations": [
+     "uphold the law",
+     "uphold a decision",
+     "uphold values"
+    ],
+    "example": "Meanwhile, Quebec officials defended the policy as a vital effort to **uphold** state neutrality, noting that recent initiatives have extended similar secular rules across daycares and post-secondary institutions."
+   },
+   {
+    "word": "preliminary",
+    "pos": "adjective",
+    "definition": "coming before the main event, action, or decision",
+    "thai": "เบื้องต้น",
+    "collocations": [
+     "preliminary results",
+     "preliminary hearing",
+     "preliminary investigation"
+    ],
+    "example": "With legal battles escalating, both firms await **preliminary** court hearings to decide whether strict restrictions on employee movements between competitors will stand."
+   },
+   {
+    "word": "turnaround",
+    "pos": "noun",
+    "definition": "a complete change from a bad situation to a good one",
+    "thai": "การฟื้นตัวอย่างรวดเร็ว",
+    "collocations": [
+     "business turnaround",
+     "dramatic turnaround",
+     "turnaround strategy"
+    ],
+    "example": "The retailer expects this selective **turnaround** will sustain long-term retail earnings across urban markets."
+   },
+   {
+    "word": "intervention",
+    "pos": "noun",
+    "definition": "action taken to improve a situation or prevent harm",
+    "thai": "การแทรกแซง หรือ การเข้าช่วยเหลือ",
+    "collocations": [
+     "early intervention",
+     "medical intervention",
+     "government intervention"
+    ],
+    "example": "Clinicians stressed that nicotine addiction requires structured clinical **intervention**, urging citizens to avoid viewing vaping as a harmless alternative to conventional smoking."
+   },
+   {
+    "word": "cognitive",
+    "pos": "adjective",
+    "definition": "connected with thinking, understanding, and learning",
+    "thai": "เกี่ยวกับการรับรู้และปัญญา",
+    "collocations": [
+     "cognitive skills",
+     "cognitive decline",
+     "cognitive load"
+    ],
+    "example": "Over several hours, this pattern depletes **cognitive** stamina and diminishes overall job performance."
+   },
+   {
+    "word": "frown upon",
+    "pos": "phrasal verb",
+    "definition": "to disapprove of something",
+    "thai": "ไม่เห็นด้วย หรือ ไม่สนับสนุน",
+    "collocations": [
+     "heavily frown upon",
+     "traditionally frown upon",
+     "frown upon tardiness"
+    ],
+    "example": "While traditional managers might **frown upon** mixing personal and work accounts, modern software allows users to isolate corporate profiles securely on one handset."
+   },
+   {
+    "word": "secular",
+    "pos": "adjective",
+    "definition": "not connected with religious or spiritual matters",
+    "thai": "ทางโลก หรือ ไม่เกี่ยวกับศาสนา",
+    "collocations": [],
+    "example": "Canada's top court has largely upheld a __secular__ law in Quebec that bars public sector employees from wearing visible religious symbols at work."
+   },
+   {
+    "word": "sustainable",
+    "pos": "adjective",
+    "definition": "able to continue over a long period without damaging the environment or resources",
+    "thai": "ยั่งยืน",
+    "collocations": [],
+    "example": "Developing a __sustainable__ workflow begins with intentional boundary setting."
+   }
+  ],
+  "activity": {
+   "instructions": "In each item, choose the word (a, b, c, or d) that DOES NOT normally collocate with the target word in bold.",
+   "items": [
+    "contentious: (a) issue (b) debate (c) ocean (d) subject",
+    "uphold: (a) decision (b) law (c) values (d) appetite",
+    "preliminary: (a) report (b) inquiry (c) weather (d) findings",
+    "turnaround: (a) strategy (b) plan (c) recovery (d) cloud",
+    "intervention: (a) clinical (b) government (c) early (d) wooden",
+    "cognitive: (a) function (b) growth (c) decline (d) liquid"
+   ],
+   "answers": [
+    "(c) ocean — 'Contentious' describes topics or decisions, not physical bodies of water.",
+    "(d) appetite — 'Uphold' means to support a rule or standard, not physical hunger.",
+    "(c) weather — 'Preliminary' refers to early stages of processes or documents, not weather.",
+    "(d) cloud — 'Turnaround' relates to business or situational improvements, not weather elements.",
+    "(d) wooden — 'Intervention' describes actions or measures, not physical materials like wood.",
+    "(d) liquid — 'Cognitive' refers to mental functions and thought processes, not liquids."
+   ]
+  },
+  "errors": [
+   {
+    "sentence": "Canada Supreme Court largely upholds a secular law in Quebec.",
+    "corrected": "The Canada Supreme Court largely upholds a secular law in Quebec.",
+    "reason": "Missing definite article 'The' before the proper title of the court."
+   },
+   {
+    "sentence": "Retailer Berli Jucker shuts underperforming outlets to raise up profit.",
+    "corrected": "Retailer Berli Jucker shuts underperforming outlets to raise profit.",
+    "reason": "Incorrect phrasal verb form; 'raise up profit' is redundant, use 'raise' or 'lift'."
+   },
+   {
+    "sentence": "Health experts warn of rising respiratory disease and vaping risks.",
+    "corrected": "Health experts warn about rising respiratory disease and vaping risks.",
+    "reason": "Incorrect preposition choice; 'warn about' is standard when cautioning against risks."
+   },
+   {
+    "sentence": "OpenAI sues Apple over trade secrets and talent retention issues.",
+    "corrected": "OpenAI is suing Apple over trade secrets and talent retention issues.",
+    "reason": "Incorrect tense; present continuous fits ongoing active legal cases better."
+   },
+   {
+    "sentence": "Designing healthy habits for a clutter-free digital life.",
+    "corrected": "Design healthy habits for a clutter-free digital life.",
+    "reason": "Sentence structure error; imperative verb form 'Design' fits headline actions better."
+   }
+  ],
+  "other_language": {
+   "theme_intro": "Navigating the workplace in Spanish requires clear communication and a few handy expressions for daily professional routines.",
+   "phrases": [
+    {
+     "phrase": "trabajo",
+     "pronunciation": "trah-BAH-hoh",
+     "meaning": "work / job"
+    },
+    {
+     "phrase": "¿Cómo va el proyecto?",
+     "pronunciation": "KOH-moh bah el proh-YEK-toh?",
+     "meaning": "How is the project going?"
+    },
+    {
+     "phrase": "reunión",
+     "pronunciation": "reh-oo-NYOHN",
+     "meaning": "meeting"
+    }
+   ],
+   "root": {
+    "root": "labor",
+    "meaning": "work",
+    "english_words": "labor, collaborate, elaborate",
+    "note": "This Latin root passed directly into Spanish as 'labor' and into English to describe effort and working together."
+   },
+   "borrowed": {
+    "word": "cargo",
+    "note": "Borrowed from Spanish 'cargar' (to load), it originally referred to a weight or burden loaded onto a transport vessel."
+   },
+   "curious": {
+    "word": "madrugar",
+    "pronunciation": "mah-droo-GAHR",
+    "meaning": "to get up very early in the morning",
+    "note": "This single verb captures the complete action of waking up before dawn to start working or traveling."
+   }
+  }
+ },
+ "sizes": {
+  "cover": 375,
+  "world_1": 133,
+  "world_2": 127,
+  "thailand_1": 129,
+  "thailand_2": 125,
+  "feature": 238,
+  "real_english": 225,
+  "language_lab": 124,
+  "other_language": 108,
+  "word_bank": 402,
+  "total": 2238
+ },
+ "notes": [
+  "dropped 'deploy' from recycled_words: it does not appear in the articles",
+  "dropped 'warrant' from recycled_words: it does not appear in the articles",
+  "thailand_1 has only one outlet as a source",
+  "thailand_2 has only one outlet as a source",
+  "cover: 375 words (target 470–510)",
+  "thailand_2: 125 words (target 140–160)",
+  "feature: 238 words (target 310–370)",
+  "real_english: 225 words (target 260–320)",
+  "language_lab: 124 words (target 150–260)",
+  "other_language: 108 words (target 140–190)",
+  "whole issue: 2238 words (target 2300–2700)",
+  "sentences over 35 words: cover.paragraphs[0] (41 words); word_bank[0].example (41 words)"
+ ],
+ "provider": "gemini",
+ "requests": [
+  "gemini-3.8-flash: ok",
+  "gemini-3.8-flash: HTTP 503 high demand",
+  "gemini-3.6-flash: ok"
+ ],
+ "fallback_used": false
+}

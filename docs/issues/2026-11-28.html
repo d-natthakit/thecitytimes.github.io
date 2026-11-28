@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="sepia">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THE CITY TIMES · Saturday, 28 November 2026</title>
+<meta name="description" content="Saturday, 28 November 2026: Canada Supreme Court Largely Upholds Quebec Ban on Religious Symbols">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Playfair+Display:wght@700;900&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,700;1,8..60,400&family=Noto+Serif+Thai:wght@400;600&display=swap" rel="stylesheet">
+<style>
+/* ── Colours: sepia (default) and black & white ─────────────── */
+:root{--paper:#f3ead7;--ink:#2a2118;--muted:#6b5a45;--rule:#2a2118;--box:#ebdfc6}
+html[data-theme="bw"]{--paper:#ffffff;--ink:#111111;--muted:#555555;--rule:#111111;--box:#f1f1f1}
+
+/* ── Base ───────────────────────────────────────────────────── */
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:"Source Serif 4",Georgia,"Noto Serif Thai",serif;font-size:17px;line-height:1.62}
+.page{max-width:1080px;margin:0 auto;padding:16px 16px 48px}
+section{margin-top:30px}
+h3{font-family:"Playfair Display",serif;font-weight:700;font-size:24px;line-height:1.2;margin:0 0 6px}
+h4{font-family:"Playfair Display",serif;font-size:16px;text-transform:uppercase;letter-spacing:.06em;margin:0 0 8px}
+p{margin:0 0 .8em}
+ol{margin:0;padding-left:1.5em}
+li{margin-bottom:4px}
+[lang="th"]{font-family:"Noto Serif Thai",serif}
+.center{text-align:center}
+.inst{font-style:italic;color:var(--muted)}
+.ex{font-style:italic;color:var(--muted)}
+.small-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+
+/* ── Toolbar and masthead ───────────────────────────────────── */
+.toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:8px;font-size:13px}
+.toolbar nav{display:flex;gap:14px;flex-wrap:wrap}
+.toolbar a{color:var(--ink)}
+.toolbar button{font:inherit;font-size:13px;background:transparent;color:var(--ink);border:1px solid var(--rule);padding:4px 10px;cursor:pointer}
+.masthead{text-align:center}
+.ears{display:flex;justify-content:space-between;gap:12px;font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);line-height:1.4}
+.ears span:first-child{text-align:left}
+.ears span:last-child{text-align:right}
+.title{font-family:"UnifrakturMaguntia",serif;font-weight:400;font-size:clamp(42px,10vw,104px);line-height:1;margin:6px 0 12px}
+.dateline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:4px 16px;border-top:1px solid var(--rule);border-bottom:3px double var(--rule);padding:6px 0;font-size:12px;text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Articles ───────────────────────────────────────────────── */
+.kicker{font-family:"Playfair Display",serif;font-size:15px;font-weight:700;text-transform:uppercase;letter-spacing:.14em;border-top:2px solid var(--rule);border-bottom:1px solid var(--rule);padding:4px 0;margin:0 0 14px}
+.meta{margin:0 0 10px;font-size:14px}
+.level{display:inline-block;border:1px solid var(--ink);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:1px 6px}
+.cover h3{font-size:clamp(30px,5vw,46px);font-weight:900;text-align:center}
+.cover .meta{text-align:center}
+.feature h3{font-size:clamp(24px,3.6vw,32px)}
+.cols{column-gap:32px;column-rule:1px solid var(--rule)}
+@media(min-width:800px){.cover .cols,.feature .cols{column-count:2}}
+.dropcap::first-letter{float:left;font-family:"Playfair Display",serif;font-weight:900;font-size:4.2em;line-height:.8;padding:6px 8px 0 0}
+.stack>article+article{margin-top:20px;padding-top:16px;border-top:1px dashed var(--muted)}
+.rw::after{content:"\21BA";font-size:.75em;vertical-align:super;margin-left:1px;color:var(--muted)}   /* ↺ after review words */
+
+/* ── Layout grids (one column on phones) ────────────────────── */
+.grid2,.pair{display:grid;gap:24px}
+.grid3,.wb-grid{display:grid;gap:12px}
+@media(min-width:760px){
+ .grid2{grid-template-columns:1fr 1fr;gap:0}
+ .grid2>*:first-child{padding-right:24px}
+ .grid2>*:last-child{padding-left:24px;border-left:1px solid var(--rule)}
+ .pair{grid-template-columns:1fr 1fr;gap:16px}
+ .grid3{grid-template-columns:repeat(3,1fr)}
+ .wb-grid{grid-template-columns:1fr 1fr}
+}
+
+/* ── Boxes, Real English, Language Lab ──────────────────────── */
+.box{border:1px solid var(--rule);background:var(--box);padding:14px 16px}
+.box ul{margin:0;padding-left:1.2em}
+.lab{border:3px double var(--rule);background:var(--box);padding:18px 16px}
+.lab>div+div{margin-top:18px;padding-top:14px;border-top:1px solid var(--rule)}
+.wrong{text-decoration:line-through;text-decoration-thickness:1px}
+.wrong::before{content:"\2717\00a0";font-weight:700}   /* ✗ */
+.right::before{content:"\2713\00a0";font-weight:700}   /* ✓ */
+
+/* ── Word Bank ──────────────────────────────────────────────── */
+.wb-card{border:1px solid var(--rule);background:var(--box);padding:12px 14px}
+.wb-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.wb-word{font-family:"Playfair Display",serif;font-weight:700;font-size:19px}
+.wb-pos{font-style:italic;color:var(--muted);font-size:14px}
+.wb-thai{font-weight:600}
+.wb-def{margin:4px 0}
+.wb-coll{font-size:14px;margin:0 0 4px}
+.wb-card .ex{font-size:14px;margin:0}
+.wb-review{margin-top:14px}
+.wb-review li{margin-bottom:6px}
+/* Thai meaning hidden behind a small "ไทย" button */
+details.th{display:inline-block;border:0;padding:0;margin:0;vertical-align:baseline}
+details.th summary{list-style:none;display:inline-block;margin:0;font-family:"Noto Serif Thai",serif;font-size:12px;font-weight:600;letter-spacing:0;text-transform:none;border:1px solid var(--rule);padding:0 6px;line-height:1.5;cursor:pointer}
+details.th summary::-webkit-details-marker{display:none}
+details.th[open] summary{display:none}
+details.th[open] summary+*{display:inline}
+
+/* ── Tables, answer key, sources, archive, footer ───────────── */
+.table-wrap{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:15px}
+th,td{border-bottom:1px solid var(--rule);padding:6px 8px;text-align:left;vertical-align:top}
+th{font-family:"Playfair Display",serif;text-transform:uppercase;font-size:12px;letter-spacing:.08em;border-bottom:2px solid var(--rule)}
+details{border:1px solid var(--rule);padding:10px 14px}
+summary{cursor:pointer;font-family:"Playfair Display",serif;font-weight:700;text-transform:uppercase;letter-spacing:.08em}
+details[open] summary{margin-bottom:12px}
+.sources{font-size:13px;color:var(--muted);overflow-wrap:anywhere}
+.sources a{color:inherit}
+.archive-list{list-style:none;padding:0;margin:0}
+.archive-list li{display:flex;gap:16px;align-items:baseline;border-bottom:1px solid var(--rule);padding:10px 0;margin:0}
+.archive-list .d{color:var(--muted);font-size:13px;min-width:13em}
+.archive-list a{color:var(--ink);text-decoration:none;font-weight:700}
+.archive-list a:hover{text-decoration:underline}
+@media(max-width:640px){.archive-list li{flex-wrap:wrap;gap:2px 12px}.archive-list .d{min-width:0}}
+footer{margin-top:36px;border-top:3px double var(--rule);padding-top:8px;text-align:center;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em}
+
+/* ── Print on A4 (all hidden answers and Thai meanings are shown) ── */
+@page{size:A4;margin:14mm}
+@media print{
+ html[data-theme]{--paper:#ffffff;--box:#ffffff}
+ .toolbar{display:none}
+ body{font-size:11pt}
+ article,.box,.wb-card,tr{break-inside:avoid}
+}</style>
+</head>
+<body>
+<div class="page">
+
+<div class="toolbar">
+  <nav>
+    <a href="../index.html">Today</a>
+    <a href="../archive.html">Archive</a>
+<a href="../issues/2026-11-27.html">&larr; Previous day</a>  </nav>
+  <button id="themeBtn" type="button">Black &amp; White</button>
+</div>
+
+<header class="masthead">
+  <div class="ears">
+    <span>Daily English for<br>Thai Professionals</span>
+    <span>Levels B1+ to C1<br>About 20 minutes</span>
+  </div>
+  <h1 class="title">The City Times</h1>
+  <div class="dateline">
+    <span>Saturday, 28 November 2026</span>
+    <span>Bangkok Edition</span>
+  </div>
+</header>
+
+<section class="cover">
+  <h2 class="kicker">Cover Story</h2>
+  <article>
+    <h3>Canada Supreme Court Largely Upholds Quebec Ban on Religious Symbols</h3>
+    <p class="meta"><span class="level">C1 · 3 min</span></p>
+    <div class="cols">
+<p class="dropcap">Canada&#39;s top court has largely upheld a <span class="rw">secular</span> law in Quebec that bars public sector employees from wearing visible religious symbols at work. The ruling confirms that the province acted within its constitutional authority when enacting Bill 21, a <strong>contentious</strong> statute that prohibits teachers, police officers, government lawyers, and judges from wearing items such as hijabs, turbans, crosses, and kippahs while performing their duties.</p>
+<p>The legal battle began when Quebec passed the measure in 2019 by invoking the notwithstanding clause, a constitutional mechanism that allows provincial legislatures to override certain protected liberties temporarily. Various groups, including Muslim, Sikh, and Catholic educators, initiated legal challenges, arguing that the legislation deeply harmed their basic freedoms. The top court determined that Quebec could shield the statute from most court challenges, though it noted that judges still hold the authority to assess whether provincial measures match the national charter.</p>
+<p>The judgment was not entirely unanimous in every aspect. Writing for the majority, Chief Justice Richard Wagner observed that the legislation reflects the province&#39;s historical commitment to secular governance. However, the court established one limit by ruling that the ban cannot prevent elected officials from wearing face coverings, finding that such an exclusion <strong>infringes</strong> upon fundamental democratic rights. Three dissenting justices also warned that the override clause should never validate policies incompatible with a free society.</p>
+<p>Civil liberties advocates swiftly condemned the decision. Stephen Brown, chief executive of the National Council of Canadian Muslims, argued that the policy effectively bars entire categories of people from public sector careers simply because of their faith. Representatives from the English Montreal School Board conveyed strong disappointment, though they acknowledged that certain judicial declarations offered helpful clarity. Meanwhile, Quebec officials defended the policy as a vital effort to <strong>uphold</strong> state neutrality, noting that recent initiatives have extended similar secular rules across daycares and post-secondary institutions.</p>
+<p>The outcome concludes one of the most extensive hearings in the supreme court&#39;s history, which involved fifty-one participating interveners and six provincial attorneys general. Prime Minister Mark Carney indicated that federal officials will evaluate the legal implications, emphasizing that all governments must respect minority rights. The decision solidifies Quebec&#39;s distinctive legal framework while leaving significant debate nationwide regarding how Canadian institutions balance collective regional identities against individual religious freedoms.</p>
+    </div>
+  </article>
+</section>
+
+<section class="grid2">
+  <div class="stack">
+    <h2 class="kicker">World in Brief</h2>
+<article>
+  <h3>US Disables Commercial Ship in Gulf of Oman Under Blockade</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>The United States military has fired precision munitions at a commercial vessel in the Gulf of Oman after it reportedly ignored warnings to halt. According to US Central Command, the Palau-flagged Pacific Archer had departed the Iranian port of Bandar Abbas before forces acted to <strong>deploy</strong> defensive strikes against its propulsion system.</p>
+<p>American defense officials stated that the military action left the civilian crew unharmed while disabling the vessel&#39;s engines. Washington established a naval blockade of Iranian ports in mid-July after diplomatic arrangements collapsed, following earlier hostilities that began in February.</p>
+<p>The operation brings the total number of ships disabled under the blockade to six, with more than 150 others redirected. Meanwhile, regional tensions increased further as Kuwait summoned Iran&#39;s ambassador after a drone strike killed two Italian technicians at a military facility.</p>
+</article>
+<article>
+  <h3>OpenAI Sues Apple Over Trade Secrets and Talent Retention</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>OpenAI has filed a federal lawsuit against Apple in California, accusing the tech giant of stealing trade secrets and discouraging hardware suppliers from collaborating on future devices. The counterclaims follow an earlier lawsuit by Apple alleging that OpenAI improperly poached engineers to obtain proprietary design information.</p>
+<p>In its court filing, OpenAI claimed Apple gained confidential data regarding product roadmaps by rehiring an employee who had worked at OpenAI for six months. Apple denied the claims, calling them an attempt to deflect attention from its own legal action regarding consumer hardware development.</p>
+<p>OpenAI also alleged that Apple monitors former employees through personal accounts after they depart. With legal battles escalating, both firms await <strong>preliminary</strong> court hearings to decide whether strict restrictions on employee movements between competitors will stand.</p>
+</article>
+  </div>
+  <div class="stack">
+    <h2 class="kicker">Thailand Today</h2>
+<article>
+  <h3>Retailer Berli Jucker Shuts Underperforming Outlets to Lift Profit</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>Berli Jucker, the commercial operator of the Big C retail chain, will close twelve underperforming hypermarkets by the end of the year to improve operational efficiency. The company had already completed eight closures during the first nine months of 2026 as part of a wider portfolio adjustment.</p>
+<p>Chief Executive Aswin Techajareonvikul stated that the strategic closures contributed 220 million baht to company trading profit. BJC also modernized fifteen large stores alongside hundreds of smaller branches, achieving an 8.3 percent increase in customer transactions at refurbished locations.</p>
+<p>The retailer expects this selective <strong>turnaround</strong> will sustain long-term retail earnings across urban markets. In an unrelated retail development, The Mall Group announced that The Mall Korat in Nakhon Ratchasima will cease operations in January after failing to secure a viable lease renewal.</p>
+</article>
+<article>
+  <h3>Health Experts Warn of Rising Respiratory Disease and Vaping Risks</h3>
+  <p class="meta"><span class="level">B1+ · 1 min</span></p>
+<p>Medical professionals in Thailand are calling for urgent public action to address chronic obstructive pulmonary disease, an irreversible lung illness linked to persistent coughing and breathlessness. The warnings were highlighted during a medical forum hosted by King Chulalongkorn Memorial Hospital for World COPD Day.</p>
+<p>Specialists identified air pollution, secondhand tobacco smoke, and biomass cooking fuel as major causes. Assistant Professor Worawan Sirichana warned that ongoing phlegm production and prolonged illness <strong>warrant</strong> a formal medical evaluation, rather than being dismissed as typical signs of aging.</p>
+<p>Doctors also cautioned that e-cigarette use has climbed to 1.7 million individuals nationwide, creating fresh health hazards for youth. Clinicians stressed that nicotine addiction requires structured clinical <strong>intervention</strong>, urging citizens to avoid viewing vaping as a harmless alternative to conventional smoking.</p>
+</article>
+  </div>
+</section>
+
+<section class="feature">
+  <h2 class="kicker">Feature · Cultures / Digital Life</h2>
+  <article>
+    <h3>Designing Healthy Habits for a Clutter-Free Digital Life</h3>
+    <p class="meta"><span class="level">B2 · 2 min</span></p>
+    <div class="cols">
+<p>Modern working professionals routinely manage hundreds of notifications, group chats, and cloud files daily. While smartphones and online platforms simplify remote collaboration, constant connectivity often leads to mental exhaustion. Digital environments collect clutter just like physical workspaces, and unmanaged digital noise can slowly undermine daily concentration.</p>
+<p>The primary danger of digital overload is continuous task switching. Whenever an alert interrupts an ongoing project, the brain expends valuable energy adjusting its attention. Over several hours, this pattern depletes <strong>cognitive</strong> stamina and diminishes overall job performance. Recognizing this reality enables individuals to view device boundaries not as personal weakness, but as an essential professional requirement.</p>
+<p>Developing a <span class="rw">sustainable</span> workflow begins with intentional boundary setting. Rather than leaving notification banners active across all devices, workers can schedule designated windows to review non-urgent correspondence. Silencing ambient alerts during deep focus sessions prevents impulsive phone checking. Furthermore, categorizing shared folders and archiving outdated documents at the end of every week minimizes daily visual friction.</p>
+<p>Creating device-free zones at home also provides genuine mental recovery. Leaving personal laptops outside the bedroom and replacing bedtime screen time with offline reading encourages better sleep hygiene. Simple friction, such as moving entertainment applications into hidden subfolders, naturally reduces mindless screen habits.</p>
+<p>Ultimately, managing personal technology is an ongoing practice rather than a one-time purge. By mindfully structuring notifications and protecting offline hours, professionals can harness technological tools effectively without allowing continuous connectivity to dominate their personal lives.</p>
+    </div>
+  </article>
+</section>
+
+<section>
+  <h2 class="kicker">Real English · Two Takes</h2>
+  <h3 class="center">Should office professionals completely separate their personal and work devices?</h3>
+  <p class="meta center"><span class="level">C1 · 2 min</span></p>
+  <div class="grid2">
+    <article>
+      <h4>Clear Boundaries Preserve Focus</h4>
+<p>Carrying separate hardware establishes a vital barrier between private life and office responsibilities. <strong>Admittedly</strong>, managing two distinct devices can feel slightly inconvenient during daily commutes. Nonetheless, this practical division prevents accidental leaks of sensitive business information and shields employees from after-hours interruptions. In the long run, setting explicit technical boundaries ensures that personal privacy remains completely untangled from corporate oversight.</p>    </article>
+    <article>
+      <h4>A Single Device Promotes Simplicity</h4>
+<p>Relying on a single personal smartphone for occasional office tasks makes daily life significantly smoother. While traditional managers might <strong>frown upon</strong> mixing personal and work accounts, modern software allows users to isolate corporate profiles securely on one handset. Instead of burdening professionals with extra hardware and cables, this integrated approach keeps digital communication lean, adaptable, and genuinely realistic for modern hybrid schedules.</p>    </article>
+  </div>
+  <div class="pair" style="margin-top:16px">
+    <div class="box">
+      <h4>Argument Phrases</h4>
+      <ul><li><strong>Admittedly</strong> — concession</li><li><strong>In the long run</strong> — hedging</li><li><strong>Instead of</strong> — contrast</li></ul>
+    </div>
+    <div class="box">
+      <h4>Thai Speaker's Trap</h4>
+      <p class="small-label">Word order &amp; questions</p>
+      <p><strong>Word Order in Indirect Questions</strong></p>
+      <p class="wrong">Can you tell me where is your new office?</p>
+      <p class="right">Can you tell me where your new office is?</p>
+      <p>Thai speakers often keep question word order inside embedded clauses because Thai questions follow a direct structure like &#39;<span lang="th">อยู่ที่ไหน</span>&#39; (yu thi nai). In English, when a question begins with an introductory phrase like &#39;Can you tell me&#39; or &#39;Do you know&#39;, the sub-clause shifts to normal statement order (subject + verb).</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Language Lab</h2>
+  <div class="lab">
+    <div>
+      <h4>Odd one out</h4>
+      <p class="inst">In each item, choose the word (a, b, c, or d) that DOES NOT normally collocate with the target word in bold.</p>
+      <ol><li>contentious: (a) issue (b) debate (c) ocean (d) subject</li><li>uphold: (a) decision (b) law (c) values (d) appetite</li><li>preliminary: (a) report (b) inquiry (c) weather (d) findings</li><li>turnaround: (a) strategy (b) plan (c) recovery (d) cloud</li><li>intervention: (a) clinical (b) government (c) early (d) wooden</li><li>cognitive: (a) function (b) growth (c) decline (d) liquid</li></ol>
+    </div>
+    <div>
+      <h4>Error Identification</h4>
+      <p class="inst">Each sentence has one mistake. Find it and correct it.</p>
+      <ol><li>Canada Supreme Court largely upholds a secular law in Quebec.</li><li>Retailer Berli Jucker shuts underperforming outlets to raise up profit.</li><li>Health experts warn of rising respiratory disease and vaping risks.</li><li>OpenAI sues Apple over trade secrets and talent retention issues.</li><li>Designing healthy habits for a clutter-free digital life.</li></ol>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Word Bank</h2>
+  <p class="inst">&#9733; today's new words, in <strong>bold</strong> in the articles · &#8634; review words from earlier days · tap <em>ไทย</em> for the Thai meaning</p>
+  <div class="wb-grid">
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; contentious</span> <span class="wb-pos">adjective</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ที่ก่อให้เกิดการถกเถียง</span></details>
+      </div>
+      <p class="wb-def">causing or likely to cause disagreement or argument</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> contentious issue · contentious decision · highly contentious</p><p class="ex">“The ruling confirms that the province acted within its constitutional authority when enacting Bill 21, a <strong>contentious</strong> statute that prohibits teachers, police officers, government lawyers, and judges from wearing items such as hijabs, turbans, crosses, and kippahs while performing their duties.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; infringes</span> <span class="wb-pos">verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ละเมิด</span></details>
+      </div>
+      <p class="wb-def">violates or limits a right, law, or agreement</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> infringe upon rights · infringe on privacy · infringe copyright</p><p class="ex">“However, the court established one limit by ruling that the ban cannot prevent elected officials from wearing face coverings, finding that such an exclusion <strong>infringes</strong> upon fundamental democratic rights.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; uphold</span> <span class="wb-pos">verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ผดุงไว้ หรือ ยืนยันตามกฎหมาย</span></details>
+      </div>
+      <p class="wb-def">to support or maintain a custom, law, or decision</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> uphold the law · uphold a decision · uphold values</p><p class="ex">“Meanwhile, Quebec officials defended the policy as a vital effort to <strong>uphold</strong> state neutrality, noting that recent initiatives have extended similar secular rules across daycares and post-secondary institutions.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; preliminary</span> <span class="wb-pos">adjective</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">เบื้องต้น</span></details>
+      </div>
+      <p class="wb-def">coming before the main event, action, or decision</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> preliminary results · preliminary hearing · preliminary investigation</p><p class="ex">“With legal battles escalating, both firms await <strong>preliminary</strong> court hearings to decide whether strict restrictions on employee movements between competitors will stand.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; turnaround</span> <span class="wb-pos">noun</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">การฟื้นตัวอย่างรวดเร็ว</span></details>
+      </div>
+      <p class="wb-def">a complete change from a bad situation to a good one</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> business turnaround · dramatic turnaround · turnaround strategy</p><p class="ex">“The retailer expects this selective <strong>turnaround</strong> will sustain long-term retail earnings across urban markets.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; intervention</span> <span class="wb-pos">noun</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">การแทรกแซง หรือ การเข้าช่วยเหลือ</span></details>
+      </div>
+      <p class="wb-def">action taken to improve a situation or prevent harm</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> early intervention · medical intervention · government intervention</p><p class="ex">“Clinicians stressed that nicotine addiction requires structured clinical <strong>intervention</strong>, urging citizens to avoid viewing vaping as a harmless alternative to conventional smoking.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; cognitive</span> <span class="wb-pos">adjective</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">เกี่ยวกับการรับรู้และปัญญา</span></details>
+      </div>
+      <p class="wb-def">connected with thinking, understanding, and learning</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> cognitive skills · cognitive decline · cognitive load</p><p class="ex">“Over several hours, this pattern depletes <strong>cognitive</strong> stamina and diminishes overall job performance.”</p>    </div>
+<div class="wb-card">
+      <div class="wb-head">
+        <span><span class="wb-word">&#9733; frown upon</span> <span class="wb-pos">phrasal verb</span></span>
+        <details class="th"><summary>ไทย</summary><span class="wb-thai" lang="th">ไม่เห็นด้วย หรือ ไม่สนับสนุน</span></details>
+      </div>
+      <p class="wb-def">to disapprove of something</p>
+<p class="wb-coll"><span class="small-label">Collocations</span> heavily frown upon · traditionally frown upon · frown upon tardiness</p><p class="ex">“While traditional managers might <strong>frown upon</strong> mixing personal and work accounts, modern software allows users to isolate corporate profiles securely on one handset.”</p>    </div>
+  </div>
+  <div class="box wb-review">
+    <h4>Review Words</h4>
+    <ul>
+<li><span class="rw"><strong>secular</strong></span> <span class="wb-pos">adjective</span> · not connected with religious or spiritual matters <details class="th"><summary>ไทย</summary><span lang="th">ทางโลก หรือ ไม่เกี่ยวกับศาสนา</span></details> <small>(from 7 Nov)</small></li>
+<li><span class="rw"><strong>sustainable</strong></span> <span class="wb-pos">adjective</span> · able to continue over a long period without damaging the environment or resources <details class="th"><summary>ไทย</summary><span lang="th">ยั่งยืน</span></details> <small>(from 7 Nov)</small></li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2 class="kicker">Other Languages · Spanish</h2>
+  <h3>At work</h3>
+  <p>Navigating the workplace in Spanish requires clear communication and a few handy expressions for daily professional routines.</p>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Spanish</th><th>Say it like</th><th>Meaning</th></tr></thead>
+    <tbody>
+<tr><td lang="es"><strong>trabajo</strong></td><td>trah-BAH-hoh</td><td>work / job</td></tr>
+<tr><td lang="es"><strong>¿Cómo va el proyecto?</strong></td><td>KOH-moh bah el proh-YEK-toh?</td><td>How is the project going?</td></tr>
+<tr><td lang="es"><strong>reunión</strong></td><td>reh-oo-NYOHN</td><td>meeting</td></tr>
+    </tbody>
+  </table></div>
+  <div class="grid3" style="margin-top:16px">
+    <div class="box">
+      <h4>Word Root</h4>
+      <p><strong lang="es">labor</strong> = work</p>
+      <p><span class="small-label">In English</span> labor, collaborate, elaborate</p>
+      <p class="ex">This Latin root passed directly into Spanish as &#39;labor&#39; and into English to describe effort and working together.</p>
+    </div>
+    <div class="box">
+      <h4>Borrowed into English</h4>
+      <p><strong>cargo</strong></p>
+      <p>Borrowed from Spanish &#39;cargar&#39; (to load), it originally referred to a weight or burden loaded onto a transport vessel.</p>
+    </div>
+    <div class="box">
+      <h4>Curious Word</h4>
+      <p><strong lang="es">madrugar</strong> <span class="wb-pos">mah-droo-GAHR</span></p>
+      <p>to get up very early in the morning</p>
+      <p class="ex">This single verb captures the complete action of waking up before dawn to start working or traveling.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <details>
+    <summary>Answer Key · tap to reveal</summary>
+    <h4>Odd one out</h4>
+    <ol><li>(c) ocean — &#39;Contentious&#39; describes topics or decisions, not physical bodies of water.</li><li>(d) appetite — &#39;Uphold&#39; means to support a rule or standard, not physical hunger.</li><li>(c) weather — &#39;Preliminary&#39; refers to early stages of processes or documents, not weather.</li><li>(d) cloud — &#39;Turnaround&#39; relates to business or situational improvements, not weather elements.</li><li>(d) wooden — &#39;Intervention&#39; describes actions or measures, not physical materials like wood.</li><li>(d) liquid — &#39;Cognitive&#39; refers to mental functions and thought processes, not liquids.</li></ol>
+    <h4 style="margin-top:12px">Error Identification</h4>
+    <ol><li>The Canada Supreme Court largely upholds a secular law in Quebec. — <em>Missing definite article &#39;The&#39; before the proper title of the court.</em></li><li>Retailer Berli Jucker shuts underperforming outlets to raise profit. — <em>Incorrect phrasal verb form; &#39;raise up profit&#39; is redundant, use &#39;raise&#39; or &#39;lift&#39;.</em></li><li>Health experts warn about rising respiratory disease and vaping risks. — <em>Incorrect preposition choice; &#39;warn about&#39; is standard when cautioning against risks.</em></li><li>OpenAI is suing Apple over trade secrets and talent retention issues. — <em>Incorrect tense; present continuous fits ongoing active legal cases better.</em></li><li>Design healthy habits for a clutter-free digital life. — <em>Sentence structure error; imperative verb form &#39;Design&#39; fits headline actions better.</em></li></ol>
+  </details>
+</section>
+
+<section class="sources">
+  <h2 class="kicker">Sources</h2>
+  <ol>
+<li><a href="https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o?at_medium=RSS&amp;at_campaign=rss" rel="noopener">BBC News — Canada&#39;s top court largely upholds Quebec ban on religious symbols for public servants</a></li>
+<li><a href="https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols" rel="noopener">The Guardian — Canada’s top court upholds Quebec law barring public sector workers from wearing religious symbols</a></li>
+<li><a href="https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade?traffic_source=rss" rel="noopener">Al Jazeera — US disables ship attempting to breach Iran blockade</a></li>
+<li><a href="https://www.dw.com/en/us-disables-ship-in-gulf-of-oman-under-iran-blockade/a-80082950?maca=en-rss-en-all-1573-rdf" rel="noopener">DW — US disables ship in Gulf of Oman under Iran blockade</a></li>
+<li><a href="https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets" rel="noopener">The Guardian — OpenAI countersues Apple for allegedly stealing trade secrets</a></li>
+<li><a href="https://www.bangkokpost.com/business/general/3362489/big-c-owner-to-shutter-12-subpar-locations" rel="noopener">Bangkok Post Business — Big C owner to shutter 12 subpar locations</a></li>
+<li><a href="https://www.bangkokpost.com/thailand/general/3362609/pulmonary-disease-fight-stepped-up" rel="noopener">Bangkok Post — Pulmonary disease fight stepped up</a></li>
+  </ol>
+</section>
+
+<footer>THE CITY TIMES · Saturday, 28 November 2026 · Written with AI from the sources listed above</footer>
+
+</div>
+<script>
+// Sepia ⇄ black & white switch (remembered in this browser), and open every
+// hidden answer / Thai meaning when the page is printed.
+(function(){
+  var root = document.documentElement, btn = document.getElementById('themeBtn');
+  function setTheme(t){
+    root.setAttribute('data-theme', t);
+    btn.textContent = t === 'bw' ? 'Sepia' : 'Black & White';
+    try { localStorage.setItem('city-theme', t); } catch (e) {}
+  }
+  var saved = null;
+  try { saved = localStorage.getItem('city-theme'); } catch (e) {}
+  setTheme(saved === 'bw' ? 'bw' : 'sepia');
+  btn.addEventListener('click', function(){
+    setTheme(root.getAttribute('data-theme') === 'bw' ? 'sepia' : 'bw');
+  });
+  window.addEventListener('beforeprint', function(){
+    var d = document.querySelectorAll('details');
+    for (var i = 0; i < d.length; i++) { d[i].open = true; }
+  });
+})();</script>
+</body>
+</html>
